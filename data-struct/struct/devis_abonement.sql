@@ -1,0 +1,2 @@
+ALTER TABLE `devis_produits` ADD `tarif_interne` DECIMAL(10,2) NULL AFTER `tva`, ADD `unites_interne_id` INT NULL AFTER `tarif_interne`, ADD `tva_interne` DECIMAL(10,2) NULL AFTER `unites_interne_id`, ADD `quantite_interne` DECIMAL(10,2) NULL AFTER `tva_interne`, ADD `montant_interne` DECIMAL(10,2) NULL AFTER `quantite_interne`; 
+ALTER TABLE `devis_produits` CHANGE `type_ligne` `type_ligne` ENUM('produit','titre','commentaire','saut_ligne','saut_page','sous_total','abonnement') CHARACTER SET latin1 COLLATE latin1_swedish_ci NOT NULL DEFAULT 'produit'; 

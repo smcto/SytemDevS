@@ -1,0 +1,1 @@
+ALTER TABLE `devis` ADD `type_prelevement` ENUM('trimestriel', 'semestriel', 'annuel', '') NULL DEFAULT NULL AFTER `montant_total_paid`;

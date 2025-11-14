@@ -1,0 +1,1 @@
+ALTER TABLE `model_bornes` ADD `type_imprimante_id` INT NULL AFTER `gamme_borne_id`, ADD `type_appareil_photo_id` INT NULL AFTER `type_imprimante_id`, ADD `couleur_id` INT NULL AFTER `type_appareil_photo_id`, ADD `pied_id` INT NULL AFTER `couleur_id`; 

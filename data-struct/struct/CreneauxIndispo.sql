@@ -1,0 +1,1 @@
+ALTER TABLE `users` ADD `creneaux_indisponibilite` VARCHAR(255) NULL AFTER `creneaux_disponibilite`;

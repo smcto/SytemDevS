@@ -1,0 +1,11 @@
+.container-ventes-actions .dropdown-toggle::after {
+    display: none;
+}
+
+.container-ventes-actions .dropdown-menu {
+    padding: 0;
+}
+
+i.fa-circle {
+    font-size: 12px
+}

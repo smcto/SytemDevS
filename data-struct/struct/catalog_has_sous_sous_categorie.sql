@@ -1,0 +1,1 @@
+ALTER TABLE `catalog_produits_has_categories` ADD `catalog_sous_sous_category_id` INT NULL DEFAULT NULL AFTER `catalog_sous_category_id`;

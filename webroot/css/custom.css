@@ -1,0 +1,1564 @@
+/* RESPONSIVE */
+@media (min-width: 1024px) {
+    .modal-xl {
+        max-width: 1140px; 
+    } 
+}
+
+@media (min-width: 1399px) {
+    .modal-xl {
+        max-width: 1140px; 
+    } 
+}
+
+@media (min-width: 1440px) {
+
+
+    .container-fluid , .scroll-sidebar, header.topbar .top-navbar {
+        max-width: 1820px; 
+    }
+
+}
+
+@media (min-width: 1400px) {
+    .modal-dialog.modal-xl {
+        max-width: 1299px; 
+    } 
+}
+@media (min-width: 1024px) {
+    .modal-dialog.modal-xxl {
+        max-width: 92%; 
+    } 
+}
+
+@media screen and (max-width: 770px) {
+    ul#sidebarnav {
+        top: 60px;
+        position: relative;
+    } 
+
+    li.logo {
+        display: none;
+    }
+}
+@media screen and (max-width: 1100px) {
+    ul#sidebarnav {
+        text-align: left !important
+    } 
+
+    .table-responsive {
+        overflow-x: auto !important;
+    }
+}
+
+@media (max-width: 1370px) {
+    .container-fluid, .topbar .top-navbar, .scroll-sidebar {
+        max-width: 1300px;
+    }
+}
+
+.container-fluid:first-of-type  {
+    padding: 25px 20px 0 20px;
+} 
+
+.hide{
+    display: none !important;
+}
+
+/* END RESPONSIVE */
+
+.table-responsive {
+    overflow-x: initial;
+}
+
+.dataTables_wrapper{
+    display: flex;
+}
+.pagination1 {
+    width: 35%;
+    margin: auto;
+    margin-right: 0px;
+    text-align: center;
+}
+
+/* .pagination {
+
+    margin-right: -15px;
+    float: right;
+} */
+
+table .form-group {
+    margin: 0;
+}
+
+.table tr td {
+    vertical-align: middle;
+}
+
+.form-group .dropdown-toggle, .btn-group .dropdown-toggle {
+    background-color: #fff!important;
+    border: 1px solid #ced4da!important;
+}
+
+.bordered {
+    border-bottom: 1px solid #3e3e3e;
+}
+hr.hr-black {
+    margin: 40px 0;
+    border-top: 1px solid #3e3e3e;
+}
+
+.page-wrapper {
+    background: #f9fbfd;
+}
+
+#main-wrapper .topbar {
+    background: #FFF;
+}
+
+#main-wrapper .topbar .navbar-light .navbar-nav .nav-item > a.nav-link {
+    color: rgba(155, 155, 155, 0.8) !important;
+}
+
+.topbar .top-navbar .navbar-header .navbar-brand {
+    top: 5px;
+    position: relative;
+}
+
+aside.left-sidebar  {
+    padding-top: 0px;
+}
+
+.sidebar-nav > ul > li > a {
+    line-height: 50px;
+}
+
+.page-titles h3.text-themecolor {
+    color: #000 !important;
+    font-weight: 500;
+}
+
+.scroll-sidebar {
+    padding: 0px 15px;
+}
+
+.page-wrapper {
+    padding-top: 80px;
+}
+
+.w-90 {
+    width: 90% !important;
+}
+.w-10 {
+    width: 10% !important;
+}
+
+.sidebar-nav #sidebarnav li {
+    text-align: left;
+}
+
+.bs-actionsbox, .bs-donebutton, .bs-searchbox {
+    padding: 4px 8px 10px;
+}
+
+.fa-2x {
+    font-size: 1.4em;
+}
+
+.draft {
+    color : #afafaf!important;
+}
+.expedie {
+    color : #b022ca!important;
+}
+.lu {
+    color : rgb(116, 237, 223)!important;
+}
+.done {
+    color : #01caf1!important;
+}
+.refused {
+    color : #ff4f70!important;
+}
+.paid, .confirmed {
+    color : #22ca80!important;
+}
+.accepted {
+    color: #008000!important;
+}
+.acompte {
+    color: #5cb85c!important;
+}
+.canceled {
+    color: #ff0084!important;
+} 
+.sent{
+    color: #a066ff!important;
+} 
+.expired{
+    color: #a80026!important;
+}
+.billing {
+    color: #eff502!important;
+}
+.billed{
+    color: #008cff!important;
+}
+.partially-billed{
+    color: #00c7ff!important;
+}
+
+.partially_paid, .partial-payment {
+    color: #ff5815;
+}
+
+.warning-sombre {
+    color: #FF7D4D;
+}
+
+.green-sombre {
+    color: #04A20A;
+}
+
+table tbody tr td i.fa-circle {
+    font-size: 0.6rem;
+}
+
+table .dropdown-menu {
+    padding: 0;
+}
+
+.top-title {
+    font-size: 25px;
+}
+
+.bolder {
+    font-weight: 500;
+}
+
+.true-bold {
+    font-weight: 600;
+}
+
+.no-default-spin input[type="date"]::-webkit-outer-spin-button,
+.no-default-spin input[type="date"]::-webkit-inner-spin-button,
+.no-default-spin input[type="date"]::-webkit-clear-button
+{
+    display: none !important;
+    -webkit-webkit-appearance: : none !important;
+    -moz-webkit-appearance: : none !important;
+    -ms-webkit-appearance: : none !important;
+    -o-webkit-appearance: : none !important;
+    webkit-appearance: : none !important;
+    margin:0;
+}
+
+.no-default-spin input[type="date"]::-webkit-datetime-edit,
+.no-default-spin input[type="date"]::-webkit-calendar-picker-indicator{
+    position:absolute;
+}
+.no-default-spin input[type="date"]::-webkit-calendar-picker-indicator{
+    right: 20px;
+    padding:.439em .34em;
+    width: 12px;
+    height: 12px;
+    line-height: 12px;
+}
+
+.avatar {
+  vertical-align: middle;
+  width: 35px;
+  height: 35px;
+  border-radius: 50%;
+}
+
+.bootstrap-select.btn-group .dropdown-menu {
+    /* max-width: 100%; */
+}
+
+.form-filtre ::placeholder, .form-filtre .select2-selection { /* Chrome, Firefox, Opera, Safari 10.1+ */
+  color: #999;
+  font-size: 14px;
+  opacity: 1; /* Firefox */
+}
+
+.form-filtre :-ms-input-placeholder { /* Internet Explorer 10-11 */
+  color: #999;
+}
+
+.form-filtre ::-ms-input-placeholder { /* Microsoft Edge */
+  color: #999;
+}
+
+
+/* === Devis Liste === */
+
+.filter-list-wrapper {
+
+    display: flex;
+    flex-wrap: wrap;
+    margin: -7px -7px 20px -7px;
+}
+
+.filter-list-wrapper .filter-block {
+
+    flex: 1 1 calc( 100% / 5.5 );
+    margin: 7px;
+}
+
+.filter-list-wrapper .filter-block .form-group {
+
+    margin-bottom: 0;
+}
+
+.filter-list-wrapper .filter-block .form-group input, .filter-list-wrapper .filter-block .form-group select, .filter-list-wrapper .filter-block .form-group ul.dropdown-menu li a span.text, .filter-list-wrapper .filter-block .form-group ul.dropdown-menu li.no-results, .filter-list-wrapper .filter-block .form-group button.dropdown-toggle span {
+
+    font-size: 14px;
+}
+
+.filter-list-wrapper .filter-btn-wrapper button[type="submit"] {
+
+    margin-right: 4px;
+}
+
+.filter-list-wrapper .filter-block .form-group input, .filter-list-wrapper .filter-block .form-group select {
+
+    width: 100%;
+}
+
+.all-total-info-wrap {
+
+    display: inline-block;
+}
+
+.all-total-info-wrap:not(:first-of-type) {
+
+    margin-left: 100px;
+}
+
+.all-total-info-wrap .text-uppercase {
+
+    font-size: 0.94rem;
+}
+
+.selection-table-action {
+
+    margin: 20px 0 0 0;
+}
+
+.selection-table-action .action-block {
+
+    flex: 0 1 calc( 100% / 5.35 );
+}
+
+.selection-table-action .action-block:first-child {
+
+    margin-right: 10px;
+}
+
+.selection-table-action .action-block button.dropdown-toggle span {
+
+    font-size: 14px;
+}
+
+.selection-table-action .action-block ul.dropdown-menu li span.text {
+
+    font-size: 14px;
+}
+
+.btn-tbl-select-element {
+
+    margin-bottom: 12.5px;
+}
+
+.btn-tbl-select-element a {
+
+    font-size: 0.975rem;
+}
+
+.table-responsive {
+
+    /* overflow: hidden; */
+    /* overflow-x: auto; */
+}
+
+.table-responsive.no-overflow {
+
+    overflow-x: unset !important;
+}
+
+.table thead th, .table th {
+
+    font-size: 0.9rem;
+}
+
+.devis-table thead th, .devis-table th {
+
+    width: 100%;
+}
+
+.table td, .table th {
+
+    padding: 10px 8px;
+}
+
+.table tr td {
+
+    /* font-size: 0.95rem; */
+    font-size: 0.94rem;
+}
+
+.table thead th.col-checkbox {
+
+    width: 1% !important;
+}
+
+.table .col-checkbox {
+
+    padding-right: 24px;
+}
+
+.table .col-checkbox .form-group .custom-control {
+
+    padding-left: 0;
+}
+
+.table .col-checkbox .form-group .custom-control.ml-3.px-2 {
+
+    margin-left: 0 !important;
+    padding-left: 0 !important;
+    padding-right: 0 !important;
+}
+
+.table .col-checkbox .form-group label {
+
+    margin-bottom: 0;
+}
+
+.table thead th.th-document {
+
+    min-width: 99px;
+}
+
+.table thead th.th-date {
+
+    min-width: 88px;
+}
+
+.table thead th.th-montant {
+
+    min-width: 90px;
+}
+
+.table thead th.th-etat {
+
+    min-width: 90px;
+}
+
+.table tbody td .table-status-wrap {
+
+    display: flex;
+}
+
+.table .table-status-wrap .fa.fa-circle {
+
+    margin-top: 6.5px;
+    margin-right: 8px;
+}
+
+.table tbody td .inner-table-menu .dropdown-menu {
+
+    margin-top: 8px;
+    margin-bottom: 8px;
+    max-height: 45vh;
+    /* max-height: 200px; */
+    will-change: inherit !important;
+    overflow: hidden;
+    overflow-y: auto;
+}
+
+.table tbody td .inner-table-menu .dropdown-menu.customized-scrollbar {
+
+    --scrollbar-bg-color: #e7eaed;
+    scrollbar-width: thick;
+    scrollbar-color: #90A4AE var(--scrollbar-bg-color);
+}
+
+.table tbody td .inner-table-menu .dropdown-menu.customized-scrollbar::-webkit-scrollbar-track {
+    
+    background-color: var(--scrollbar-bg-color);
+    border-radius: 6px;
+    
+}
+
+.table tbody td .inner-table-menu .dropdown-menu.customized-scrollbar::-webkit-scrollbar {
+    
+    width: 11.9999px;
+    
+}
+
+.table tbody td .inner-table-menu .dropdown-menu.customized-scrollbar::-webkit-scrollbar-thumb {
+
+    background-color: #90A4AE;
+    border-radius: 6px;
+    border: 1px solid var(--scrollbar-bg-color);
+
+}
+
+.table tbody td .inner-table-menu .dropdown-menu .dropdown-item {
+
+    /* padding: 8px 20px; */
+    padding: 8px 21px 8px 20px;
+}
+
+
+/* --- Responsive for Devis Liste for screen size between 829px and 1060px --- */
+
+@media screen and (min-width: 829px) and (max-width: 1060px) {
+
+    .btn-tbl-select-element {
+
+        margin-top: 30px;
+    }
+}
+
+/* --- End of Responsive for Devis Liste for screen size between 829px and 1060px --- */
+
+
+/* --- Responsive for Devis Liste for 1440px screen and above --- */
+
+@media screen and (min-width: 1440px) {
+
+    .devis-table thead th.th-numero, .devis-table thead th.th-client {
+
+        width: 50%;
+    }
+
+    .table thead th.th-antenne, .table thead th.th-document, .table thead th.th-montant, .table thead th.th-expire {
+
+        min-width: 110px;
+    }
+
+    .table thead th.th-date {
+
+        min-width: 92px;
+    }
+
+    .devis-table thead th.th-etat {
+
+        min-width: 150px;
+    }
+
+    .table tbody td .inner-table-menu .dropdown-menu {
+
+        max-height: 30vh;
+    }
+
+}
+
+/* --- End of Responsive for Devis Liste for 1440px screen and above --- */
+
+
+/* --- Responsive for Devis Liste for 1238px screen --- */
+
+@media screen and (max-width: 1238px) {
+
+    /* .devis-filter-wrapper .filter-block { */
+
+    .filter-list-wrapper .filter-block {
+
+        flex: 1 1 calc( 100% / 5.2 );
+    }
+
+    /* .devis-filter-wrapper .filter-block:nth-last-child(3), .devis-filter-wrapper .filter-block:nth-last-child(2) { */
+
+    .filter-list-wrapper .filter-block:nth-last-child(3), .filter-list-wrapper .filter-block:nth-last-child(2) {
+
+        flex: 0 1 calc( 100% / 4.23 );
+    }
+
+}
+
+/* --- End of Responsive for Devis Liste for 1238px screen --- */
+
+
+/*
+
+@media screen and (max-width: 1235px) {
+
+    .devis-table thead th, .devis-table th {
+
+        width: auto;
+    }
+
+    .table thead th.th-document, .table thead th.th-date, .table thead th.th-montant, .table thead th.th-etat {
+
+        min-width: inherit;
+    }
+}
+
+*/
+
+/* --- End of Responsive for Devis Liste for 1235px screen --- */
+
+
+
+/* --- Responsive for Devis Liste for 1014px screen --- */
+
+@media screen and (max-width: 1014px) {
+
+    .filter-list-wrapper .filter-block {
+
+        flex: 1 1 calc( 100% / 4 );
+    }
+
+    .filter-list-wrapper .filter-block:nth-last-child(3), .filter-list-wrapper .filter-block:nth-last-child(2) {
+
+        flex: 0 1 calc( 100% / 3.15 );
+    }
+
+}
+
+/* --- End of Responsive for Devis Liste for 1014px screen --- */
+
+
+/* --- Responsive for Devis Liste for 828px screen --- */
+
+@media screen and (max-width: 828px) {
+
+    .all-total-info-wrap {
+
+        display: block;
+    }
+
+    .all-total-info-wrap:not(:first-of-type) {
+
+        margin-top: 20px;
+        margin-left: 0;
+    }
+}
+
+/* --- End of Responsive for Devis Liste for 828px screen --- */
+
+
+/* --- Responsive for Devis Liste for 767px screen --- */
+
+@media screen and (max-width: 767px) {
+
+    .filter-list-wrapper .filter-block {
+
+        flex: 1 1 100%;
+    }
+
+    .filter-list-wrapper .filter-block:nth-last-child(3), .filter-list-wrapper .filter-block:nth-last-child(2) {
+
+        flex: 1 1 100%;
+    }
+
+    .all-total-info-wrap {
+
+        margin-bottom: 20px;
+    }
+
+    .table tbody td .inner-table-menu .dropdown-menu {
+
+        position: fixed !important;
+        top: 24% !important;
+        left: 83% !important;
+        transform: translateX(-100%) !important;
+    }
+
+}
+
+/* --- End of Responsive for Devis Liste for 767px screen --- */
+
+
+
+/* === End of Devis Liste === */
+
+
+
+/* === Borne Liste === */
+
+.borne-filter-wrapper .filter-block:nth-last-child(2) {
+
+    flex: 0 1 calc( 100% / 5.3 );
+
+}
+
+/* --- Responsive for Borne Liste for 1238px screen --- */
+
+@media screen and (max-width: 1238px) {
+
+    .borne-filter-wrapper .filter-block:nth-last-child(2) {
+
+        flex: 1 1 calc( 100% / 5.2 );
+
+    }
+
+}
+
+/* --- End of Responsive for Borne Liste for 1238px screen --- */
+
+/* --- Responsive for Borne Liste for 1014px screen --- */
+
+@media screen and (max-width: 1014px) {
+
+    .borne-filter-wrapper .filter-block:nth-last-child(2) {
+
+        flex: 0 1 calc( 100% / 3.15 );
+
+    }
+
+}
+
+/* --- End of Responsive for Borne Liste for 1014px screen --- */
+
+/* --- Responsive for Borne Liste for 767px screen --- */
+
+@media screen and (max-width: 767px) {
+
+    .borne-filter-wrapper .filter-block:nth-last-child(2) {
+
+        flex: 1 1 100%;
+
+    }
+
+}
+
+/* --- End of Responsive for Borne Liste for 767px screen --- */
+
+/* === End of Borne Liste === */
+
+
+/* === User Contact Liste === */
+
+.user-contact-filter-wrapper {
+
+    width: 100vw;
+}
+
+.user-contact-filter-wrapper .filter-block {
+
+    flex: 1 1 calc( 100% / 3.3 );
+}
+
+/* --- Responsive for User Contact Liste for 1238px screen --- */
+
+@media screen and (max-width: 1238px) {
+
+    .user-contact-filter-wrapper .filter-block:nth-last-child(3), .user-contact-filter-wrapper .filter-block:nth-last-child(2) {
+
+        flex: 1 1 calc( 100% / 3.3 );
+    }
+
+}
+
+/* --- End of Responsive for User Contact Liste for 1238px screen --- */
+
+/* --- Responsive for User Contact Liste for 902px screen --- */
+
+@media screen and (max-width: 902px) {
+
+    .user-contact-filter-wrapper .filter-block {
+
+        flex: 1 1 calc( 100% / 3.2 );
+    }
+
+    .user-contact-filter-wrapper .filter-block:nth-last-child(3), .user-contact-filter-wrapper .filter-block:nth-last-child(2) {
+
+        flex: 1 1 calc( 100% / 3.2 );
+    }
+
+}
+
+/* --- End of Responsive for User Contact Liste for 902px screen --- */
+
+/* --- Responsive for User Contact Liste for 767px screen --- */
+
+@media screen and (max-width: 767px) {
+
+    .user-contact-filter-wrapper .filter-block {
+
+        flex: 1 1 100%;
+    }
+
+    .user-contact-filter-wrapper .filter-block:nth-last-child(3), .user-contact-filter-wrapper .filter-block:nth-last-child(2) {
+
+        flex: 1 1 100%;
+    }
+
+}
+
+/* --- End of Responsive for User Contact Liste for 767px screen --- */
+
+
+/* === End of User Contact Liste === */
+
+
+/* === Evenement Liste === */
+
+.evenement-filter-wrapper .filter-block:nth-last-child(3), .evenement-filter-wrapper .filter-block:nth-last-child(2) {
+
+    flex: 0 1 calc( 100% / 5.3 );
+}
+
+/* --- Responsive for Evenement Liste for 1238px screen --- */
+
+@media screen and (max-width: 1238px) {
+
+    .evenement-filter-wrapper .filter-block:nth-last-child(3), .evenement-filter-wrapper .filter-block:nth-last-child(2) {
+
+        flex: 1 1 calc( 100% / 5.2 );
+    }
+
+}
+
+/* --- End of Responsive for Evenement Liste for 1238px screen --- */
+
+/* --- Responsive for Evenement Liste for 1014px screen --- */
+
+@media screen and (max-width: 1014px) {
+
+    .evenement-filter-wrapper .filter-block:nth-last-child(3) {
+
+        flex: 1 1 calc( 100% / 4 );
+    }
+
+    .evenement-filter-wrapper .filter-block:nth-last-child(2) {
+
+        flex: 0 1 calc( 100% / 3.15 );
+    }
+
+}
+
+/* --- End of Responsive for Evenement Liste for 1014px screen --- */
+
+/* --- Responsive for Evenement Liste for 767px screen --- */
+
+@media screen and (max-width: 767px) {
+
+    .evenement-filter-wrapper .filter-block:nth-last-child(3), .evenement-filter-wrapper .filter-block:nth-last-child(2) {
+
+        flex: 1 1 100%;
+    }
+
+}
+
+/* --- End of Responsive for Evenement Liste for 767px screen --- */
+
+/* === End of Evenement Liste === */
+
+
+/* === Date Evenement Liste === */
+
+/* --- Responsive for Date Evenement Liste for 767px screen --- */
+
+@media screen and (max-width: 767px) {
+
+    #calendar .fc-header-toolbar {
+
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    #calendar .fc-header-toolbar .fc-button-group {
+
+        margin: 7.7px 0 20.5px 0;
+    }
+
+}
+
+/* --- End of Responsive for Date Evenement Liste for 767px screen --- */
+
+/* === End of Date Evenement Liste === */
+
+
+/* === Opportunite Liste === */
+
+.opportunite-filter-wrapper .filter-block:nth-last-child(2), .opportunite-filter-wrapper .filter-block:nth-last-child(3), .opportunite-filter-wrapper .filter-block:nth-last-child(4) {
+
+    flex: 0 1 calc( 100% / 5.3 );
+}
+
+.table-opportunites thead th.th-client {
+
+    min-width: 140px;
+}
+
+.table-opportunites thead th.th-societe {
+
+    min-width: 140px;
+}
+
+.table-opportunites thead th.th-montant {
+
+    min-width: 90px;
+}
+
+/* --- Responsive for Opportunite Liste for 1238px screen --- */
+
+@media screen and (max-width: 1238px) {
+
+    .opportunite-filter-wrapper .filter-block:nth-last-child(2), .opportunite-filter-wrapper .filter-block:nth-last-child(3), .opportunite-filter-wrapper .filter-block:nth-last-child(4) {
+
+        flex: 1 1 calc( 100% / 5.2 );
+    }
+}
+
+/* --- End of Responsive for Opportunite Liste for 1238px screen --- */
+
+/* --- Responsive for Opportunite Liste for 1014px screen --- */
+
+@media screen and (max-width: 1014px) {
+
+    .opportunite-filter-wrapper .filter-block:nth-last-child(2), .opportunite-filter-wrapper .filter-block:nth-last-child(3), .opportunite-filter-wrapper .filter-block:nth-last-child(4) {
+
+        flex: 1 1 calc( 100% / 4 );
+    }
+
+}
+
+/* --- End of Responsive for Opportunite Liste for 1014px screen --- */
+
+/* --- Responsive for Opportunite Liste for 767px screen --- */
+
+@media screen and (max-width: 767px) {
+
+    .opportunite-filter-wrapper .filter-block:nth-last-child(2), .opportunite-filter-wrapper .filter-block:nth-last-child(3), .opportunite-filter-wrapper .filter-block:nth-last-child(4) {
+
+        flex: 1 1 100%;
+    }
+
+}
+
+/* --- End of Responsive for Opportunite Liste for 767px screen --- */
+
+/* === End of Opportunite Liste === */
+
+
+
+
+
+/* === Facture Liste === */
+
+.facture-filter-wrapper .filter-block:nth-last-child(3), .facture-filter-wrapper .filter-block:nth-last-child(2) {
+
+    flex: 0 1 calc( 100% / 5.3 );
+
+}
+
+/* .table-factures thead th.th-numero {
+
+    min-width: 90px;
+} */
+
+.table-factures thead th.th-montant {
+
+    min-width: 100px;
+}
+
+/* .table-factures thead th.th-etat {
+
+    min-width: 140px;
+} */
+
+/* --- Responsive for Facture Liste for 1440px screen and above --- */
+
+@media screen and (min-width: 1440px) {
+
+    .table-factures thead th.th-numero, .table-factures thead th.th-etat {
+
+        min-width: 150px;
+    }
+}
+
+/* --- End of Responsive for Facture Liste for 1440px screen and above --- */
+
+/* --- Responsive for Facture Liste for 1238px screen --- */
+
+@media screen and (max-width: 1238px) {
+
+    .facture-filter-wrapper .filter-block:nth-last-child(3), .facture-filter-wrapper .filter-block:nth-last-child(2) {
+
+        flex: 1 1 calc( 100% / 5.2 );
+
+    }
+
+}
+
+/* --- End of Responsive for Facture Liste for 1238px screen --- */
+
+
+/* --- Responsive for Facture Liste for 1014px screen --- */
+
+@media screen and (max-width: 1014px) {
+
+    .facture-filter-wrapper .filter-block:nth-last-child(3) {
+
+        flex: 1 1 calc( 100% / 4 );
+
+    }
+
+    .facture-filter-wrapper .filter-block:nth-last-child(2) {
+
+        flex: 0 1 calc( 100% / 3.15 );
+
+    }
+
+}
+
+/* --- End of Responsive for Facture Liste for 1014px screen --- */
+
+
+/* --- Responsive for Facture Liste for 767px screen --- */
+
+@media screen and (max-width: 767px) {
+
+    .facture-filter-wrapper .filter-block:nth-last-child(3), .facture-filter-wrapper .filter-block:nth-last-child(2) {
+
+        flex: 1 1 100%;
+
+    }
+
+}
+
+/* --- End of Responsive for Facture Liste for 767px screen --- */
+
+/* === End of Facture Liste === */
+
+
+
+/* === Reglement Liste === */
+
+.table-reglements thead th.th-montant {
+
+    min-width: 100px;
+}
+
+/* === End of Reglement Liste === */
+
+
+
+/* === Avoir Liste === */
+
+.avoir-filter-wrapper .filter-block:nth-last-child(3), .avoir-filter-wrapper .filter-block:nth-last-child(2) {
+
+    flex: 0 1 calc( 100% / 5.3 );
+
+}
+
+/* .table-avoirs thead th.th-numero {
+
+    min-width: 90px;
+} */
+
+.table-avoirs thead th.th-montant {
+
+    min-width: 100px;
+}
+
+/* --- Responsive for Avoir Liste for 1440px screen and above --- */
+
+@media screen and (min-width: 1440px) {
+
+    .table-avoirs thead th.th-numero, .table-avoirs thead th.th-etat {
+
+        min-width: 150px;
+    }
+}
+
+/* --- End of Responsive for Avoir Liste for 1440px screen and above --- */
+
+/* --- Responsive for Avoir Liste for 1238px screen --- */
+
+@media screen and (max-width: 1238px) {
+
+    .avoir-filter-wrapper .filter-block:nth-last-child(3), .avoir-filter-wrapper .filter-block:nth-last-child(2) {
+
+        flex: 1 1 calc( 100% / 5.2 );
+
+    }
+}
+
+/* --- End of Responsive for Avoir Liste for 1238px screen --- */
+
+/* --- Responsive for Avoir Liste for 1014px screen --- */
+
+@media screen and (max-width: 1014px) {
+
+    .avoir-filter-wrapper .filter-block:nth-last-child(3) {
+
+        flex: 1 1 calc( 100% / 4 );
+
+    }
+
+    .avoir-filter-wrapper .filter-block:nth-last-child(2) {
+
+        flex: 0 1 calc( 100% / 3.15 );
+
+    }
+}
+
+/* --- End of Responsive for Avoir Liste for 1014px screen --- */
+
+/* --- Responsive for Avoir Liste for 767px screen --- */
+
+@media screen and (max-width: 767px) {
+
+    .avoir-filter-wrapper .filter-block:nth-last-child(3), .avoir-filter-wrapper .filter-block:nth-last-child(2) {
+
+        flex: 1 1 100%;
+
+    }
+}
+
+/* --- End of Responsive for Avoir Liste for 767px screen --- */
+
+/* === End of Avoir Liste === */
+
+
+/* === Catalogue Produit Liste === */
+
+.catalogue-produit-wrapper .filter-block {
+
+    flex: 1 1 calc( 100% / 5.3 );
+}
+
+.catalogue-produit-wrapper .filter-block:nth-last-child(2), .catalogue-produit-wrapper .filter-block:nth-last-child(3) {
+
+    /* flex: 0 1 calc( 100% / 4.188 ); */
+    flex: 0 1 294.5px;
+}
+
+/* --- Responsive for Catalogue Produit Liste for 1440px screen and above --- */
+
+@media screen and (min-width: 1440px) {
+
+    .catalogue-produit-wrapper .filter-block:nth-last-child(2), .catalogue-produit-wrapper .filter-block:nth-last-child(3) {
+
+        /* flex: 0 1 291px; */
+        flex: 0 1 calc( 100% / 4.14 );
+    }
+}
+
+/* --- End of Responsive for Catalogue Produit Liste for 1440px screen and above --- */
+
+
+/* --- Responsive for Catalogue Produit Liste for 1315px screen --- */
+
+@media screen and (max-width: 1315px) {
+
+    .catalogue-produit-wrapper .filter-block:nth-last-child(2), .catalogue-produit-wrapper .filter-block:nth-last-child(3) {
+
+        flex: 0 1 calc( 100% / 4.2 );
+    }
+}
+
+/* --- End of Responsive for Catalogue Produit Liste for 1315px screen --- */
+
+
+/* --- Responsive for Catalogue Produit Liste for 1200px screen --- */
+
+@media screen and (max-width: 1200px) {
+
+    .catalogue-produit-wrapper .filter-block:nth-last-child(2), .catalogue-produit-wrapper .filter-block:nth-last-child(3) {
+
+        flex: 0 1 calc( 100% / 4.211 );
+    }
+}
+
+/* --- End of Responsive for Catalogue Produit Liste for 1200px screen --- */
+
+
+/* --- Responsive for Catalogue Produit Liste for 1145px screen --- */
+
+@media screen and (max-width: 1145px) {
+
+    .catalogue-produit-wrapper .filter-block {
+
+        flex: 1 1 calc( 100% / 4.2 );
+    }
+
+    .catalogue-produit-wrapper .filter-block:nth-last-child(2), .catalogue-produit-wrapper .filter-block:nth-last-child(3) {
+
+        /* flex: 0 1 calc( 100% / 3.13 ); */
+        flex: 0 1 318.5px;
+    }
+}
+
+/* --- End of Responsive for Catalogue Produit Liste for 1145px screen --- */
+
+
+/* --- Responsive for Catalogue Produit Liste for 1094px screen --- */
+
+@media screen and (max-width: 1094px) {
+
+    .catalogue-produit-wrapper .filter-block {
+
+        flex: 1 1 calc( 100% / 3.1 );
+    }
+
+    .catalogue-produit-wrapper .filter-block:nth-last-child(2), .catalogue-produit-wrapper .filter-block:nth-last-child(3) {
+
+        flex: 1 1 calc( 100% / 3.1 );
+    }
+}
+
+/* --- End of Responsive for Catalogue Produit Liste for 1094px screen --- */
+
+
+
+/* --- Responsive for Catalogue Produit Liste for 767px screen --- */
+
+@media screen and (max-width: 767px) {
+
+    .catalogue-produit-wrapper .filter-block {
+
+        flex: 1 1 100%;
+    }
+
+    .catalogue-produit-wrapper .filter-block:nth-last-child(2), .catalogue-produit-wrapper .filter-block:nth-last-child(3) {
+
+        flex: 1 1 100%;
+    }
+}
+
+/* --- End of Responsive for Catalogue Produit Liste for 767px screen --- */
+
+/* === End of Catalogue Produit Liste === */
+
+
+
+
+
+
+/* === Datatable Pagination Wrapper === */
+
+.dt-pagination-wrapper {
+
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-content: center;
+}
+
+.dt-pagination-wrapper .number-info-wrap {
+
+    display: flex;
+    align-items: center;
+    /* font-size: 0.94rem; */
+    font-size: 0.869rem;
+    font-weight: 400;
+    letter-spacing: 0.01em;
+}
+
+.dt-pagination-wrapper .page-number-list-wrap .pagination .page-item .page-link {
+
+    font-size: 0.84rem;
+    font-weight: 400;
+}
+
+/* --- Responsive for Datatable Pagination Wrapper for 767px screen --- */
+
+@media screen and (max-width: 767px) {
+
+    .dt-pagination-wrapper .number-info-wrap {
+
+        flex: 1 1 100%;
+        justify-content: center;
+        margin-bottom: 20px;
+    }
+
+    .dt-pagination-wrapper .page-number-list-wrap {
+
+        flex: 1 1 100%;
+        display: flex;
+        justify-content: center;
+    }
+
+    .dt-pagination-wrapper .page-number-list-wrap .pagination {
+
+        flex-wrap: wrap;
+        justify-content: center;
+        margin-bottom: 0;
+    }
+
+    .dt-pagination-wrapper .page-number-list-wrap .pagination li.page-item {
+
+        margin-bottom: 15px;
+    }
+}
+
+/* --- End of Responsive for Datatable Pagination Wrapper for 767px screen --- */
+
+
+/* === End of Datatable Pagination Wrapper === */
+
+
+
+/* === Header PDF View === */
+
+header.header-pdf-view .top-navbar {
+
+    padding: 0 19px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header.header-pdf-view .top-navbar .left-section > .row {
+
+    align-items: center;
+}
+
+header.header-pdf-view .top-navbar .left-section .header-commercial {
+
+    display: block;
+    margin-left: 5px;
+    margin-bottom: 0;
+}
+
+header.header-pdf-view .top-navbar .right-section {
+
+    margin-left: 30px;
+}
+
+/* --- Responsive for Header PDF View for 882px screen --- */
+
+/* @media screen and (max-width: 817px) { */
+
+@media screen and (max-width: 882px) {
+
+    header.header-pdf-view .top-navbar {
+
+        padding: 18px 0 23px 0;
+        flex-direction: column;
+    }
+
+    header.header-pdf-view .top-navbar .left-section {
+
+        flex-basis: 100%;
+    }
+
+    header.header-pdf-view .top-navbar .right-section {
+
+        flex-basis: 100%;
+        margin-top: 10px;
+        margin-left: 0;
+    }
+
+    header.header-pdf-view .top-navbar .right-section > .float-right {
+
+        float: none !important;
+    }
+
+}
+
+/* --- End of Responsive for Header PDF View for 882px screen --- */
+
+
+/* --- Responsive for Header PDF View for 767px screen --- */
+
+@media screen and (max-width: 767px) {
+
+    header.header-pdf-view .top-navbar .left-section > .row {
+
+        justify-content: center;
+    }
+
+    header.header-pdf-view .top-navbar .left-section > .row.m-l-20 {
+
+        margin-left: -20px;
+    }
+
+    header.header-pdf-view .top-navbar .left-section h1 {
+
+        font-size: 20px;
+        flex-basis: 100%;
+        text-align: center;
+        padding-left: 3px;
+    }
+
+    header.header-pdf-view .top-navbar .left-section h1 .title-separator {
+
+        display: none;
+    }
+
+    header.header-pdf-view .top-navbar .left-section .header-avatar {
+
+        margin-top: 0;
+    }
+
+    header.header-pdf-view .top-navbar .left-section img.avatar {
+
+        margin-top: 3.1px;
+        width: 23px;
+        height: 23px;
+    }
+
+    header.header-pdf-view .top-navbar .left-section .header-commercial {
+
+        margin: 0 0 0 9px;
+        font-size: 18px;
+    }
+
+    header.header-pdf-view .top-navbar .right-section a.btn-duplicate-pdf, header.header-pdf-view .top-navbar .float-right a.btn-save-pdf {
+
+        display: none;
+    }
+
+}
+
+/* --- End of Responsive for Header PDF View for 767px screen --- */
+
+
+/* === End of Header PDF View === */
+
+
+
+/* === PDF Content View Wrapper === */
+
+.pdf-content-view-wrapper > .col-3 {
+
+    min-width: 300px;
+}
+
+.pdf-content-view-wrapper > .col-3 .main-select-status .col-9 > small .fa-circle {
+
+    margin-right: 5px
+}
+
+.pdf-content-view-wrapper > .col-3 .liste-status .form-group select {
+
+    width: 90%;
+}
+
+.pdf-content-view-wrapper > .col-3 .pdf-main-info-wrapper .inner-pdf-detail-wrapper .pdf-info-wrap {
+
+    margin-top: 15px;
+}
+
+.pdf-content-view-wrapper > .col-3 .pdf-main-info-wrapper .inner-pdf-detail-wrapper .pdf-info-wrap a {
+
+    word-break: break-all;
+
+}
+
+/* --- Responsive for PDF Content View Wrapper for 1226px screen --- */
+
+@media screen and (max-width: 1226px) {
+
+    .pdf-content-view-wrapper > .col-3 {
+
+        flex: 1 1 100%;
+        min-width: inherit;
+        max-width: none;
+        display: flex;
+        flex-wrap: wrap;
+        margin: -15px -15px 15px -15px;
+    }
+
+    .pdf-content-view-wrapper > .col-3 .main-select-status {
+
+        width: 275px;
+    }
+
+    .pdf-content-view-wrapper > .col-3 .liste-status {
+
+        width: 250px;
+    }
+
+    .pdf-content-view-wrapper > .col-3 .card {
+
+        margin: 15px;
+    }
+
+    .pdf-content-view-wrapper > .col-3 .card:not(:first-child) {
+
+        /* flex: 1 1 30%; */
+        flex: 1 1 30.35%;
+    }
+
+    .pdf-content-view-wrapper > .col-3 .pdf-main-info-wrapper {
+
+        flex: 1 1 100%;
+    }
+
+    .pdf-content-view-wrapper > .col-3 .pdf-main-info-wrapper .inner-pdf-detail-wrapper {
+
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
+
+    .pdf-content-view-wrapper > .col-3 .pdf-main-info-wrapper .inner-pdf-detail-wrapper {
+
+        margin: -10px -20px;
+    }
+
+    .pdf-content-view-wrapper > .col-3 .pdf-main-info-wrapper .inner-pdf-detail-wrapper .pdf-info-wrap {
+
+        margin: 10px 20px;
+    }
+
+    .pdf-content-view-wrapper > .col-9 {
+
+        flex: 1 1 100%;
+        max-width: none;
+    }
+}
+
+/* --- End of Responsive for PDF Content View Wrapper for 1226px screen --- */
+
+
+/* --- Responsive for PDF Content View Wrapper for 767px screen --- */
+
+@media screen and (max-width: 767px) {
+
+    .pdf-content-view-wrapper {
+
+        margin-top: 70px !important;
+    }
+
+    .pdf-content-view-wrapper > .col-3 .pdf-main-info-wrapper .inner-pdf-detail-wrapper {
+
+        flex-direction: column;
+    }
+
+    .pdf-content-view-wrapper > .col-3 .main-select-status {
+
+        width: 100%;
+    }
+
+    .pdf-content-view-wrapper > .col-3 .liste-status {
+
+        width: 100%;
+    }
+
+    .pdf-content-view-wrapper > .col-3 .liste-status .form-group select {
+
+        width: 83.8%;
+    }
+
+    .pdf-content-view-wrapper > .col-3 .card:not(:first-child) {
+
+        flex: 1 1 100%;
+    }
+}
+
+/* --- End of Responsive for PDF Content View Wrapper for 767px screen --- */
+
+/* === End of PDF Content View Wrapper === */
+
+.dropdown-item a {
+    color: #54667a;
+}
+
+.btn-default-color {
+    /* color: auto !important; */
+}
+
+

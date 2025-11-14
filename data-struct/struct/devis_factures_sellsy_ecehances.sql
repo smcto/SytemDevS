@@ -1,0 +1,3 @@
+ALTER TABLE `devis_factures` ADD `sellsy_echeances` LONGTEXT NULL DEFAULT NULL AFTER `uuid`;
+ALTER TABLE `devis_factures` ADD `sellsy_client_id` INT NOT NULL AFTER `sellsy_echeances`, ADD `is_in_sellsy` TINYINT(1) NOT NULL DEFAULT '0' AFTER `sellsy_client_id`, ADD `sellsy_public_url` VARCHAR(500) NULL AFTER `is_in_sellsy`, ADD `sellsy_doc_id` INT NOT NULL AFTER `sellsy_public_url`;
+ALTER TABLE `devis_factures` CHANGE `objet` `objet` TEXT CHARACTER SET latin1 COLLATE latin1_swedish_ci NULL;

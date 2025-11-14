@@ -1,0 +1,2 @@
+ALTER TABLE `clients` ADD `addr_lat` DECIMAL(10,8) NULL DEFAULT NULL AFTER `adresse`, ADD `addr_lng` DATE NULL DEFAULT NULL AFTER `addr_lat`;
+ALTER TABLE `clients` CHANGE `addr_lng` `addr_lng` DECIMAL(10,8) NULL DEFAULT NULL;

@@ -1,0 +1,1 @@
+ALTER TABLE `devis_preferences` ADD `note` TEXT NULL DEFAULT NULL AFTER `text_loi`;

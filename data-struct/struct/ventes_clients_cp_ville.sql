@@ -1,0 +1,1 @@
+ALTER TABLE `ventes` ADD `client_cp` VARCHAR(150) NULL DEFAULT NULL AFTER `date_facturation`, ADD `client_ville` VARCHAR(150) NULL DEFAULT NULL AFTER `client_cp`;

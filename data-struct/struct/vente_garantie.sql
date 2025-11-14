@@ -1,0 +1,2 @@
+ALTER TABLE `bornes` ADD `garantie_duree` ENUM('12_mois', '18_mois', '24_mois', '36_mois', '') NULL DEFAULT NULL AFTER `is_abonnement_bo`;
+ALTER TABLE `bornes` ADD `is_parc_vente` TINYINT(1) NOT NULL DEFAULT '0' AFTER `garantie_duree`;

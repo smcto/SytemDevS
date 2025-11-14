@@ -1,0 +1,28 @@
+@media (min-width: 768px) {
+    .col-md-1 {
+        -webkit-flex: 0 0 11.5%;
+        -moz-flex: 0 0 11.5%;
+        -ms-flex: 0 0 11.5%;
+        -o-flex: 0 0 11.5%;
+        flex: 0 0 11.5%;
+        max-width: 11.5%;
+    }
+}
+
+.fieldset-devis-factures {
+    border: 1px solid #abb3bd;
+    padding: 0px 10px 20px 10px;
+    margin-top: 20px;
+    border-radius: 5px;
+}
+
+.legend-fieldset-devis-factures {
+    font-size: 17px;
+    width: 6cm;
+    margin-left: 4px;
+    padding-left: 10px
+}
+
+.tooltip-inner p, .tooltip-inner span {
+    color: #FFF !important;
+}

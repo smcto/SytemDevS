@@ -1,0 +1,110 @@
+.customized-input-search {
+
+    display: flex;
+    align-items: center;
+
+    padding-bottom: 5px;
+
+    /* width: 350px; */
+
+    /* padding: 10px 15px;
+    background-color: #f2f2f2;
+    border-radius: 10px; */
+
+    padding: 0 10px 8px 0;
+
+    /* border-bottom: 1px solid #596475; */
+
+    /* border-bottom: 1px solid #748195; */
+
+    /* border-bottom: 1px solid #dee2e6; */
+
+    border-bottom: 1px solid #d6dbe0;
+
+    /* border-bottom: 1px solid #dbdfe4; */
+
+    /* border-bottom: 1px solid #dce0e5; */
+
+    /* border-bottom: 2px solid #dde1e5; */
+
+    position: relative;
+
+    transition: all 0.3s;
+
+}
+
+.rubik-input-search {
+
+    /* border-bottom-color: #ced4da; */
+    border-bottom-color: #cbd1d8;
+}
+
+.customized-input-search::after {
+
+    content: '';
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    bottom: -1px;
+    left: 0;
+    border-bottom: 2px solid #6149ed;
+
+    transform: scaleX(0);
+    transform-origin: left;
+
+    transition: all 0.3s;
+}
+
+.rubik-input-search::after {
+
+    display: none;
+}
+
+.customized-input-search.active {
+
+    background-color: #fff;
+}
+
+.customized-input-search.active::after {
+
+    transform: scaleX(1);
+}
+
+.customized-input-search svg {
+
+    fill: #000;
+    width: 14px;
+    min-width: 14px;
+    height: 14px;
+    min-height: 14px;
+
+    /* position: relative;
+    top: -0.5px; */
+
+    margin-right: 7px;
+}
+
+.customized-input-search input {
+
+    border: 0;
+
+    /* background-color: #f2f2f2; */
+
+    background-color: #fff;
+
+    width: 100%;
+    max-width: none;
+
+    transition: all 0.3s;
+}
+
+.rubik-input-search input::placeholder {
+
+    color: #90a4ae;
+    font-weight: 300;
+}
+
+.customized-input-search.active input {
+
+    background-color: #fff;
+}

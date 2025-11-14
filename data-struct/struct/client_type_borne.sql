@@ -1,0 +1,2 @@
+ALTER TABLE `clients` ADD `is_location_financiere` TINYINT(1) NOT NULL DEFAULT '0' AFTER `is_vente`, ADD `is_location_lng_duree` TINYINT(1) NOT NULL DEFAULT '0' AFTER `is_location_financiere`;
+ALTER TABLE `clients` ADD `is_borne_occasion` TINYINT(1) NOT NULL DEFAULT '0' AFTER `is_location_lng_duree`;

@@ -1,0 +1,1 @@
+ALTER TABLE `devis` ADD `date_evenement` DATE NULL DEFAULT NULL AFTER `devis_type_doc_id`, ADD `date_evenement_fin` DATE NULL DEFAULT NULL AFTER `date_evenement`;

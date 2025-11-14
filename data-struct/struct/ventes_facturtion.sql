@@ -1,0 +1,2 @@
+ALTER TABLE `ventes` ADD `etat_facturation` ENUM('accompte_regle', 'regelement_ok', 'accompte_attente', 'facturation_envoyee', 'attente_facturation', '') NULL DEFAULT '' AFTER `is_valise_with_tete`;
+ALTER TABLE `ventes` ADD `date_facturation` DATE NULL DEFAULT NULL AFTER `etat_facturation`;

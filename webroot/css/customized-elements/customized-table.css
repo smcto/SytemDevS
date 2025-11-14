@@ -1,0 +1,572 @@
+@charset "UTF-8";
+
+.customized-table {
+
+    --custom-tbl-header-width: 44.5%;
+}
+
+.customized-table.data-not-found {
+
+    padding-bottom: 50px;
+}
+
+.customized-table .tr {
+
+    display: flex;
+    align-items: center;
+}
+
+.customized-table.data-not-found .tr:not(:first-child) {
+
+    display: none;
+}
+
+.rubik-customized-table .tr:nth-child(even) {
+
+    background-color: #f7f7f7;
+}
+
+.customized-table .tr .column {
+
+    width: 100%;
+}
+
+.customized-table .tr .column .th {
+
+    font-size: 14.3px;
+
+    color: #3b516d;
+    font-weight: 600;
+    padding-bottom: 13px;
+
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+
+    word-break: break-word;
+
+    border-bottom: 2px solid #e7eef3;
+    position: relative;
+}
+
+.customized-table.data-not-found .tr .column:first-child .th::after {
+
+    content: 'Données non existantes.';
+    color: #54667a;
+    font-size: 14px;
+    font-weight: 300;
+    position: absolute;
+    left: 15px;
+    top: 59px;
+    width: 100%;
+    height: 100%;
+}
+
+@media screen and (max-width: 767px) {
+
+    .customized-table.data-not-found .tr .column:not(:first-child) .th {
+
+        display: none;
+    }
+
+    .customized-table.data-not-found .tr .column:first-child .th {
+
+        font-size: 0 !important
+    }
+
+    .customized-table.data-not-found .tr .column:first-child .th::after {
+
+        left: 0;
+        top: -7.999999px;
+    }
+
+}
+
+.rubik-customized-table .tr .column .th {
+
+    /* font-size: 0.95rem; */
+    font-size: 0.9299999rem;
+    font-weight: 500;
+}
+
+.customized-table .tr:not(:first-child) .column .th {
+
+    display: none;
+}
+
+.customized-table .tr .column:first-child .th {
+
+    padding-left: 15px;
+}
+
+.customized-table .tr .column:not(:last-child) .th {
+
+    padding-right: 35px;
+}
+
+.customized-table .tr .column .right-align {
+
+    justify-content: flex-end;
+}
+
+.customized-table .tr .column .td {
+
+    font-size: 14px;
+    padding: 12px 0;
+
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+
+    /* word-break: break-all; */
+
+    word-wrap: break-word;
+
+    border-bottom: 2px solid #e7eef3;
+}
+
+.customized-table.data-not-found .tr .column .td {
+
+    display: none;
+}
+
+.rubik-customized-table .tr .column .td {
+
+    /* font-size: 0.93rem; */
+
+    font-size: 0.925rem;
+
+    border-bottom: 0;
+}
+
+.rubik-customized-table .tr:hover .column .td {
+
+    background-color: #e5f2ff;
+}
+
+/* .rubik-customized-table .tr:last-child .column .td {
+
+    border-bottom: 0;
+} */
+
+.customized-table .tr .column:first-child .td {
+
+    padding-left: 15px;
+}
+
+.rubik-customized-table .tr .column:last-child .td {
+
+    padding-right: 15px;
+}
+
+.customized-table .tr .column .text-right {
+
+    justify-content: flex-end;
+}
+
+.customized-table .tr .column .td a {
+
+    color: #6149ed;
+    font-weight: 300;
+}
+
+.customized-table .tr .column .td a:hover {
+
+    /* color: #2710a9; */
+    color: #0056b3;
+}
+
+.customized-table .tr .column:not(:last-child) .td {
+
+    padding-right: 35px;
+}
+
+.customized-table .tr .status-column .td {
+
+    flex-wrap: nowrap;
+}
+
+.customized-table .tr .status-column .td .status-icon {
+
+    /* width: 12.3px;
+    min-width: 12.3px;
+    height: 12.3px;
+    min-height: 12.3px; */
+
+    width: 11px;
+    min-width: 11px;
+    height: 11px;
+    min-height: 11px;
+
+    border-radius: 50%;
+    margin-right: 7px;
+}
+
+.status-icon.brouillon {
+
+    background-color: #ababab;
+}
+
+.customized-table .tr .main-type-column .td .fa {
+
+    color: #55ce63;
+    -webkit-text-stroke: 1px #55ce63;
+}
+
+.rubik-customized-table .tr .main-type-column .td .fa {
+
+    -webkit-text-stroke: 0 #55ce63;
+    font-size: 16px;
+}
+
+.table-data-avatar {
+
+    width: 25px;
+    min-width: 25px;
+    height: 25px;
+    min-height: 25px;
+    border-radius: 50%;
+}
+
+.customized-table .tr .status-column .td .customized-select {
+
+    width: 140px;
+    min-width: 140px;
+}
+
+.rubik-customized-table .tr .status-column .td .customized-select {
+
+    width: 130px;
+    min-width: 130px;
+}
+
+.customized-table .tr .status-column .td .customized-select .select-icon-wrap {
+
+    width: 25px;
+    min-width: 25px;
+    height: 22px;
+    min-height: 22px;
+    background-color: #f0eef9;
+    border-radius: 3px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.rubik-customized-table .tr .status-column .td .customized-select .select-icon-wrap {
+
+    background-color: #EFEFEF;
+}
+
+.customized-table .tr .status-column .td .customized-select .option-list-wrap {
+
+    width: 165px;
+    left: -27px;
+}
+
+.customized-table .tr .status-column .td .customized-select .option-block {
+
+    color: #000;
+    font-size: 14px;
+    font-weight: 500;
+}
+
+.rubik-customized-table .tr .status-column .td .customized-select .option-block {
+
+    font-weight: 400;
+}
+
+.customized-table .tr .status-column .td .customized-select .option-block:hover, .customized-table .tr .status-column .td .customized-select .option-block.selected {
+
+    color: #fff;
+}
+
+.customized-table .tr .status-column .td .customized-select .selected-value-block svg {
+
+    display: block;
+}
+
+
+
+/* --- Responsive for Customized Table for iPad on Portrait Mode --- */
+
+@media (min-width: 768px) and (max-width: 1024px) and (orientation: portrait) {
+
+    .customized-table .tr {
+
+        display: block;
+    }
+
+    .customized-table .tr {
+
+        padding: 20px;
+        border: 1px solid #dee2e6;
+
+        border-radius: 10px;
+    }
+
+    .customized-table .tr:not(:last-child) {
+
+        margin-bottom: 20px;
+    }
+
+    .customized-table .tr .column {
+
+        display: flex;
+        align-items: flex-start;
+    }
+
+    .customized-table .tr .column .th {
+
+        font-size: inherit;
+
+        padding-bottom: 6px;
+        border-bottom: 0;
+
+        width: var(--custom-tbl-header-width);
+    }
+
+    .customized-table .tr:not(:first-child) .column .th {
+
+        display: block;
+    }
+
+    .customized-table .tr .column:first-child .th {
+
+        padding-left: 0;
+    }
+
+    .customized-table .tr .column:not(:last-child) .th {
+
+        padding-right: 0;
+    }
+
+    .customized-table .tr .amount-column {
+
+        width: 100%;
+    }
+
+    .customized-table .tr .column .right-align {
+
+        justify-content: flex-start;
+    }
+
+    .customized-table .tr .column .td {
+
+        font-size: inherit;
+
+        padding: 0 0 6px 0;
+        border-bottom: 0;
+
+        width: calc( 100% - var(--custom-tbl-header-width) );
+    }
+
+    .customized-table .tr .column:first-child .td {
+
+        padding-left: 0;
+    }
+
+    .customized-table .tr .column:not(:last-child) .td {
+
+        padding-right: 0;
+    }
+
+    .customized-table .tr .status-column .td .status-icon {
+
+        position: relative;
+        top: 0.3px;
+    }
+
+    .customized-table .tr .status-column .td .customized-select {
+
+        width: 43%;
+        min-width: 43%;
+    }
+
+    .customized-table .tr .status-column .td .customized-select .option-list-wrap {
+
+        width: 200px;
+    }
+
+    .customized-table .tr .status-column .td .customized-select .option-block {
+
+        font-size: 15.38px;
+    }
+
+
+}
+
+/* --- End of Responsive for Customized Table for iPad on Portrait Mode --- */
+
+
+/* --- Responsive for Customized Table for 767px screen --- */
+
+@media screen and (max-width: 767px) {
+
+    .customized-table .tr {
+
+        flex-direction: column;
+        padding: 20px;
+        border: 1px solid #dee2e6;
+
+        border-radius: 10px;
+    }
+
+    .rubik-customized-table .tr:nth-child(even) {
+
+        background-color: #fff;
+    }
+
+    .customized-table .tr:not(:last-child) {
+
+        margin-bottom: 20px;
+    }
+
+     .customized-table .tr .column:nth-child(even) {
+
+        background-color: #f7f7f7;
+    }
+
+    .customized-table .tr .column {
+
+        display: flex;
+        align-items: flex-start;
+        padding: 5px 12px 0 12px;
+    }
+
+    .customized-table .tr .column .th {
+
+        font-size: inherit;
+
+        padding-bottom: 6px;
+        border-bottom: 0;
+
+        width: var(--custom-tbl-header-width);
+    }
+
+    .rubik-customized-table .tr .column .th:empty {
+
+        /* --custom-tbl-header-width: 0 !important; */
+
+        display: none !important;
+    }
+
+    .customized-table .tr:not(:first-child) .column .th {
+
+        display: block;
+    }
+
+    .customized-table .tr .column:first-child .th {
+
+        padding-left: 0;
+    }
+
+    .customized-table .tr .column:not(:last-child) .th {
+
+        padding-right: 0;
+    }
+
+    .customized-table .tr .amount-column {
+
+        width: 100%;
+    }
+
+    .customized-table .tr .column .right-align {
+
+        justify-content: flex-start;
+    }
+
+    .customized-table .tr .column .td {
+
+        font-size: inherit;
+
+        padding: 0 0 6px 0;
+        border-bottom: 0;
+
+        width: calc( 100% - var(--custom-tbl-header-width) );
+    }
+
+    .rubik-customized-table .tr .column .th:empty + .td {
+
+        flex-basis: 100%;
+        width: 100%;
+    }
+
+    .rubik-customized-table .tr:hover .column .td {
+
+        background-color: transparent !important;
+    }
+
+    .customized-table .tr .column:first-child .td {
+
+        padding-left: 0;
+    }
+
+    .customized-table .tr .column:not(:last-child) .td {
+
+        padding-right: 0;
+    }
+
+    .customized-table .tr .status-column .td .status-icon {
+
+        position: relative;
+        top: 0.3px;
+    }
+
+    .customized-table .tr .status-column .td .customized-select {
+
+        width: calc( 100% - 12px );
+        min-width: calc( 100% - 12px );
+    }
+
+    .customized-table .tr .status-column .td .customized-select .option-list-wrap {
+
+        width: 75%;
+        left: 50%;
+    }
+
+    .customized-table .tr .status-column .td .customized-select .option-block {
+
+        font-size: 15.38px;
+    }
+
+}
+
+/* --- End of Responsive for Customized Table for 767px screen --- */
+
+
+
+
+/* --- Responsive for Customized Table for screen size between 376px and 411px --- */
+
+/* @media screen and (min-width: 376px) and (max-width: 414px) {
+
+    .rubik-customized-table .tr .column .th:empty + .td {
+
+        padding-left: 29px;
+    }
+} */
+
+/* --- End of Responsive for Customized Table for screen size between 376px and 411px --- */
+
+
+
+/* --- Responsive for Customized Table for 320px screen --- */
+
+/* @media screen and (max-width: 320px) {
+
+    .rubik-customized-table .tr .column .th:empty + .td {
+
+        padding-left: 20px;
+    }
+} */
+
+/* --- End of Responsive for Customized Table for 320px screen --- */
+
+
+
+
+
+
+
+

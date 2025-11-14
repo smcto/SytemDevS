@@ -1,0 +1,1 @@
+ALTER TABLE `avoirs` CHANGE `objet` `objet` TEXT CHARACTER SET utf8 COLLATE utf8_general_ci NULL;

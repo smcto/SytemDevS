@@ -1,0 +1,3 @@
+ALTER TABLE `devis_factures_produits` ADD `facture_pourcentage` DECIMAL(10,2) NULL AFTER `montant_client`, ADD `facture_euro` DECIMAL(10,2) NULL AFTER `facture_pourcentage`, ADD `avancement_pourcentage` DECIMAL(10,2) NULL AFTER `facture_euro`, ADD `avancement_euro` DECIMAL(10,2) NULL AFTER `avancement_pourcentage`, ADD `avancement_quantite` DECIMAL(10,2) NULL AFTER `avancement_euro`, ADD `montant_ht` DECIMAL(10,2) NULL AFTER `avancement_quantite`, ADD `montant_ttc` DECIMAL(10,2) NULL AFTER `montant_ht`; 
+ALTER TABLE `devis_factures` ADD `numero` INT NULL AFTER `total_tva_client`, ADD `pourcentage_global` DECIMAL(10,2) NULL AFTER `numero`; 
+ALTER TABLE `devis_factures` ADD `is_situation` TINYINT(1) NOT NULL DEFAULT '0' AFTER `pourcentage_global`; 

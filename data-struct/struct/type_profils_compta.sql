@@ -1,0 +1,1 @@
+INSERT INTO `type_profils` (`id`, `nom`, `created`, `modified`) VALUES (12, 'Konitys compta', '2020-02-21 00:00:00', '2020-02-21 00:00:00'), (NULL, '', NULL, NULL);

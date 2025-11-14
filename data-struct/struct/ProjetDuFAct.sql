@@ -1,0 +1,1 @@
+ALTER TABLE `factures` ADD `evenement_id` INT NULL AFTER `message_type_facture_id`;

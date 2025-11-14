@@ -1,0 +1,41 @@
+
+
+.stripe-form {
+    padding: 7px 10px;
+    margin: 0;
+    outline: 0;
+    border-radius: 4px;
+    border: 1px solid #dae2e6;
+    box-sizing: border-box;
+    min-height: 33px;
+    float: none;
+}
+
+.stripe-modal h3 {
+    color: #333;
+}
+
+.stripe-modal .sous-titre {
+    font-size: 1.2rem;
+}
+.stripe-modal .btn {
+    padding: 5px 20px;
+}
+.stripe-modal .btn.btn-primary:hover {
+    border-color: #4894d8;
+    background-color: #4894d8;
+}
+
+.stripe-modal .btn.btn-primary {
+    border-color: #1a79ce;
+    background-color: #1a79ce;
+}
+
+.stripe-lock {
+    color: #39cf86;
+    font-weight: 400;
+}
+
+.stripe-modal .ajust-padding {
+    padding-left: 31px;
+}

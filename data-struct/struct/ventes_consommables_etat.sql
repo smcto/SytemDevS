@@ -1,0 +1,2 @@
+ALTER TABLE `ventes_consommables` ADD `consommable_statut` ENUM('en_attente_traitement', 'en_cours_prepa', 'expedie_partiel', 'expedie', 'annule') NULL DEFAULT 'en_attente_traitement' AFTER `checked_accessories`;
+ALTER TABLE `ventes_consommables` ADD `date_depart_atelier` DATE NULL DEFAULT NULL AFTER `consommable_statut`, ADD `date_reception_client` DATE NULL DEFAULT NULL AFTER `date_depart_atelier`;

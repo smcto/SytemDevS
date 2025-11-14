@@ -1,0 +1,37 @@
+
+.row-contact {
+    margin-top: -15px;
+}
+
+.fieldset-contact {
+    border: 1px solid #abb3bd;
+    padding: 0px 10px 20px 10px;
+    margin-top: 20px;
+    border-radius: 5px;
+}
+
+.legend-fieldset-contact {
+    font-size: 17px;
+    width: 5cm;
+    margin-left: 4px;
+    padding-left: 10px
+}
+
+.label-civilite::before {
+    margin-top: 4px;
+}
+.label-civilite::after {
+    margin-top: 4px;
+}
+
+.label-civilite{
+    margin-right: 5px;
+}
+
+.table-uniforme {
+    margin-top: -13px;
+}
+
+.client-contact {
+    background-color: #ffffff!important;
+}

@@ -1,0 +1,3 @@
+CREATE TABLE `posts`(     `id` INT NOT NULL AUTO_INCREMENT ,     `titre` TEXT NOT NULL ,     `contenu` LONGTEXT ,     `status` VARCHAR(20) NOT NULL ,     `created` DATETIME ,     `modified` DATETIME ,     PRIMARY KEY (`id`)  );
+CREATE TABLE `categories`(     `id` INT NOT NULL AUTO_INCREMENT ,     `nom` VARCHAR(250) NOT NULL ,     `parent_id` INT ,     `lft` INT ,     `rght` INT ,     `created` DATETIME ,     `modified` DATETIME ,     PRIMARY KEY (`id`)  );
+CREATE TABLE `post_categories`(     `id` INT NOT NULL AUTO_INCREMENT ,     `post_id` INT NOT NULL ,     `categorie_id` INT NOT NULL ,     PRIMARY KEY (`id`)  );

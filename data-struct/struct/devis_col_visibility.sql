@@ -1,0 +1,2 @@
+ALTER TABLE `devis` ADD `col_visibility_params` TEXT NOT NULL COMMENT 'type json' AFTER `text_loi`;
+ALTER TABLE `devis` CHANGE `col_visibility_params` `col_visibility_params` VARCHAR(350) CHARACTER SET latin1 COLLATE latin1_swedish_ci NULL DEFAULT NULL COMMENT 'type json';

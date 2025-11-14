@@ -1,0 +1,1 @@
+ALTER TABLE `antennes` ADD `horaire_accueil` TIME NOT NULL AFTER `etat_id`, ADD `horaire_dispos` TIME NOT NULL AFTER `horaire_accueil`;

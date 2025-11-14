@@ -1,0 +1,1 @@
+ALTER TABLE `devis` ADD `info_bancaire_id` INT NULL DEFAULT NULL AFTER `col_visibility_params`;

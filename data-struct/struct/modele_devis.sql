@@ -1,0 +1,1 @@
+ALTER TABLE `devis` ADD `is_model` TINYINT(1) NULL AFTER `total_tva`, ADD `model_name` VARCHAR(255) NULL AFTER `is_model`, ADD `modele_devis_categories_id` INT NULL AFTER `model_name`, ADD `modele_devis_sous_categories_id` INT NULL AFTER `modele_devis_categories_id`; 

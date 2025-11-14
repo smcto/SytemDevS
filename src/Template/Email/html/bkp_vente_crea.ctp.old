@@ -1,0 +1,13 @@
+<?php $requestScheme = $this->request->getEnv('REQUEST_SCHEME')?>
+<?php $httpHost = $this->request->getEnv('HTTP_HOST')?>
+<?php $host = $requestScheme.'://'.$httpHost ?>
+
+
+<?php /*debug($venteEntity);*/ ?>
+Bonjour,
+<p>Une fiche de vente a été créee depuis le CRM. Veuillez vous connecter et aller sur <a href="<?= $host .''. $this->Url->build(['controller' => 'Ventes', 'action' => 'view', $venteEntity->id]) ?>">ce lien</a> pour pouvoir accéder à la fiche de vente</p>
+<p>Client : <?= $venteEntity->client->nom ?></p>
+<p>Commercial : <?= $venteEntity->user->get('FullName') ?></p>
+<p>Type de contrat : <?= $venteEntity->parc->nom ?? '' ?></p>
+<p>Type de borne : <?= $venteEntity->gamme_borne->nom ?? '' ?> / <?= $venteEntity->model_borne->nom ?? '' ?></p>
+<p>Livraison : <?= $venteEntity->livraison_date ? $venteEntity->livraison_date->format('d/m/Y') : '' ?></p>

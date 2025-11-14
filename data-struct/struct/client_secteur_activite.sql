@@ -1,0 +1,1 @@
+ALTER TABLE `clients` ADD `secteurs_activite_id` INT NULL DEFAULT NULL AFTER `is_vente`;

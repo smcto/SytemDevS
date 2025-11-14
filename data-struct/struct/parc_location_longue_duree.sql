@@ -1,0 +1,1 @@
+INSERT INTO `parcs` (`id`, `nom`, `ariane_titre`, `created`, `modified`) VALUES (9, 'Location longue durée', 'Location longue durée', '2020-01-15 00:00:00', '2020-01-15 00:00:00');

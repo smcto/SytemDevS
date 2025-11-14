@@ -1,0 +1,1 @@
+ALTER TABLE `reglements` ADD `email` VARCHAR(255) NULL DEFAULT NULL AFTER `montant_restant`;

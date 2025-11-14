@@ -1,0 +1,1 @@
+ALTER TABLE `actu_bornes` ADD `photos` VARCHAR(50) NOT NULL AFTER `contenu`;

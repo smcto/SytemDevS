@@ -1,0 +1,144 @@
+header{
+	width: 100%;
+	background: #FFF;
+	padding: 30px 0;
+}
+.sl-banniere {
+    background-image: url(/img/devis.jpg);
+    width: 100%;
+    height: 300px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    max-height: 480px;
+    background-position: center;
+	display: flex;
+}
+.sl-evenement{
+	margin: auto;
+	color: #F3F3F3;
+}
+.sl-evenement h2, .sl-evenement h3{
+	color: #F3F3F3;
+	text-transform: uppercase;
+	font-weight: 600;
+}
+.sl-evenement h3{
+	text-transform: capitalize;
+}
+.sl-header{
+	background-color: #f3f3f3;
+	padding: 15px;
+	display: block;
+}
+.sl-separateur{
+	width: 450px;
+	border-top: solid 1px #DDD;
+	margin: 30px auto;
+}
+.sl-header-box{
+	margin-top: 45px;
+}
+p{
+	color: #555;
+}
+.sl-body-box{
+	padding: 15px;
+}
+
+
+/* couleur du label */
+.col-form-label{
+	color: #555;
+}
+.sl-fields-box{
+	border-bottom: solid 1px #F3F3F3;
+	padding-bottom: 15px;
+	margin-bottom: 15px;
+	font-size: 20px;
+}
+.sl-form-container{
+	margin-top: 15px;
+}
+
+.s-bold{
+	font-weight: 400;
+}
+.sl-bottom{
+	margin-bottom: 15px;
+}
+.sl-bottom label{
+	text-align: right;
+}
+
+.sl-timeline {
+    margin-top: 30px;
+    margin-bottom: 50px;
+    overflow: hidden;
+    counter-reset: step;
+    position: relative;
+    z-index: 1;
+}
+.sl-timeline {
+    margin-left: 0 !important;
+	padding: 0;
+}
+.sl-timeline li {
+    color: #555;
+    text-align: center;
+    list-style-type: none;
+    text-transform: uppercase;
+    font-size: 12px;
+    float: left;
+    position: relative;
+    margin: 0!important;
+    padding: 0!important;
+}
+.sl-timeline li::before {
+    content: counter(step);
+    counter-increment: step;
+    width: 30px;
+    line-height: 30px;
+    display: block;
+    font-size: 17px;
+    color: #fff;
+    background: #eee !important;
+    border-radius: 44px;
+    margin: 0 auto 11px auto;
+    text-align: center;
+    height: 30px;
+}
+.sl-timeline li:after {
+    content: '';
+    width: 100%;
+    height: 2px;
+    background: #eee;
+    position: absolute;
+    left: 50%;
+    top: 9px;
+    z-index: -1;
+    transition: .8s ease all;
+    -moz-transition: .8s ease all;
+    -webkit-transition: .8s ease all;
+}
+.sl-timeline li.active {
+    color: #f00e5d;
+}
+.sl-timeline li.active::before {
+    background: #f00e5d !important;
+}
+.sl-timeline li:last-child::after {
+    width: 0%;
+}
+.sl-timeline li::after {
+    top: 15px !important;
+}
+
+
+@media (max-width:768px) {
+	.sl-header-box p{
+		padding: 0 15px !important;
+	}
+	.sl-timeline li{
+		color: rgba(255, 255, 255, 0);
+	}
+}

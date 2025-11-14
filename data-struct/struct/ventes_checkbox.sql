@@ -1,0 +1,1 @@
+ALTER TABLE `ventes` ADD `checked_accessories` LONGTEXT NULL DEFAULT NULL AFTER `client_ville`, ADD `checked_consommables` LONGTEXT NULL DEFAULT NULL AFTER `checked_accessories`;

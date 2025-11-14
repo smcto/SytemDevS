@@ -1,0 +1,1 @@
+ALTER TABLE `users` ADD `source` ENUM('ami','famille','reseaux_pro', 'reseaux_sociaux','prospection','autre') NULL AFTER `commentaire_interne`, ADD `description_source` TEXT NULL AFTER `source`

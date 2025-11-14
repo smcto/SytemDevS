@@ -1,0 +1,1 @@
+ALTER TABLE `ventes` ADD `livraison_client_ville` VARCHAR(150) NULL DEFAULT NULL AFTER `livraison_crea_fullname`, ADD `livraison_client_cp` VARCHAR(150) NULL DEFAULT NULL AFTER `livraison_client_ville`;

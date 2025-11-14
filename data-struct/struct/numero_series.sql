@@ -1,0 +1,1 @@
+CREATE TABLE `crm_app`.`numero_series` ( `id` INT NOT NULL AUTO_INCREMENT , `serial_nb` VARCHAR(255) NULL , `lot_produit_id` INT NULL , `borne_id` INT NULL , PRIMARY KEY (`id`)) ENGINE = MyISAM;

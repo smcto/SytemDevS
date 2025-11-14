@@ -1,0 +1,1 @@
+ALTER TABLE `clients` ADD `user_id` INT NULL DEFAULT NULL AFTER `source_lead_id`;

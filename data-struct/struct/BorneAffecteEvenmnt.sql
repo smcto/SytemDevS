@@ -1,0 +1,1 @@
+ALTER TABLE `evenements` ADD `borne_id` INT NULL AFTER `antenne_id`;

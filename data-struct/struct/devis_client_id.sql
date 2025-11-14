@@ -1,0 +1,1 @@
+ALTER TABLE `devis` ADD `client_id` INT NOT NULL AFTER `note`;

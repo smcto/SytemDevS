@@ -1,0 +1,1 @@
+ALTER TABLE `evenements` ADD `is_posted_on_event` BOOLEAN NOT NULL DEFAULT FALSE AFTER `animation_hotesse`; 

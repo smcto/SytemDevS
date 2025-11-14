@@ -1,0 +1,1 @@
+ALTER TABLE `ventes` CHANGE `is_client_in_sellsy` `is_client_not_in_sellsy` TINYINT(1) NOT NULL DEFAULT '0';

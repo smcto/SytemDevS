@@ -1,0 +1,1 @@
+ALTER TABLE `ventes` ADD `client_telephone` VARCHAR(255) NULL DEFAULT NULL AFTER `client_nom`;

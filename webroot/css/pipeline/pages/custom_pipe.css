@@ -1,0 +1,84 @@
+.card-list-footer.loader {
+    background: url(../../../img/loading.svg);
+    background-size: 16px;
+    background-repeat: no-repeat;
+    background-position: bottom;
+    margin-top: 17px;
+    height: 45px;
+}
+
+.status-icon.ouvert {
+    background-color: yellow;
+}
+.status-name.ouvert{
+    color: yellow;
+}
+
+.status-icon.gagnee {
+    background-color: green;
+}
+
+.status-name.gagnee{
+    color: green;
+}
+
+.status-icon.perdue {
+    background-color: black;
+}
+
+.status-name.perdue{
+    color: black;
+}
+
+.status-icon.retard {
+    background-color: #00f;
+}
+
+.status-name.retard {
+    color: #00f;
+}
+
+.status-icon.annulle{
+    background-color: beige;
+}
+
+.status-name.annulle {
+    color: beige;
+}
+
+.status-icon.ferme{
+    background-color: brown;
+}
+
+.status-name.ferme {
+    color: brown;
+}
+
+.status-icon.hot{
+    background-color: red;
+}
+
+.status-name.hot {
+    color: red;
+}
+
+.pipeline-small-loader-container-edit .loading-spinner {
+    width: 18px;
+    min-width: 18px;
+    height: 18px;
+    min-height: 18px;
+    border-width: 4px;
+}
+
+.pipeline-small-loader-container-edit.display {
+    position: static;
+    -webkit-clip-path: initial;
+    clip-path: initial;
+    pointer-events: auto;
+    opacity: 1;
+}
+
+.pipeline-small-loader-container-edit {
+    opacity: 0;
+    margin-right : 10px;
+}

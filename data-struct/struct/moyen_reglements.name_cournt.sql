@@ -1,0 +1,10 @@
+ALTER TABLE `moyen_reglements` ADD `name_court` VARCHAR(250) NULL AFTER `name`;
+UPDATE `moyen_reglements` SET `name_court` = 'Chèque' WHERE `moyen_reglements`.`id` = 1;
+UPDATE `moyen_reglements` SET `name_court` = 'Virement' WHERE `moyen_reglements`.`id` = 2;
+UPDATE `moyen_reglements` SET `name_court` = 'Paypal' WHERE `moyen_reglements`.`id` = 3;
+UPDATE `moyen_reglements` SET `name_court` = 'Espèces' WHERE `moyen_reglements`.`id` = 4;
+UPDATE `moyen_reglements` SET `name_court` = 'CB' WHERE `moyen_reglements`.`id` = 5;
+UPDATE `moyen_reglements` SET `name_court` = 'Prélèvement' WHERE `moyen_reglements`.`id` = 6;
+UPDATE `moyen_reglements` SET `name_court` = 'BOR' WHERE `moyen_reglements`.`id` = 7;
+UPDATE `moyen_reglements` SET `name_court` = 'TIP' WHERE `moyen_reglements`.`id` = 8;
+UPDATE `moyen_reglements` SET `name_court` = 'LCR' WHERE `moyen_reglements`.`id` = 9;

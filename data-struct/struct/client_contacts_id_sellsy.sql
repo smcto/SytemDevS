@@ -1,0 +1,1 @@
+ALTER TABLE `client_contacts` CHANGE `id_in_sellsy` `id_in_sellsy` INT(11) NULL DEFAULT NULL;

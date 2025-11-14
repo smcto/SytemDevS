@@ -1,0 +1,1 @@
+ALTER TABLE `documents` ADD `ident` VARCHAR(255) NULL AFTER `client_id`;

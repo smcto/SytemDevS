@@ -1,0 +1,51 @@
+.loadingSyncho {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background: red;
+    top: 0;
+    z-index: 2;
+}
+
+
+
+.kl_loadingclient {
+
+    animation: rotate 2s linear infinite;
+    height: 40px;
+    transform-origin: center center;
+    width: 40px;
+    margin-right: 15px;
+    display: none;
+
+}
+
+
+.container-bornes-actions .dropdown-toggle::after {
+    display: none;
+}
+
+.container-bornes-actions .dropdown-menu {
+    padding: 0;
+}
+
+.select2-container--default .select2-selection--multiple .select2-selection__rendered {
+    padding: 0px 10px !important;
+}
+
+#client-list-table tbody tr td .avatars.d-flex {
+
+    margin-left: 5.2px;
+}
+
+#client-list-table tbody tr td .avatars.d-flex .avatar {
+
+    width: 30px;
+    min-width: 30px;
+    min-height: 30px;
+    min-height: 30px;
+    border: 2px solid #fff;
+    object-fit: cover;
+    object-position: center;
+    margin-left: -5.2px;
+}

@@ -1,0 +1,2 @@
+ALTER TABLE `bornes` ADD `parc_duree_id` INT NULL DEFAULT NULL AFTER `not_in_cart`, ADD `contrat_debut` DATE NULL DEFAULT NULL AFTER `parc_duree_id`, ADD `contrat_fin` DATE NULL DEFAULT NULL AFTER `contrat_debut`;
+ALTER TABLE `bornes` ADD `is_contrat_modified` TINYINT(1) NOT NULL DEFAULT '0' AFTER `contrat_fin`;

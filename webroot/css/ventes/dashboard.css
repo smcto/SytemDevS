@@ -1,0 +1,33 @@
+.legende-circle {
+    font-size: 30px;
+}
+
+.legende-texte {
+    font-size: 20px;
+}
+
+.canvasjs-chart-credit {
+    display: none;
+}
+
+.chart-month {
+    height: 300px;
+    width: 90%;
+}
+
+.chart-type-cons {
+    height: 335px;
+    width: 100%;
+}
+
+.card-group {
+    margin-bottom: 30px;
+}
+
+.version-hide {
+    width: 75px;
+    background: #fff;
+    height: 20px;
+    position: absolute;
+    margin: -20px 0 0 0;
+}

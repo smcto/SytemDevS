@@ -1,0 +1,1 @@
+ALTER TABLE `contacts` ADD `country_id` INT NULL AFTER `telephone_fixe`;

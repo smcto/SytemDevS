@@ -1,0 +1,1 @@
+ALTER TABLE `devis` ADD `text_loi` TEXT NULL DEFAULT NULL AFTER `accompte`;

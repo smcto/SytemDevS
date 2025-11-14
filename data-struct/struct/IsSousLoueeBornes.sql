@@ -1,0 +1,2 @@
+ALTER TABLE `bornes` ADD `is_sous_louee` TINYINT NULL DEFAULT '0' AFTER `couleur_id`, ADD `commentaire_sous_louee` TEXT NULL AFTER `is_sous_louee`;
+ALTER TABLE `bornes` CHANGE `is_sous_louee` `is_sous_louee` TINYINT(1) NULL DEFAULT '0';

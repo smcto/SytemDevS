@@ -1,0 +1,1 @@
+ALTER TABLE `clients` ADD `is_brandeet` INT NOT NULL DEFAULT '0' AFTER `is_borne_occasion`, ADD `is_digitea` INT NOT NULL DEFAULT '0' AFTER `is_brandeet`, ADD `is_selfizee_part` INT NOT NULL DEFAULT '0' AFTER `is_digitea`; 

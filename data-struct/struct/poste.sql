@@ -1,0 +1,1 @@
+ALTER TABLE `users` ADD `poste` VARCHAR(225) NULL AFTER `description_source`;

@@ -1,0 +1,1 @@
+ALTER TABLE `devis_factures` ADD `devis_id` INT NULL AFTER `uuid`; 

@@ -1,0 +1,1 @@
+ALTER TABLE `users` ADD `niveau_tech_info` ENUM('expert', 'bonnes_connaissances', 'moyen', 'debutant') NULL AFTER `description_source`, ADD `description_niveau_tech_info` TEXT NULL AFTER `niveau_tech_info`;

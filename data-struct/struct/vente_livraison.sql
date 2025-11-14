@@ -1,0 +1,1 @@
+ALTER TABLE `ventes` CHANGE `livraison_is_client_livr_adress` `livraison_is_client_livr_adress` TINYINT(1) NULL DEFAULT '0';

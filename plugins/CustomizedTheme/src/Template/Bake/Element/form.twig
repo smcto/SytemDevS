@@ -1,0 +1,67 @@
+{%- set title = singularHumanName | lower %}
+<?php
+    $this->assign('title', '{{ title }}');
+    $titrePage = "Ajout {{ title }}" ;
+
+    if ($id) {
+        $titrePage = "Modification {{ title }}" ;
+    }
+
+    $this->start('breadcumb');
+        $this->Breadcrumbs->add('Dashboards',
+            ['controller' => 'Dashboards', 'action' => 'index']
+        );
+
+        $this->Breadcrumbs->add($titrePage);
+        echo $this->element('breadcrumb',['titrePage' => $titrePage]);
+    $this->end();
+?>
+
+<div class="card card-outline-info">
+
+    <div class="card-header">
+        <h4 class="m-b-0 text-white"><?= $titrePage ?></h4>
+    </div>
+
+    <div class="card-body">
+        <?= $this->Form->create(${{ singularVar }}Entity) ?>
+            <div class="form-body">
+{% for field in fields if field not in primaryKey %}
+    {%- if keyFields[field] %}
+        {%- set fieldData = Bake.columnData(field, schema) %}
+        {%- if fieldData.null %}
+                <?= $this->Form->control('{{ field }}', ['options' => ${{ keyFields[field] }}, 'empty' => true]); ?>
+            {{- "\n" }}
+                {%- else %}
+                <?= $this->Form->control('{{ field }}', ['options' => ${{ keyFields[field] }}, 'label' => '{{ field | capitalize }}']); ?>
+                    {{- "\n" }}
+                {%- endif %}
+            {%- elseif field not in ['created', 'modified', 'updated'] %}
+                {%- set fieldData = Bake.columnData(field, schema) %}
+                {%- if fieldData.type in ['date', 'datetime', 'time'] and fieldData.null %}
+                <?= $this->Form->control('{{ field }}', ['empty' => true, 'label' => '{{ field | capitalize }}']); ?>
+                    {{- "\n" }}
+                {%- else %}
+                <?= $this->Form->control('{{ field }}', ['label' => '{{ field | capitalize }}']); ?>
+            {{- "\n" }}
+                {%- endif %}
+            {%- endif %}
+        {%- endfor %}
+
+        {%- if associations.BelongsToMany %}
+            {%- for assocName, assocData in associations.BelongsToMany %}
+                    echo $this->Form->control('{{ assocData.property }}._ids', ['options' => ${{ assocData.variable }}]);
+            {{- "\n" }}
+            {%- endfor %}
+        {% endif %}
+            </div>
+
+            <div class="form-actions">
+                <?= $this->Form->button(__('Save'), ['class' => 'btn btn-rounded btn-success']) ?>
+                <?= $this->Form->button(__('Cancel'), ['type' => 'reset', 'class' => 'btn btn-rounded btn-inverse']) ?>
+            </div>
+        <?= $this->Form->end() ?>
+    </div>
+
+</div>
+

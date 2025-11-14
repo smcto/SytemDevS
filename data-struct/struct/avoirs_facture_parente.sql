@@ -1,0 +1,1 @@
+ALTER TABLE `avoirs` ADD `sellsy_facture_parente` VARCHAR(20) NULL DEFAULT NULL AFTER `client_contact_id`;

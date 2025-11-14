@@ -1,0 +1,3 @@
+ALTER TABLE `devis` ADD `echeance_date` LONGTEXT CHARACTER SET latin1 COLLATE latin1_swedish_ci NOT NULL AFTER `delai_reglements`, ADD `echeance_value` LONGTEXT CHARACTER SET latin1 COLLATE latin1_swedish_ci NOT NULL AFTER `echeance_date`; 
+ALTER TABLE `devis` CHANGE `echeance_date` `echeance_date` LONGTEXT CHARACTER SET latin1 COLLATE latin1_swedish_ci NULL, CHANGE `echeance_value` `echeance_value` LONGTEXT CHARACTER SET latin1 COLLATE latin1_swedish_ci NULL; 
+ALTER TABLE `devis` CHANGE `delai_reglements` `delai_reglements` ENUM('commande','30j','15j','reception','echeances') CHARACTER SET latin1 COLLATE latin1_swedish_ci NULL DEFAULT NULL; 

@@ -1,0 +1,10 @@
+CREATE TABLE `crm_app`.`catalog_produits` ( `id` INT NOT NULL , `catalog_sous_categories_id` INT NOT NULL , `nom_commercial` VARCHAR(255) CHARACTER SET utf8 COLLATE utf8_general_ci NOT NULL , `nom_interne` VARCHAR(255) CHARACTER SET utf8 COLLATE utf8_general_ci NOT NULL , `description_commercial` TEXT CHARACTER SET utf8 COLLATE utf8_general_ci NOT NULL , `prix_reference_ht` VARCHAR(20) CHARACTER SET utf8 COLLATE utf8_general_ci NOT NULL , `code_comptable` VARCHAR(255) NOT NULL , `reference` VARCHAR(255) NOT NULL , PRIMARY KEY (`id`), INDEX (`catalog_sous_categories_id`)) ENGINE = InnoDB;
+CREATE TABLE `crm_app`.`catalog_produits_files` ( `id` INT NOT NULL , `catalog_produits_id` INT NOT NULL , `nom_fichier` VARCHAR(255) CHARACTER SET utf8 COLLATE utf8_general_ci NOT NULL , `chemin` VARCHAR(255) CHARACTER SET utf8 COLLATE utf8_general_ci NOT NULL , `nom_origine` VARCHAR(255) CHARACTER SET utf8 COLLATE utf8_general_ci NULL , PRIMARY KEY (`id`), INDEX (`catalog_produits_id`)) ENGINE = InnoDB;
+ALTER TABLE `catalog_produits` CHANGE `id` `id` INT(11) NOT NULL AUTO_INCREMENT;
+ALTER TABLE `catalog_produits_files` CHANGE `id` `id` INT(11) NOT NULL AUTO_INCREMENT;
+ALTER TABLE `catalog_produits` ADD `catalog_unites_id` INT NULL AFTER `reference`, ADD `quantite_usuelle` FLOAT NOT NULL AFTER `catalog_unites_id`;
+ALTER TABLE `catalog_produits` ADD `created` DATE NOT NULL AFTER `quantite_usuelle`, ADD `modified` DATE NOT NULL AFTER `created`; 
+ALTER TABLE `catalog_categories` ADD `created` DATE NOT NULL AFTER `nom`, ADD `modified` DATE NOT NULL AFTER `created`; 
+ALTER TABLE `catalog_sous_categories` ADD `created` DATE NOT NULL AFTER `nom`, ADD `modified` DATE NOT NULL AFTER `created`; 
+ALTER TABLE `catalog_unites` ADD `created` DATE NOT NULL AFTER `nom`, ADD `modified` DATE NOT NULL AFTER `created`; 
+ALTER TABLE `catalog_produits_files` ADD `created` DATE NOT NULL AFTER `nom_origine`, ADD `modified` DATE NOT NULL AFTER `created`; 

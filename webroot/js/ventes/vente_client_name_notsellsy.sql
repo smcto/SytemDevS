@@ -1,0 +1,1 @@
+ALTER TABLE `ventes` CHANGE `client_name` `client_nameclient_name_notsellsy` VARCHAR(255) CHARACTER SET latin1 COLLATE latin1_swedish_ci NULL DEFAULT NULL;

@@ -1,0 +1,1 @@
+ALTER TABLE `model_bornes` ADD `dimension` TEXT NULL AFTER `note_complementaire`;

@@ -1,0 +1,2 @@
+ALTER TABLE `ventes_consommables` ADD `date_facturation` DATETIME NULL DEFAULT NULL AFTER `consommable_statut`;
+ALTER TABLE `ventes_consommables` ADD `etat_facturation` ENUM('en_cours_traitement', 'accompte_regle','regelement_ok','accompte_attente','facturation_envoyee','attente_facturation') NOT NULL DEFAULT 'en_cours_traitement' AFTER `consommable_statut`;

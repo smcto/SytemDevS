@@ -1,0 +1,2 @@
+ALTER TABLE `devis_factures` ADD `commentaire_client` TEXT NULL DEFAULT NULL AFTER `uuid`, ADD `commentaire_commercial` TEXT NULL DEFAULT NULL AFTER `commentaire_client`;
+ALTER TABLE `devis_factures` CHANGE `status` `status` ENUM('draft','expedie','lu','done','refused','paid','accepted','acompte','canceled','sent','expired','billed','partially-billed', '') CHARACTER SET latin1 COLLATE latin1_swedish_ci NOT NULL DEFAULT 'draft';

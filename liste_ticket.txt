@@ -1,0 +1,15 @@
+voilà une liste de petits tickets :
+
+https://trello.com/c/gZReeyVq/734-agrandir-la-taille-de-la-police-sur-les-devis-et-factures
+
+https://trello.com/c/9xwnuTu8/742-les-antennes-ne-sont-pas-affect%C3%A9s-ou-pas-affich%C3%A9es-dans-les-devis-cr%C3%A9es-automatiquement
+
+https://trello.com/c/tm8yP2By/737-code-postal-disparait
+
+https://trello.com/c/wBKt2d2V/701-quand-on-cr%C3%A9e-un-devis-il-faut-que-%C3%A7a-pr%C3%A9-selectionne-par-defaut-le-profil-avec-lequel-on-est-connect%C3%A9-en-contact
+
+https://trello.com/c/kwbqQji2/744-pouvoir-faire-une-remise-globale-remise-par-ligne
+
+https://trello.com/c/PfjWjCOq/749-pouvoir-supprimer-des-devis
+
+https://trello.com/c/4Sy5DcFT/702-fiche-contact-rajout-de-champs

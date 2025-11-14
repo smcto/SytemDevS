@@ -1,0 +1,166 @@
+.container-fluid {
+    max-width:100% !important;
+}
+
+.mapfullscreen-filter {
+    position: absolute;
+    float: left;
+    z-index: 11;
+}
+
+.filter-2 {
+        margin: 8px 0 0 10px;
+}
+
+.mapfullscreen{
+    margin-top: -20px;
+}
+
+#mapCanvas {
+    width: 100%;
+    height: 100% !important;
+}
+
+html, body { margin:0; height: 100%;}
+
+.hide {
+    display: none;
+}
+
+#div_map_bornes {
+    display: block;
+    width: 100%;
+}
+
+.container-fluid {
+    margin-bottom: 0px;
+    padding: 25px 0px 40px 0px !important;
+}
+
+.footer {
+    display: none;
+}
+
+.row {
+    width: 210px !important;
+}
+.col-md-8 {
+    flex: 0px !important;
+}
+
+
+.search-container {
+  margin: 0px 0px 0px 500px;
+}
+
+.search-container input[type=text] {
+  padding: 6px;
+  margin-top: 8px;
+  font-size: 17px;
+  border: none;
+}
+
+.search-container button {
+  float: right;
+  padding: 6px 10px;
+  margin-top: 8px;
+  margin-right: 16px;
+  background: #ddd;
+  font-size: 17px;
+  border: none;
+  cursor: pointer;
+}
+
+.search-container button:hover {
+  background: #ccc;
+}
+
+@media screen and (max-width: 600px) {
+        .search-container {
+          float: none;
+        }
+         input[type=text], .search-container button {
+          float: none;
+          display: block;
+          text-align: left;
+          width: 100%;
+          margin: 0;
+          padding: 14px;
+        }
+        input[type=text] {
+          border: 1px solid #ccc;  
+        }
+}
+
+.card{
+    border-radius: 0 !important;
+}
+
+.legende-items img{
+    width: 12px;
+}
+
+.legende-items {
+    font-size: 14px;
+    margin: -20px 0px 0px 20px;
+    display: -webkit-box;
+}
+
+#nombre{
+    font-size: 13px;
+}
+
+.checkbox-map {
+    width: 100%;
+    border-top: 1px solid #deeaf6;
+}
+
+#main-wrapper {
+    width: 100%;
+    display: flex;
+}
+
+.container-fluid{
+    padding: 0px !important;
+}
+
+iframe {
+    display: none;
+}
+
+
+.page-wrapper {
+    padding-bottom: 0px !important;
+    padding-top: 80px !important;
+    width: 100%;
+}
+
+.gm-fullscreen-control {
+    display: none;
+}
+
+#fullscren {
+    float: right;
+    position: relative;
+    z-index: 11;
+    margin: 10px 5px -50px 10px;
+}
+
+.btn-success:hover{
+    opacity: 1 !important;
+}
+
+.hidemenu {
+    padding-top:0px !important;
+}
+
+#search_text {
+    position: absolute;
+    left: 250px !important;
+    top: 8px !important;
+    float: right !important;
+    height: 37px !important;
+    width: 285px !important;
+    font-size: 16px;
+}
+

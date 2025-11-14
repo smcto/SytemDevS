@@ -1,0 +1,17 @@
+#Pour recupérer la liste des client depuis sellsy
+*/5 * * * * cd /home/crm/public_html && bin/cake sellsy client
+
+#Pour recupérer la liste des devis depuis sellsy
+*/8 * * * * cd /home/crm/public_html && bin/cake sellsy document estimate
+
+#Pour recupérer la liste des factures depuis sellsy
+*/15 * * * * cd /home/crm/public_html && bin/cake sellsy document invoice
+
+#Pour mettre à jour l'etat Online de borne
+*/5 * * * 0-6 cd /home/crm/public_html && bin/cake teamviewer update_status_devices
+
+#Pour envoyer un email notif de relance avant evenement
+*/59 8 * * 0-6 cd /home/crm/public_html && bin/cake email relance_evenement 1
+
+#Pour envoyer un email notif de relance apres evenement
+*/59 8 * * 0-6 cd /home/crm/public_html && bin/cake email relance_evenement 2

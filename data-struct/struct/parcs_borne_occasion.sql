@@ -1,0 +1,1 @@
+INSERT INTO `parcs` (`id`, `nom`, `nom2`, `ariane_titre`, `created`, `modified`) VALUES ('10', 'Borne d\'occasion', 'Borne d\'occasion', 'Borne d\'occasion', '2020-02-04 00:00:00', '2020-02-04 00:00:00');

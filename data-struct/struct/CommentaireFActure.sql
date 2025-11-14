@@ -1,0 +1,1 @@
+ALTER TABLE `factures` ADD `commentaire` TEXT NULL AFTER `etat`;

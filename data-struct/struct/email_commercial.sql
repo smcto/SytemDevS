@@ -1,0 +1,1 @@
+ALTER TABLE `antennes` ADD `email_commercial` VARCHAR(255) NULL AFTER `cp`, ADD `telephone` VARCHAR(17) NULL AFTER `email_commercial`;

@@ -1,0 +1,1 @@
+CREATE TABLE `wp_devis_sends`(     `id` INT NOT NULL AUTO_INCREMENT ,     `id_post_wp` INT NOT NULL ,     `is_send` BOOL NOT NULL DEFAULT '0' ,     `created` DATETIME ,     PRIMARY KEY (`id`)  )  ENGINE=INNODB COMMENT='' ROW_FORMAT=DEFAULT  ;

@@ -1,0 +1,30 @@
+.complet {
+    color: #00D97E
+}
+.incomplet {
+    color: #EDBD26
+}
+.attente_traitement {
+    color: #7a7a7a
+}
+
+.tr-complet {
+    background-color: #c3e6cb !important;
+}
+
+.tr-incomplet {
+    background-color: #ffeeba !important;
+}
+
+.tr-attente_traitement {
+    background-color: #f0f0f0 !important;
+}
+
+.table tr td {
+    vertical-align: top !important;
+    margin-top: 10px;
+}
+
+td a.fa-arrows-alt-v {
+    cursor: move !important;
+}

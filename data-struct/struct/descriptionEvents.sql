@@ -1,0 +1,1 @@
+ALTER TABLE `evenements` ADD `description` TEXT NOT NULL AFTER `horaires`;

@@ -1,0 +1,3725 @@
+/* cyrillic-ext */
+@font-face {
+  font-family: 'Roboto';
+  font-style: italic;
+  font-weight: 100;
+  font-display: swap;
+  src: local('Roboto Thin Italic'), local('Roboto-ThinItalic'), url(https://fonts.gstatic.com/s/roboto/v20/KFOiCnqEu92Fr1Mu51QrEz0dL_nz.woff2) format('woff2');
+  unicode-range: U+0460-052F, U+1C80-1C88, U+20B4, U+2DE0-2DFF, U+A640-A69F, U+FE2E-FE2F;
+}
+/* cyrillic */
+@font-face {
+  font-family: 'Roboto';
+  font-style: italic;
+  font-weight: 100;
+  font-display: swap;
+  src: local('Roboto Thin Italic'), local('Roboto-ThinItalic'), url(https://fonts.gstatic.com/s/roboto/v20/KFOiCnqEu92Fr1Mu51QrEzQdL_nz.woff2) format('woff2');
+  unicode-range: U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116;
+}
+/* greek-ext */
+@font-face {
+  font-family: 'Roboto';
+  font-style: italic;
+  font-weight: 100;
+  font-display: swap;
+  src: local('Roboto Thin Italic'), local('Roboto-ThinItalic'), url(https://fonts.gstatic.com/s/roboto/v20/KFOiCnqEu92Fr1Mu51QrEzwdL_nz.woff2) format('woff2');
+  unicode-range: U+1F00-1FFF;
+}
+/* greek */
+@font-face {
+  font-family: 'Roboto';
+  font-style: italic;
+  font-weight: 100;
+  font-display: swap;
+  src: local('Roboto Thin Italic'), local('Roboto-ThinItalic'), url(https://fonts.gstatic.com/s/roboto/v20/KFOiCnqEu92Fr1Mu51QrEzMdL_nz.woff2) format('woff2');
+  unicode-range: U+0370-03FF;
+}
+/* vietnamese */
+@font-face {
+  font-family: 'Roboto';
+  font-style: italic;
+  font-weight: 100;
+  font-display: swap;
+  src: local('Roboto Thin Italic'), local('Roboto-ThinItalic'), url(https://fonts.gstatic.com/s/roboto/v20/KFOiCnqEu92Fr1Mu51QrEz8dL_nz.woff2) format('woff2');
+  unicode-range: U+0102-0103, U+0110-0111, U+0128-0129, U+0168-0169, U+01A0-01A1, U+01AF-01B0, U+1EA0-1EF9, U+20AB;
+}
+/* latin-ext */
+@font-face {
+  font-family: 'Roboto';
+  font-style: italic;
+  font-weight: 100;
+  font-display: swap;
+  src: local('Roboto Thin Italic'), local('Roboto-ThinItalic'), url(https://fonts.gstatic.com/s/roboto/v20/KFOiCnqEu92Fr1Mu51QrEz4dL_nz.woff2) format('woff2');
+  unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+/* latin */
+@font-face {
+  font-family: 'Roboto';
+  font-style: italic;
+  font-weight: 100;
+  font-display: swap;
+  src: local('Roboto Thin Italic'), local('Roboto-ThinItalic'), url(https://fonts.gstatic.com/s/roboto/v20/KFOiCnqEu92Fr1Mu51QrEzAdLw.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+/* cyrillic-ext */
+@font-face {
+  font-family: 'Roboto';
+  font-style: italic;
+  font-weight: 300;
+  font-display: swap;
+  src: local('Roboto Light Italic'), local('Roboto-LightItalic'), url(https://fonts.gstatic.com/s/roboto/v20/KFOjCnqEu92Fr1Mu51TjASc3CsTKlA.woff2) format('woff2');
+  unicode-range: U+0460-052F, U+1C80-1C88, U+20B4, U+2DE0-2DFF, U+A640-A69F, U+FE2E-FE2F;
+}
+/* cyrillic */
+@font-face {
+  font-family: 'Roboto';
+  font-style: italic;
+  font-weight: 300;
+  font-display: swap;
+  src: local('Roboto Light Italic'), local('Roboto-LightItalic'), url(https://fonts.gstatic.com/s/roboto/v20/KFOjCnqEu92Fr1Mu51TjASc-CsTKlA.woff2) format('woff2');
+  unicode-range: U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116;
+}
+/* greek-ext */
+@font-face {
+  font-family: 'Roboto';
+  font-style: italic;
+  font-weight: 300;
+  font-display: swap;
+  src: local('Roboto Light Italic'), local('Roboto-LightItalic'), url(https://fonts.gstatic.com/s/roboto/v20/KFOjCnqEu92Fr1Mu51TjASc2CsTKlA.woff2) format('woff2');
+  unicode-range: U+1F00-1FFF;
+}
+/* greek */
+@font-face {
+  font-family: 'Roboto';
+  font-style: italic;
+  font-weight: 300;
+  font-display: swap;
+  src: local('Roboto Light Italic'), local('Roboto-LightItalic'), url(https://fonts.gstatic.com/s/roboto/v20/KFOjCnqEu92Fr1Mu51TjASc5CsTKlA.woff2) format('woff2');
+  unicode-range: U+0370-03FF;
+}
+/* vietnamese */
+@font-face {
+  font-family: 'Roboto';
+  font-style: italic;
+  font-weight: 300;
+  font-display: swap;
+  src: local('Roboto Light Italic'), local('Roboto-LightItalic'), url(https://fonts.gstatic.com/s/roboto/v20/KFOjCnqEu92Fr1Mu51TjASc1CsTKlA.woff2) format('woff2');
+  unicode-range: U+0102-0103, U+0110-0111, U+0128-0129, U+0168-0169, U+01A0-01A1, U+01AF-01B0, U+1EA0-1EF9, U+20AB;
+}
+/* latin-ext */
+@font-face {
+  font-family: 'Roboto';
+  font-style: italic;
+  font-weight: 300;
+  font-display: swap;
+  src: local('Roboto Light Italic'), local('Roboto-LightItalic'), url(https://fonts.gstatic.com/s/roboto/v20/KFOjCnqEu92Fr1Mu51TjASc0CsTKlA.woff2) format('woff2');
+  unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+/* latin */
+@font-face {
+  font-family: 'Roboto';
+  font-style: italic;
+  font-weight: 300;
+  font-display: swap;
+  src: local('Roboto Light Italic'), local('Roboto-LightItalic'), url(https://fonts.gstatic.com/s/roboto/v20/KFOjCnqEu92Fr1Mu51TjASc6CsQ.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+/* cyrillic-ext */
+@font-face {
+  font-family: 'Roboto';
+  font-style: italic;
+  font-weight: 400;
+  font-display: swap;
+  src: local('Roboto Italic'), local('Roboto-Italic'), url(https://fonts.gstatic.com/s/roboto/v20/KFOkCnqEu92Fr1Mu51xFIzIFKw.woff2) format('woff2');
+  unicode-range: U+0460-052F, U+1C80-1C88, U+20B4, U+2DE0-2DFF, U+A640-A69F, U+FE2E-FE2F;
+}
+/* cyrillic */
+@font-face {
+  font-family: 'Roboto';
+  font-style: italic;
+  font-weight: 400;
+  font-display: swap;
+  src: local('Roboto Italic'), local('Roboto-Italic'), url(https://fonts.gstatic.com/s/roboto/v20/KFOkCnqEu92Fr1Mu51xMIzIFKw.woff2) format('woff2');
+  unicode-range: U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116;
+}
+/* greek-ext */
+@font-face {
+  font-family: 'Roboto';
+  font-style: italic;
+  font-weight: 400;
+  font-display: swap;
+  src: local('Roboto Italic'), local('Roboto-Italic'), url(https://fonts.gstatic.com/s/roboto/v20/KFOkCnqEu92Fr1Mu51xEIzIFKw.woff2) format('woff2');
+  unicode-range: U+1F00-1FFF;
+}
+/* greek */
+@font-face {
+  font-family: 'Roboto';
+  font-style: italic;
+  font-weight: 400;
+  font-display: swap;
+  src: local('Roboto Italic'), local('Roboto-Italic'), url(https://fonts.gstatic.com/s/roboto/v20/KFOkCnqEu92Fr1Mu51xLIzIFKw.woff2) format('woff2');
+  unicode-range: U+0370-03FF;
+}
+/* vietnamese */
+@font-face {
+  font-family: 'Roboto';
+  font-style: italic;
+  font-weight: 400;
+  font-display: swap;
+  src: local('Roboto Italic'), local('Roboto-Italic'), url(https://fonts.gstatic.com/s/roboto/v20/KFOkCnqEu92Fr1Mu51xHIzIFKw.woff2) format('woff2');
+  unicode-range: U+0102-0103, U+0110-0111, U+0128-0129, U+0168-0169, U+01A0-01A1, U+01AF-01B0, U+1EA0-1EF9, U+20AB;
+}
+/* latin-ext */
+@font-face {
+  font-family: 'Roboto';
+  font-style: italic;
+  font-weight: 400;
+  font-display: swap;
+  src: local('Roboto Italic'), local('Roboto-Italic'), url(https://fonts.gstatic.com/s/roboto/v20/KFOkCnqEu92Fr1Mu51xGIzIFKw.woff2) format('woff2');
+  unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+/* latin */
+@font-face {
+  font-family: 'Roboto';
+  font-style: italic;
+  font-weight: 400;
+  font-display: swap;
+  src: local('Roboto Italic'), local('Roboto-Italic'), url(https://fonts.gstatic.com/s/roboto/v20/KFOkCnqEu92Fr1Mu51xIIzI.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+/* cyrillic-ext */
+@font-face {
+  font-family: 'Roboto';
+  font-style: italic;
+  font-weight: 500;
+  font-display: swap;
+  src: local('Roboto Medium Italic'), local('Roboto-MediumItalic'), url(https://fonts.gstatic.com/s/roboto/v20/KFOjCnqEu92Fr1Mu51S7ACc3CsTKlA.woff2) format('woff2');
+  unicode-range: U+0460-052F, U+1C80-1C88, U+20B4, U+2DE0-2DFF, U+A640-A69F, U+FE2E-FE2F;
+}
+/* cyrillic */
+@font-face {
+  font-family: 'Roboto';
+  font-style: italic;
+  font-weight: 500;
+  font-display: swap;
+  src: local('Roboto Medium Italic'), local('Roboto-MediumItalic'), url(https://fonts.gstatic.com/s/roboto/v20/KFOjCnqEu92Fr1Mu51S7ACc-CsTKlA.woff2) format('woff2');
+  unicode-range: U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116;
+}
+/* greek-ext */
+@font-face {
+  font-family: 'Roboto';
+  font-style: italic;
+  font-weight: 500;
+  font-display: swap;
+  src: local('Roboto Medium Italic'), local('Roboto-MediumItalic'), url(https://fonts.gstatic.com/s/roboto/v20/KFOjCnqEu92Fr1Mu51S7ACc2CsTKlA.woff2) format('woff2');
+  unicode-range: U+1F00-1FFF;
+}
+/* greek */
+@font-face {
+  font-family: 'Roboto';
+  font-style: italic;
+  font-weight: 500;
+  font-display: swap;
+  src: local('Roboto Medium Italic'), local('Roboto-MediumItalic'), url(https://fonts.gstatic.com/s/roboto/v20/KFOjCnqEu92Fr1Mu51S7ACc5CsTKlA.woff2) format('woff2');
+  unicode-range: U+0370-03FF;
+}
+/* vietnamese */
+@font-face {
+  font-family: 'Roboto';
+  font-style: italic;
+  font-weight: 500;
+  font-display: swap;
+  src: local('Roboto Medium Italic'), local('Roboto-MediumItalic'), url(https://fonts.gstatic.com/s/roboto/v20/KFOjCnqEu92Fr1Mu51S7ACc1CsTKlA.woff2) format('woff2');
+  unicode-range: U+0102-0103, U+0110-0111, U+0128-0129, U+0168-0169, U+01A0-01A1, U+01AF-01B0, U+1EA0-1EF9, U+20AB;
+}
+/* latin-ext */
+@font-face {
+  font-family: 'Roboto';
+  font-style: italic;
+  font-weight: 500;
+  font-display: swap;
+  src: local('Roboto Medium Italic'), local('Roboto-MediumItalic'), url(https://fonts.gstatic.com/s/roboto/v20/KFOjCnqEu92Fr1Mu51S7ACc0CsTKlA.woff2) format('woff2');
+  unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+/* latin */
+@font-face {
+  font-family: 'Roboto';
+  font-style: italic;
+  font-weight: 500;
+  font-display: swap;
+  src: local('Roboto Medium Italic'), local('Roboto-MediumItalic'), url(https://fonts.gstatic.com/s/roboto/v20/KFOjCnqEu92Fr1Mu51S7ACc6CsQ.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+/* cyrillic-ext */
+@font-face {
+  font-family: 'Roboto';
+  font-style: italic;
+  font-weight: 700;
+  font-display: swap;
+  src: local('Roboto Bold Italic'), local('Roboto-BoldItalic'), url(https://fonts.gstatic.com/s/roboto/v20/KFOjCnqEu92Fr1Mu51TzBic3CsTKlA.woff2) format('woff2');
+  unicode-range: U+0460-052F, U+1C80-1C88, U+20B4, U+2DE0-2DFF, U+A640-A69F, U+FE2E-FE2F;
+}
+/* cyrillic */
+@font-face {
+  font-family: 'Roboto';
+  font-style: italic;
+  font-weight: 700;
+  font-display: swap;
+  src: local('Roboto Bold Italic'), local('Roboto-BoldItalic'), url(https://fonts.gstatic.com/s/roboto/v20/KFOjCnqEu92Fr1Mu51TzBic-CsTKlA.woff2) format('woff2');
+  unicode-range: U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116;
+}
+/* greek-ext */
+@font-face {
+  font-family: 'Roboto';
+  font-style: italic;
+  font-weight: 700;
+  font-display: swap;
+  src: local('Roboto Bold Italic'), local('Roboto-BoldItalic'), url(https://fonts.gstatic.com/s/roboto/v20/KFOjCnqEu92Fr1Mu51TzBic2CsTKlA.woff2) format('woff2');
+  unicode-range: U+1F00-1FFF;
+}
+/* greek */
+@font-face {
+  font-family: 'Roboto';
+  font-style: italic;
+  font-weight: 700;
+  font-display: swap;
+  src: local('Roboto Bold Italic'), local('Roboto-BoldItalic'), url(https://fonts.gstatic.com/s/roboto/v20/KFOjCnqEu92Fr1Mu51TzBic5CsTKlA.woff2) format('woff2');
+  unicode-range: U+0370-03FF;
+}
+/* vietnamese */
+@font-face {
+  font-family: 'Roboto';
+  font-style: italic;
+  font-weight: 700;
+  font-display: swap;
+  src: local('Roboto Bold Italic'), local('Roboto-BoldItalic'), url(https://fonts.gstatic.com/s/roboto/v20/KFOjCnqEu92Fr1Mu51TzBic1CsTKlA.woff2) format('woff2');
+  unicode-range: U+0102-0103, U+0110-0111, U+0128-0129, U+0168-0169, U+01A0-01A1, U+01AF-01B0, U+1EA0-1EF9, U+20AB;
+}
+/* latin-ext */
+@font-face {
+  font-family: 'Roboto';
+  font-style: italic;
+  font-weight: 700;
+  font-display: swap;
+  src: local('Roboto Bold Italic'), local('Roboto-BoldItalic'), url(https://fonts.gstatic.com/s/roboto/v20/KFOjCnqEu92Fr1Mu51TzBic0CsTKlA.woff2) format('woff2');
+  unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+/* latin */
+@font-face {
+  font-family: 'Roboto';
+  font-style: italic;
+  font-weight: 700;
+  font-display: swap;
+  src: local('Roboto Bold Italic'), local('Roboto-BoldItalic'), url(https://fonts.gstatic.com/s/roboto/v20/KFOjCnqEu92Fr1Mu51TzBic6CsQ.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+/* cyrillic-ext */
+@font-face {
+  font-family: 'Roboto';
+  font-style: italic;
+  font-weight: 900;
+  font-display: swap;
+  src: local('Roboto Black Italic'), local('Roboto-BlackItalic'), url(https://fonts.gstatic.com/s/roboto/v20/KFOjCnqEu92Fr1Mu51TLBCc3CsTKlA.woff2) format('woff2');
+  unicode-range: U+0460-052F, U+1C80-1C88, U+20B4, U+2DE0-2DFF, U+A640-A69F, U+FE2E-FE2F;
+}
+/* cyrillic */
+@font-face {
+  font-family: 'Roboto';
+  font-style: italic;
+  font-weight: 900;
+  font-display: swap;
+  src: local('Roboto Black Italic'), local('Roboto-BlackItalic'), url(https://fonts.gstatic.com/s/roboto/v20/KFOjCnqEu92Fr1Mu51TLBCc-CsTKlA.woff2) format('woff2');
+  unicode-range: U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116;
+}
+/* greek-ext */
+@font-face {
+  font-family: 'Roboto';
+  font-style: italic;
+  font-weight: 900;
+  font-display: swap;
+  src: local('Roboto Black Italic'), local('Roboto-BlackItalic'), url(https://fonts.gstatic.com/s/roboto/v20/KFOjCnqEu92Fr1Mu51TLBCc2CsTKlA.woff2) format('woff2');
+  unicode-range: U+1F00-1FFF;
+}
+/* greek */
+@font-face {
+  font-family: 'Roboto';
+  font-style: italic;
+  font-weight: 900;
+  font-display: swap;
+  src: local('Roboto Black Italic'), local('Roboto-BlackItalic'), url(https://fonts.gstatic.com/s/roboto/v20/KFOjCnqEu92Fr1Mu51TLBCc5CsTKlA.woff2) format('woff2');
+  unicode-range: U+0370-03FF;
+}
+/* vietnamese */
+@font-face {
+  font-family: 'Roboto';
+  font-style: italic;
+  font-weight: 900;
+  font-display: swap;
+  src: local('Roboto Black Italic'), local('Roboto-BlackItalic'), url(https://fonts.gstatic.com/s/roboto/v20/KFOjCnqEu92Fr1Mu51TLBCc1CsTKlA.woff2) format('woff2');
+  unicode-range: U+0102-0103, U+0110-0111, U+0128-0129, U+0168-0169, U+01A0-01A1, U+01AF-01B0, U+1EA0-1EF9, U+20AB;
+}
+/* latin-ext */
+@font-face {
+  font-family: 'Roboto';
+  font-style: italic;
+  font-weight: 900;
+  font-display: swap;
+  src: local('Roboto Black Italic'), local('Roboto-BlackItalic'), url(https://fonts.gstatic.com/s/roboto/v20/KFOjCnqEu92Fr1Mu51TLBCc0CsTKlA.woff2) format('woff2');
+  unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+/* latin */
+@font-face {
+  font-family: 'Roboto';
+  font-style: italic;
+  font-weight: 900;
+  font-display: swap;
+  src: local('Roboto Black Italic'), local('Roboto-BlackItalic'), url(https://fonts.gstatic.com/s/roboto/v20/KFOjCnqEu92Fr1Mu51TLBCc6CsQ.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+/* cyrillic-ext */
+@font-face {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 100;
+  font-display: swap;
+  src: local('Roboto Thin'), local('Roboto-Thin'), url(https://fonts.gstatic.com/s/roboto/v20/KFOkCnqEu92Fr1MmgVxFIzIFKw.woff2) format('woff2');
+  unicode-range: U+0460-052F, U+1C80-1C88, U+20B4, U+2DE0-2DFF, U+A640-A69F, U+FE2E-FE2F;
+}
+/* cyrillic */
+@font-face {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 100;
+  font-display: swap;
+  src: local('Roboto Thin'), local('Roboto-Thin'), url(https://fonts.gstatic.com/s/roboto/v20/KFOkCnqEu92Fr1MmgVxMIzIFKw.woff2) format('woff2');
+  unicode-range: U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116;
+}
+/* greek-ext */
+@font-face {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 100;
+  font-display: swap;
+  src: local('Roboto Thin'), local('Roboto-Thin'), url(https://fonts.gstatic.com/s/roboto/v20/KFOkCnqEu92Fr1MmgVxEIzIFKw.woff2) format('woff2');
+  unicode-range: U+1F00-1FFF;
+}
+/* greek */
+@font-face {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 100;
+  font-display: swap;
+  src: local('Roboto Thin'), local('Roboto-Thin'), url(https://fonts.gstatic.com/s/roboto/v20/KFOkCnqEu92Fr1MmgVxLIzIFKw.woff2) format('woff2');
+  unicode-range: U+0370-03FF;
+}
+/* vietnamese */
+@font-face {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 100;
+  font-display: swap;
+  src: local('Roboto Thin'), local('Roboto-Thin'), url(https://fonts.gstatic.com/s/roboto/v20/KFOkCnqEu92Fr1MmgVxHIzIFKw.woff2) format('woff2');
+  unicode-range: U+0102-0103, U+0110-0111, U+0128-0129, U+0168-0169, U+01A0-01A1, U+01AF-01B0, U+1EA0-1EF9, U+20AB;
+}
+/* latin-ext */
+@font-face {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 100;
+  font-display: swap;
+  src: local('Roboto Thin'), local('Roboto-Thin'), url(https://fonts.gstatic.com/s/roboto/v20/KFOkCnqEu92Fr1MmgVxGIzIFKw.woff2) format('woff2');
+  unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+/* latin */
+@font-face {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 100;
+  font-display: swap;
+  src: local('Roboto Thin'), local('Roboto-Thin'), url(https://fonts.gstatic.com/s/roboto/v20/KFOkCnqEu92Fr1MmgVxIIzI.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+/* cyrillic-ext */
+@font-face {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 300;
+  font-display: swap;
+  src: local('Roboto Light'), local('Roboto-Light'), url(https://fonts.gstatic.com/s/roboto/v20/KFOlCnqEu92Fr1MmSU5fCRc4EsA.woff2) format('woff2');
+  unicode-range: U+0460-052F, U+1C80-1C88, U+20B4, U+2DE0-2DFF, U+A640-A69F, U+FE2E-FE2F;
+}
+/* cyrillic */
+@font-face {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 300;
+  font-display: swap;
+  src: local('Roboto Light'), local('Roboto-Light'), url(https://fonts.gstatic.com/s/roboto/v20/KFOlCnqEu92Fr1MmSU5fABc4EsA.woff2) format('woff2');
+  unicode-range: U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116;
+}
+/* greek-ext */
+@font-face {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 300;
+  font-display: swap;
+  src: local('Roboto Light'), local('Roboto-Light'), url(https://fonts.gstatic.com/s/roboto/v20/KFOlCnqEu92Fr1MmSU5fCBc4EsA.woff2) format('woff2');
+  unicode-range: U+1F00-1FFF;
+}
+/* greek */
+@font-face {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 300;
+  font-display: swap;
+  src: local('Roboto Light'), local('Roboto-Light'), url(https://fonts.gstatic.com/s/roboto/v20/KFOlCnqEu92Fr1MmSU5fBxc4EsA.woff2) format('woff2');
+  unicode-range: U+0370-03FF;
+}
+/* vietnamese */
+@font-face {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 300;
+  font-display: swap;
+  src: local('Roboto Light'), local('Roboto-Light'), url(https://fonts.gstatic.com/s/roboto/v20/KFOlCnqEu92Fr1MmSU5fCxc4EsA.woff2) format('woff2');
+  unicode-range: U+0102-0103, U+0110-0111, U+0128-0129, U+0168-0169, U+01A0-01A1, U+01AF-01B0, U+1EA0-1EF9, U+20AB;
+}
+/* latin-ext */
+@font-face {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 300;
+  font-display: swap;
+  src: local('Roboto Light'), local('Roboto-Light'), url(https://fonts.gstatic.com/s/roboto/v20/KFOlCnqEu92Fr1MmSU5fChc4EsA.woff2) format('woff2');
+  unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+/* latin */
+@font-face {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 300;
+  font-display: swap;
+  src: local('Roboto Light'), local('Roboto-Light'), url(https://fonts.gstatic.com/s/roboto/v20/KFOlCnqEu92Fr1MmSU5fBBc4.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+/* cyrillic-ext */
+@font-face {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: local('Roboto'), local('Roboto-Regular'), url(https://fonts.gstatic.com/s/roboto/v20/KFOmCnqEu92Fr1Mu72xKOzY.woff2) format('woff2');
+  unicode-range: U+0460-052F, U+1C80-1C88, U+20B4, U+2DE0-2DFF, U+A640-A69F, U+FE2E-FE2F;
+}
+/* cyrillic */
+@font-face {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: local('Roboto'), local('Roboto-Regular'), url(https://fonts.gstatic.com/s/roboto/v20/KFOmCnqEu92Fr1Mu5mxKOzY.woff2) format('woff2');
+  unicode-range: U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116;
+}
+/* greek-ext */
+@font-face {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: local('Roboto'), local('Roboto-Regular'), url(https://fonts.gstatic.com/s/roboto/v20/KFOmCnqEu92Fr1Mu7mxKOzY.woff2) format('woff2');
+  unicode-range: U+1F00-1FFF;
+}
+/* greek */
+@font-face {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: local('Roboto'), local('Roboto-Regular'), url(https://fonts.gstatic.com/s/roboto/v20/KFOmCnqEu92Fr1Mu4WxKOzY.woff2) format('woff2');
+  unicode-range: U+0370-03FF;
+}
+/* vietnamese */
+@font-face {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: local('Roboto'), local('Roboto-Regular'), url(https://fonts.gstatic.com/s/roboto/v20/KFOmCnqEu92Fr1Mu7WxKOzY.woff2) format('woff2');
+  unicode-range: U+0102-0103, U+0110-0111, U+0128-0129, U+0168-0169, U+01A0-01A1, U+01AF-01B0, U+1EA0-1EF9, U+20AB;
+}
+/* latin-ext */
+@font-face {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: local('Roboto'), local('Roboto-Regular'), url(https://fonts.gstatic.com/s/roboto/v20/KFOmCnqEu92Fr1Mu7GxKOzY.woff2) format('woff2');
+  unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+/* latin */
+@font-face {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: local('Roboto'), local('Roboto-Regular'), url(https://fonts.gstatic.com/s/roboto/v20/KFOmCnqEu92Fr1Mu4mxK.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+/* cyrillic-ext */
+@font-face {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 500;
+  font-display: swap;
+  src: local('Roboto Medium'), local('Roboto-Medium'), url(https://fonts.gstatic.com/s/roboto/v20/KFOlCnqEu92Fr1MmEU9fCRc4EsA.woff2) format('woff2');
+  unicode-range: U+0460-052F, U+1C80-1C88, U+20B4, U+2DE0-2DFF, U+A640-A69F, U+FE2E-FE2F;
+}
+/* cyrillic */
+@font-face {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 500;
+  font-display: swap;
+  src: local('Roboto Medium'), local('Roboto-Medium'), url(https://fonts.gstatic.com/s/roboto/v20/KFOlCnqEu92Fr1MmEU9fABc4EsA.woff2) format('woff2');
+  unicode-range: U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116;
+}
+/* greek-ext */
+@font-face {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 500;
+  font-display: swap;
+  src: local('Roboto Medium'), local('Roboto-Medium'), url(https://fonts.gstatic.com/s/roboto/v20/KFOlCnqEu92Fr1MmEU9fCBc4EsA.woff2) format('woff2');
+  unicode-range: U+1F00-1FFF;
+}
+/* greek */
+@font-face {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 500;
+  font-display: swap;
+  src: local('Roboto Medium'), local('Roboto-Medium'), url(https://fonts.gstatic.com/s/roboto/v20/KFOlCnqEu92Fr1MmEU9fBxc4EsA.woff2) format('woff2');
+  unicode-range: U+0370-03FF;
+}
+/* vietnamese */
+@font-face {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 500;
+  font-display: swap;
+  src: local('Roboto Medium'), local('Roboto-Medium'), url(https://fonts.gstatic.com/s/roboto/v20/KFOlCnqEu92Fr1MmEU9fCxc4EsA.woff2) format('woff2');
+  unicode-range: U+0102-0103, U+0110-0111, U+0128-0129, U+0168-0169, U+01A0-01A1, U+01AF-01B0, U+1EA0-1EF9, U+20AB;
+}
+/* latin-ext */
+@font-face {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 500;
+  font-display: swap;
+  src: local('Roboto Medium'), local('Roboto-Medium'), url(https://fonts.gstatic.com/s/roboto/v20/KFOlCnqEu92Fr1MmEU9fChc4EsA.woff2) format('woff2');
+  unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+/* latin */
+@font-face {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 500;
+  font-display: swap;
+  src: local('Roboto Medium'), local('Roboto-Medium'), url(https://fonts.gstatic.com/s/roboto/v20/KFOlCnqEu92Fr1MmEU9fBBc4.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+/* cyrillic-ext */
+@font-face {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+  src: local('Roboto Bold'), local('Roboto-Bold'), url(https://fonts.gstatic.com/s/roboto/v20/KFOlCnqEu92Fr1MmWUlfCRc4EsA.woff2) format('woff2');
+  unicode-range: U+0460-052F, U+1C80-1C88, U+20B4, U+2DE0-2DFF, U+A640-A69F, U+FE2E-FE2F;
+}
+/* cyrillic */
+@font-face {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+  src: local('Roboto Bold'), local('Roboto-Bold'), url(https://fonts.gstatic.com/s/roboto/v20/KFOlCnqEu92Fr1MmWUlfABc4EsA.woff2) format('woff2');
+  unicode-range: U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116;
+}
+/* greek-ext */
+@font-face {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+  src: local('Roboto Bold'), local('Roboto-Bold'), url(https://fonts.gstatic.com/s/roboto/v20/KFOlCnqEu92Fr1MmWUlfCBc4EsA.woff2) format('woff2');
+  unicode-range: U+1F00-1FFF;
+}
+/* greek */
+@font-face {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+  src: local('Roboto Bold'), local('Roboto-Bold'), url(https://fonts.gstatic.com/s/roboto/v20/KFOlCnqEu92Fr1MmWUlfBxc4EsA.woff2) format('woff2');
+  unicode-range: U+0370-03FF;
+}
+/* vietnamese */
+@font-face {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+  src: local('Roboto Bold'), local('Roboto-Bold'), url(https://fonts.gstatic.com/s/roboto/v20/KFOlCnqEu92Fr1MmWUlfCxc4EsA.woff2) format('woff2');
+  unicode-range: U+0102-0103, U+0110-0111, U+0128-0129, U+0168-0169, U+01A0-01A1, U+01AF-01B0, U+1EA0-1EF9, U+20AB;
+}
+/* latin-ext */
+@font-face {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+  src: local('Roboto Bold'), local('Roboto-Bold'), url(https://fonts.gstatic.com/s/roboto/v20/KFOlCnqEu92Fr1MmWUlfChc4EsA.woff2) format('woff2');
+  unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+/* latin */
+@font-face {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+  src: local('Roboto Bold'), local('Roboto-Bold'), url(https://fonts.gstatic.com/s/roboto/v20/KFOlCnqEu92Fr1MmWUlfBBc4.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+/* cyrillic-ext */
+@font-face {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 900;
+  font-display: swap;
+  src: local('Roboto Black'), local('Roboto-Black'), url(https://fonts.gstatic.com/s/roboto/v20/KFOlCnqEu92Fr1MmYUtfCRc4EsA.woff2) format('woff2');
+  unicode-range: U+0460-052F, U+1C80-1C88, U+20B4, U+2DE0-2DFF, U+A640-A69F, U+FE2E-FE2F;
+}
+/* cyrillic */
+@font-face {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 900;
+  font-display: swap;
+  src: local('Roboto Black'), local('Roboto-Black'), url(https://fonts.gstatic.com/s/roboto/v20/KFOlCnqEu92Fr1MmYUtfABc4EsA.woff2) format('woff2');
+  unicode-range: U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116;
+}
+/* greek-ext */
+@font-face {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 900;
+  font-display: swap;
+  src: local('Roboto Black'), local('Roboto-Black'), url(https://fonts.gstatic.com/s/roboto/v20/KFOlCnqEu92Fr1MmYUtfCBc4EsA.woff2) format('woff2');
+  unicode-range: U+1F00-1FFF;
+}
+/* greek */
+@font-face {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 900;
+  font-display: swap;
+  src: local('Roboto Black'), local('Roboto-Black'), url(https://fonts.gstatic.com/s/roboto/v20/KFOlCnqEu92Fr1MmYUtfBxc4EsA.woff2) format('woff2');
+  unicode-range: U+0370-03FF;
+}
+/* vietnamese */
+@font-face {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 900;
+  font-display: swap;
+  src: local('Roboto Black'), local('Roboto-Black'), url(https://fonts.gstatic.com/s/roboto/v20/KFOlCnqEu92Fr1MmYUtfCxc4EsA.woff2) format('woff2');
+  unicode-range: U+0102-0103, U+0110-0111, U+0128-0129, U+0168-0169, U+01A0-01A1, U+01AF-01B0, U+1EA0-1EF9, U+20AB;
+}
+/* latin-ext */
+@font-face {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 900;
+  font-display: swap;
+  src: local('Roboto Black'), local('Roboto-Black'), url(https://fonts.gstatic.com/s/roboto/v20/KFOlCnqEu92Fr1MmYUtfChc4EsA.woff2) format('woff2');
+  unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+/* latin */
+@font-face {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 900;
+  font-display: swap;
+  src: local('Roboto Black'), local('Roboto-Black'), url(https://fonts.gstatic.com/s/roboto/v20/KFOlCnqEu92Fr1MmYUtfBBc4.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+
+
+/* === QUOTATION CONTAINER === */
+
+.quotation-container {
+
+    --quotation-container-side-padding: 50px;
+    --quotation-detail-width: 35%;
+    --quotation-detail-padding: 70px;
+    --data-font-size: 13px;
+    --booking-detail-bg-color: #fafafa;
+    --booking-detail-padding-left: 20px;
+    --radio-border-color: #9b9b9b;
+    /* --input-checked-color: #005CC8; */
+    --input-checked-color: #0968f6;
+    --pink-color: #fd0154;
+
+    box-sizing: border-box;
+
+    font-family: 'Roboto', sans-serif;
+    color: #000;
+    font-weight: 400;
+
+    /* font-size: 13.49px; */
+
+    /* font-size: 14px; */
+
+    font-size: 0.9rem !important;
+}
+
+.quotation-container .quotation-header-wrapper {
+
+    width: 100%;
+
+    /* padding: 20px 50px; */
+
+    padding: 20px var(--quotation-container-side-padding);
+
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.quotation-container .quotation-header-wrapper .left-quotation-header-wrapper {
+
+    /* width: var(--quotation-detail-width); */
+
+    width: 50%;
+}
+
+.quotation-container .quotation-header-wrapper .left-quotation-header-wrapper .inner-left-header-wrapper {
+
+    width: 700px;
+
+    display: flex;
+
+    /* justify-content: space-between; */
+
+    font-size: var(--data-font-size);
+
+    overflow: hidden;
+    word-break: break-all;
+}
+
+.quotation-container .quotation-header-wrapper .left-quotation-header-wrapper .inner-left-header-wrapper.reduce-width {
+
+    justify-content: flex-start;
+}
+
+.quotation-container .quotation-header-wrapper .left-quotation-header-wrapper .selfizee-logo-wrap {
+
+    margin-bottom: 10px;
+}
+
+.quotation-container .quotation-header-wrapper .left-quotation-header-wrapper .selfizee-logo-wrap img {
+
+    width: 145px;
+    min-width: 145px;
+}
+
+.quotation-container .quotation-header-wrapper .left-quotation-header-wrapper .left-header-detail-wrapper {
+
+    display: flex;
+    align-items: center;
+}
+
+.quotation-container .quotation-header-wrapper .left-quotation-header-wrapper .quotation-type {
+
+    /* font-weight: 500; */
+
+    font-weight: 600;
+
+    /* font-size: 14.5px; */
+
+    /* font-size: 15.48px; */
+
+    /* font-size: 14px; */
+
+    font-size: 13.8px;
+
+}
+
+.quotation-container .quotation-header-wrapper .left-quotation-header-wrapper .booth-type-logo {
+
+    text-align: center;
+
+    /* margin: 0 20px; */
+
+    margin: 0 26px 0 20px;
+}
+
+.quotation-container .quotation-header-wrapper .left-quotation-header-wrapper .booth-type-logo img {
+
+    /* width: 77%;
+    min-width: 77%; */
+
+    width: 91px;
+}
+
+.mobile-more-client-data {
+
+    display: none;
+}
+
+.quotation-container .quotation-header-wrapper .left-quotation-header-wrapper .right-header-detail-wrapper {
+
+    display: flex;
+    align-items: center;
+}
+
+.quotation-container .quotation-header-wrapper .left-quotation-header-wrapper .inner-left-header-wrapper.reduce-width .right-header-detail-wrapper {
+
+    /* margin-left: 30px; */
+
+    /* margin-left: 50px; */
+
+    margin-left: 45px;
+}
+
+.quotation-container .quotation-header-wrapper .right-quotation-header-wrapper {
+
+    /* width: calc( 100% - var(--quotation-detail-width) ); */
+
+    width: 50%;
+
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.quotation-container .quotation-header-wrapper .right-quotation-header-wrapper .top-right-quotation-header-wrapper {
+
+    display: flex;
+    align-items: center;
+}
+
+.quotation-container .quotation-header-wrapper .right-quotation-header-wrapper .top-right-quotation-header-wrapper .booking-top-total-amount {
+
+    margin-right: 20px;
+}
+
+.quotation-container .quotation-header-wrapper .right-quotation-header-wrapper .booking-top-total-amount {
+
+    color: #07b309;
+
+    font-weight: 800;
+
+    font-size: 24px;
+}
+
+.quotation-container .quotation-header-wrapper .right-quotation-header-wrapper .booking-top-total-amount .ttc-icon {
+
+    /* font-weight: 500; */
+
+    font-weight: 600;
+
+    text-transform: uppercase;
+
+    font-size: 11.5px;
+
+    margin-left: 3px;
+
+    position: relative;
+    top: -7px;
+}
+
+.quotation-container .quotation-header-wrapper .right-quotation-header-wrapper .header-booking-button-block .quotation-button {
+
+    background-color: #07b309;
+
+    border: 1px solid #07b309;
+
+    /* padding: 13px 25px 13px 20px; */
+
+    padding: 12px 24px 12px 19px;
+
+    border-radius: 5px;
+
+    color: #fff;
+
+    user-select: none; /* supported by Chrome and Opera */
+   -webkit-user-select: none; /* Safari */
+   -khtml-user-select: none; /* Konqueror HTML */
+   -moz-user-select: none; /* Firefox */
+   -ms-user-select: none; /* Internet Explorer/Edge */
+
+    transition: all 0.5s;
+}
+
+.quotation-container .quotation-header-wrapper .right-quotation-header-wrapper .header-booking-button-block .quotation-button:hover {
+
+    cursor: pointer;
+    background-color: #fff;
+    color: #07b309;
+}
+
+.quotation-container .quotation-header-wrapper .right-quotation-header-wrapper .header-booking-button-block .quotation-button .outer-top-text {
+
+    display: flex;
+    justify-content: space-between;
+
+    align-items: center;
+
+    /* align-items: stretch; */
+
+    position: relative;
+}
+
+.quotation-container .quotation-header-wrapper .right-quotation-header-wrapper .header-booking-button-block .quotation-button .outer-top-text .top-text {
+
+    text-transform: uppercase;
+
+    font-weight: 500;
+
+    font-size: 13.4px;
+
+    /* font-size: var(--data-font-size); */
+
+}
+
+.quotation-container .quotation-header-wrapper .right-quotation-header-wrapper .header-booking-button-block .quotation-button .outer-bottom-text {
+
+    font-size: 11.3px;
+
+}
+
+.quotation-container .quotation-header-wrapper .right-quotation-header-wrapper .header-booking-button-block .quotation-button .outer-bottom-text p {
+
+    margin-bottom: 0;
+}
+
+.quotation-container .quotation-header-wrapper .right-quotation-header-wrapper .header-booking-button-block .quotation-button .outer-top-text svg {
+
+    position: absolute;
+    right: -15px;
+
+    fill: #fff;
+
+    width: 10px;
+    max-width: 10px;
+    height: 10px;
+    max-height: 10px;
+
+    transform: rotate(-90deg);
+
+    transition: all 0.5s;
+}
+
+.quotation-container .quotation-header-wrapper .right-quotation-header-wrapper .header-booking-button-block .quotation-button:hover .outer-top-text svg {
+
+    fill: #07b309;
+
+}
+
+.quotation-container .quotation-header-wrapper .right-quotation-header-wrapper .bottom-right-quotation-header-wrapper {
+
+    width: 100%;
+
+    text-align: right;
+
+    color: #727272;
+
+    font-size: 13.4px;
+
+    font-weight: 600;
+}
+
+.quotation-container .quotation-header-wrapper .right-quotation-header-wrapper .bottom-right-quotation-header-wrapper.reduce-margin {
+
+    margin-top: -35px;
+    
+}
+
+.quotation-container .header-option-wrapper {
+
+    background-color: #f8f8f8;
+
+    /* padding: 25px 0 33px 0; */
+
+    padding: 25px 0 25px var(--quotation-container-side-padding);
+
+    margin-bottom: 50px;
+
+}
+
+.quotation-container .header-option-wrapper .inner-header-option-wrapper {
+
+    /* width: calc( var(--quotation-detail-width) + 220px ); */
+
+    display: flex;
+
+    /* justify-content: space-around; */
+
+    align-items: center;
+}
+
+.quotation-container .header-option-wrapper .option-block {
+
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+
+    /* width: 50%; */
+
+    height: 30px;
+    min-height: 30px;
+
+    /* padding-top: 5px; */
+
+    /* padding: 2px 50px 0 50px; */
+
+    padding: 5px 50px 0 50px;
+
+    position: relative;
+
+    user-select: none; /* supported by Chrome and Opera */
+   -webkit-user-select: none; /* Safari */
+   -khtml-user-select: none; /* Konqueror HTML */
+   -moz-user-select: none; /* Firefox */
+   -ms-user-select: none; /* Internet Explorer/Edge */
+
+}
+
+.quotation-container .header-option-wrapper .option-block:hover {
+
+    cursor: pointer;
+}
+
+.quotation-container .header-option-wrapper .option-block-border::after {
+
+    content: '';
+    position: absolute;
+
+    /* border-right: 1.6px solid #373743; */
+
+    border-right: 1.4px solid #373743;
+
+    height: 80%;
+    top: 50%;
+    transform: translateY(-50%);
+    right: 0;
+}
+
+.quotation-container .header-option-wrapper .option-block .text {
+
+    text-align: center;
+
+    width: 100%;
+
+    color: #373743;
+
+    transition: all 0.18s;
+}
+
+.quotation-container .header-option-wrapper .option-block .top-text {
+
+    text-transform: uppercase;
+
+    font-weight: 600;
+
+    font-size: 13.5px;
+}
+
+.quotation-container .header-option-wrapper .option-block .middle-text {
+
+    font-style: italic;
+
+    font-weight: 400;
+
+    /* font-size: 10.5px; */
+
+    font-size: 11px;
+
+    display: none;
+}
+
+.quotation-container .header-option-wrapper .option-block.current .text {
+
+    color: var(--pink-color);
+}
+
+.quotation-container .header-option-wrapper .option-block svg {
+
+    display: block;
+
+    fill: #000;
+
+    /* width: 15px;
+    height: 15px; */
+
+    width: 9px;
+    height: 9px;
+
+    /* margin-top: 3px; */
+
+    -webkit-clip-path: circle(0);
+    clip-path: circle(0);
+    opacity: 0;
+
+    transition: opacity 0.3s;
+}
+
+.quotation-container .header-option-wrapper .option-block.current svg {
+
+    -webkit-clip-path: initial;
+    clip-path: initial;
+    opacity: 1;
+
+    fill: var(--pink-color);
+}
+
+/* -- Quotation Option Block -- */
+
+.quotation-container .header-option-wrapper .quotation-option-block {
+
+    padding-left: 0;
+}
+
+.quotation-container .header-option-wrapper .quotation-option-block .text {
+
+    text-align: left;
+}
+
+.quotation-container .header-option-wrapper .quotation-option-block svg {
+
+    position: relative;
+    left: -5px;
+}
+
+/* -- End of Quotation Option Block -- */
+
+.quotation-container .quotation-main-content-container {
+
+    padding: 0 var(--quotation-container-side-padding);
+
+    display: flex;
+    flex-wrap: wrap;
+
+    min-height: 75.5vh;
+}
+
+.quotation-container .quotation-side-section {
+
+    /* width: 50%; */
+
+    padding-bottom: 50px;
+
+}
+
+
+
+/* --- Quotation Detail Section --- */
+
+
+.quotation-container .quotation-detail-section {
+
+    /* padding-bottom: var(--quotation-detail-padding); */
+
+    width: var(--quotation-detail-width);
+    min-width: var(--quotation-detail-width);
+
+    /* transition: all 0.3s; */
+
+    display: block;
+}
+
+.quotation-container .quotation-detail-section.hide-block {
+
+    /* position: fixed;
+    -webkit-clip-path: circle(0);
+    clip-path: circle(0);
+    opacity: 0;
+    pointer-events: none; */
+
+    display: none;
+
+}
+
+.mobile-option-menu-container {
+
+    --mobile-top-option-border: 1px solid #eaeaea;
+
+    /* margin-top: 28px; */
+
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+    margin-bottom: 25px;
+
+    border-top: var(--mobile-top-option-border);
+    border-bottom: var(--mobile-top-option-border);
+
+    display: none;
+}
+
+.mobile-option-menu-container .mobile-option-block {
+
+    padding: 22px 0;
+}
+
+.mobile-option-menu-container .mobile-option-block .text {
+
+    text-transform: uppercase;
+    font-weight: 800;
+
+    /* font-size: 13.5px; */
+
+    font-size: 14.4px;
+
+    transition: all 0.3s;
+}
+
+.mobile-option-menu-container .mobile-option-block .text:hover {
+
+    cursor: pointer;
+}
+
+.mobile-option-menu-container .mobile-option-block.current .text {
+
+    color: var(--pink-color);
+}
+
+.quotation-container .quotation-detail-section .booking-status-wrap {
+
+    --booking-status-border: 1px solid #eaeaea;
+
+    display: flex;
+    align-items: center;
+
+    padding: 12px 0;
+
+    /* margin: 28px 0; */
+
+    margin: 0 0 17px 0;
+
+    border-top: var(--booking-status-border);
+    border-bottom: var(--booking-status-border);
+}
+
+.quotation-container .quotation-detail-section .booking-status-wrap .fa-circle {
+
+    display: block;
+
+    font-size: 10px;
+
+    margin-top: -2.6px;
+
+    margin-right: 13px;
+}
+
+.quotation-container .quotation-detail-section .booking-status-wrap .booking-status-info {
+
+    font-weight: 600;
+    color: #707070;
+}
+
+.mobile-document-preview-wrapper {
+
+    display: none;
+}
+
+.mobile-pdf-full-screen {
+
+    display: none;
+}
+
+/* .mobile-document-preview-wrapper embed { */
+
+.mobile-document-preview-wrapper iframe {
+
+    width: 100%;
+}
+
+.quotation-container .quotation-detail-section .booking-title {
+
+    text-transform: uppercase;
+
+    font-weight: 800;
+
+    font-size: 15px;
+
+    margin-bottom: 15px;
+}
+
+.quotation-container .quotation-detail-section .special-offer-wrapper {
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    background-color: #d0ecd5;
+
+    border: 2px solid #2aba2a;
+
+    border-radius: 10px;
+
+    padding: 20px;
+
+    margin-bottom: 15px;
+}
+
+.quotation-container .quotation-detail-section .special-offer-wrapper .inner-paragraph-wrap {
+
+    width: 70%;
+    min-width: 70%;
+}
+
+.quotation-container .quotation-detail-section .special-offer-wrapper .inner-paragraph-wrap p {
+
+    margin-bottom: 0;
+}
+
+.quotation-container .quotation-detail-section .special-offer-wrapper .inner-paragraph-wrap .larger-text {
+
+    color: #005000;
+}
+
+.quotation-container .quotation-detail-section .special-offer-wrapper .inner-paragraph-wrap p:not(.larger-text) {
+
+    font-size: var(--data-font-size);
+}
+
+.quotation-container .quotation-detail-section .special-offer-wrapper .special-offer-amount {
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    color: #005000;
+
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.quotation-container .quotation-detail-section .booking-instruction-wrapper {
+
+    font-size: var(--data-font-size);
+}
+
+.quotation-container .quotation-detail-section .booking-instruction-wrapper p {
+
+    margin-bottom: 12px;
+}
+
+.quotation-container .quotation-detail-section .booking-instruction-wrapper p:last-child {
+
+    margin-bottom: 0;
+}
+
+/* .quotation-container .quotation-detail-section .booking-instruction-wrapper .bold { */
+
+.bold {
+
+    font-weight: 600;
+}
+
+.mobile-bottom-button-block {
+
+    display: none;
+}
+
+.quotation-container .quotation-detail-section .booking-step-container {
+
+    position: static;
+    -webkit-clip-path: initial;
+    clip-path: initial;
+    opacity: 1;
+
+    pointer-events: auto;
+
+    transition: all 0.3s;
+}
+
+.quotation-container .quotation-detail-section .booking-step-container.hide-step {
+
+    position: fixed;
+    -webkit-clip-path: circle(0);
+    clip-path: circle(0);
+    opacity: 0;
+
+    pointer-events: none;
+}
+
+/* .quotation-container .quotation-detail-section .booking-step-one .booking-instruction-wrapper {
+
+    margin-bottom: 30px;
+
+} */
+
+.quotation-container .quotation-detail-section .booking-step-one .booking-instruction-wrapper .outer-instruction-container .instruction-block {
+
+    display: flex;
+    align-items: flex-start;
+}
+
+.quotation-container .quotation-detail-section .booking-step-one .booking-instruction-wrapper .outer-instruction-container .instruction-block:not(:last-child) {
+
+    margin-bottom: 12px;
+
+    /* margin-bottom: 13px; */
+}
+
+.quotation-container .quotation-detail-section .booking-step-one .booking-instruction-wrapper .outer-instruction-container .instruction-block svg {
+
+    fill: #07b309;
+
+    width: 18px;
+    min-width: 18px;
+    height: 18px;
+    min-height: 18px;
+
+    margin-right: 23px;
+}
+
+.quotation-container .quotation-detail-section .booking-step-one .booking-instruction-wrapper .outer-instruction-container .instruction-block p {
+
+    margin-bottom: 0;
+}
+
+.quotation-container .quotation-detail-section .booking-step-one .booking-instruction-wrapper .bottom-indication-wrap {
+
+    margin-top: 30px;
+
+    background-color: #f8f8f8;
+
+    /* padding: 20px 30px; */
+
+    /* padding: 23.5px 30px 20px 30px; */
+
+    /* padding: 23.5px 30px 40px 30px; */
+
+    padding: 28px 30px 40px 30px;
+}
+
+.quotation-container .quotation-detail-section .booking-step-one .booking-instruction-wrapper .bottom-indication-wrap p {
+
+    color: #4a4a4a;
+}
+
+.quotation-container .quotation-detail-section .booking-step-one .booking-instruction-wrapper .bottom-indication-wrap .sub-top-text {
+
+    font-size: 15px;
+}
+
+.quotation-container .quotation-detail-section .booking-step-one .outer-bottom-button-block {
+
+    /* display: flex;
+    justify-content: space-between;
+    align-items: center; */
+
+    background-color: #f8f8f8;
+
+    /* padding: 0 20px 30px 25px; */
+
+    /* padding: 0 30px 30px 30px; */
+
+    /* padding: 0 20px 30px 20px; */
+
+    padding: 0 20px 35px 20px;
+
+}
+
+.quotation-container .quotation-detail-section .booking-step-one .outer-bottom-button-block .bottom-button-block .quotation-button {
+
+    /* padding-left: 60px;
+    padding-right: 60px; */
+
+    /* padding-left: 40px;
+    padding-right: 40px; */
+
+    width: 70%;
+    text-align: center;
+
+}
+
+.quotation-container .quotation-detail-section .booking-step-one .outer-bottom-button-block .stripe-payment-method-wrap {
+
+    /* margin-top: 0; */
+
+    margin-top: 30px;
+}
+
+.quotation-container .quotation-detail-section .booking-step-one .outer-bottom-button-block .stripe-payment-method-wrap img {
+
+    /* width: 130px; */
+}
+
+.quotation-container .quotation-detail-section .booking-step-two .booking-detail-container .outer-booking-title,
+.quotation-container .quotation-detail-section .booking-step-three .booking-detail-container .outer-booking-title
+ {
+
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+
+    margin-bottom: 15px;
+
+}
+
+.quotation-container .quotation-detail-section .booking-step-two .booking-detail-container .outer-booking-title svg, .quotation-container .quotation-detail-section .booking-step-three .booking-detail-container .outer-booking-title svg {
+
+    fill: var(--pink-color);
+
+    width: 20px;
+    min-width: 20px;
+    height: 20px;
+    min-height: 20px;
+
+    transform: rotate(180deg);
+
+    margin-right: 14px;
+
+    transition: all 0.5s;
+    cursor: pointer;
+}
+
+.quotation-container .quotation-detail-section .booking-step-two .booking-detail-container .outer-booking-title svg:hover {
+
+    cursor: pointer;
+
+    fill: #000;
+}
+
+.quotation-container .quotation-detail-section .booking-step-two .booking-detail-container .outer-booking-title .booking-title,
+.quotation-container .quotation-detail-section .booking-step-three .booking-detail-container .outer-booking-title .booking-title {
+
+    margin-bottom: 0;
+}
+
+.quotation-container .quotation-detail-section .booking-detail-list-wrapper {
+
+    margin-top: 15px;
+
+    margin-bottom: 23px;
+
+    font-size: var(--data-font-size);
+
+    /* padding: 30px 20px 35px 20px; */
+
+    padding: 30px calc( var(--booking-detail-padding-left) + 5px ) 35px var(--booking-detail-padding-left);
+
+    /* background-color: #fafafa; */
+
+    background-color: var(--booking-detail-bg-color);
+
+    border-radius: 4px;
+}
+
+.quotation-container .quotation-detail-section .booking-detail-list-wrapper .booking-block {
+
+    user-select: none; /* supported by Chrome and Opera */
+   -webkit-user-select: none; /* Safari */
+   -khtml-user-select: none; /* Konqueror HTML */
+   -moz-user-select: none; /* Firefox */
+   -ms-user-select: none; /* Internet Explorer/Edge */
+}
+
+.quotation-container .quotation-detail-section .booking-detail-list-wrapper .booking-block:not(:first-child) {
+
+    margin-top: 5px;
+}
+
+label {
+
+    margin-bottom: 0 !important;
+
+}
+
+.quotation-container .quotation-detail-section .booking-detail-list-wrapper .booking-block .inner-booking-block {
+
+    display: block;
+
+    cursor: pointer;
+
+    display: flex;
+
+    /* align-items: center; */
+
+}
+
+.quotation-container .quotation-detail-section .booking-detail-list-wrapper .booking-block:not(:last-child) .inner-booking-block {
+
+    padding-bottom: 5px;
+}
+
+.quotation-container .quotation-detail-section .booking-detail-list-wrapper .booking-block .inner-booking-block input[type="radio"] {
+
+    margin-right: 13px;
+
+    -webkit-appearance: none;
+    appearance: none;
+
+    /* width: 13px;
+    min-width: 13px;
+    height: 13px;
+    min-width: 13px; */
+
+    width: 14px;
+    min-width: 14px;
+    height: 14px;
+    min-height: 14px;
+
+    border-radius: 50%;
+
+    /* border: 1.3px solid #9b9b9b; */
+
+    border: 1.3px solid var(--radio-border-color);
+
+    position: relative;
+
+    top: 3px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.quotation-container .quotation-detail-section .booking-detail-list-wrapper .booking-block .inner-booking-block input[type="radio"]:hover {
+
+    cursor: pointer;
+}
+
+.quotation-container .quotation-detail-section .booking-detail-list-wrapper .booking-block .inner-booking-block input[type="radio"]:checked {
+
+    /* border-color: #0968f6; */
+
+    border-color: var(--input-checked-color);
+}
+
+.quotation-container .quotation-detail-section .booking-detail-list-wrapper .booking-block .inner-booking-block input[type="radio"]:checked::after {
+
+    content: '';
+    position: absolute;
+
+    /* width: 9px;
+    height: 9px;
+    border: 0.1px solid #fff; */
+
+    width: 10px;
+    height: 10px;
+    border: 0.1px solid #fff;
+
+    border-radius: 50%;
+
+    /* background-color: #0968f6; */
+
+    background-color: var(--input-checked-color);
+
+}
+
+.quotation-container .quotation-detail-section .booking-detail-list-wrapper .booking-block .inner-booking-block .outer-booking-info-wrap {
+
+    display: flex;
+    flex-wrap: wrap;
+
+    /* align-items: center; */
+
+    width: 100%;
+}
+
+.quotation-container .quotation-detail-section .booking-detail-list-wrapper .booking-block:not(:last-child) .inner-booking-block .outer-booking-info-wrap {
+
+    padding-bottom: 5px;
+    border-bottom: 1.5px solid #e0e4e7;
+
+}
+
+.quotation-container .quotation-detail-section .booking-detail-list-wrapper .booking-block .inner-booking-block .booking-info-wrap {
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    width: 100%;
+}
+
+.quotation-container .quotation-detail-section .booking-detail-list-wrapper .booking-block .inner-booking-block .top-booking-info-wrap {
+
+    margin-bottom: 5px;
+}
+
+.quotation-container .quotation-detail-section .booking-detail-list-wrapper .booking-block .inner-booking-block .top-booking-info-wrap .to-pay-type {
+
+    color: #40cd4d;
+
+}
+
+.darker-gray-text {
+
+    color: #373743;
+}
+
+.medium-bold {
+
+    font-weight: 500;
+}
+
+.thicker-bold {
+
+    font-weight: 800;
+
+}
+
+.larger-text {
+    font-size: 14.5px;
+}
+
+.quotation-container .quotation-detail-section .booking-condition-block {
+
+    background-color: var(--booking-detail-bg-color);
+
+    padding: var(--booking-detail-padding-left);
+
+    margin-bottom: 43px;
+
+    border-radius: 4px;
+
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+
+    user-select: none; /* supported by Chrome and Opera */
+   -webkit-user-select: none; /* Safari */
+   -khtml-user-select: none; /* Konqueror HTML */
+   -moz-user-select: none; /* Firefox */
+   -ms-user-select: none; /* Internet Explorer/Edge */
+}
+
+.quotation-container .quotation-detail-section .booking-condition-block .form-group {
+
+    margin-bottom: 0;
+}
+
+.quotation-container .quotation-detail-section .booking-condition-block label:hover {
+
+    cursor: pointer;
+}
+
+.quotation-container .quotation-detail-section .booking-condition-block .cgl-err {
+
+    width: 100%;
+    font-size: var(--data-font-size);
+
+    font-weight: 600;
+
+    margin-top: 13.2px;
+
+    margin-bottom: 0;
+}
+
+.quotation-container .quotation-detail-section .booking-condition-block .custom-control {
+
+    min-height: 0;
+    padding-left: 30px;
+
+    position: relative;
+}
+
+.quotation-container .quotation-detail-section .booking-condition-block .custom-control-label {
+
+    position: absolute;
+    left: 0;
+
+    /* top: -10px; */
+
+    top: -11.8px;
+}
+
+.quotation-container .quotation-detail-section .booking-condition-block .custom-control-label::before, .quotation-container .quotation-detail-section .booking-condition-block .custom-control-label::after {
+
+    width: 14px;
+    min-width: 14px;
+    height: 14px;
+    min-height: 14px;
+
+    border-radius: 0;
+}
+
+.quotation-container .quotation-detail-section .booking-condition-block .custom-control-label::before {
+
+    border: 1.3px solid var(--radio-border-color);
+
+    background-color: var(--booking-detail-bg-color);
+}
+
+.quotation-container .quotation-detail-section .booking-condition-block label {
+
+    font-size: var(--data-font-size);
+}
+
+.quotation-container .quotation-detail-section .booking-condition-block label .booking-condition-link {
+
+    color: var(--input-checked-color);
+}
+
+.quotation-container .quotation-detail-section .booking-condition-block label .booking-condition-link:hover {
+
+    text-decoration: underline;
+}
+
+.quotation-container .quotation-detail-section .bottom-payment-choice-wrapper {
+
+    margin-bottom: 43px;
+
+    font-size: var(--data-font-size);
+}
+
+.bottom-button-block {
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.bottom-button-block .quotation-button {
+
+    border: 1px solid #fd0154;
+
+    /* background-color: #fd0154; */
+
+    background-color: var(--pink-color);
+
+    color: #fff;
+
+    /* font-weight: 300; */
+
+    font-size: 13px;
+
+    /* font-size: 15px; */
+
+    font-weight: 500;
+
+    /* padding: 12.2px 27px; */
+
+    padding: 12.2px 30px;
+
+    border-radius: 4px;
+
+    transition: all 0.5s;
+}
+
+.bottom-button-block .quotation-button:hover {
+
+    cursor: pointer;
+
+    background-color: #fff;
+
+    /* color: #fd0154; */
+
+    color: var(--pink-color);
+}
+
+button:focus {
+
+    outline: none !important;
+}
+
+.quotation-container .quotation-detail-section .stripe-payment-method-wrap {
+
+    margin-top: 50px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+/* --- End of Quotation Detail Section --- */
+
+
+/* --- Quotation Document Section --- */
+
+.quotation-container .quotation-document-section {
+
+    /* --document-container-height: 920px; */
+
+    --document-container-height: 858.21px;
+
+    padding-left: 42px;
+
+    /* padding-bottom: var(--quotation-detail-padding); */
+
+    width: calc( 100% - var(--quotation-detail-width) );
+
+    /* transition: all 0.3s; */
+}
+
+.quotation-container .quotation-document-section.increase-width {
+
+    padding-left: 0;
+    width: 100%;
+}
+
+.quotation-container .quotation-document-section .document-preview-wrapper {
+
+    /* position: absolute; */
+
+    position: fixed;
+
+    -webkit-clip-path: circle(0);
+    clip-path: circle(0);
+    opacity: 0;
+
+    pointer-events: none;
+
+    transition: all 0.3s;
+}
+
+.quotation-container .quotation-document-section .document-preview-wrapper.display {
+
+    /* position: static; */
+    position: relative;
+    -webkit-clip-path: initial;
+    clip-path: initial;
+    opacity: 1;
+
+    height: auto;
+
+    pointer-events: auto;
+}
+
+.quotation-container .quotation-document-section .book-preview-wrapper.display {
+
+    height: var(--document-container-height);
+}
+
+/* .quotation-container .quotation-document-section embed.object-pdf { */
+
+/* .quotation-container .quotation-document-section iframe { */
+
+.quotation-container .quotation-document-section .pdf-doc-file {
+
+    width: 100%;
+
+    border: 0;
+
+    height: var(--document-container-height);
+    min-height: var(--document-container-height) !important;
+
+    scrollbar-width: thin;
+    scrollbar-color: #90A4AE #fff;
+}
+
+/* .quotation-container .quotation-document-section .pdf-safari-desktop, .quotation-container .quotation-document-section .pdf-desktop-all {
+    position: fixed;
+    -webkit-clip-path: circle(0);
+    clip-path: circle(0);
+    opacity: 0;
+    pointer-events: none;
+
+}
+
+.quotation-container .quotation-document-section .pdf-safari-desktop.display, .quotation-container .quotation-document-section .pdf-desktop-all.display {
+
+    position: static;
+    -webkit-clip-path: initial;
+    clip-path: initial;
+    opacity: 1;
+    pointer-events: auto;
+
+} */
+
+.quotation-container .quotation-document-section .pdf-doc-file::-webkit-scrollbar-track {
+
+    background: #fff;
+
+    border-top-right-radius: 4px;
+    border-bottom-right-radius: 4px;
+
+}
+
+.quotation-container .quotation-document-section .pdf-doc-file::-webkit-scrollbar {
+
+    width: 11px;
+
+}
+
+.quotation-container .quotation-document-section .pdf-doc-file::-webkit-scrollbar-thumb {
+
+    background-color: #90A4AE;
+    border-radius: 6px;
+
+    border: 2px solid #fff;
+
+    display: none;
+
+}
+
+.quotation-container .quotation-document-section .pdf-doc-file:hover::-webkit-scrollbar-thumb {
+
+    display: block;
+}
+
+.quotation-container .quotation-document-section .presentation-book-wrapper {
+
+    position: absolute;
+    -webkit-clip-path: circle(0);
+    clip-path: circle(0);
+    opacity: 0;
+
+    pointer-events: none;
+
+    transition: all 0.3s;
+}
+
+.quotation-container .quotation-document-section .presentation-book-wrapper.display {
+
+    position: static;
+    -webkit-clip-path: initial;
+    clip-path: initial;
+    opacity: 1;
+
+    pointer-events: auto;
+}
+
+.quotation-container .quotation-document-section .bottom-button-block {
+
+    margin-top: 25px;
+}
+
+.quotation-container .quotation-document-section .bottom-button-block .quotation-button {
+
+    border-color: #464646;
+    background-color: #464646;
+
+    /* font-weight: 400; */
+
+    /* padding: 8.7px 27px; */
+
+    padding: 7px 35px;
+}
+
+.quotation-container .quotation-document-section .bottom-button-block .quotation-button:hover {
+
+    color: #464646;
+    background-color: #fff;
+}
+
+.mobile-btn-doc-inner-full-screen {
+
+    display: none;
+}
+
+.quotation-container .quotation-review-section {
+
+    position: fixed;
+    width: 100%;
+    -webkit-clip-path: circle(0);
+    clip-path: circle(0);
+    opacity: 0;
+    pointer-events: none;
+
+    transition: all 0.3s;
+}
+
+.quotation-container .quotation-review-section.display {
+
+    position: static;
+    -webkit-clip-path: initial;
+    clip-path: initial;
+    opacity: 1;
+    pointer-events: auto;
+}
+
+.quotation-container .trustpilot-wrapper {
+
+    margin: 121px var(--quotation-container-side-padding);
+}
+
+.mobile-trustpilot-wrapper {
+
+    display: none;
+}
+
+.quotation-container .quotation-footer {
+
+    /* display: flex;
+    justify-content: center; */
+
+    text-align: center;
+
+    /* background-color: #f8f8f8; */
+
+    /* background-color: #eaeaea; */
+
+    background-color: #f0f0f0;
+
+    padding: 20px 0;
+
+    font-size: 11px;
+
+    color: #4a4a4a;
+
+    /* color: #c3c3c3; */
+
+    font-weight: 500;
+}
+
+.quotation-container .quotation-footer .tm-icon {
+
+    font-size: 5.4px;
+
+    font-weight: 600;
+
+    position: relative;
+
+    /* top: -3px; */
+
+    top: -3.7px;
+
+    /* top: -4.8px; */
+
+    left: -1.3px;
+}
+
+.quotation-container .quotation-footer a:hover {
+
+    text-decoration: underline;
+}
+
+/* --- End of Quotation Document Section --- */
+
+
+
+/* --- RESPONSIVE FOR QUOTATION CONTAINER --- */
+
+/* -- Responsive for Quotation Container on 1920px screen -- */
+
+@media screen and (min-width: 1920px) {
+
+    .quotation-container .quotation-document-section {
+
+        --document-container-height: 775px;
+
+    }
+
+}
+
+/* -- End of Responsive for Quotation Container on 1920px screen -- */
+
+
+
+/* -- Responsive for Quotation Container on 1284px screen -- */
+
+@media screen and (max-width: 1284px) {
+
+    .quotation-container .quotation-detail-section .booking-step-one .outer-bottom-button-block {
+
+        display: block;
+    }
+
+    .quotation-container .quotation-detail-section .booking-step-one .outer-bottom-button-block .stripe-payment-method-wrap {
+
+        margin-top: 40px;
+    }
+}
+
+/* -- End of Responsive for Quotation Container on 1284px screen -- */
+
+
+
+/* -- Responsive for Quotation Container on 1210px screen -- */
+
+@media screen and (max-width: 1210px) {
+
+    .quotation-container .quotation-detail-section .booking-step-one .outer-bottom-button-block .bottom-button-block .quotation-button {
+
+        width: 80%;
+    }
+
+}
+
+/* -- End of Responsive for Quotation Container on 1210px screen -- */
+
+
+/* -- Responsive for Quotation Container on 1199px screen -- */
+
+@media screen and (max-width: 1199px) {
+
+    .quotation-container .quotation-detail-section .booking-condition-block {
+
+        padding: var(--booking-detail-padding-left) 10px var(--booking-detail-padding-left) var(--booking-detail-padding-left);
+    }
+}
+
+/* -- Responsive for Quotation Container on 1199px screen -- */
+
+
+/* -- Responsive for Quotation Container on 1171px screen -- */
+
+@media screen and (max-width: 1171px) {
+
+    .quotation-container .quotation-detail-section .booking-condition-block .custom-control-label {
+
+        top: 0;
+    }
+
+    .quotation-container .quotation-detail-section .booking-condition-block label {
+
+        text-align: left;
+        padding-left: 25px;
+        margin-top: 1.08px;
+    }
+}
+
+/* -- End of Responsive for Quotation Container on 1171px screen -- */
+
+
+/* -- Responsive for Quotation Container on 1160px screen -- */
+
+@media screen and (max-width: 1160px) {
+
+    .quotation-container .quotation-header-wrapper .left-quotation-header-wrapper .inner-left-header-wrapper {
+
+        width: 450px;
+    }
+}
+
+/* -- End of Responsive for Quotation Container on 1160px screen -- */
+
+
+/* -- Responsive for Quotation Container on 1086px screen -- */
+
+@media screen and (max-width: 1086px) {
+
+    .quotation-container .quotation-detail-section .booking-step-one .outer-bottom-button-block .bottom-button-block .quotation-button {
+
+        width: 100%;
+    }
+
+}
+
+/* -- End of Responsive for Quotation Container on 1086px screen -- */
+
+
+
+/* -- Responsive for Quotation Container on iPad on Portrait Mode -- */
+
+@media (min-width: 768px) and (max-width: 1024px) and (orientation: portrait) {
+
+    .quotation-container .quotation-detail-section .booking-step-one .outer-bottom-button-block {
+
+        padding-bottom: 28px;
+    }
+
+    /* .quotation-container .quotation-detail-section .booking-step-one .outer-bottom-button-block .bottom-button-block .quotation-button {
+
+        width: auto !important;
+
+        padding-left: 40px;
+        padding-right: 40px;
+
+    } */
+
+    /* .quotation-container .quotation-detail-section .booking-step-two {
+
+        padding: 0 55px;
+
+    } */
+
+}
+
+/* -- End of Responsive for Quotation Container on iPad on Portrait Mode -- */
+
+
+
+
+/* -- Responsive for Quotation Container on 1013px screen -- */
+
+@media screen and (max-width: 1013px) {
+
+    .quotation-container .quotation-header-wrapper .left-quotation-header-wrapper .inner-left-header-wrapper {
+
+        width: 550px;
+    }
+
+    .quotation-container .quotation-header-wrapper .right-quotation-header-wrapper {
+
+        /* display: none; */
+
+        justify-content: flex-start;
+
+        width: 100%;
+
+        margin-top: 50px;
+
+    }
+
+    .quotation-container .quotation-header-wrapper .right-quotation-header-wrapper .bottom-right-quotation-header-wrapper {
+
+        text-align: left;
+
+        margin-top: 20px;
+    }
+
+    .quotation-container .quotation-header-wrapper .right-quotation-header-wrapper .bottom-right-quotation-header-wrapper.reduce-margin {
+
+        margin-top: 0;
+
+    }
+}
+
+/* -- End of Responsive for Quotation Container on 1013px screen -- */
+
+
+
+/* -- Responsive for Quotation Container on 968px screen -- */
+
+@media screen and (max-width: 968px) {
+
+    .bottom-button-block .quotation-button {
+
+        font-size: 13px;
+    }
+
+}
+
+/* -- End of Responsive for Quotation Container on 968px screen -- */
+
+
+
+/* -- Responsive for Quotation Container on 944px screen -- */
+
+@media screen and (max-width: 944px) {
+
+    .quotation-container .quotation-document-section {
+
+        --document-container-height: 500px;
+
+    }
+
+    .quotation-container {
+
+        --quotation-container-side-padding: 20px;
+    }
+
+    .quotation-container .quotation-header-wrapper {
+
+        padding: 20px var(--quotation-container-side-padding) 25px var(--quotation-container-side-padding);
+    }
+
+    .quotation-container .quotation-header-wrapper .left-quotation-header-wrapper {
+
+        width: 100%;
+    }
+
+    .quotation-container .quotation-header-wrapper .left-quotation-header-wrapper .inner-left-header-wrapper {
+
+        width: 100%;
+
+        position: relative;
+    }
+
+    .mobile-more-client-data {
+
+        display: block;
+    }
+
+    .quotation-container .quotation-header-wrapper .left-quotation-header-wrapper .booth-type-logo {
+
+        margin: 0;
+
+        position: absolute;
+        right: 0;
+        bottom: 0;
+    }
+
+    .quotation-container .quotation-header-wrapper .left-quotation-header-wrapper .booth-type-logo img {
+
+        /* width: 71%;
+        min-width: 71%; */
+    }
+
+    .quotation-container .quotation-header-wrapper .right-quotation-header-wrapper {
+
+        margin-top: 25px;
+    }
+
+    .quotation-container .quotation-header-wrapper .right-quotation-header-wrapper .top-right-quotation-header-wrapper {
+
+        display: block;
+    }
+
+    .quotation-container .quotation-header-wrapper .right-quotation-header-wrapper .top-right-quotation-header-wrapper .booking-top-total-amount {
+
+        margin-bottom: 20px;
+    }
+
+    .quotation-container .quotation-main-content-container {
+
+        display: block;
+
+        min-height: 100vh;
+    }
+
+    .mobile-pdf-full-screen {
+
+        display: block;
+    }
+
+    .mobile-btn-doc-inner-full-screen {
+
+        display: block;
+    }
+
+    .quotation-container .trustpilot-wrapper.mobile-trustpilot-wrapper {
+
+        margin: 30px var(--quotation-container-side-padding) 50px var(--quotation-container-side-padding);
+    }
+
+
+
+
+
+
+    .quotation-container .quotation-side-section {
+
+        width: 100%;
+    }
+
+    .quotation-container .quotation-detail-section {
+
+        border-right: 0;
+    }
+
+    .quotation-container .quotation-detail-section.remove-padding {
+
+        padding-bottom: 0;
+    }
+
+    .quotation-container .quotation-detail-section .inner-quotation-detail-section {
+
+        width: 100%;
+        margin-left: 0;
+    }
+
+    .hide-for-mobile {
+
+        display: none !important;
+    }
+
+    .mobile-option-menu-container {
+
+        display: flex;
+    }
+
+    .quotation-container .quotation-detail-section .booking-status-wrap {
+
+        position: static;
+        -webkit-clip-path: initial;
+        clip-path: initial;
+        opacity: 1;
+        pointer-events: auto;
+
+        border-top: 0;
+        border-bottom: 0;
+
+        /* margin: 0 0 23px 0; */
+
+        margin: 0;
+
+        padding: 22px 0;
+
+        transition: all 0.3s;
+    }
+
+    .quotation-container .quotation-detail-section .booking-status-wrap.hide-within-mobile, .quotation-container .quotation-detail-section .booking-top-total-amount.hide-within-mobile {
+
+        position: fixed;
+        -webkit-clip-path: circle(0);
+        clip-path: circle(0);
+        opacity: 0;
+        pointer-events: none;
+    }
+
+    .quotation-container .quotation-detail-section .booking-top-total-amount {
+
+        position: static;
+        -webkit-clip-path: initial;
+        clip-path: initial;
+        opacity: 1;
+        pointer-events: auto;
+
+        line-height: 1em;
+
+        transition: all 0.3s
+    }
+
+    .mobile-document-preview-wrapper {
+
+        display: block;
+
+        margin-bottom: 30px;
+
+        position: static;
+        -webkit-clip-path: initial;
+        clip-path: initial;
+        opacity: 1;
+
+        pointer-events: auto;
+    }
+
+    .mobile-document-preview-wrapper iframe {
+
+        height: 500px;
+        min-height: 500px !important;
+    }
+
+    .mobile-document-preview-wrapper.hide-within-mobile {
+
+        position: absolute;
+        -webkit-clip-path: circle(0);
+        clip-path: circle(0);
+        opacity: 0;
+
+        pointer-events: none;
+
+        transition: all 0.3s
+    }
+
+    .quotation-container .quotation-detail-section .booking-title {
+
+        /* text-transform: none;
+        font-size: 17.5px; */
+
+        font-size: 14.4px;
+    }
+
+    .quotation-container .quotation-detail-section .booking-step-two .booking-detail-container .outer-booking-title svg {
+
+        display: none;
+    }
+
+    .mobile-bottom-button-block {
+
+        display: block;
+
+        margin: 23px 0 30px;
+    }
+
+    .mobile-bottom-button-block .quotation-button {
+
+        display: inline-block;
+
+        border-color: #464646;
+        background-color: #464646;
+
+        border-radius: 4px;
+
+        font-size: 13px;
+        font-weight: 500;
+
+        color: #fff;
+
+        padding: 9px 38px;
+
+    }
+
+    .bottom-button-block .quotation-button {
+
+        padding: 16px 27px;
+    }
+
+    .quotation-container .quotation-detail-section .booking-step-one .booking-instruction-wrapper .bottom-indication-wrap {
+
+        padding-bottom: 20px;
+    }
+
+    .quotation-container .quotation-detail-section .booking-step-one .outer-bottom-button-block .bottom-button-block .quotation-button {
+
+        /* width: 100%; */
+
+        width: auto;
+
+        /* padding-top: 30px;
+        padding-bottom: 33px; */
+
+        padding-left: 40px;
+        padding-right: 40px;
+    }
+
+    .mobile-trustpilot-wrapper {
+
+        display: block;
+    }
+
+    .quotation-container .trustpilot-wrapper {
+
+        margin: 50px var(--quotation-container-side-padding);
+    }
+
+    .quotation-container .quotation-detail-section .booking-condition-block .custom-control-label {
+
+        position: static;
+    }
+
+    .quotation-container .quotation-detail-section .booking-condition-block {
+
+        padding: var(--booking-detail-padding-left) 10px;
+    }
+
+    /* .quotation-container .quotation-detail-section .booking-condition-block .custom-control {
+
+        padding-left: 25px;
+
+    } */
+
+    .quotation-container .quotation-detail-section .booking-condition-block .custom-control-input {
+
+        position: static;
+    }
+
+    .quotation-container .quotation-detail-section .booking-condition-block label {
+
+        text-align: left;
+
+        /* padding-left: 25px; */
+
+        padding-left: 0;
+
+        margin-top: 1.08px;
+    }
+
+    .quotation-container .quotation-document-section {
+
+        padding-left: 0;
+
+        position: fixed;
+        -webkit-clip-path: circle(0);
+        clip-path: circle(0);
+        opacity: 0;
+        pointer-events: none;
+
+        transition: all 0.3s;
+    }
+
+    .quotation-container .quotation-document-section.display {
+
+        position: static;
+        -webkit-clip-path: initial;
+        clip-path: initial;
+        opacity: 1;
+        pointer-events: auto;
+    }
+
+    .quotation-container .quotation-footer {
+
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+}
+
+/* -- End of Responsive for Quotation Container on 944px screen -- */
+
+
+
+/* -- Responsive for Quotation Container on 417px screen -- */
+
+@media screen and (max-width: 417px) {
+
+    .quotation-container .quotation-detail-section .booking-condition-block .custom-control-input {
+
+        position: absolute;
+    }
+
+    .quotation-container .quotation-detail-section .booking-condition-block label {
+
+        padding-left: 25px;
+    }
+
+}
+
+/* -- End of Responsive for Quotation Container on 417px screen -- */
+
+
+
+/* --- END OF RESPONSIVE FOR QUOTATION CONTAINER --- */
+
+
+
+/* === END OF QUOTATION CONTAINER === */
+
+
+
+/* === POPUP CONTAINER === */
+
+.popup-container {
+
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+
+    font-size: 0.9rem !important;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    -webkit-clip-path: circle(0);
+    clip-path: circle(0);
+    opacity: 0;
+    pointer-events: none;
+
+    transition: all 0.3s;
+}
+
+.customized-scrollbar {
+
+    scrollbar-width: thin;
+    scrollbar-color: #90A4AE #fff;
+}
+
+.customized-scrollbar::-webkit-scrollbar-track {
+
+    background: #fff;
+
+    border-top-right-radius: 4px;
+    border-bottom-right-radius: 4px;
+
+}
+
+.customized-scrollbar::-webkit-scrollbar {
+
+    width: 11px;
+
+}
+
+.customized-scrollbar::-webkit-scrollbar-thumb {
+
+    background-color: #90A4AE;
+    border-radius: 6px;
+
+    border: 2px solid #fff;
+
+    display: none;
+
+}
+
+.customized-scrollbar:hover::-webkit-scrollbar-thumb {
+
+    display: block;
+}
+
+.popup-container .outer-popup-container {
+
+    position: relative;
+    top: -100%;
+
+    overflow: hidden;
+
+    background-color: #fff;
+
+    border-radius: 4px;
+
+    transition: all 0.3s;
+}
+
+.popup-container.display {
+
+    -webkit-clip-path: initial;
+    clip-path: initial;
+    opacity: 1;
+    pointer-events: auto;
+}
+
+.popup-container.display .outer-popup-container {
+
+    top: 0;
+}
+
+.popup-close-wrap {
+
+    position: absolute;
+
+    /* right: 7px;
+    top: 6px; */
+
+    /* right: 10px;
+    top: 9px; */
+
+    /* right: 12px;
+    top: 11px; */
+
+    right: 12.5px;
+    top: 10.5px;
+
+    line-height: 0;
+
+    border-radius: 50%;
+
+    z-index: 1;
+
+    background-color: #fff;
+}
+
+.popup-close-wrap svg {
+
+    fill: #000;
+
+    width: 21px;
+    min-width: 21px;
+    height: 21px;
+    min-height: 21px;
+
+    transition: all 0.3s;
+}
+
+.popup-close-wrap svg:hover {
+
+    cursor: pointer;
+
+    fill: #fd0154;
+
+}
+
+.popup-container .inner-popup-container {
+
+    overflow: hidden;
+    overflow-y: scroll;
+}
+
+/* --- Condition Popup Container --- */
+
+.condition-popup-container .inner-popup-container {
+
+    width: 800px;
+    min-width: 800px;
+
+    /* height: 600px;
+    min-height: 600px; */
+
+    height: 90vh;
+
+    padding: 30px;
+
+}
+
+.condition-popup-container .inner-popup-container.customized-scrollbar::-webkit-scrollbar-thumb {
+
+    display: block;
+
+}
+
+/* -- Responsive for Condition Popup Container on 767px screen -- */
+
+@media screen and (max-width: 767px) {
+
+    .condition-popup-container .inner-popup-container.customized-scrollbar::-webkit-scrollbar-thumb {
+
+        display: none;
+
+    }
+
+    .condition-popup-container .inner-popup-container.customized-scrollbar:hover::-webkit-scrollbar-thumb {
+
+        display: block;
+    }
+}
+
+/* -- End of Responsive for Condition Popup Container on 767px screen -- */
+
+/* --- End of Condition Popup Container --- */
+
+
+
+/* --- Payment Popup Container --- */
+
+/* .payment-popup-container {
+
+    -webkit-clip-path: initial;
+    clip-path: initial;
+    opacity: 1;
+    pointer-events: auto;
+
+}
+
+.payment-popup-container .outer-popup-container {
+
+    top: 0;
+
+} */
+
+
+
+.field-with-icon {
+
+    position: relative;
+
+    /* padding-left: 38px; */
+
+    padding-left: 37px;
+
+}
+
+.field-icon {
+
+    position: absolute;
+    display: flex;
+    left: 12px;
+    align-items: center;
+    line-height: 1.1;
+}
+
+.payment-popup-container .inner-popup-container {
+
+    --main-payment-wrapper-padding: 55px 40px;
+
+    /* --side-payment-popup-width: 35%; */
+
+    --side-payment-popup-width: 34%;
+
+    --payment-label-size: 13.4px;
+    --popup-medium-gray: #737373;
+
+    font-family: 'Roboto', sans-serif;
+
+    /* width: 420px;
+    min-width: 420px; */
+
+    width: 700px;
+    min-width: 700px;
+
+    /* height: 510px;
+    min-height: 510px; */
+
+    /* height: 513px;
+    min-height: 513px; */
+
+    /* height: 600px;
+    min-height: 600px; */
+
+    /* height: 585px;
+    min-height: 585px; */
+
+    /* height: 597px;
+    min-height: 597px; */
+
+    height: 598px;
+    min-height: 598px;
+
+    /* padding: 23px; */
+}
+
+
+.payment-popup-container .inner-popup-container .popup-close-wrap {
+
+    /* right: 13px;
+    top: 11px; */
+}
+
+.payment-popup-container .inner-popup-container .outer-payment-detail-container {
+
+    display: flex;
+}
+
+.payment-popup-container .inner-popup-container .side-payment-popup-wrapper {
+
+    background-color: #f5f4f7;
+
+    /* padding: var(--main-payment-wrapper-padding); */
+
+    padding: 55px 37px 55px 37px;
+
+    /* width: 30%; */
+
+    width: var(--side-payment-popup-width);
+
+}
+
+.payment-popup-container .inner-popup-container .side-payment-popup-wrapper .side-top-detail-wrapper {
+
+    /* padding-bottom: 70px; */
+
+    /* padding-bottom: 74px; */
+
+    /* padding-bottom: 79px; */
+
+    padding-bottom: 90px;
+
+    border-bottom: 1px solid #dedede;
+}
+
+.payment-popup-container .inner-popup-container .side-payment-popup-wrapper .side-label {
+
+    color: #535353;
+
+    font-size: 14px;
+
+    font-weight: 400;
+}
+
+.payment-popup-container .inner-popup-container .side-payment-popup-wrapper .side-value {
+
+    color: #4aaa00;
+
+    font-size: 13.5px;
+
+}
+
+.payment-popup-container .inner-popup-container .side-payment-popup-wrapper .side-security-info {
+
+    /* margin: 25px 0; */
+
+    margin: 28px 0 20px 0;
+
+    color: #6c6c6c;
+
+    font-weight: 500;
+
+    /* font-size: 14.3px; */
+
+    font-size: 14px;
+}
+
+.payment-popup-container .inner-popup-container .side-payment-popup-wrapper .side-security-description p {
+
+    color: #939393;
+
+    font-size: 13px;
+
+    font-weight: 400;
+}
+
+.payment-popup-container .inner-popup-container .side-payment-popup-wrapper .popup-stripe-logo-wrap {
+
+    margin-top: 28px;
+}
+
+.payment-popup-container .inner-popup-container .popup-stripe-logo-wrap {
+
+    color: #39cf86;
+
+}
+
+.payment-popup-container .inner-popup-container .popup-stripe-logo-wrap .logo-text {
+
+    font-weight: 600;
+    font-size: 13.4px;
+    letter-spacing: 0.02em;
+
+    margin-left: 6px;
+}
+
+/* .mobile-stripe-logo-wrap {
+
+    margin-top: 17px;
+
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+
+    display: none;
+
+} */
+
+.mobile-stripe-logo-wrap {
+
+    display: none;
+}
+
+.payment-popup-container .inner-popup-container .main-payment-popup-wraper {
+
+    width: calc( 100% - var(--side-payment-popup-width) );
+
+    /* padding: 55px 40px; */
+
+    padding: var(--main-payment-wrapper-padding);
+}
+
+.payment-popup-container .inner-popup-container .popup-selfizee-logo {
+
+    height: 50px;
+
+    border-bottom: 1px solid #eeeeee;
+}
+
+.payment-popup-container .inner-popup-container .popup-selfizee-logo img {
+
+    width: 130px;
+
+    /* margin-left: -2px; */
+
+    margin-left: -1px;
+}
+
+.payment-popup-block-margin {
+
+    /* margin-bottom: 20px; */
+
+    margin-bottom: 23px;
+}
+
+.payment-popup-container .inner-popup-container .popup-booking-number {
+
+    font-weight: 800;
+
+    font-size: 18.3px;
+
+    color: #000;
+}
+
+.payment-popup-container .inner-popup-container label {
+
+    font-size: var(--payment-label-size);
+
+    font-weight: 500;
+
+    /* color: #373743; */
+
+    color: #000;
+
+    display: block;
+
+    margin-bottom: 8px !important;
+}
+
+.form-control:focus {
+
+    box-shadow: none !important;
+}
+
+.payment-popup-container .inner-popup-container .form-control:focus {
+
+    border-color: #ced4da;
+}
+
+.payment-popup-container .inner-popup-container .form-control {
+
+    font-weight: 500;
+
+    font-size: var(--payment-label-size);
+}
+
+.payment-popup-container .inner-popup-container .form-control::placeholder {
+
+    color: #aeabc0;
+}
+
+.payment-popup-container .inner-popup-container .popup-indicaton-label {
+
+    font-weight: 600;
+
+    /* font-size: 16.3px; */
+
+    /* font-size: 15.5px; */
+
+    /* font-size: 14px; */
+
+    font-size: 14.5px;
+
+    /* color: #0d1611; */
+
+    color: #000;
+}
+
+.payment-popup-container .inner-popup-container .stripe-form {
+
+    font-weight: 500;
+
+    color: var(--popup-medium-gray);
+}
+
+.payment-popup-container .inner-popup-container .field-icon {
+
+    color: var(--popup-medium-gray);
+}
+
+.payment-popup-container .inner-popup-container .two-col-data-wrapper {
+
+    display: flex;
+}
+
+.payment-popup-container .inner-popup-container .two-col-data-wrapper .popup-side-column {
+
+    width: 50%;
+}
+
+.payment-popup-container .inner-popup-container .two-col-data-wrapper .popup-side-column:nth-child(1) {
+
+    width: 40%;
+
+    /* margin-right: 33px; */
+}
+
+.payment-popup-container .inner-popup-container .two-col-data-wrapper .popup-side-column:nth-child(1) .stripe-form {
+
+    /* width: 80%; */
+
+    width: 78%;
+}
+
+.payment-popup-container .inner-popup-container .two-col-data-wrapper .popup-side-column:nth-child(2) .stripe-form {
+
+    width: 68%;
+}
+
+.payment-popup-container .inner-popup-container .two-col-data-wrapper .popup-side-column:nth-child(2) .field-with-icon {
+
+    padding-left: 32px;
+
+}
+
+.payment-popup-container .inner-popup-container #card-errors {
+
+    font-size: 13.4px;
+
+    font-weight: 600;
+
+    margin-top: 17px;
+}
+
+.payment-popup-container .inner-popup-container .payment-button-wrapper {
+
+    /* margin-top: 38px; */
+
+    margin-top: 35px;
+
+    display: flex;
+
+    flex-wrap: wrap;
+
+    /* justify-content: flex-end; */
+
+    align-items: center;
+
+}
+
+.payment-popup-container .inner-popup-container .payment-button-wrapper .stipe-logo-wrap {
+
+    margin-right: 15px;
+}
+
+.payment-popup-container .inner-popup-container .payment-button-wrapper .stipe-logo-wrap img {
+
+    width: 143px;
+}
+
+.payment-popup-container .inner-popup-container .payment-button-wrapper .popup-submit-wrapper {
+
+    display: flex;
+    align-items: center;
+}
+
+.payment-popup-container .inner-popup-container .payment-button-wrapper .popup-cancel-button {
+
+    /* color: #2377cf; */
+
+    color: #000;
+
+    font-weight: 500;
+
+    /* font-size: 13px; */
+
+    font-size: 13.4px;
+
+    margin-right: 30px;
+}
+
+.payment-popup-container .inner-popup-container .payment-button-wrapper .popup-cancel-button:hover {
+
+    cursor: pointer;
+
+    color: #2377cf;
+
+    text-decoration: underline;
+}
+
+.payment-popup-container .inner-popup-container .popup-submit-wrap button {
+
+    border: 1px solid #fd0154;
+    background-color: #fd0154;
+    border-radius: 4px;
+    color: #fff;
+
+    /* font-size: 12px; */
+
+    /* font-size: 11.8px; */
+
+    font-size: 11.5px;
+
+    letter-spacing: 0.03em;
+
+    font-weight: 500;
+
+    /* padding: 5.3px 15px; */
+
+    /* padding: 8px 15px 6px 15px; */
+
+    /* padding: 6px 40px; */
+
+    padding: 6px 18.2px;
+
+    /* max-width: 120px; */
+
+    transition: all 0.5s;
+}
+
+.payment-popup-container .inner-popup-container .popup-submit-wrap button:hover {
+
+    cursor: pointer;
+
+    background-color: #fff;
+    color: #fd0154;
+}
+
+/* --- End of Payment Popup Container --- */
+
+
+
+/* --- RESPONSIVE FOR POPUP CONTAINER --- */
+
+
+
+/* -- Responsive for Popup Container on 944px screen on ALL ORIENTATION MODE -- */
+
+/* @media screen and (max-width: 800px) { */
+
+@media screen and (max-width: 944px) {
+
+    .popup-container .outer-popup-container {
+
+        width: 90%;
+        min-width: 90%;
+    }
+
+    /* .popup-container .inner-popup-container {
+
+        width: 90%;
+        min-width: 90%;
+
+        height: 87%;
+        min-height: 87%;
+
+    } */
+
+    .payment-popup-container .inner-popup-container {
+
+        --main-payment-wrapper-padding: 30px 20px;
+
+        /* --side-payment-popup-width: 25%; */
+
+        --side-payment-popup-width: 0;
+
+        width: 100%;
+        min-width: 100%;
+
+        /* height: 670px;
+        min-height: 670px; */
+
+        /* height: 620px;
+        min-height: 620px; */
+
+        height: 550px;
+        min-height: 550px;
+
+    }
+
+    .payment-popup-container .inner-popup-container .side-payment-popup-wrapper {
+
+        /* padding: 55px 20px 15px 20px; */
+
+        display: none;
+
+    }
+
+    .payment-popup-container .inner-popup-container .main-payment-popup-wraper {
+
+        width: 100%;
+
+    }
+
+    /* .popup-close-wrap {
+
+        right: 11px;
+        top: 10px;
+
+    } */
+
+    /* .popup-close-wrap {
+
+        width: 100%;
+
+        display: flex;
+        justify-content: flex-end;
+        align-items: center;
+
+        top: -0.52px;
+        height: 31px;
+
+        border-radius: 0;
+
+    } */
+
+    .payment-popup-block-margin, .payment-popup-container .inner-popup-container .two-col-data-wrapper .popup-side-column:nth-child(1) {
+
+        margin-bottom: 15px;
+    }
+
+    .payment-popup-container .inner-popup-container .two-col-data-wrapper {
+
+        display: block;
+    }
+
+    .payment-popup-container .inner-popup-container .two-col-data-wrapper .popup-side-column, .payment-popup-container .inner-popup-container .two-col-data-wrapper .popup-side-column:nth-child(1), .payment-popup-container .inner-popup-container .two-col-data-wrapper .popup-side-column:nth-child(1) .stripe-form, .payment-popup-container .inner-popup-container .two-col-data-wrapper .popup-side-column:nth-child(2) .stripe-form {
+
+        width: 100%;
+    }
+
+    .payment-popup-container .inner-popup-container .payment-button-wrapper .stipe-logo-wrap {
+
+        display: none;
+    }
+
+    .payment-popup-container .inner-popup-container .payment-button-wrapper .popup-submit-wrapper {
+
+        width: 100%;
+        justify-content: flex-end;
+    }
+
+    .mobile-stripe-logo-wrap {
+
+        margin-top: 25px;
+
+        display: block;
+
+        width: 100%;
+
+        text-align: center;
+    }
+
+    .mobile-stripe-logo-wrap img {
+
+        width: 165px;
+    }
+
+
+    /* --- Condition Popup Container --- */
+
+    .condition-popup-container .inner-popup-container {
+
+        width: 100%;
+        min-width: 100%;
+
+        padding: 30px 25px;
+
+    }
+
+    /* --- End of Condition Popup Container --- */
+
+}
+
+/* -- End of Responsive for Popup Container on 944px screen on ALL ORIENTATION MODE -- */
+
+
+
+/* -- Responsive for Popup Container on 850px screen on LANDSCAPE MODE -- */
+
+@media screen and (max-width: 850px) and (orientation: landscape) {
+
+    .payment-popup-container .inner-popup-container {
+
+        --side-payment-popup-width: 32%;
+
+        height: 320px;
+        min-height: 320px;
+
+    }
+
+    .payment-popup-container .inner-popup-container .side-payment-popup-wrapper {
+
+        padding: var(--main-payment-wrapper-padding);
+
+        display: block;
+    }
+
+    .payment-popup-container .inner-popup-container .main-payment-popup-wraper {
+
+        width: calc( 100% - var(--side-payment-popup-width) );
+    }
+
+
+
+}
+
+/* -- End of Responsive for Popup Container on 850px screen on LANDSCAPE MODE -- */
+
+
+
+
+/* -- Responsive for Popup Container on 320px screen on LANDSCAPE MODE -- */
+
+@media screen and (max-width: 568px) and (max-height: 320px) and (orientation: landscape) {
+
+    .payment-popup-container .inner-popup-container {
+
+        height: 300px;
+        min-height: 300px;
+
+    }
+
+}
+
+/* -- End of Responsive for Popup Container on 320px screen on LANDSCAPE MODE -- */
+
+
+
+
+
+/* -- Responsive for Popup Container on iPad on PORTRAIT MODE -- */
+
+@media (min-width: 768px) and (max-width: 1024px) and (orientation: portrait) {
+
+    .payment-popup-container .inner-popup-container {
+
+        --side-payment-popup-width: 32%;
+
+        height: 638px;
+        min-height: 638px;
+
+    }
+
+    .payment-popup-container .inner-popup-container .side-payment-popup-wrapper {
+
+        padding: var(--main-payment-wrapper-padding);
+
+        display: block;
+    }
+
+    .payment-popup-container .inner-popup-container .main-payment-popup-wraper {
+
+        width: calc( 100% - var(--side-payment-popup-width) );
+    }
+
+}
+
+/* -- End of Responsive for Popup Container on iPad on PORTRAIT MODE -- */
+
+
+
+
+/* -- Responsive for Popup Container on iPad on LANDSCAPE MODE -- */
+
+@media (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
+
+    .payment-popup-container .inner-popup-container {
+
+        height: 600px !important;
+        min-height: 600px !important;
+
+    }
+
+}
+
+/* -- End of Responsive for Popup Container on iPad on LANDSCAPE MODE -- */
+
+
+
+/* -- Responsive for Popup Container on iPad PRO on PORTRAIT MODE -- */
+
+/* @media only screen and (min-device-width: 1024px) and (max-device-width: 1366px) and (orientation: portrait) and (-webkit-min-device-pixel-ratio: 1.5) {
+
+    .payment-popup-container .inner-popup-container {
+
+        height: 619px;
+        min-height: 619px;
+
+    }
+
+} */
+
+/* -- End of Responsive for Popup Container on iPad PRO on PORTRAIT MODE -- */
+
+
+
+/* -- Responsive for Popup Container on 1025px screen -- */
+
+@media screen and (min-width: 944px) and (max-width: 1025px) {
+
+    .payment-popup-container .inner-popup-container {
+
+        height: 620px;
+        min-height: 620px;
+
+    }
+
+}
+
+/* -- End of Responsive for Popup Container on 1025px screen -- */
+
+
+/* -- Responsive for Popup Container on 1280px screen -- */
+
+@media screen and (min-width: 1026px) and (max-width: 1280px) {
+
+    .payment-popup-container .inner-popup-container {
+
+        height: 600px;
+        min-height: 600px;
+
+    }
+
+}
+
+/* -- End of Responsive for Popup Container on 1280px screen -- */
+
+
+
+/* -- Responsive for Popup Container on 1280px screen -- */
+
+/* @media screen and (min-width: 945px) and (max-width: 1280px) {
+
+    .payment-popup-container .inner-popup-container {
+
+        height: 620px;
+        min-height: 620px;
+
+    }
+
+} */
+
+/* -- End of Responsive for Popup Container on 1280px screen -- */
+
+
+
+/* === END OF POPUP CONTAINER === */
+
+.reglement-complet {
+    color: #40cd4d;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+

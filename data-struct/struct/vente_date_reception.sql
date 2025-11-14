@@ -1,0 +1,1 @@
+ALTER TABLE `ventes` ADD `date_reception_client` DATE NULL DEFAULT NULL AFTER `date_depart_atelier`;

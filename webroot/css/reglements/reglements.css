@@ -1,0 +1,52 @@
+.reglement-row {
+    margin-top: -20px
+}
+
+.container-actions .dropdown-toggle::after {
+    display: none;
+}
+
+.container-actions .dropdown-menu {
+    padding: 0;
+}
+
+
+.fieldset-info {
+    border: 1px solid #abb3bd;
+    padding: 0px 10px 20px 10px;
+    margin-top: 20px;
+    border-radius: 5px;
+}
+
+.legend-fieldset-info {
+    font-size: 17px;
+    width: 3.2cm;
+    margin-left: 4px;
+    padding-left: 10px
+}
+
+.fieldset-facture {
+    border: 1px solid #abb3bd;
+    padding: 0px 10px 20px 10px;
+    margin-top: 20px;
+    border-radius: 5px;
+}
+
+.legend-fieldset-facture {
+    font-size: 17px;
+    width: 4.5cm;
+    margin-left: 4px;
+    padding-left: 10px
+}
+
+.unity {
+    padding: 0px !important;
+}
+
+.ht, .ttc , .restant_du {
+    padding: 5px !important;
+}
+
+.daterangepicker {
+    display: none;
+}

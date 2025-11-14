@@ -1,0 +1,29 @@
+.note {
+    color: #f26262;
+    border: 1px solid;
+}
+
+.avec-devise::after {
+    content: " €";
+}
+
+.ligne-option {
+    color: #1a79ce !important;
+}
+
+
+.object-pdf {
+    width: 100%;
+    border: 0;
+    height: 900px;
+    scrollbar-width: thin;
+    scrollbar-color: #90A4AE #fff;
+}
+
+.liste-status {
+    margin-top: 10px;
+}
+
+.show-list-status {
+    cursor: pointer;
+}

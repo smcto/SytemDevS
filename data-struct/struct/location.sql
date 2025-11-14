@@ -1,0 +1,1 @@
+ALTER TABLE `evenements` ADD `location_week` BOOLEAN NULL AFTER `type_client`;

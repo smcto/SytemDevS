@@ -1,0 +1,1 @@
+ALTER TABLE `ventes_has_devis_produits` ADD `qty` INT NULL DEFAULT '0' AFTER `ventes_consommable_id`, ADD `qty_sent` INT NULL DEFAULT '0' AFTER `qty`;

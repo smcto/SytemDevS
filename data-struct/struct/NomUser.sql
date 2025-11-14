@@ -1,0 +1,2 @@
+ALTER TABLE `users` ADD `nom` VARCHAR(255) NULL AFTER `id`;
+ALTER TABLE `users` ADD `prenom` VARCHAR(255) NULL AFTER `nom`;

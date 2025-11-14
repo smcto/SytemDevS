@@ -1,0 +1,1 @@
+ALTER TABLE `reglements_has_devis_factures` ADD `created` DATETIME NOT NULL DEFAULT CURRENT_TIMESTAMP AFTER `montant_lie`;

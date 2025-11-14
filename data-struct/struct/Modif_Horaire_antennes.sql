@@ -1,0 +1,1 @@
+ALTER TABLE `antennes` CHANGE `horaire_accueil` `horaire_accueil` VARCHAR(225) NOT NULL, CHANGE `horaire_dispos` `horaire_dispos` VARCHAR(225) NOT NULL;

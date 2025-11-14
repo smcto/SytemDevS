@@ -1,0 +1,1 @@
+ALTER TABLE `devis_echeances` ADD `date_paiement` DATE NULL DEFAULT NULL AFTER `devis_id`;

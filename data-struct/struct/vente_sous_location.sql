@@ -1,0 +1,1 @@
+ALTER TABLE `ventes` ADD `is_sous_location` TINYINT(1) NOT NULL DEFAULT '0' AFTER `created`;

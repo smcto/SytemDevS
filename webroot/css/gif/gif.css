@@ -1,0 +1,214 @@
+/* --- Temporary gif button --- */
+
+.gif-button-wrapper {
+
+    margin-top: -13px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.gif-button-wrapper .gif-button {
+
+    background-color: #55ce63;
+    color: #fff;
+    font-weight: 400;
+    border-radius: 50px;
+    padding: 6px 30px;
+}
+
+.gif-button-wrapper .gif-button:hover {
+
+    cursor: pointer;
+    opacity: 0.7;
+}
+
+/* --- End of Temporary gif button --- */
+
+body.no-overflow {
+
+    overflow: hidden;
+}
+
+.status-gif-img-wrapper {
+
+    -webkit-clip-path: circle(0);
+    clip-path: circle(0);
+    opacity: 0;
+    pointer-events: none;
+
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    /* background-color: rgba(0,0, 0, 0.2); */
+    background-color: rgba(0,0, 0, 0.8);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 10000;
+
+    transition: all 0.3s;
+}
+
+.status-gif-img-wrapper.display {
+
+    -webkit-clip-path: initial;
+    clip-path: initial;
+    opacity: 1;
+    pointer-events: auto;
+}
+
+.status-gif-img-wrapper.display:hover {
+
+    cursor: pointer;
+}
+
+.status-gif-img-wrapper img {
+
+    /* width: 230px;
+    min-width: 230px; */
+
+    /* height: 295px; */
+
+    height: 250px;
+}
+
+
+/* --- Toggle Btn Amount Wrapper --- */
+
+.toggle-btn-amount-wrapper {
+
+    margin-top: 20px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.toggle-btn-amount-wrapper .inner-toggle-amount-wrap {
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.toggle-btn-amount-wrapper .inner-toggle-amount-wrap .text-label {
+
+    color: #54667a;
+    font-size: 14.5px;
+
+    /* letter-spacing: 0.0099em;
+    font-weight: 300; */
+
+    font-weight: 400;
+
+    margin-right: 7px;
+}
+
+.toggle-btn-amount-wrapper .inner-toggle-amount-wrap.active .text-label {
+
+    margin-right: 6px;
+}
+
+.toggle-btn-amount-wrapper .inner-toggle-amount-wrap .toggle-tdb-amount-button {
+
+    /* width: 45px;
+    min-width: 45px;
+    height: 18.5px;
+    min-height: 18.5px; */
+
+    width: 36px;
+    min-width: 36px;
+    height: 19px;
+    min-height: 19px;
+
+    /* border: 2px solid #d5bcff; */
+    /* border: 2px solid #8c49ff; */
+    /* border: 2px solid #ad7dff; */
+    /* border: 2px solid #ae7ffe; */
+
+    border: 1px solid #8c49ff;
+
+    /* border: 2.9px solid #fff; */
+
+    border-radius: 50px;
+    display: flex;
+    align-items: center;
+    overflow: hidden;
+
+    position: relative;
+
+}
+
+.toggle-btn-amount-wrapper .inner-toggle-amount-wrap.active .toggle-tdb-amount-button {
+
+    width: 37px;
+    min-width: 37px;
+    height: 20px;
+    min-height: 20px;
+    overflow: initial;
+    border-color: transparent;
+}
+
+.toggle-btn-amount-wrapper .inner-toggle-amount-wrap .toggle-tdb-amount-button::after {
+
+    content: '';
+    position: absolute;
+    left: 0;
+    /* width: 100%; */
+    width: 0;
+    height: 100%;
+    background-color: #8c49ff;
+    border-radius: 50px;
+    transition: all 0.1s;
+}
+
+.toggle-btn-amount-wrapper .inner-toggle-amount-wrap.active .toggle-tdb-amount-button::after {
+
+    width: 100%;
+}
+
+.toggle-btn-amount-wrapper .inner-toggle-amount-wrap .toggle-tdb-amount-button:hover {
+
+    cursor: pointer;
+}
+
+.toggle-btn-amount-wrapper .inner-toggle-amount-wrap .btn-toggle-circle {
+
+    position: relative;
+
+    /* width: 17px;
+    height: 17px; */
+
+    width: 17.5px;
+    height: 17.5px;
+
+    border: 4px solid #fff;
+    /* border: 2px solid #fff; */
+
+    /* background-color: #8c49ff; */
+    background-color: #fff;
+
+    border-radius: 50%;
+    /* box-shadow: 2px 2px 5px 1.5px rgba(0, 0, 0, 0.23); */
+    box-shadow: 0 2px 5px 1.5px rgba(0, 0, 0, 0.23);
+    z-index: 1;
+    transform: translateX(0);
+    transition: transform 0.1s;
+}
+
+.toggle-btn-amount-wrapper .inner-toggle-amount-wrap.active .btn-toggle-circle {
+
+    top: 0.4999999px;
+    width: 18px;
+    height: 18px;
+    transform: translateX(100%);
+}
+
+/* --- End of Toggle Btn Amount Wrapper --- */
+
+
+
+
+

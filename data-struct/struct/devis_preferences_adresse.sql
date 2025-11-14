@@ -1,0 +1,1 @@
+ALTER TABLE `devis_preferences` ADD `adress_id` INT NULL DEFAULT NULL AFTER `note`;

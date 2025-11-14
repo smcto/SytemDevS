@@ -1,0 +1,5 @@
+table.table-uniforme thead {background-color: #FFFFFF !important;}
+table.table-uniforme tbody tr:nth-child(odd) {background-color: #FFFFFF !important;}
+table.table-uniforme tbody tr:nth-child(even) {background-color: #FFFFFF !important;}
+table.table-uniforme tbody tr:hover:nth-child(odd) {background-color: #FFFFFF !important;}
+table.table-uniforme tbody tr:hover:nth-child(even) {background-color: #FFFFFF !important;}

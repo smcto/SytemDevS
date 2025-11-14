@@ -1,0 +1,44 @@
+{#
+/**
+ * CakePHP(tm) : Rapid Development Framework (http://cakephp.org)
+ * Copyright (c) Cake Software Foundation, Inc. (http://cakefoundation.org)
+ *
+ * Licensed under The MIT License
+ * For full copyright and license information, please see the LICENSE.txt
+ * Redistributions of files must retain the above copyright notice.
+ *
+ * @copyright     Copyright (c) Cake Software Foundation, Inc. (http://cakefoundation.org)
+ * @link          http://cakephp.org CakePHP(tm) Project
+ * @since         2.0.0
+ * @license       http://www.opensource.org/licenses/mit-license.php MIT License
+ */
+#}
+{% set allAssociations = Bake.aliasExtractor(modelObj, 'BelongsTo') %}
+{% set allAssociations = allAssociations|merge(Bake.aliasExtractor(modelObj, 'BelongsToMany')) %}
+{% set allAssociations = allAssociations|merge(Bake.aliasExtractor(modelObj, 'HasOne')) %}
+{% set allAssociations = allAssociations|merge(Bake.aliasExtractor(modelObj, 'HasMany')) %}
+
+    public function isAuthorized($user)
+    {
+        $action = $this->request->getParam('action');
+        $typeprofils = $user['typeprofils'];
+        if(in_array('konitys', $typeprofils) || in_array('admin', $typeprofils)) {
+            return true;
+        }
+
+        return parent::isAuthorized($user);
+    }
+    
+    public function initialize(array $config = [])
+    {
+        parent::initialize($config);
+        $this->loadComponent('Utilities');
+        $this->Utilities->loadModels([]);
+    }
+
+    public function index()
+    {
+        ${{ pluralName }} = $this->{{ currentModelName }}->find()->contain([{{ Bake.stringifyList(allAssociations, {'indent': false})|raw }}]);
+        ${{ pluralName }} = $this->paginate(${{ pluralName }});
+        $this->set(compact('{{ pluralName }}'));
+    }

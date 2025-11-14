@@ -1,0 +1,2 @@
+ALTER TABLE `devis` ADD `total_ht` DECIMAL(10,2) NULL DEFAULT NULL AFTER `modified`, ADD `total_reduction` DECIMAL(10,2) NULL DEFAULT NULL AFTER `total_ht`, ADD `total_remise` DECIMAL(10,2) NULL DEFAULT NULL AFTER `total_reduction`, ADD `total_tva` DECIMAL(10,2) NULL DEFAULT NULL AFTER `total_remise`;
+ALTER TABLE `devis` ADD `total_ttc` DECIMAL(10,2) NULL DEFAULT NULL AFTER `modified`;

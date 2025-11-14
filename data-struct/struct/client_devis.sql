@@ -1,0 +1,3 @@
+ALTER TABLE `clients` ADD `type_commercial` ENUM('client', 'projet') NULL DEFAULT NULL AFTER `groupe_client_id`, ADD `connaissance_selfizee` TEXT NULL DEFAULT NULL AFTER `type_commercial`, ADD `is_location_event` TINYINT(1) NOT NULL DEFAULT '0' AFTER `connaissance_selfizee`, ADD `is_vente` TINYINT(1) NOT NULL DEFAULT '0' AFTER `is_location_event`;
+ALTER TABLE `clients` CHANGE `type_commercial` `type_commercial` ENUM('client','projet', '') CHARACTER SET utf8 COLLATE utf8_general_ci NULL DEFAULT NULL;
+ALTER TABLE `clients` ADD `genre` ENUM('corporation', 'person', '') NULL DEFAULT NULL AFTER `groupe_client_id`;

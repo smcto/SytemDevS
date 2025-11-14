@@ -1,0 +1,1 @@
+ALTER TABLE `devis_factures` ADD `model_type` ENUM('classik', 'spherik', '') NULL DEFAULT NULL AFTER `client_id`;

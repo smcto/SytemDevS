@@ -1,0 +1,1 @@
+ALTER TABLE `ventes` ADD `livraison_pays_id` INT NULL DEFAULT NULL AFTER `livraison_contact_note`;

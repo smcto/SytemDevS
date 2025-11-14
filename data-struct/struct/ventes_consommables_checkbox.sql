@@ -1,0 +1,1 @@
+ALTER TABLE `ventes_consommables` ADD `checked_consommables` JSON NULL DEFAULT NULL AFTER `parc_id`, ADD `checked_accessories` JSON NULL DEFAULT NULL AFTER `checked_consommables`;

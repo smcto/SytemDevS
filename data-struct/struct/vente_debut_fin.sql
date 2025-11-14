@@ -1,0 +1,2 @@
+ALTER TABLE `ventes` ADD `contrat_debut` DATE NULL DEFAULT NULL AFTER `parc_id`, ADD `contrat_fin` DATE NULL DEFAULT NULL AFTER `contrat_debut`;
+ALTER TABLE `ventes_accessoires` CHANGE `accessoire_id` `accessoire_id` INT(11) NULL DEFAULT NULL;

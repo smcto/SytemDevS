@@ -1,0 +1,2 @@
+ALTER TABLE `ventes` ADD `is_client_belongs_to_group` TINYINT(1) NOT NULL DEFAULT '0' AFTER `is_client_not_in_sellsy`;
+ALTER TABLE `ventes` ADD `groupe_client_id` INT DEFAULT NULL AFTER `is_client_belongs_to_group`;

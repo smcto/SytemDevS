@@ -1,0 +1,45 @@
+@media (min-width: 768px) {
+    .custom-col-width .col-md-1 {
+        -webkit-flex: 0 0 13.5%;
+        -moz-flex: 0 0 13.5%;
+        -ms-flex: 0 0 13.5%;
+        -o-flex: 0 0 13.5%;
+        flex: 0 0 13.5%;
+        max-width: 13.5%;
+    }
+    .custom-col-width-small .col-md-1, .custom-col-width-small .col-filter {
+        -webkit-flex: 0 0 12% !important;
+        -moz-flex: 0 0 12% !important;
+        -ms-flex: 0 0 12% !important;
+        -o-flex: 0 0 12% !important;
+        flex: 0 0 12% !important;
+        max-width: 12% !important;
+    }
+}
+
+.fieldset-devis {
+    border: 1px solid #abb3bd;
+    padding: 0px 10px 20px 10px;
+    margin-top: 20px;
+    border-radius: 5px;
+}
+
+.legend-fieldset-devis {
+    font-size: 17px;
+    width: 6cm;
+    margin-left: 4px;
+    padding-left: 10px
+}
+
+.tooltip {
+
+    pointer-events: none;
+}
+
+.tooltip-inner p, .tooltip-inner span {
+    color: #FFF !important;
+}
+
+.multi-actions .dropdown-toggle .filter-option {
+    font-size: 16px;
+}

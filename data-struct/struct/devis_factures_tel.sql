@@ -1,0 +1,1 @@
+ALTER TABLE `devis_factures` ADD `client_tel` VARCHAR(250) CHARACTER SET utf8 COLLATE utf8_general_ci NULL DEFAULT NULL AFTER `commentaire_commercial`;

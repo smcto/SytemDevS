@@ -1,0 +1,1 @@
+ALTER TABLE `documents` ADD `step` VARCHAR(250) NOT NULL AFTER `deleted_in_sellsy`; 

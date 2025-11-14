@@ -1,0 +1,1 @@
+ALTER TABLE `bornes` ADD `operateur_id` INT NULL DEFAULT NULL COMMENT 'user qui fait le saisie' AFTER `anysesk_id`; 

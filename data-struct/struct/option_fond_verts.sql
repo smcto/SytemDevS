@@ -1,0 +1,12 @@
+CREATE TABLE `option_fond_verts` (     `id` INT NOT NULL AUTO_INCREMENT ,     `nom` VARCHAR(250) NOT NULL ,     PRIMARY KEY (`id`)  );
+ALTER TABLE `opportunites`     ADD COLUMN `option_fond_vert_id` INT NULL AFTER `evenement_id`;
+ALTER TABLE `option_fond_verts`  ENGINE=MYISAM AUTO_INCREMENT=1 COMMENT='' ROW_FORMAT=DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_general_ci ;
+CREATE TABLE `besion_bornes`(     `id` INT NOT NULL ,     `nom` VARCHAR(250) NOT NULL ,     PRIMARY KEY (`id`)  );
+ALTER TABLE `opportunites`     ADD COLUMN `besion_borne_id` INT NULL AFTER `option_fond_vert_id`;
+INSERT INTO `option_fond_verts`(`id`,`nom`) VALUES ( NULL,'Oui');
+INSERT INTO `option_fond_verts`(`id`,`nom`) VALUES ( NULL,'Non');
+INSERT INTO `option_fond_verts`(`id`,`nom`) VALUES ( NULL,'Non defini pour le moment');
+ALTER TABLE `besion_bornes`     CHANGE `id` `id` INT(11) NOT NULL AUTO_INCREMENT;
+INSERT INTO `besion_bornes`(`id`,`nom`) VALUES ( NULL,'Borne avec impression');
+INSERT INTO `besion_bornes`(`id`,`nom`) VALUES ( NULL,'Borne sans impression');
+ALTER TABLE `opportunites` DROP COLUMN `option_fond_vert`;

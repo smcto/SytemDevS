@@ -1,0 +1,1 @@
+<?= $this->Form->control('client_id', ['options' => $clients, 'empty' => 'Sélectionner', 'class' => 'select2 form-control test', 'label' => false,'style' => 'width:100%',"data-placeholder"=>"Choisir",'required']) ?>

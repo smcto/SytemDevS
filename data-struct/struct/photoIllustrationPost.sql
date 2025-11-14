@@ -1,0 +1,1 @@
+ALTER TABLE `posts` ADD `photo_illustration_name` VARCHAR(255) NULL AFTER `status`;

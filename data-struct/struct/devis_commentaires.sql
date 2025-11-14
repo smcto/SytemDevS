@@ -1,0 +1,1 @@
+ALTER TABLE `devis` ADD `commentaire_client` TEXT NULL DEFAULT NULL AFTER `tva_id`, ADD `commentaire_commercial` TEXT NULL DEFAULT NULL AFTER `commentaire_client`;

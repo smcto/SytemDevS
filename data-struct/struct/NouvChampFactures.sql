@@ -1,0 +1,1 @@
+ALTER TABLE `factures` ADD `etat_facture_id` INT NULL AFTER `user_id`, ADD `message_type_facture_id` INT NULL AFTER `etat_facture_id`;

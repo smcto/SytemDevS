@@ -1,0 +1,1 @@
+ALTER TABLE `ventes` ADD `vente_statut` ENUM('en_prepa', 'pret_exp', 'expedie') NULL DEFAULT NULL AFTER `created`;

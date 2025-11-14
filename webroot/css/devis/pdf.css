@@ -1,0 +1,308 @@
+@page{
+    color: black;
+    width: 100%;
+    height: 100%;
+    margin: 130px 10px 90px 10px;
+}
+
+main {
+    margin: 20px 25px 0px 25px;
+}
+
+header {
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    right: 0px;
+}
+
+footer {
+    position: fixed; 
+    bottom: -90px; 
+    left: 0px; 
+    right: 0px;
+    height: 50px; 
+}
+
+.img-fond {
+    position: fixed;
+    left: -10px;
+    top: -130px;
+    right: -10px;
+    bottom: -20px;
+    background-color: white;
+    text-align: center;
+    z-index: -10000;
+}
+.header-text {
+   position: fixed;
+   color: white;
+   height: 100px;
+   top: -3cm;
+   left: 0;
+   right: 0;
+   font-size: 10px;
+   margin-left: 0.6cm;
+   margin-left: 0.6cm;
+}
+
+.footer-text {
+   color: black;
+   color: #b5b5b5;
+   margin-top: 0.6cm;
+   text-align: center;
+   font-size: 11px;
+}
+
+.num-devis {
+    position: fixed;
+    float: right;
+    margin-right: 1cm;
+    top: -1cm;
+    font-size: 11px;
+    z-index: -10000;
+}
+
+.eclipse{
+    position: fixed;
+    float:right;
+    width: 5.5cm;
+    height: 20px;
+    background-color: #ffffff;
+    margin-top: -1cm;
+    z-index: 1000000;
+}
+
+.card{
+    z-index: 10000;
+    font-size: 14px;  
+}
+
+.inf-cli {
+    // margin-left: 11cm;
+    margin-top: -10px!important;
+}
+
+.pdf-table-0 {
+    border-collapse: collapse;
+    width: 100%;
+    vertical-align: top;
+    border-left: 1.5px solid white;
+    border-right: 1.5px solid white;
+    page-break-inside: auto;
+}
+
+td p {
+   display: block;
+   margin: 2px 0;
+}
+
+.pdf-table-0 tr {
+    page-break-before: avoid;
+    page-break-inside: auto!important;
+}
+
+.break-inside {
+    page-break-before: avoid;
+    page-break-inside: auto;
+    display: block;
+}
+
+.pdf-table-0 td {
+    padding-top: 4px;
+    padding-bottom: 7px;
+    border: 1px solid #000;
+    font-size: 14px !important;  
+    font-family: Arial, Helvetica, sans-serif !important;
+    page-break-before: avoid;
+    page-break-inside: auto;
+}
+
+.pdf-table-0 td {
+    padding-top: 4px;
+    padding-bottom: 7px;
+    border: 1px solid #000;
+    font-size: 14px !important;  
+    font-family: Arial, Helvetica, sans-serif !important;
+}
+
+.pdf-table-0 thead th, .table-header td, .pdf-table-0 td, .table-note-total td, .pdf-table-2 td, .condition-paiem p  {
+    font-size: 12px !important;
+}
+
+.pdf-table-0 thead th {
+    padding-bottom: 10px;
+}
+
+.pdf-table-0 th {
+    color: rgb(255, 68, 68);
+}
+
+h4 {
+    font-weight: bold;
+    font-size: 11px;
+}
+
+.table-note-total {
+    margin-top: 20px;
+    width: 100%;
+}
+
+.note{
+    padding: 2px 7px;
+    border: 1px #e83e8c solid;
+    color: #e83e8c;
+}
+
+.note p {
+   display: block;
+   margin: 1px 0;
+}
+
+.pdf-table-1 {
+    width: 100%;
+    vertical-align: top;
+}
+
+.auto-break {
+    display: block;
+    page-break-before: auto!important;
+    page-break-inside: avoid!important;
+    position: relative;
+}
+
+.tabl-1 {
+    text-align: right;
+    padding-right: 25px;
+}
+
+.tabl-1-1 {
+    text-align: right;
+    padding-left: 15px;
+}
+
+.tab-1-euro {
+  padding-left: 3px;
+}
+
+.tabl-tva {
+    font-weight: normal;
+}
+
+.total {
+    margin-top: 20px;
+}
+
+.total-ht, .total-ttc{
+    font-weight: bold;
+}
+
+.sign-cl {
+    text-align: right;
+    margin-right: 1cm;
+}
+
+.condition-paiem {
+    top: 10px;
+    font-size: 14px;
+    width: 100%;
+}
+
+.total-ht, .total-tva, .total-ttc{
+}
+
+.descr-comm{
+    line-height: 10px;
+    border-left: none!important;
+    vertical-align: top;
+}
+
+.montant-ht, .val-ss-total{
+    border-right: none!important;
+}
+
+td.titre{
+    border-left: none!important;
+    border-right: none!important;
+    font-weight:lighter;
+    font-size: 15px!important;
+    padding-top: 1px !important;
+    padding-bottom: 2px !important;
+}
+
+.ss-total{
+    border-left: none!important;
+    vertical-align: top;
+}
+.cal-rem{
+    text-decoration: line-through;
+}
+#sortable{
+    vertical-align: top;
+}
+.remise, .pu-ht{
+    line-height: 15px;
+    text-align: right;
+}
+.qte-usuel, .tva-tab, .montant-ht{
+    text-align: right;
+}
+.moyen-regl{
+    vertical-align: top;
+}
+
+.p-l-5 {
+    padding-right: 5px;
+}
+
+.saut-ligne {
+    height: 30px;
+}
+
+.break-after {
+    display: block;
+    page-break-after: always;
+    position: relative;
+}
+
+td.saut-page{
+    border-top: 1.5px solid #ffffff;
+}
+
+table.space-5 {
+    margin-top: -10px;
+    border-spacing: 8px !important;
+    border-collapse: unset;
+}
+
+.bare-center {
+    text-decoration:line-through;
+    text-decoration-color: #000;
+    font-size: 10px;
+}
+
+.objet{
+    font-size: 14px !important;  
+    font-family: Arial, Helvetica, sans-serif !important;
+}
+
+.objet p:first-child {
+    display: inline;
+}
+
+.line-through {
+    text-decoration: line-through;
+    transform: translateY(-10px);
+}
+
+.line-through:after {
+    width: auto; 
+    position: absolute;
+    border-top: 1px solid red;
+    margin-top:7px;
+    margin-left: 14px;
+}
+
+.ligne-option{
+    font-style: italic !important;
+}

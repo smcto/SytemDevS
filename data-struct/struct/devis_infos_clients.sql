@@ -1,0 +1,1 @@
+ALTER TABLE `devis` ADD `client_nom` VARCHAR(255) NULL AFTER `modele_devis_sous_categories_id`, ADD `client_cp` VARCHAR(255) NULL AFTER `client_nom`, ADD `client_ville` VARCHAR(255) NULL AFTER `client_cp`, ADD `client_adresse` VARCHAR(255) NULL AFTER `client_ville`, ADD `client_country` VARCHAR(255) NULL AFTER `client_adresse`;

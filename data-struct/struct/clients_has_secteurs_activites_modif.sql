@@ -1,0 +1,1 @@
+ALTER TABLE `clients_has_secteurs_activites` DROP `created`, DROP `modified`; 

@@ -1,0 +1,2 @@
+ALTER TABLE `devis_preferences` CHANGE `delai_reglements` `delai_reglements` ENUM('commande','30j','15j','reception','echeances','60j','90j','120j','', 'prelevement_trim', 'prelevement_sem', 'prelevement_an') CHARACTER SET utf8mb4 COLLATE utf8mb4_general_ci NULL;
+ALTER TABLE `devis` CHANGE `delai_reglements` `delai_reglements` ENUM('commande','30j','15j','reception','echeances','60j','90j','120j','', 'prelevement_trim', 'prelevement_sem', 'prelevement_an') CHARACTER SET utf8mb4 COLLATE utf8mb4_general_ci NULL;

@@ -1,0 +1,1 @@
+ALTER TABLE `date_evenements` ADD `is_sent_relance_av` TINYINT(1) NOT NULL DEFAULT '0' AFTER `evenement_id`, ADD `date_relance_av` DATE NULL AFTER `is_sent_relance_av`, ADD `is_sent_relance_ap` TINYINT(1) NOT NULL DEFAULT '0' AFTER `date_relance_av`, ADD `date_relance_ap` DATE NULL AFTER `is_sent_relance_ap`;

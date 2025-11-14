@@ -1,0 +1,1 @@
+ALTER TABLE `ventes` ADD `contact_crea_lastname` VARCHAR(255) NULL DEFAULT NULL AFTER `vente_contact_client_id`;

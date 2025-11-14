@@ -1,0 +1,26 @@
+.link:hover {
+    color: blue !important
+}
+
+@media (max-width:1206px) {
+    .webkit {
+        padding: 30px 20px !important;
+    }
+
+    .two-columns .column {
+        max-width: 100% !important;
+    }
+
+    .left-column {
+        width: auto !important;
+    }
+
+    .left-content {
+        width: auto !important;
+        text-align: left !important;
+    }
+
+    .mobile-recap-label {
+        font-size: 15px !important;
+    }
+}

@@ -1,0 +1,1 @@
+ALTER TABLE `ventes` ADD `livraison_contact_note` TEXT NULL DEFAULT NULL AFTER `livraison_client_cp`;

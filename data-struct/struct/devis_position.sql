@@ -1,0 +1,1 @@
+ALTER TABLE `devis` ADD `status` ENUM('draft', 'done') NOT NULL DEFAULT 'draft' AFTER `info_bancaire_id`, ADD `position_type` ENUM('pro', 'particulier', '') NULL DEFAULT NULL AFTER `status`;

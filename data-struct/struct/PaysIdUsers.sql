@@ -1,0 +1,1 @@
+ALTER TABLE `users` ADD `pays_id` INT NULL AFTER `country_id`;

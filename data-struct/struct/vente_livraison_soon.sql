@@ -1,0 +1,1 @@
+ALTER TABLE `ventes` ADD `livraison_is_as_soon_as_possible` TINYINT(1) NOT NULL DEFAULT '0' AFTER `checked_consommables`;

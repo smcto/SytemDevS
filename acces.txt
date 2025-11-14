@@ -1,0 +1,22 @@
+http://webapps.konitys.fr/phpmyadmin/
+
+37.187.132.132
+Administration login	crm
+Administration password	g]xl5e?NCPLE{d0#~hV/hkSu
+
+Administration login    crm
+Administration password Yw2k956F
+
+crm.konitys.fr (propagation en cours)
+
+publichtml/
+git pull
+jeanyves
+joanyves2ATL
+
+newage33Ieme
+
+-----------
+DEv :
+Connexion d'administration crmdev
+Mot de passe d'administration !JR?~#=y_xc)Z6rg_>{jP0K0b-39+[o2lS?GeC/]AmYgVv3_

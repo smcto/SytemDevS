@@ -1,0 +1,1 @@
+ALTER TABLE `antennes` ADD `info_debit` VARCHAR(255) NOT NULL AFTER `debit_internet_id`;

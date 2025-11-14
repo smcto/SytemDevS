@@ -1,0 +1,282 @@
+$(document).ready(function() {
+
+    $(".select2").select2({
+        multiple: true,
+    });
+
+    $('.select2').on('select2:opening select2:closing', function(event) {
+        var $searchfield = $(this).parent().find('.select2-search__field');
+        $searchfield.prop('enable', true);
+    });
+
+    var srcUrl = $("#id_baseUrl").attr('value');
+
+    // Changement adresse
+    $('#devis_adresse').on('shown.bs.modal', function(e) {
+        modal = $(e.currentTarget);
+        link = $(e.relatedTarget);
+        url = link.attr('data-href');
+        modal.find('form').attr('action', url);
+
+
+        modal.find('form').submit(function(event) {});
+    });
+
+    // Changement contact
+    $('#devis_contact').on('shown.bs.modal', function(e) {
+        modal = $(e.currentTarget);
+        link = $(e.relatedTarget);
+        url = link.attr('data-href');
+        modal.find('form').attr('action', url);
+        modal.find('form').submit(function(event) {});
+    });
+
+    // Objet du document
+    $('.summernote-0, .summernote-note').summernote({
+        height: '100%', //set editable area's height
+        lang: 'fr-FR',
+        toolbar: [
+            ['style', ['bold', 'italic', 'link', 'ul']]
+        ],
+    });
+
+    var trLength = $('.container-objet').find('.bloc-objet').length - 1;
+    $('.add-data').unbind('click');
+
+    $('.add-data').click(function(event) {
+        clonedTr = $('.bloc-objet.clone').last().clone();
+
+        $('.container-objet').append(clonedTr).promise().then(function(e) {
+            newTr = $('.container-objet').find('.bloc-objet.added-objet').last();
+            var newTrIndex = eval(newTr.index() + trLength);
+            newTr.find("textarea").each(function(index, el) {
+                name = 'devis_objects' + '[' + newTrIndex + '][' + $(this).attr('input-name') + ']';
+                $(this).attr('name', name).addClass('summernote-' + newTrIndex).summernote({
+                    height: 54,
+                    lang: 'fr-FR',
+                    toolbar: [
+                        ['style', ['bold', 'italic']]
+                    ]
+                });
+            });
+            newTr.removeClass('d-none');
+        });
+    });
+
+    $('#delai-reglements').on('change', function() {
+        if ($(this).val() != 'echeances') {
+            $('tbody.echeance').html('');
+            $('.div-echeance').addClass('hide');
+        } else {
+            $('.div-echeance').removeClass('hide');
+        }
+    });
+
+    function aupdateEcheance() {
+        var tbody = $('tbody.echeance');
+        tbody.unbind('blur').on('blur', 'input[input-name="montant"]', function(event) {
+            calculTotal();
+        });
+    }
+    aupdateEcheance();
+
+    function removeBloc() {
+        $('.container-objet').on('click', '#remove-bloc', function(event) {
+            event.preventDefault();
+
+            if (confirm('Êtes vous sûr de vouloir supprimer?')) {
+                nbTr = $('.container-objet').find('tr').length;
+                url = $(this).attr('data-href');
+                if (nbTr == 1) {
+                    alert('Cette ligne ne peut pas être supprimée');
+                    return false;
+                }
+                currentTr = $(this).parents('.bloc-objet');
+
+                if (url) {
+                    $.get(url, function(data, xhr) {
+                        if (data.status == 'success') {
+                            currentTr.remove();
+                        }
+                    });
+                } else {
+                    currentTr.remove();
+                }
+            }
+        });
+    }
+    removeBloc();
+
+});
+
+
+var defaultData = $('tbody.echeance');
+var trLength = defaultData.find('tr').length;
+var today = moment().format('YYYY-MM-DD');
+
+var paidEcheances = [];
+$('tr.is_payed').each(function(index, el) {
+    paidEcheances.push(new Object({
+        'date': $(this).attr('date'),
+        'montant': $(this).attr('montant')
+    }));
+});
+
+function echeanceAdd(max) {
+    if (max > 0) {
+        // $('tbody.echeance tr:not(.is_payed)').remove();
+        $('tbody.echeance').empty();
+        var now = setIncrementedDate(0);
+        var montant = $('.total_general_ttc').text();
+        if (montant !== '') {
+            montant = parseFloat(montant / max).toFixed(2);
+        }
+        if ($('#devis_has_echeance').val() == 1) {
+            montant = $('#total_ttc_restant').val();
+            maxReduceByEcheance = parseInt(max-$('#nb_echeance_paid').val());
+            montant = parseFloat(montant / maxReduceByEcheance).toFixed(2);
+        }
+        var number = 0;
+        var clonedTr = $('tfoot tr').last().clone();
+        addTr(clonedTr, now, number, max, montant);
+    } else {
+        var clonedTr = $('tfoot tr').last().clone();
+        $('tbody.echeance').append(clonedTr).promise().then(function(e) {
+            newRow = $('tbody.echeance').find('tr').last();
+            newTrIndRow = eval(newRow.index());
+            newRow.find("input[input-name] , select[input-name]").each(function(index, el) {
+                $(this).attr('name', 'devis_echeances' + '[' + newTrIndRow + '][' + $(this).attr('input-name') + ']');
+            });
+        });
+    }
+}
+
+var notIncludedEcheance = $('#nb_echeance_paid').val() > 0 ? false : -1; // si -1 c'est qu'il n'y pas eu d'echéance pour le devis
+var clonedTr = $('tfoot tr').last().clone();
+
+function addTr(clonedTr, date, number, max, montant) {
+
+    if (number < max) {
+        // console.log(date.toLocaleDateString("fr-FR"))
+        $('tbody.echeance').append(clonedTr).promise().then(function(e) {
+            var newTr = $('tbody.echeance').find('tr').last();
+            var currentTr = newTr.prev();
+            var newTrIndRow = eval(newTr.index() + trLength);
+
+            newTr.find("[input-name]").each(function(index, el) {
+                $(this).attr('name', 'devis_echeances' + '[' + newTrIndRow + '][' + $(this).attr('input-name') + ']');
+            });
+
+            newTr.find('[input-name="date"]').val(date);
+            newTr.find('[input-name="montant"]').val(montant);
+
+            // rajoute l'echeance payée dans la liste
+            $.each(paidEcheances, function(index, item) {
+                // pas possible qu'il y ait > 1 dates pareil
+                if (item.date == date) { 
+                    newTr.addClass('is_payed');
+                    newTr.find('td:eq(2)').html('<b class="text-success">Payée</b>');
+                    newTr.find('[input-name="montant"]').attr('disabled',' disabled').val(item.montant);
+                    newTr.find('[input-name="date"]').attr('disabled', 'disabled');
+                    notIncludedEcheance = true;
+                }
+            });
+
+            number++;
+            clonedTr = $('tfoot tr').last().clone();
+            calculTotal();
+            date = setIncrementedDate(number);
+            addTr(clonedTr, date, number, max, montant);
+        });
+    }
+}
+
+// si jamais il y a eu des dates trops anciennens et qu'elles n'ont pas pu être insérées parmi les champs :
+if (notIncludedEcheance == false) {
+    $.each(paidEcheances, function(index, item) {
+        console.log(item)
+        console.log(clonedTr)
+        // $('tbody.echeance').prepend(clonedTr).promise().then(function(e) {
+        //     var newTr = $('tbody.echeance').find('tr').last();
+        //     var newTrIndRow = eval(newTr.index() + trLength);
+
+        //     newTr.find("[input-name]").each(function(index, el) {
+        //         $(this).attr('name', '');
+        //     });
+
+        //     newTr.find('[input-name="date"]').val(item.date);
+        //     newTr.find('[input-name="montant"]').val(item.montant);
+        // });
+    });
+}
+
+function setIncrementedDate(kMonth = 0) {
+    currentDate = moment().format('YYYY-MM-DD');
+    return moment(currentDate).add(kMonth, 'M').format('YYYY-MM-DD');
+}
+
+// ne marche pas correctement/++
+function addMonths(date, months) {
+    date.setMonth(date.getMonth() + months);
+
+    function pad(s) {
+        return (s < 10) ? '0' + s : s;
+    };
+    return [date.getFullYear(), pad(date.getMonth()) != '00' ? pad(date.getMonth()) : 12, pad(date.getDate())].join('-');
+}
+
+function echeanceUpdate() {
+
+    var number = $('tbody.echeance').find('tr').length;
+    var montant = $('.total_general_ttc').text();
+    if (montant !== '') {
+        montant = parseFloat(montant / number).toFixed(2);
+    }
+    var now = new Date(Date.now());
+    $('tbody.echeance').find('tr').each(function(index, el) {
+        $(this).find('[input-name="date"]').val(addMonths(now, 1));
+        $(this).find('[input-name="montant"]').val(montant);
+        calculTotal();
+    });
+}
+
+function calculTotal() {
+    var montant = Number($('.total_general_ttc').text());
+    var total = 0;
+    $('tbody.echeance').find('.echeance-montant').each(function() {
+        total += Number($(this).val() != '' ? $(this).val() : 0);
+        $('.total_echeances').text(total.toFixed(2));
+        $('.rest_echeances').text((montant - total).toFixed(2));
+    });
+    // updateName();
+}
+
+// ts ilain tson
+function updateName() {
+    var a = 0;
+    $('tbody.echeance').find('.echeance-montant').each(function() {
+        $(this).prop('name', 'devis_echeances[' + a++ + '][' + $(this).attr('input-name') + ']');
+    });
+    a = 0;
+    $('tbody.echeance').find('.echeance-date').each(function() {
+        $(this).prop('name', 'devis_echeances[' + a++ + '][' + $(this).attr('input-name') + ']');
+    });
+    a = 0;
+    $('tbody.echeance').find('.num-to-delete').each(function() {
+        $(this).val(a++);
+    });
+
+}
+
+function deleteRow(r) {
+    var i = r.parentNode.parentNode.rowIndex;
+    document.getElementById("echeance").deleteRow(i);
+    calculTotal();
+}
+
+$('.save_devis').click(function(event) {
+    // permet de supprimer l'echeance par defaut à key = 0
+    if ($('tfoot.echeance').html() !== undefined) {
+        $('tfoot.echeance').remove();
+    }
+});

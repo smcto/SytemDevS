@@ -1,0 +1,2 @@
+ALTER TABLE `opportunites` ADD `nom_evenement` VARCHAR(250) NULL AFTER `id_in_wp`, ADD `nbr_participants` INT NULL AFTER `nom_evenement`, ADD `date_debut_event` DATE NULL AFTER `nbr_participants`, ADD `date_fin_event` DATE NULL AFTER `date_debut_event`, ADD `demande_precision` TEXT NULL AFTER `date_fin_event`;
+ALTER TABLE `opportunites` ADD `nbr_borne` INT NULL AFTER `demande_precision`, ADD `option_fond_vert` BOOLEAN NOT NULL AFTER `nbr_borne`, ADD `type_borne` INT NOT NULL AFTER `option_fond_vert`, ADD `impression` INT NOT NULL AFTER `type_borne`;

@@ -1,0 +1,1 @@
+ALTER TABLE `devis_factures` ADD `sellsy_estimate_id` INT NULL DEFAULT NULL AFTER `client_tel`;

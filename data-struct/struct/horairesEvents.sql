@@ -1,0 +1,1 @@
+ALTER TABLE `evenements` ADD `horaires` TEXT NOT NULL AFTER `animation_hotesse`;

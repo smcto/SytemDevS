@@ -1,0 +1,1 @@
+ALTER TABLE `users` ADD `type_contact` VARCHAR(255) NULL AFTER `password_visible`;

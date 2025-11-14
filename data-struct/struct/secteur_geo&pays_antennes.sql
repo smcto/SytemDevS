@@ -1,0 +1,1 @@
+ALTER TABLE `antennes` ADD `pays_id` INT NULL AFTER `convention_signe`, ADD `secteur_geographique_id` INT NULL AFTER `pays_id`;

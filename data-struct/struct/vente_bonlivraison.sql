@@ -1,0 +1,1 @@
+ALTER TABLE `ventes` ADD `bon_de_livraison` VARCHAR(255) NULL DEFAULT NULL AFTER `livraison_crea_fullname`;

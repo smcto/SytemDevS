@@ -1,0 +1,1 @@
+ALTER TABLE `devis_echeances` ADD `is_accompte` TINYINT(1) NOT NULL DEFAULT '0' AFTER `is_payed`;

@@ -1,0 +1,1 @@
+ALTER TABLE `ventes` ADD `vente_contact_client_id` INT NULL DEFAULT NULL AFTER `livraison_is_as_soon_as_possible`;

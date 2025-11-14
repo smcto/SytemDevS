@@ -1,0 +1,1 @@
+ALTER TABLE `reglements` CHANGE `sellsy_status` `status` VARCHAR(30) CHARACTER SET utf8mb4 COLLATE utf8mb4_general_ci NULL;

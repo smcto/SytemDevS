@@ -1,0 +1,1 @@
+ALTER TABLE `catalog_produits` CHANGE `catalog_sous_categories_id` `catalog_sous_categories_id` INT(11) NULL;

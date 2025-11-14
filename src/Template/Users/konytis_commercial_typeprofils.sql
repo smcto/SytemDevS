@@ -1,0 +1,1 @@
+INSERT INTO `type_profils` (`id`, `nom`, `created`, `modified`) VALUES (11, 'Konitys commercial', '2019-12-11 00:00:00', '2019-12-11 00:00:00');

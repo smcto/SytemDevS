@@ -1,0 +1,1 @@
+ALTER TABLE `devis` CHANGE `status` `status` ENUM('accepted','acompte','canceled','draft','sent','expired','lu','billed','refused','paid','partially_billed', 'partially_paid') CHARACTER SET latin1 COLLATE latin1_swedish_ci NOT NULL DEFAULT 'draft';

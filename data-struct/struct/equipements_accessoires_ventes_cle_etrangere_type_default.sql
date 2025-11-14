@@ -1,0 +1,1 @@
+ALTER TABLE `equipements_accessoires_ventes` CHANGE `equipement_id` `equipement_id` INT(11) NULL DEFAULT NULL;

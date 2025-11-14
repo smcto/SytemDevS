@@ -1,0 +1,73 @@
+<?php
+    $this->assign('title', '{{ singularHumanName }}');
+    $titrePage = "Liste des {{ singularHumanName }}" ;
+    $this->start('breadcumb');
+
+    $this->Breadcrumbs->add(
+        'Dashboards',
+        ['controller' => 'Dashboards', 'action' => 'index']
+    );
+
+    $this->Breadcrumbs->add(
+        'Réglages',
+        ['controller' => 'Dashboards', 'action' => 'reglages']
+    );
+    $this->Breadcrumbs->add($titrePage);
+        echo $this->element('breadcrumb',['titrePage' => $titrePage]);
+    $this->end();
+
+    $this->start('actionTitle');
+        echo $this->Html->link(__('Create'), ['action'=>'add'], ['escape' => false, 'class' => 'btn btn-rounded pull-right hidden-sm-down btn-success']);
+    $this->end();
+?>
+
+<div class="card">
+    <div class="card-body">
+        <?php if (!${{ pluralVar }}->isEmpty()): ?>
+            <div class="table-responsive">
+
+                <table class="table table-striped">
+                    <thead>
+                        <tr>
+              {% for field in fields %}{% if field != "id" %}
+              <th><?= $this->Paginator->sort('{{ field }}') ?></th>
+              {% endif %}{% endfor %}
+              <th class="actions"><?= __('Actions') ?></th>
+                        </tr>
+                    </thead>
+
+                    <tbody>
+                        <?php foreach (${{ pluralVar }} as ${{ singularVar }}): ?>
+                            <tr>
+{% for field in fields %}
+{% set isKey = false %}
+{% if associations.BelongsTo %}
+{% for alias, details in associations.BelongsTo if field == details.foreignKey %}
+{% set isKey = true %}
+                                <td><?= ${{ singularVar }}->has('{{ details.property }}') ? ${{ singularVar }}->{{ details.property }}->{{ details.displayField }} : '' ?></td>
+{% endfor %}
+{% endif %}
+{% if isKey is not same as(true) %}{% set columnData = Bake.columnData(field, schema) %}
+{% if columnData.type not in ['integer', 'float', 'decimal', 'biginteger', 'smallinteger', 'tinyinteger'] %}
+                                <td><?= ${{ singularVar }}->{{ field }} ?></td>
+{% else %}
+                                <td><?= $this->Number->format(${{ singularVar }}->{{ field }}) ?></td>
+{% endif %}
+{% endif %}
+{% endfor %}
+{% set pk = '$' ~ singularVar ~ '->' ~ primaryKey[0] %}
+                                <td class="actions">
+                                    <?= $this->Html->link(__('<i class="fa fa-pencil text-inverse"></i>'), ['action' => 'add', {{ pk|raw }}], ['escape' => false]) ?>
+                                    <?= $this->Form->postLink(__('<i class="mdi mdi-delete text-inverse"></i>'), ['action' => 'delete', {{ pk|raw }}], ['confirm' => __('Are you sure you want to delete ?'), 'escape' => false]) ?>
+                                </td>
+                            </tr>
+                        <?php endforeach; ?>
+                    </tbody>
+                </table>
+
+            </div>
+        <?php else: ?>
+            Aucune information
+        <?php endif ?>
+    </div>
+</div>

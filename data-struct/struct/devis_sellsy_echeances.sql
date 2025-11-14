@@ -1,0 +1,1 @@
+ALTER TABLE `devis` ADD `sellsy_echeances` LONGTEXT NULL DEFAULT NULL AFTER `commentaire_commercial`;

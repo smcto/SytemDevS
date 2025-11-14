@@ -1,0 +1,1 @@
+ALTER TABLE `antennes` ADD `convention_signe` TINYINT(1) NULL AFTER `statut`;

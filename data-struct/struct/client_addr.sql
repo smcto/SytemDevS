@@ -1,0 +1,2 @@
+ALTER TABLE `clients` ADD `adresse_3` VARCHAR(255) NULL DEFAULT NULL AFTER `adresse_2`, ADD `adresse_4` VARCHAR(255) NULL DEFAULT NULL AFTER `adresse_2`;
+ALTER TABLE `clients` ADD `pays_iso` VARCHAR(255) NULL DEFAULT NULL AFTER `adresse_3`;

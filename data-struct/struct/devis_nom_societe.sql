@@ -1,0 +1,1 @@
+ALTER TABLE `devis` CHANGE `nom_societe` `nom_societe` VARCHAR(255) NULL DEFAULT NULL;

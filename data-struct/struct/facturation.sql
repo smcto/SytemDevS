@@ -1,0 +1,1 @@
+ALTER TABLE `lot_produits` ADD `dossier` VARCHAR(250) NULL AFTER `quantite`;

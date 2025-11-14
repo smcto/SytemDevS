@@ -1,0 +1,3 @@
+ALTER TABLE `equipement_bornes` ADD `type_equipement_id` INT NULL AFTER `borne_id`, ADD `numero_serie_id` INT NULL AFTER `type_equipement_id`, ADD `created` DATE NOT NULL AFTER `numero_serie_id`, ADD `modified` DATE NOT NULL AFTER `created`; 
+ALTER TABLE `equipement_bornes` ADD `precisions` VARCHAR(255) NULL AFTER `numero_serie_id`; 
+ALTER TABLE `equipement_bornes` CHANGE `equipement_id` `equipement_id` INT(11) NULL; 

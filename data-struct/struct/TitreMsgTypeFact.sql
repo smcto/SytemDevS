@@ -1,0 +1,1 @@
+ALTER TABLE `message_type_factures` ADD `titre` VARCHAR(255) NULL AFTER `id`;

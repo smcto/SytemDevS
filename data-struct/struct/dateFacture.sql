@@ -1,0 +1,1 @@
+ALTER TABLE `factures` ADD `created` DATETIME NULL AFTER `user_id`, ADD `modified` DATETIME NULL AFTER `created`;

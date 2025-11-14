@@ -1,0 +1,1 @@
+ALTER TABLE `clients` CHANGE `type_commercial` `type_commercial` ENUM('client','prospect','') CHARACTER SET utf8 COLLATE utf8_general_ci NULL DEFAULT NULL;

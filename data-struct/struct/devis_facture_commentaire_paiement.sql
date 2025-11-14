@@ -1,0 +1,1 @@
+ALTER TABLE `devis_factures` ADD `commentaire_paiement` TEXT NULL DEFAULT NULL AFTER `display_cheque`;

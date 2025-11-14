@@ -1,0 +1,1 @@
+ALTER TABLE `devis_produits` ADD `tva` DECIMAL(10,2) NULL DEFAULT NULL AFTER `line_option`;

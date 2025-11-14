@@ -1,0 +1,1 @@
+ALTER TABLE `devis_produits` ADD `line_option` TINYINT(2) NULL AFTER `i_position`; 

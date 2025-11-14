@@ -1,0 +1,4027 @@
+# LANGUAGE translation of CakePHP Application
+# Copyright YEAR NAME <EMAIL@ADDRESS>
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: PROJECT VERSION\n"
+"POT-Creation-Date: 2019-12-09 17:53+0300\n"
+"PO-Revision-Date: 2019-12-09 18:08+0300\n"
+"Last-Translator: NAME <EMAIL@ADDRESS>\n"
+"Language-Team: EMAIL@ADDRESS\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+"X-Generator: Poedit 1.8\n"
+"Language: fr\n"
+
+#: Controller/ActuBornesController.php:99;142
+#: Controller/BornesController.php:790;825
+msgid "The actu borne has been saved."
+msgstr ""
+
+#: Controller/ActuBornesController.php:103;146
+#: Controller/BornesController.php:794;829
+msgid "The actu borne could not be saved. Please, try again."
+msgstr ""
+
+#: Controller/ActuBornesController.php:165
+#: Controller/BornesController.php:841
+msgid "The actu borne has been deleted."
+msgstr ""
+
+#: Controller/ActuBornesController.php:167
+#: Controller/BornesController.php:843
+msgid "The actu borne could not be deleted. Please, try again."
+msgstr ""
+
+#: Controller/AntennesController.php:462;591
+msgid "The antenne has been saved."
+msgstr ""
+
+#: Controller/AntennesController.php:469;596
+msgid "The antenne could not be saved. Please, try again."
+msgstr ""
+
+#: Controller/AntennesController.php:626
+msgid "The antenne has been deleted."
+msgstr ""
+
+#: Controller/AntennesController.php:628
+msgid "The antenne could not be deleted. Please, try again."
+msgstr ""
+
+#: Controller/BornesController.php:325
+msgid "La borne a été ajoutée avec succès."
+msgstr ""
+
+#: Controller/BornesController.php:328;612
+msgid "The borne could not be saved. Please, try again."
+msgstr ""
+
+#: Controller/BornesController.php:608
+msgid "The borne has been saved. "
+msgstr ""
+
+#: Controller/BornesController.php:665
+msgid "The borne has been deleted."
+msgstr ""
+
+#: Controller/BornesController.php:667
+msgid "The borne could not be deleted. Please, try again."
+msgstr ""
+
+#: Controller/CategorieActusController.php:64;88
+msgid "The categorie actus has been saved."
+msgstr ""
+
+#: Controller/CategorieActusController.php:68;92
+msgid "The categorie actus could not be saved. Please, try again."
+msgstr ""
+
+#: Controller/CategorieActusController.php:109
+msgid "The categorie actus has been deleted."
+msgstr ""
+
+#: Controller/CategorieActusController.php:111
+msgid "The categorie actus could not be deleted. Please, try again."
+msgstr ""
+
+#: Controller/CategoriesController.php:73;106
+msgid "The category has been saved."
+msgstr ""
+
+#: Controller/CategoriesController.php:77;110
+msgid "The category could not be saved. Please, try again."
+msgstr ""
+
+#: Controller/CategoriesController.php:139
+msgid "The category has been deleted."
+msgstr ""
+
+#: Controller/CategoriesController.php:141
+msgid "The category could not be deleted. Please, try again."
+msgstr ""
+
+#: Controller/ClientContactsController.php:58;83
+msgid "The client contact has been saved."
+msgstr ""
+
+#: Controller/ClientContactsController.php:62;87
+msgid "The client contact could not be saved. Please, try again."
+msgstr ""
+
+#: Controller/ClientContactsController.php:105
+msgid "The client contact has been deleted."
+msgstr ""
+
+#: Controller/ClientContactsController.php:107
+msgid "The client contact could not be deleted. Please, try again."
+msgstr ""
+
+#: Controller/ClientsController.php:79;103
+msgid "The client has been saved."
+msgstr ""
+
+#: Controller/ClientsController.php:83;107
+msgid "The client could not be saved. Please, try again."
+msgstr ""
+
+#: Controller/ClientsController.php:124
+msgid "The client has been deleted."
+msgstr ""
+
+#: Controller/ClientsController.php:126
+msgid "The client could not be deleted. Please, try again."
+msgstr ""
+
+#: Controller/ContactsController.php:118;163
+msgid "The contact has been saved."
+msgstr ""
+
+#: Controller/ContactsController.php:122;167
+msgid "The contact could not be saved. Please, try again."
+msgstr ""
+
+#: Controller/ContactsController.php:190
+msgid "The contact has been deleted."
+msgstr ""
+
+#: Controller/ContactsController.php:192
+msgid "The contact could not be deleted. Please, try again."
+msgstr ""
+
+#: Controller/CouleurPossiblesController.php:58;83
+msgid "The couleur possible has been saved."
+msgstr ""
+
+#: Controller/CouleurPossiblesController.php:62;87
+msgid "The couleur possible could not be saved. Please, try again."
+msgstr ""
+
+#: Controller/CouleurPossiblesController.php:105
+msgid "The couleur possible has been deleted."
+msgstr ""
+
+#: Controller/CouleurPossiblesController.php:107
+msgid "The couleur possible could not be deleted. Please, try again."
+msgstr ""
+
+#: Controller/CouleursController.php:64;88
+msgid "The couleur has been saved."
+msgstr ""
+
+#: Controller/CouleursController.php:68;92
+msgid "The couleur could not be saved. Please, try again."
+msgstr ""
+
+#: Controller/CouleursController.php:109
+msgid "The couleur has been deleted."
+msgstr ""
+
+#: Controller/CouleursController.php:111
+msgid "The couleur could not be deleted. Please, try again."
+msgstr ""
+
+#: Controller/DebitInternetsController.php:65;89
+msgid "The debit internet has been saved."
+msgstr ""
+
+#: Controller/DebitInternetsController.php:69;93
+msgid "The debit internet could not be saved. Please, try again."
+msgstr ""
+
+#: Controller/DebitInternetsController.php:110
+msgid "The debit internet has been deleted."
+msgstr ""
+
+#: Controller/DebitInternetsController.php:112
+msgid "The debit internet could not be deleted. Please, try again."
+msgstr ""
+
+#: Controller/DimensionsController.php:58;84
+msgid "The dimension has been saved."
+msgstr ""
+
+#: Controller/DimensionsController.php:62;88
+msgid "The dimension could not be saved. Please, try again."
+msgstr ""
+
+#: Controller/DimensionsController.php:107
+msgid "The dimension has been deleted."
+msgstr ""
+
+#: Controller/DimensionsController.php:109
+msgid "The dimension could not be deleted. Please, try again."
+msgstr ""
+
+#: Controller/DocumentsModelBornesController.php:58;83
+msgid "The documents model borne has been saved."
+msgstr ""
+
+#: Controller/DocumentsModelBornesController.php:62;87
+msgid "The documents model borne could not be saved. Please, try again."
+msgstr ""
+
+#: Controller/DocumentsModelBornesController.php:105
+msgid "The documents model borne has been deleted."
+msgstr ""
+
+#: Controller/DocumentsModelBornesController.php:107
+msgid "The documents model borne could not be deleted. Please, try again."
+msgstr ""
+
+#: Controller/EmailsController.php:80;104
+msgid "The email has been saved."
+msgstr ""
+
+#: Controller/EmailsController.php:84;108
+msgid "The email could not be saved. Please, try again."
+msgstr ""
+
+#: Controller/EmailsController.php:125
+msgid "The email has been deleted."
+msgstr ""
+
+#: Controller/EmailsController.php:127
+msgid "The email could not be deleted. Please, try again."
+msgstr ""
+
+#: Controller/EmailsHasUsersController.php:58;84
+msgid "The emails has user has been saved."
+msgstr ""
+
+#: Controller/EmailsHasUsersController.php:62;88
+msgid "The emails has user could not be saved. Please, try again."
+msgstr ""
+
+#: Controller/EmailsHasUsersController.php:107
+msgid "The emails has user has been deleted."
+msgstr ""
+
+#: Controller/EmailsHasUsersController.php:109
+msgid "The emails has user could not be deleted. Please, try again."
+msgstr ""
+
+#: Controller/EquipementsController.php:85;111
+msgid "The equipement has been saved."
+msgstr ""
+
+#: Controller/EquipementsController.php:89;115
+msgid "The equipement could not be saved. Please, try again."
+msgstr ""
+
+#: Controller/EquipementsController.php:144;149
+msgid "L'équipement ne peut pas être supprimé. Veuillez réessayer."
+msgstr ""
+
+#: Controller/EquipementsController.php:147
+msgid "L'équipement a été supprimé."
+msgstr ""
+
+#: Controller/EtatBornesController.php:65;89
+msgid "The etat borne has been saved."
+msgstr ""
+
+#: Controller/EtatBornesController.php:69;93
+msgid "The etat borne could not be saved. Please, try again."
+msgstr ""
+
+#: Controller/EtatBornesController.php:110
+msgid "The etat borne has been deleted."
+msgstr ""
+
+#: Controller/EtatBornesController.php:112
+msgid "The etat borne could not be deleted. Please, try again."
+msgstr ""
+
+#: Controller/EtatsController.php:65;89
+msgid "The etat has been saved."
+msgstr ""
+
+#: Controller/EtatsController.php:69;93
+msgid "The etat could not be saved. Please, try again."
+msgstr ""
+
+#: Controller/EtatsController.php:110
+msgid "The etat has been deleted."
+msgstr ""
+
+#: Controller/EtatsController.php:112
+msgid "The etat could not be deleted. Please, try again."
+msgstr ""
+
+#: Controller/EvenementBriefsController.php:109
+msgid "The Brief has been saved."
+msgstr ""
+
+#: Controller/EvenementBriefsController.php:127
+msgid "The Brief could not be saved. Please, try again."
+msgstr ""
+
+#: Controller/EvenementPipeEtapesController.php:68;114
+msgid "The evenement pipe etape has been saved."
+msgstr ""
+
+#: Controller/EvenementPipeEtapesController.php:72;118
+msgid "The evenement pipe etape could not be saved. Please, try again."
+msgstr ""
+
+#: Controller/EvenementPipeEtapesController.php:137
+msgid "The evenement pipe etape has been deleted."
+msgstr ""
+
+#: Controller/EvenementPipeEtapesController.php:139
+msgid "The evenement pipe etape could not be deleted. Please, try again."
+msgstr ""
+
+#: Controller/EvenementsController.php:427
+msgid "The evenement has been saved. "
+msgstr ""
+
+#: Controller/EvenementsController.php:431;518
+msgid "The evenement could not be saved. Please, try again."
+msgstr ""
+
+#: Controller/EvenementsController.php:514
+msgid "The evenement has been saved."
+msgstr ""
+
+#: Controller/EvenementsController.php:573
+msgid "The evenement has been deleted."
+msgstr ""
+
+#: Controller/EvenementsController.php:575
+msgid "The evenement could not be deleted. Please, try again."
+msgstr ""
+
+#: Controller/FacturesController.php:247;302;348
+msgid "The facture has been saved."
+msgstr ""
+
+#: Controller/FacturesController.php:251;306;352
+msgid "The facture could not be saved. Please, try again."
+msgstr ""
+
+#: Controller/FacturesController.php:373
+msgid "The facture has been deleted."
+msgstr ""
+
+#: Controller/FacturesController.php:375
+msgid "The facture could not be deleted. Please, try again."
+msgstr ""
+
+#: Controller/FacturesController.php:387
+msgid "Facture validé."
+msgstr ""
+
+#: Controller/FacturesController.php:396
+msgid "Facture refusé."
+msgstr ""
+
+#: Controller/FichiersController.php:68;96
+msgid "The fichier has been saved."
+msgstr ""
+
+#: Controller/FichiersController.php:72;100
+msgid "The fichier could not be saved. Please, try again."
+msgstr ""
+
+#: Controller/FichiersController.php:121
+msgid "The fichier has been deleted."
+msgstr ""
+
+#: Controller/FichiersController.php:123
+msgid "The fichier could not be deleted. Please, try again."
+msgstr ""
+
+#: Controller/FournisseursController.php:81;107
+msgid "The fournisseur has been saved."
+msgstr ""
+
+#: Controller/FournisseursController.php:85;111
+msgid "The fournisseur could not be saved. Please, try again."
+msgstr ""
+
+#: Controller/FournisseursController.php:130
+msgid "The fournisseur has been deleted."
+msgstr ""
+
+#: Controller/FournisseursController.php:132
+msgid "The fournisseur could not be deleted. Please, try again."
+msgstr ""
+
+#: Controller/GammesBornesController.php:66
+msgid "The gammes borne has been saved."
+msgstr "La gamme a bien été enregistrée"
+
+#: Controller/GammesBornesController.php:70
+msgid "The gammes borne could not be saved. Please, try again."
+msgstr ""
+
+#: Controller/GammesBornesController.php:87
+msgid "The gammes borne has been deleted."
+msgstr "La gamme a bien été supprimée."
+
+#: Controller/GammesBornesController.php:89
+msgid "The gammes borne could not be deleted. Please, try again."
+msgstr ""
+
+#: Controller/LicencesController.php:101;127
+msgid "The licence has been saved."
+msgstr ""
+
+#: Controller/LicencesController.php:105;131
+msgid "The licence could not be saved. Please, try again."
+msgstr ""
+
+#: Controller/LicencesController.php:150
+msgid "The licence has been deleted."
+msgstr ""
+
+#: Controller/LicencesController.php:152
+msgid "The licence could not be deleted. Please, try again."
+msgstr ""
+
+#: Controller/LieuTypesController.php:65;89
+msgid "The lieu type has been saved."
+msgstr ""
+
+#: Controller/LieuTypesController.php:69;93
+msgid "The lieu type could not be saved. Please, try again."
+msgstr ""
+
+#: Controller/LieuTypesController.php:110
+msgid "The lieu type has been deleted."
+msgstr ""
+
+#: Controller/LieuTypesController.php:112
+msgid "The lieu type could not be deleted. Please, try again."
+msgstr ""
+
+#: Controller/LogicielsController.php:65;89
+msgid "The logiciel has been saved."
+msgstr ""
+
+#: Controller/LogicielsController.php:69;93
+msgid "The logiciel could not be saved. Please, try again."
+msgstr ""
+
+#: Controller/LogicielsController.php:110
+msgid "The logiciel has been deleted."
+msgstr ""
+
+#: Controller/LogicielsController.php:112
+msgid "The logiciel could not be deleted. Please, try again."
+msgstr ""
+
+#: Controller/LotProduitsController.php:223
+msgid "Le produit a bien été ajouté au stock."
+msgstr ""
+
+#: Controller/LotProduitsController.php:274
+msgid "Le produit a été mis à jour."
+msgstr ""
+
+#: Controller/LotProduitsController.php:278
+msgid "Le produit n'a pas été modifié. Veuillez réessayer."
+msgstr ""
+
+#: Controller/LotProduitsController.php:308
+msgid "The lot produit has been deleted."
+msgstr ""
+
+#: Controller/LotProduitsController.php:310
+msgid "The lot produit could not be deleted. Please, try again."
+msgstr ""
+
+#: Controller/MarqueEquipementsController.php:68;93
+msgid "The mark equipement has been saved."
+msgstr ""
+
+#: Controller/MarqueEquipementsController.php:72;97
+msgid "The mark equipement could not be saved. Please, try again."
+msgstr ""
+
+#: Controller/MarqueEquipementsController.php:114
+msgid "The mark equipement has been deleted."
+msgstr ""
+
+#: Controller/MarqueEquipementsController.php:116
+msgid "The mark equipement could not be deleted. Please, try again."
+msgstr ""
+
+#: Controller/MaterielsController.php:75;109
+msgid "The materiel has been saved."
+msgstr ""
+
+#: Controller/MaterielsController.php:79;113
+msgid "The materiel could not be saved. Please, try again."
+msgstr ""
+
+#: Controller/MaterielsController.php:130
+msgid "The materiel has been deleted."
+msgstr ""
+
+#: Controller/MaterielsController.php:132
+msgid "The materiel could not be deleted. Please, try again."
+msgstr ""
+
+#: Controller/MediasController.php:65;89
+msgid "The media has been saved."
+msgstr ""
+
+#: Controller/MediasController.php:69;93
+msgid "The media could not be saved. Please, try again."
+msgstr ""
+
+#: Controller/MediasController.php:110
+msgid "The media has been deleted."
+msgstr ""
+
+#: Controller/MediasController.php:112
+msgid "The media could not be deleted. Please, try again."
+msgstr ""
+
+#: Controller/MessageTypeFacturesController.php:68;93
+msgid "The message type facture has been saved."
+msgstr ""
+
+#: Controller/MessageTypeFacturesController.php:72;97
+msgid "The message type facture could not be saved. Please, try again."
+msgstr ""
+
+#: Controller/MessageTypeFacturesController.php:115
+msgid "The message type facture has been deleted."
+msgstr ""
+
+#: Controller/MessageTypeFacturesController.php:117
+msgid "The message type facture could not be deleted. Please, try again."
+msgstr ""
+
+#: Controller/MessageriesController.php:79
+msgid "The messagery could not be saved. Some field is required."
+msgstr ""
+
+#: Controller/MessageriesController.php:122
+msgid "The messagery has been saved. "
+msgstr ""
+
+#: Controller/MessageriesController.php:127;184
+msgid "The messagery could not be saved. Please, try again."
+msgstr ""
+
+#: Controller/MessageriesController.php:180
+msgid "The messagery has been saved."
+msgstr ""
+
+#: Controller/MessageriesController.php:201
+msgid "The messagery has been deleted."
+msgstr ""
+
+#: Controller/MessageriesController.php:203
+msgid "The messagery could not be deleted. Please, try again."
+msgstr ""
+
+#: Controller/ModelBornesController.php:115;214
+msgid "The model borne has been saved."
+msgstr ""
+
+#: Controller/ModelBornesController.php:119;218
+msgid "The model borne could not be saved. Please, try again."
+msgstr ""
+
+#: Controller/ModelBornesController.php:238
+msgid "The model borne has been deleted."
+msgstr ""
+
+#: Controller/ModelBornesController.php:240
+msgid "The model borne could not be deleted. Please, try again."
+msgstr ""
+
+#: Controller/NatureEvenementsController.php:64;88
+msgid "The nature evenement has been saved."
+msgstr ""
+
+#: Controller/NatureEvenementsController.php:68;92
+msgid "The nature evenement could not be saved. Please, try again."
+msgstr ""
+
+#: Controller/NatureEvenementsController.php:109
+msgid "The nature evenement has been deleted."
+msgstr ""
+
+#: Controller/NatureEvenementsController.php:111
+msgid "The nature evenement could not be deleted. Please, try again."
+msgstr ""
+
+#: Controller/NumeroSeriesController.php:66;92
+msgid "The numero series has been saved."
+msgstr ""
+
+#: Controller/NumeroSeriesController.php:70;96
+msgid "The numero series could not be saved. Please, try again."
+msgstr ""
+
+#: Controller/NumeroSeriesController.php:115
+msgid "The numero series has been deleted."
+msgstr ""
+
+#: Controller/NumeroSeriesController.php:117
+msgid "The numero series could not be deleted. Please, try again."
+msgstr ""
+
+#: Controller/OptionEvenementsController.php:64;88
+msgid "The option evenement has been saved."
+msgstr ""
+
+#: Controller/OptionEvenementsController.php:68;92
+msgid "The option evenement could not be saved. Please, try again."
+msgstr ""
+
+#: Controller/OptionEvenementsController.php:109
+msgid "The option evenement has been deleted."
+msgstr ""
+
+#: Controller/OptionEvenementsController.php:111
+msgid "The option evenement could not be deleted. Please, try again."
+msgstr ""
+
+#: Controller/ParcsController.php:55;79
+msgid "The parc has been saved."
+msgstr ""
+
+#: Controller/ParcsController.php:59;83
+msgid "The parc could not be saved. Please, try again."
+msgstr ""
+
+#: Controller/ParcsController.php:100
+msgid "The parc has been deleted."
+msgstr ""
+
+#: Controller/ParcsController.php:102
+msgid "The parc could not be deleted. Please, try again."
+msgstr ""
+
+#: Controller/PartiesController.php:55;79
+msgid "The party has been saved."
+msgstr ""
+
+#: Controller/PartiesController.php:59;83
+msgid "The party could not be saved. Please, try again."
+msgstr ""
+
+#: Controller/PartiesController.php:100
+msgid "The party has been deleted."
+msgstr ""
+
+#: Controller/PartiesController.php:102
+msgid "The party could not be deleted. Please, try again."
+msgstr ""
+
+#: Controller/PayssController.php:78;118
+msgid "The pays has been saved."
+msgstr ""
+
+#: Controller/PayssController.php:82;122
+msgid "The pays could not be saved. Please, try again."
+msgstr ""
+
+#: Controller/PayssController.php:140
+msgid "The pays has been deleted."
+msgstr ""
+
+#: Controller/PayssController.php:142
+msgid "The pays could not be deleted. Please, try again."
+msgstr ""
+
+#: Controller/PipeEtapesController.php:90;144
+msgid "The pipe etape has been saved."
+msgstr ""
+
+#: Controller/PipeEtapesController.php:94;148
+msgid "The pipe etape could not be saved. Please, try again."
+msgstr ""
+
+#: Controller/PipeEtapesController.php:116
+msgid "Evénement ajouté dans l'étape"
+msgstr ""
+
+#: Controller/PipeEtapesController.php:119
+msgid "Une erreur est survenue. Veuillez réessayer plus tard."
+msgstr ""
+
+#: Controller/PipeEtapesController.php:165
+msgid "The pipe etape has been deleted."
+msgstr ""
+
+#: Controller/PipeEtapesController.php:167
+msgid "The pipe etape could not be deleted. Please, try again."
+msgstr ""
+
+#: Controller/PipesController.php:65;89
+msgid "The pipe has been saved."
+msgstr ""
+
+#: Controller/PipesController.php:69;93
+msgid "The pipe could not be saved. Please, try again."
+msgstr ""
+
+#: Controller/PipesController.php:110
+msgid "The pipe has been deleted."
+msgstr ""
+
+#: Controller/PipesController.php:112
+msgid "The pipe could not be deleted. Please, try again."
+msgstr ""
+
+#: Controller/PostsController.php:136;215
+msgid "The post has been saved."
+msgstr ""
+
+#: Controller/PostsController.php:140;219
+msgid "The post could not be saved. Please, try again."
+msgstr ""
+
+#: Controller/PostsController.php:248
+msgid "The post has been deleted."
+msgstr ""
+
+#: Controller/PostsController.php:250
+msgid "The post could not be deleted. Please, try again."
+msgstr ""
+
+#: Controller/SituationsController.php:65;89
+msgid "The situation has been saved."
+msgstr ""
+
+#: Controller/SituationsController.php:69;93
+msgid "The situation could not be saved. Please, try again."
+msgstr ""
+
+#: Controller/SituationsController.php:110
+msgid "The situation has been deleted."
+msgstr ""
+
+#: Controller/SituationsController.php:112
+msgid "The situation could not be deleted. Please, try again."
+msgstr ""
+
+#: Controller/StatutsController.php:65;89
+msgid "The statut has been saved."
+msgstr ""
+
+#: Controller/StatutsController.php:69;93
+msgid "The statut could not be saved. Please, try again."
+msgstr ""
+
+#: Controller/StatutsController.php:110
+msgid "The statut has been deleted."
+msgstr ""
+
+#: Controller/StatutsController.php:112
+msgid "The statut could not be deleted. Please, try again."
+msgstr ""
+
+#: Controller/StripeCsvFilesController.php:142;250
+msgid "The stripe csv file has been saved."
+msgstr ""
+
+#: Controller/StripeCsvFilesController.php:145;148;254
+msgid "The stripe csv file could not be saved. Please, try again."
+msgstr ""
+
+#: Controller/StripeCsvFilesController.php:271
+msgid "The stripe csv file has been deleted."
+msgstr ""
+
+#: Controller/StripeCsvFilesController.php:273
+msgid "The stripe csv file could not be deleted. Please, try again."
+msgstr ""
+
+#: Controller/StripeCsvsController.php:120;148
+msgid "The stripe csv has been saved."
+msgstr ""
+
+#: Controller/StripeCsvsController.php:128;152
+msgid "The stripe csv could not be saved. Please, try again."
+msgstr ""
+
+#: Controller/StripeCsvsController.php:169
+msgid "The stripe csv has been deleted."
+msgstr ""
+
+#: Controller/StripeCsvsController.php:171
+msgid "The stripe csv could not be deleted. Please, try again."
+msgstr ""
+
+#: Controller/StripeExcelsController.php:58;83
+msgid "The stripe excel has been saved."
+msgstr ""
+
+#: Controller/StripeExcelsController.php:62;87
+msgid "The stripe excel could not be saved. Please, try again."
+msgstr ""
+
+#: Controller/StripeExcelsController.php:105
+msgid "The stripe excel has been deleted."
+msgstr ""
+
+#: Controller/StripeExcelsController.php:107
+msgid "The stripe excel could not be deleted. Please, try again."
+msgstr ""
+
+#: Controller/TypeAnimationsController.php:55;79
+msgid "The type animation has been saved."
+msgstr ""
+
+#: Controller/TypeAnimationsController.php:59;83
+msgid "The type animation could not be saved. Please, try again."
+msgstr ""
+
+#: Controller/TypeAnimationsController.php:100
+msgid "The type animation has been deleted."
+msgstr ""
+
+#: Controller/TypeAnimationsController.php:102
+msgid "The type animation could not be deleted. Please, try again."
+msgstr ""
+
+#: Controller/TypeEquipementsController.php:67;91
+msgid "The type equipement has been saved."
+msgstr ""
+
+#: Controller/TypeEquipementsController.php:71;95
+msgid "The type equipement could not be saved. Please, try again."
+msgstr ""
+
+#: Controller/TypeEquipementsController.php:112
+msgid "The type equipement has been deleted."
+msgstr ""
+
+#: Controller/TypeEquipementsController.php:114
+msgid "The type equipement could not be deleted. Please, try again."
+msgstr ""
+
+#: Controller/TypeEvenementsController.php:65;89
+msgid "The type evenement has been saved."
+msgstr ""
+
+#: Controller/TypeEvenementsController.php:69;93
+msgid "The type evenement could not be saved. Please, try again."
+msgstr ""
+
+#: Controller/TypeEvenementsController.php:111
+msgid "Ce type est deja liée à de(s) événement(s)"
+msgstr ""
+
+#: Controller/TypeEvenementsController.php:115
+msgid "The type evenement has been deleted."
+msgstr ""
+
+#: Controller/TypeEvenementsController.php:117
+msgid "The type evenement could not be deleted. Please, try again."
+msgstr ""
+
+#: Controller/TypeFournisseursController.php:68;92
+msgid "The type fournisseur has been saved."
+msgstr ""
+
+#: Controller/TypeFournisseursController.php:72;96
+msgid "The type fournisseur could not be saved. Please, try again."
+msgstr ""
+
+#: Controller/TypeFournisseursController.php:114
+msgid "Ce type est deja liée à de(s) fournisseur(s)"
+msgstr ""
+
+#: Controller/TypeFournisseursController.php:117
+msgid "The type fournisseur has been deleted."
+msgstr ""
+
+#: Controller/TypeFournisseursController.php:119
+msgid "The type fournisseur could not be deleted. Please, try again."
+msgstr ""
+
+#: Controller/TypeInstallationsController.php:81;105
+msgid "The type installation has been saved."
+msgstr ""
+
+#: Controller/TypeInstallationsController.php:85;109
+msgid "The type installation could not be saved. Please, try again."
+msgstr ""
+
+#: Controller/TypeInstallationsController.php:126
+msgid "The type installation has been deleted."
+msgstr ""
+
+#: Controller/TypeInstallationsController.php:128
+msgid "The type installation could not be deleted. Please, try again."
+msgstr ""
+
+#: Controller/TypeLicencesController.php:64;88
+msgid "The type licence has been saved."
+msgstr ""
+
+#: Controller/TypeLicencesController.php:68;92
+msgid "The type licence could not be saved. Please, try again."
+msgstr ""
+
+#: Controller/TypeLicencesController.php:109
+msgid "The type licence has been deleted."
+msgstr ""
+
+#: Controller/TypeLicencesController.php:111
+msgid "The type licence could not be deleted. Please, try again."
+msgstr ""
+
+#: Controller/TypeProfilsController.php:55;79
+msgid "The type profil has been saved."
+msgstr ""
+
+#: Controller/TypeProfilsController.php:59;83
+msgid "The type profil could not be saved. Please, try again."
+msgstr ""
+
+#: Controller/TypeProfilsController.php:100
+msgid "The type profil has been deleted."
+msgstr ""
+
+#: Controller/TypeProfilsController.php:102
+msgid "The type profil could not be deleted. Please, try again."
+msgstr ""
+
+#: Controller/UsersController.php:241;311
+msgid "The user has been saved."
+msgstr ""
+
+#: Controller/UsersController.php:247;315
+msgid "The user could not be saved. Please, try again."
+msgstr ""
+
+#: Controller/UsersController.php:354
+msgid "The user has been deleted."
+msgstr ""
+
+#: Controller/UsersController.php:356
+msgid "The user could not be deleted. Please, try again."
+msgstr ""
+
+#: Controller/UsersController.php:452
+msgid "Username or password incorrect"
+msgstr ""
+
+#: Controller/UsersController.php:499
+msgid "You have been disconnected."
+msgstr ""
+
+#: Template/ActuBornes/index.ctp:50 Template/Antennes/index.ctp:160
+#: Template/Antennes/map.ctp:185 Template/Bornes/index.ctp:138
+#: Template/Bornes/map.ctp:132 Template/CategorieActus/index.ctp:46
+#: Template/Categories/index.ctp:51 Template/ClientContacts/index.ctp:51
+#: Template/Contacts/index.ctp:74 Template/CouleurPossibles/index.ctp:35
+#: Template/Couleurs/index.ctp:47 Template/DebitInternets/index.ctp:50
+#: Template/DimensionParties/index.ctp:43 Template/Dimensions/index.ctp:45
+#: Template/Element/DocumentsModelBornes/index.ctp:41
+#: Template/Equipements/index.ctp:82 Template/EtatBornes/index.ctp:46;103
+#: Template/Etats/index.ctp:45;105 Template/Evenements/index.ctp:108
+#: Template/Evenements/map.ctp:96 Template/Factures/index.ctp:204
+#: Template/Fichiers/index.ctp:51 Template/Fournisseurs/index.ctp:77
+#: Template/GammesBornes/index.ctp:38 Template/Licences/index.ctp:102
+#: Template/LieuTypes/index.ctp:47 Template/Logiciels/index.ctp:37
+#: Template/MarqueEquipements/index.ctp:49 Template/Materiels/index.ctp:48
+#: Template/Medias/index.ctp:45 Template/MessageTypeFactures/index.ctp:45
+#: Template/Messageries/index.ctp:71 Template/ModelBornes/index.ctp:79
+#: Template/OptionEvenements/index.ctp:45 Template/Parcs/index.ctp:37
+#: Template/Parties/index.ctp:35 Template/Payss/index.ctp:43
+#: Template/Pipes/index.ctp:45 Template/Posts/index.ctp:78
+#: Template/Situations/index.ctp:47 Template/Statuts/index.ctp:48
+#: Template/StripeCsvFiles/index.ctp:60
+#: Template/StripeCsvFiles/refresh_list.ctp:24
+#: Template/TypeEquipements/index.ctp:46 Template/TypeEvenements/index.ctp:49
+#: Template/TypeFournisseurs/index.ctp:46
+#: Template/TypeInstallations/index.ctp:48;89
+#: Template/TypeLicences/index.ctp:45 Template/TypeProfils/index.ctp:37
+#: Template/Users/index.ctp:157 Template/Users/map.ctp:150
+msgid "Are you sure you want to delete ?"
+msgstr ""
+
+#: Template/ActuBornes/index.ctp:60 Template/Antennes/index.ctp:172
+#: Template/Antennes/map.ctp:196 Template/Bornes/index.ctp:152
+#: Template/Bornes/map.ctp:146 Template/Bornes/refresh_list.ctp:66
+#: Template/CategorieActus/index.ctp:56 Template/Categories/index.ctp:61
+#: Template/ClientContacts/index.ctp:59 Template/Clients/index.ctp:73
+#: Template/Contacts/index.ctp:84;156 Template/CouleurPossibles/index.ctp:43
+#: Template/Couleurs/index.ctp:57 Template/DebitInternets/index.ctp:60;115
+#: Template/DimensionParties/index.ctp:51 Template/Dimensions/index.ctp:53
+#: Template/Documents/index.ctp:72 Template/Element/tfoot_pagination.ctp:6
+#: Template/Element/DocumentsModelBornes/index.ctp:49
+#: Template/Emails/index.ctp:47 Template/EmailsHasUsers/index.ctp:49
+#: Template/Equipements/index.ctp:92 Template/EtatBornes/index.ctp:56;111
+#: Template/Etats/index.ctp:56;113 Template/EvenementPipeEtapes/index.ctp:45
+#: Template/Evenements/index.ctp:121 Template/Evenements/map.ctp:106
+#: Template/Factures/index.ctp:215 Template/Fichiers/index.ctp:59
+#: Template/Fournisseurs/index.ctp:88 Template/Licences/index.ctp:113;183
+#: Template/LieuTypes/index.ctp:57;112 Template/Logiciels/index.ctp:45
+#: Template/LotProduits/detail.ctp:117 Template/LotProduits/index.ctp:182
+#: Template/MarqueEquipements/index.ctp:59
+#: Template/Materiels/index.ctp:58;128 Template/Medias/index.ctp:53
+#: Template/MessageTypeFactures/index.ctp:55
+#: Template/Messageries/index.ctp:81 Template/ModelBornes/index.ctp:89
+#: Template/NatureEvenements/index.ctp:41 Template/NumeroSeries/index.ctp:47
+#: Template/OptionEvenements/index.ctp:55;110 Template/Parcs/index.ctp:45
+#: Template/Parties/index.ctp:43 Template/Payss/index.ctp:53
+#: Template/PipeEtapes/get_ordre.ctp:27 Template/PipeEtapes/index.ctp:75
+#: Template/Pipes/index.ctp:56;112 Template/Posts/index.ctp:88
+#: Template/Situations/index.ctp:57;112 Template/Statuts/index.ctp:58;110
+#: Template/StripeCsvFiles/index.ctp:70
+#: Template/StripeCsvFiles/refresh_list.ctp:34
+#: Template/StripeExcels/index.ctp:55 Template/TypeAnimations/index.ctp:41
+#: Template/TypeEquipements/index.ctp:56 Template/TypeEvenements/index.ctp:59
+#: Template/TypeFournisseurs/index.ctp:56
+#: Template/TypeInstallations/index.ctp:58;99
+#: Template/TypeLicences/index.ctp:55;108 Template/TypeProfils/index.ctp:45
+#: Template/Users/index.ctp:167 Template/Users/index0.ctp:102
+#: Template/Users/map.ctp:160
+msgid "first"
+msgstr ""
+
+#: Template/ActuBornes/index.ctp:61 Template/Antennes/index.ctp:173
+#: Template/Antennes/map.ctp:197 Template/Bornes/index.ctp:153
+#: Template/Bornes/map.ctp:147 Template/Bornes/refresh_list.ctp:67
+#: Template/CategorieActus/index.ctp:57 Template/Categories/index.ctp:62
+#: Template/ClientContacts/index.ctp:60 Template/Clients/index.ctp:74
+#: Template/Contacts/index.ctp:85;157 Template/CouleurPossibles/index.ctp:44
+#: Template/Couleurs/index.ctp:58 Template/DebitInternets/index.ctp:61;116
+#: Template/DimensionParties/index.ctp:52 Template/Dimensions/index.ctp:54
+#: Template/Documents/index.ctp:73 Template/Element/tfoot_pagination.ctp:7
+#: Template/Element/DocumentsModelBornes/index.ctp:50
+#: Template/Emails/index.ctp:48 Template/EmailsHasUsers/index.ctp:50
+#: Template/Equipements/index.ctp:93 Template/EtatBornes/index.ctp:57;112
+#: Template/Etats/index.ctp:57;114 Template/EvenementPipeEtapes/index.ctp:46
+#: Template/Evenements/index.ctp:122 Template/Evenements/map.ctp:107
+#: Template/Factures/index.ctp:216 Template/Fichiers/index.ctp:60
+#: Template/Fournisseurs/index.ctp:89 Template/Licences/index.ctp:114;184
+#: Template/LieuTypes/index.ctp:58;113 Template/Logiciels/index.ctp:46
+#: Template/LotProduits/detail.ctp:118 Template/LotProduits/index.ctp:183
+#: Template/MarqueEquipements/index.ctp:60
+#: Template/Materiels/index.ctp:59;129 Template/Medias/index.ctp:54
+#: Template/MessageTypeFactures/index.ctp:56
+#: Template/Messageries/index.ctp:82 Template/ModelBornes/index.ctp:90
+#: Template/NatureEvenements/index.ctp:42 Template/NumeroSeries/index.ctp:48
+#: Template/OptionEvenements/index.ctp:56;111 Template/Parcs/index.ctp:46
+#: Template/Parties/index.ctp:44 Template/Payss/index.ctp:54
+#: Template/PipeEtapes/get_ordre.ctp:28 Template/PipeEtapes/index.ctp:76
+#: Template/Pipes/index.ctp:57;113 Template/Posts/index.ctp:89
+#: Template/Situations/index.ctp:58;113 Template/Statuts/index.ctp:59;111
+#: Template/StripeCsvFiles/index.ctp:71
+#: Template/StripeCsvFiles/refresh_list.ctp:35
+#: Template/StripeExcels/index.ctp:56 Template/TypeAnimations/index.ctp:42
+#: Template/TypeEquipements/index.ctp:57 Template/TypeEvenements/index.ctp:60
+#: Template/TypeFournisseurs/index.ctp:57
+#: Template/TypeInstallations/index.ctp:59;100
+#: Template/TypeLicences/index.ctp:56;109 Template/TypeProfils/index.ctp:46
+#: Template/Users/index.ctp:168 Template/Users/index0.ctp:103
+#: Template/Users/map.ctp:161
+msgid "previous"
+msgstr ""
+
+#: Template/ActuBornes/index.ctp:63 Template/Antennes/index.ctp:175
+#: Template/Antennes/map.ctp:199 Template/Bornes/index.ctp:155
+#: Template/Bornes/map.ctp:149 Template/Bornes/refresh_list.ctp:69
+#: Template/CategorieActus/index.ctp:59 Template/Categories/index.ctp:64
+#: Template/ClientContacts/index.ctp:62 Template/Clients/index.ctp:76
+#: Template/Contacts/index.ctp:87;159 Template/CouleurPossibles/index.ctp:46
+#: Template/Couleurs/index.ctp:60 Template/DebitInternets/index.ctp:63;118
+#: Template/DimensionParties/index.ctp:54 Template/Dimensions/index.ctp:56
+#: Template/Documents/index.ctp:75 Template/Element/tfoot_pagination.ctp:9
+#: Template/Element/DocumentsModelBornes/index.ctp:52
+#: Template/Emails/index.ctp:50 Template/EmailsHasUsers/index.ctp:52
+#: Template/Equipements/index.ctp:95 Template/EtatBornes/index.ctp:59;114
+#: Template/Etats/index.ctp:59;116 Template/EvenementPipeEtapes/index.ctp:48
+#: Template/Evenements/index.ctp:124 Template/Evenements/map.ctp:109
+#: Template/Factures/index.ctp:218 Template/Fichiers/index.ctp:62
+#: Template/Fournisseurs/index.ctp:91 Template/Licences/index.ctp:116;186
+#: Template/LieuTypes/index.ctp:60;115 Template/Logiciels/index.ctp:48
+#: Template/LotProduits/detail.ctp:120 Template/LotProduits/index.ctp:185
+#: Template/MarqueEquipements/index.ctp:62
+#: Template/Materiels/index.ctp:61;131 Template/Medias/index.ctp:56
+#: Template/MessageTypeFactures/index.ctp:58
+#: Template/Messageries/index.ctp:84 Template/ModelBornes/index.ctp:92
+#: Template/NatureEvenements/index.ctp:44 Template/NumeroSeries/index.ctp:50
+#: Template/OptionEvenements/index.ctp:58;113 Template/Parcs/index.ctp:48
+#: Template/Parties/index.ctp:46 Template/Payss/index.ctp:56
+#: Template/PipeEtapes/get_ordre.ctp:30 Template/PipeEtapes/index.ctp:78
+#: Template/Pipes/index.ctp:59;115 Template/Posts/index.ctp:91
+#: Template/Situations/index.ctp:60;115 Template/Statuts/index.ctp:61;113
+#: Template/StripeCsvFiles/index.ctp:73
+#: Template/StripeCsvFiles/refresh_list.ctp:37
+#: Template/StripeExcels/index.ctp:58 Template/TypeAnimations/index.ctp:44
+#: Template/TypeEquipements/index.ctp:59 Template/TypeEvenements/index.ctp:62
+#: Template/TypeFournisseurs/index.ctp:59
+#: Template/TypeInstallations/index.ctp:61;102
+#: Template/TypeLicences/index.ctp:58;111 Template/TypeProfils/index.ctp:48
+#: Template/Users/index.ctp:170 Template/Users/index0.ctp:105
+#: Template/Users/map.ctp:163
+msgid "next"
+msgstr ""
+
+#: Template/ActuBornes/index.ctp:64 Template/Antennes/index.ctp:176
+#: Template/Antennes/map.ctp:200 Template/Bornes/index.ctp:156
+#: Template/Bornes/map.ctp:150 Template/Bornes/refresh_list.ctp:70
+#: Template/CategorieActus/index.ctp:60 Template/Categories/index.ctp:65
+#: Template/ClientContacts/index.ctp:63 Template/Clients/index.ctp:77
+#: Template/Contacts/index.ctp:88;160 Template/CouleurPossibles/index.ctp:47
+#: Template/Couleurs/index.ctp:61 Template/DebitInternets/index.ctp:64;119
+#: Template/DimensionParties/index.ctp:55 Template/Dimensions/index.ctp:57
+#: Template/Documents/index.ctp:76 Template/Element/tfoot_pagination.ctp:10
+#: Template/Element/DocumentsModelBornes/index.ctp:53
+#: Template/Emails/index.ctp:51 Template/EmailsHasUsers/index.ctp:53
+#: Template/Equipements/index.ctp:96 Template/EtatBornes/index.ctp:60;115
+#: Template/Etats/index.ctp:60;117 Template/EvenementPipeEtapes/index.ctp:49
+#: Template/Evenements/index.ctp:125 Template/Evenements/map.ctp:110
+#: Template/Factures/index.ctp:219 Template/Fichiers/index.ctp:63
+#: Template/Fournisseurs/index.ctp:92 Template/Licences/index.ctp:117;187
+#: Template/LieuTypes/index.ctp:61;116 Template/Logiciels/index.ctp:49
+#: Template/LotProduits/detail.ctp:121 Template/LotProduits/index.ctp:186
+#: Template/MarqueEquipements/index.ctp:63
+#: Template/Materiels/index.ctp:62;132 Template/Medias/index.ctp:57
+#: Template/MessageTypeFactures/index.ctp:59
+#: Template/Messageries/index.ctp:85 Template/ModelBornes/index.ctp:93
+#: Template/NatureEvenements/index.ctp:45 Template/NumeroSeries/index.ctp:51
+#: Template/OptionEvenements/index.ctp:59;114 Template/Parcs/index.ctp:49
+#: Template/Parties/index.ctp:47 Template/Payss/index.ctp:57
+#: Template/PipeEtapes/get_ordre.ctp:31 Template/PipeEtapes/index.ctp:79
+#: Template/Pipes/index.ctp:60;116 Template/Posts/index.ctp:92
+#: Template/Situations/index.ctp:61;116 Template/Statuts/index.ctp:62;114
+#: Template/StripeCsvFiles/index.ctp:74
+#: Template/StripeCsvFiles/refresh_list.ctp:38
+#: Template/StripeExcels/index.ctp:59 Template/TypeAnimations/index.ctp:45
+#: Template/TypeEquipements/index.ctp:60 Template/TypeEvenements/index.ctp:63
+#: Template/TypeFournisseurs/index.ctp:60
+#: Template/TypeInstallations/index.ctp:62;103
+#: Template/TypeLicences/index.ctp:59;112 Template/TypeProfils/index.ctp:49
+#: Template/Users/index.ctp:171 Template/Users/index0.ctp:106
+#: Template/Users/map.ctp:164
+msgid "last"
+msgstr ""
+
+#: Template/ActuBornes/view.ctp:9;59 Template/Bornes/view.ctp:37;137;164;187
+#: Template/CategorieActus/view.ctp:9 Template/Categories/view.ctp:9;64
+#: Template/ClientContacts/add.ctp:9 Template/ClientContacts/edit.ctp:9
+#: Template/ClientContacts/index.ctp:9;31 Template/ClientContacts/view.ctp:9
+#: Template/Clients/add.ctp:9 Template/Clients/edit.ctp:9
+#: Template/Clients/view.ctp:9;309;353;390;426
+#: Template/Contacts/index.ctp:124 Template/Contacts/view.ctp:9
+#: Template/CouleurPossibles/add.ctp:9 Template/CouleurPossibles/edit.ctp:9
+#: Template/CouleurPossibles/index.ctp:9;23
+#: Template/CouleurPossibles/view.ctp:9 Template/Couleurs/view.ctp:9
+#: Template/DebitInternets/add.ctp:57 Template/DebitInternets/edit.ctp:55
+#: Template/DebitInternets/index.ctp:79;93 Template/DebitInternets/view.ctp:9
+#: Template/DimensionParties/add.ctp:9 Template/DimensionParties/edit.ctp:9
+#: Template/DimensionParties/index.ctp:9;27
+#: Template/DimensionParties/view.ctp:9 Template/Dimensions/add.ctp:9
+#: Template/Dimensions/edit.ctp:9 Template/Dimensions/index.ctp:9;29
+#: Template/Dimensions/view.ctp:9 Template/Documents/add.ctp:9
+#: Template/Documents/edit.ctp:9 Template/Documents/view.ctp:9
+#: Template/Element/DocumentsModelBornes/add.ctp:9
+#: Template/Element/DocumentsModelBornes/edit.ctp:9
+#: Template/Element/DocumentsModelBornes/index.ctp:9;26
+#: Template/Element/DocumentsModelBornes/view.ctp:9 Template/Emails/add.ctp:9
+#: Template/Emails/edit.ctp:9 Template/Emails/index.ctp:9;25
+#: Template/Emails/view.ctp:9;56 Template/EmailsHasUsers/add.ctp:9
+#: Template/EmailsHasUsers/edit.ctp:9 Template/EmailsHasUsers/index.ctp:9;27
+#: Template/EmailsHasUsers/view.ctp:9 Template/Equipements/view.ctp:9
+#: Template/EtatBornes/add.ctp:52 Template/EtatBornes/edit.ctp:51
+#: Template/EtatBornes/index.ctp:75;90 Template/EtatBornes/view.ctp:9;66
+#: Template/Etats/add.ctp:52 Template/Etats/edit.ctp:52
+#: Template/Etats/index.ctp:77;92 Template/Etats/view.ctp:9;56
+#: Template/EvenementPipeEtapes/add.ctp:9
+#: Template/EvenementPipeEtapes/edit.ctp:9
+#: Template/EvenementPipeEtapes/index.ctp:9;25
+#: Template/EvenementPipeEtapes/view.ctp:9 Template/Evenements/view.ctp:9;73
+#: Template/Fichiers/add.ctp:9 Template/Fichiers/edit.ctp:9
+#: Template/Fichiers/index.ctp:9;34 Template/Fichiers/view.ctp:9
+#: Template/Fournisseurs/view.ctp:9;83 Template/Licences/add.ctp:108
+#: Template/Licences/edit.ctp:105 Template/Licences/index.ctp:135;157
+#: Template/LieuTypes/add.ctp:52 Template/LieuTypes/edit.ctp:51
+#: Template/LieuTypes/index.ctp:76;91 Template/LieuTypes/view.ctp:9;56
+#: Template/Logiciels/add.ctp:9 Template/Logiciels/edit.ctp:9
+#: Template/Logiciels/index.ctp:9;24 Template/Logiciels/view.ctp:9;45
+#: Template/Materiels/index.ctp:80;100 Template/Materiels/view.ctp:9
+#: Template/Medias/add.ctp:9 Template/Medias/edit.ctp:9
+#: Template/Medias/index.ctp:9;30 Template/Medias/view.ctp:9;57;80;103
+#: Template/MessageTypeFactures/view.ctp:9;54 Template/Messageries/edit.ctp:9
+#: Template/Messageries/view.ctp:9 Template/ModelBornes/view.ctp:9;81;118
+#: Template/NatureEvenements/add.ctp:9 Template/NatureEvenements/edit.ctp:9
+#: Template/NatureEvenements/index.ctp:9;21
+#: Template/NatureEvenements/view.ctp:9 Template/NumeroSeries/add.ctp:9
+#: Template/NumeroSeries/edit.ctp:9 Template/NumeroSeries/index.ctp:9;26
+#: Template/NumeroSeries/view.ctp:9 Template/OptionEvenements/add.ctp:59
+#: Template/OptionEvenements/edit.ctp:57
+#: Template/OptionEvenements/index.ctp:76;89
+#: Template/OptionEvenements/view.ctp:9 Template/Parcs/add.ctp:9
+#: Template/Parcs/edit.ctp:9 Template/Parcs/index.ctp:9;24
+#: Template/Parcs/view.ctp:9;59 Template/Parties/add.ctp:9
+#: Template/Parties/edit.ctp:9 Template/Parties/index.ctp:9;22
+#: Template/Parties/view.ctp:9 Template/Payss/view.ctp:9
+#: Template/PipeEtapes/get_ordre.ctp:7 Template/PipeEtapes/index.ctp:55
+#: Template/PipeEtapes/view.ctp:9;56 Template/Pipes/add.ctp:54
+#: Template/Pipes/edit.ctp:51 Template/Pipes/index.ctp:76;91
+#: Template/Pipes/view.ctp:9;49 Template/Situations/add.ctp:52
+#: Template/Situations/edit.ctp:54 Template/Situations/index.ctp:76;91
+#: Template/Situations/view.ctp:9;60 Template/Statuts/add.ctp:52
+#: Template/Statuts/edit.ctp:53 Template/Statuts/index.ctp:78;91
+#: Template/Statuts/view.ctp:9;53 Template/StripeCsvFiles/edit.ctp:9
+#: Template/StripeCsvFiles/view.ctp:9;69 Template/StripeCsvs/edit.ctp:9
+#: Template/StripeCsvs/view.ctp:9;128 Template/StripeExcels/add.ctp:9
+#: Template/StripeExcels/edit.ctp:9 Template/StripeExcels/index.ctp:9;29
+#: Template/StripeExcels/view.ctp:9 Template/TypeAnimations/add.ctp:9
+#: Template/TypeAnimations/edit.ctp:9 Template/TypeAnimations/index.ctp:9;22
+#: Template/TypeAnimations/view.ctp:9;50
+#: Template/TypeEquipements/view.ctp:9;47
+#: Template/TypeEvenements/view.ctp:9;48
+#: Template/TypeInstallations/view.ctp:9 Template/TypeLicences/add.ctp:53
+#: Template/TypeLicences/edit.ctp:51 Template/TypeLicences/index.ctp:74;87
+#: Template/TypeLicences/view.ctp:9 Template/TypeProfils/add.ctp:9
+#: Template/TypeProfils/edit.ctp:9 Template/TypeProfils/index.ctp:9;24
+#: Template/TypeProfils/view.ctp:9;46
+msgid "Actions"
+msgstr ""
+
+#: Template/ActuBornes/view.ctp:10
+msgid "Edit Actu Borne"
+msgstr ""
+
+#: Template/ActuBornes/view.ctp:11
+msgid "Delete Actu Borne"
+msgstr ""
+
+#: Template/ActuBornes/view.ctp:11;68 Template/Bornes/edit.ctp:308
+#: Template/Bornes/refresh_list.ctp:52
+#: Template/Bornes/view.ctp:39;150;173;196
+#: Template/CategorieActus/view.ctp:11 Template/Categories/view.ctp:11;78
+#: Template/ClientContacts/edit.ctp:13 Template/ClientContacts/view.ctp:11
+#: Template/Clients/edit.ctp:13 Template/Clients/view.ctp:11;332;369;406;441
+#: Template/Contacts/index.ctp:148 Template/Contacts/view.ctp:11
+#: Template/CouleurPossibles/edit.ctp:13
+#: Template/CouleurPossibles/view.ctp:11 Template/Couleurs/view.ctp:11
+#: Template/DebitInternets/edit.ctp:59 Template/DebitInternets/index.ctp:107
+#: Template/DebitInternets/view.ctp:11 Template/DimensionParties/edit.ctp:13
+#: Template/DimensionParties/view.ctp:11 Template/Dimensions/edit.ctp:13
+#: Template/Dimensions/view.ctp:11 Template/Documents/edit.ctp:13
+#: Template/Documents/view.ctp:11
+#: Template/Element/DocumentsModelBornes/edit.ctp:13
+#: Template/Element/DocumentsModelBornes/view.ctp:11
+#: Template/Emails/edit.ctp:13 Template/Emails/index.ctp:39
+#: Template/Emails/view.ctp:11;68 Template/EmailsHasUsers/edit.ctp:13
+#: Template/EmailsHasUsers/index.ctp:41 Template/EmailsHasUsers/view.ctp:11
+#: Template/Equipements/view.ctp:11 Template/EtatBornes/edit.ctp:55
+#: Template/EtatBornes/view.ctp:11;96 Template/Etats/edit.ctp:56
+#: Template/Etats/view.ctp:11;76 Template/EvenementPipeEtapes/edit.ctp:13
+#: Template/EvenementPipeEtapes/index.ctp:37
+#: Template/EvenementPipeEtapes/view.ctp:11
+#: Template/Evenements/view.ctp:11;84 Template/Fichiers/edit.ctp:13
+#: Template/Fichiers/view.ctp:11 Template/Fournisseurs/view.ctp:11;98
+#: Template/Licences/edit.ctp:109 Template/Licences/index.ctp:175
+#: Template/LieuTypes/edit.ctp:55 Template/LieuTypes/index.ctp:104
+#: Template/LieuTypes/view.ctp:11;76 Template/Logiciels/edit.ctp:13
+#: Template/Logiciels/view.ctp:11;54 Template/Materiels/index.ctp:120
+#: Template/Materiels/view.ctp:11 Template/Medias/edit.ctp:13
+#: Template/Medias/view.ctp:11;66;89;112
+#: Template/MessageTypeFactures/view.ctp:11;74
+#: Template/Messageries/edit.ctp:13 Template/Messageries/view.ctp:11
+#: Template/ModelBornes/view.ctp:11;104;127
+#: Template/NatureEvenements/edit.ctp:13
+#: Template/NatureEvenements/index.ctp:33
+#: Template/NatureEvenements/view.ctp:11 Template/NumeroSeries/edit.ctp:13
+#: Template/NumeroSeries/index.ctp:39 Template/NumeroSeries/view.ctp:11
+#: Template/OptionEvenements/edit.ctp:61
+#: Template/OptionEvenements/index.ctp:102
+#: Template/OptionEvenements/view.ctp:11 Template/Parcs/edit.ctp:13
+#: Template/Parcs/view.ctp:11;82 Template/Parties/edit.ctp:13
+#: Template/Parties/view.ctp:11 Template/Payss/view.ctp:11
+#: Template/PipeEtapes/get_ordre.ctp:17 Template/PipeEtapes/index.ctp:65
+#: Template/PipeEtapes/view.ctp:11;66 Template/Pipes/edit.ctp:55
+#: Template/Pipes/index.ctp:104 Template/Pipes/view.ctp:11;62
+#: Template/Situations/edit.ctp:58 Template/Situations/index.ctp:104
+#: Template/Situations/view.ctp:11;84 Template/Statuts/edit.ctp:57
+#: Template/Statuts/index.ctp:102 Template/Statuts/view.ctp:11;78
+#: Template/StripeCsvFiles/edit.ctp:13
+#: Template/StripeCsvFiles/view.ctp:11;102 Template/StripeCsvs/edit.ctp:13
+#: Template/StripeCsvs/view.ctp:11;144 Template/StripeExcels/edit.ctp:13
+#: Template/StripeExcels/index.ctp:47 Template/StripeExcels/view.ctp:11
+#: Template/TypeAnimations/edit.ctp:13 Template/TypeAnimations/index.ctp:33
+#: Template/TypeAnimations/view.ctp:11;68
+#: Template/TypeEquipements/view.ctp:11;58
+#: Template/TypeEvenements/view.ctp:11;64
+#: Template/TypeInstallations/view.ctp:11 Template/TypeLicences/edit.ctp:55
+#: Template/TypeLicences/index.ctp:100 Template/TypeLicences/view.ctp:11
+#: Template/TypeProfils/edit.ctp:13 Template/TypeProfils/view.ctp:11;56
+#: Template/Users/index0.ctp:91
+msgid "Are you sure you want to delete # {0}?"
+msgstr ""
+
+#: Template/ActuBornes/view.ctp:12 Template/Bornes/view.ctp:50
+#: Template/Fichiers/add.ctp:15 Template/Fichiers/edit.ctp:21
+#: Template/Fichiers/index.ctp:15 Template/Fichiers/view.ctp:18
+msgid "List Actu Bornes"
+msgstr ""
+
+#: Template/ActuBornes/view.ctp:13 Template/Bornes/view.ctp:51
+#: Template/Fichiers/add.ctp:16 Template/Fichiers/edit.ctp:22
+#: Template/Fichiers/index.ctp:16 Template/Fichiers/view.ctp:19
+msgid "New Actu Borne"
+msgstr ""
+
+#: Template/ActuBornes/view.ctp:14 Template/Bornes/view.ctp:40
+#: Template/Clients/add.ctp:11 Template/Clients/edit.ctp:17
+#: Template/Clients/view.ctp:14 Template/EtatBornes/add.ctp:54
+#: Template/EtatBornes/edit.ctp:59 Template/EtatBornes/index.ctp:77
+#: Template/EtatBornes/view.ctp:14 Template/ModelBornes/view.ctp:14
+#: Template/NumeroSeries/add.ctp:13 Template/NumeroSeries/edit.ctp:19
+#: Template/NumeroSeries/index.ctp:13 Template/NumeroSeries/view.ctp:16
+#: Template/Parcs/add.ctp:11 Template/Parcs/edit.ctp:17
+#: Template/Parcs/index.ctp:11 Template/Parcs/view.ctp:14
+msgid "List Bornes"
+msgstr ""
+
+#: Template/ActuBornes/view.ctp:15 Template/Bornes/view.ctp:41
+#: Template/Clients/add.ctp:12 Template/Clients/edit.ctp:18
+#: Template/Clients/view.ctp:15 Template/EtatBornes/add.ctp:55
+#: Template/EtatBornes/edit.ctp:60 Template/EtatBornes/index.ctp:78
+#: Template/EtatBornes/view.ctp:15 Template/ModelBornes/view.ctp:15
+#: Template/NumeroSeries/add.ctp:14 Template/NumeroSeries/edit.ctp:20
+#: Template/NumeroSeries/index.ctp:14 Template/NumeroSeries/view.ctp:17
+#: Template/Parcs/add.ctp:12 Template/Parcs/edit.ctp:18
+#: Template/Parcs/index.ctp:12 Template/Parcs/view.ctp:15
+msgid "New Borne"
+msgstr ""
+
+#: Template/ActuBornes/view.ctp:16 Template/Medias/add.ctp:11
+#: Template/Medias/edit.ctp:17 Template/Medias/index.ctp:11
+#: Template/Medias/view.ctp:14
+msgid "List Actu Bornes Has Medias"
+msgstr ""
+
+#: Template/ActuBornes/view.ctp:17 Template/Medias/add.ctp:12
+#: Template/Medias/edit.ctp:18 Template/Medias/index.ctp:12
+#: Template/Medias/view.ctp:15
+msgid "New Actu Bornes Has Media"
+msgstr ""
+
+#: Template/ActuBornes/view.ctp:24 Template/Bornes/view.ctp:132
+#: Template/CategorieActus/view.ctp:20
+#: Template/Element/DocumentsModelBornes/view.ctp:26
+#: Template/MessageTypeFactures/view.ctp:42 Template/Situations/view.ctp:22
+#: Template/Statuts/view.ctp:22
+msgid "Titre"
+msgstr ""
+
+#: Template/ActuBornes/view.ctp:28 Template/Materiels/view.ctp:28
+msgid "Photos"
+msgstr ""
+
+#: Template/ActuBornes/view.ctp:32 Template/NumeroSeries/view.ctp:32
+msgid "Borne"
+msgstr ""
+
+#: Template/ActuBornes/view.ctp:36 Template/Bornes/view.ctp:98;131
+#: Template/CategorieActus/view.ctp:24 Template/Categories/view.ctp:32;57
+#: Template/ClientContacts/view.ctp:46
+#: Template/Clients/view.ctp:260;293;381;418 Template/Contacts/view.ctp:62
+#: Template/CouleurPossibles/view.ctp:26 Template/Couleurs/view.ctp:24
+#: Template/DebitInternets/view.ctp:28 Template/DimensionParties/view.ctp:30
+#: Template/Dimensions/view.ctp:40 Template/Documents/view.ctp:50
+#: Template/Element/DocumentsModelBornes/view.ctp:42
+#: Template/Emails/view.ctp:26;51 Template/EmailsHasUsers/view.ctp:32
+#: Template/Equipements/view.ctp:30 Template/EtatBornes/view.ctp:26;43
+#: Template/Etats/view.ctp:26;43 Template/EvenementPipeEtapes/view.ctp:32
+#: Template/Evenements/view.ctp:52;69 Template/Fichiers/view.ctp:56
+#: Template/Fournisseurs/view.ctp:46;75 Template/LieuTypes/view.ctp:26;43
+#: Template/Logiciels/view.ctp:34 Template/Materiels/view.ctp:40
+#: Template/Medias/view.ctp:38 Template/MessageTypeFactures/view.ctp:28;41
+#: Template/Messageries/view.ctp:24 Template/ModelBornes/view.ctp:52;65
+#: Template/NatureEvenements/view.ctp:28 Template/NumeroSeries/view.ctp:36
+#: Template/OptionEvenements/view.ctp:24 Template/Parcs/view.ctp:26;43
+#: Template/Parties/view.ctp:24 Template/Payss/view.ctp:40
+#: Template/PipeEtapes/view.ctp:32;53 Template/Pipes/view.ctp:26;43
+#: Template/Situations/view.ctp:26;43 Template/Statuts/view.ctp:26;35
+#: Template/StripeCsvFiles/view.ctp:30;43 Template/StripeCsvs/view.ctp:70;119
+#: Template/StripeExcels/view.ctp:42 Template/TypeAnimations/view.ctp:26;39
+#: Template/TypeEquipements/view.ctp:26;43
+#: Template/TypeEvenements/view.ctp:26;39
+#: Template/TypeInstallations/view.ctp:24 Template/TypeLicences/view.ctp:24
+#: Template/TypeProfils/view.ctp:26;43
+msgid "Id"
+msgstr ""
+
+#: Template/ActuBornes/view.ctp:40 Template/Bornes/view.ctp:114;135
+#: Template/CategorieActus/view.ctp:28 Template/Categories/view.ctp:44;62
+#: Template/ClientContacts/view.ctp:54
+#: Template/Clients/view.ctp:276;307;388;424 Template/Contacts/view.ctp:74
+#: Template/Couleurs/view.ctp:28 Template/DebitInternets/view.ctp:32
+#: Template/DimensionParties/view.ctp:42 Template/Dimensions/view.ctp:44
+#: Template/Documents/view.ctp:62 Template/Emails/view.ctp:30
+#: Template/Equipements/view.ctp:34 Template/EtatBornes/view.ctp:30;58
+#: Template/Etats/view.ctp:30;54 Template/Fournisseurs/view.ctp:54;81
+#: Template/LieuTypes/view.ctp:30;54 Template/Logiciels/view.ctp:26
+#: Template/Materiels/view.ctp:56 Template/Medias/view.ctp:42
+#: Template/MessageTypeFactures/view.ctp:48 Template/ModelBornes/view.ctp:79
+#: Template/OptionEvenements/view.ctp:28 Template/Parcs/view.ctp:30;57
+#: Template/Parties/view.ctp:28 Template/PipeEtapes/view.ctp:40
+#: Template/Pipes/view.ctp:30;47 Template/Situations/view.ctp:30;58
+#: Template/Statuts/view.ctp:51 Template/StripeCsvFiles/view.ctp:51
+#: Template/StripeCsvs/view.ctp:110 Template/TypeEquipements/view.ctp:30
+#: Template/TypeInstallations/view.ctp:32 Template/TypeLicences/view.ctp:28
+#: Template/TypeProfils/view.ctp:30
+msgid "Created"
+msgstr ""
+
+#: Template/ActuBornes/view.ctp:44 Template/Bornes/view.ctp:118;136
+#: Template/CategorieActus/view.ctp:32 Template/Categories/view.ctp:48;63
+#: Template/ClientContacts/view.ctp:58
+#: Template/Clients/view.ctp:280;308;389;425 Template/Contacts/view.ctp:78
+#: Template/Couleurs/view.ctp:32 Template/DebitInternets/view.ctp:36
+#: Template/DimensionParties/view.ctp:46 Template/Dimensions/view.ctp:48
+#: Template/Documents/view.ctp:66 Template/Emails/view.ctp:34
+#: Template/Equipements/view.ctp:38 Template/EtatBornes/view.ctp:34;59
+#: Template/Etats/view.ctp:34;55 Template/Fournisseurs/view.ctp:58;82
+#: Template/LieuTypes/view.ctp:34;55 Template/Logiciels/view.ctp:30
+#: Template/Materiels/view.ctp:60 Template/Medias/view.ctp:46
+#: Template/MessageTypeFactures/view.ctp:49 Template/ModelBornes/view.ctp:80
+#: Template/OptionEvenements/view.ctp:32 Template/Parcs/view.ctp:34;58
+#: Template/Parties/view.ctp:32 Template/PipeEtapes/view.ctp:44
+#: Template/Pipes/view.ctp:34;48 Template/Situations/view.ctp:34;59
+#: Template/Statuts/view.ctp:52 Template/TypeEquipements/view.ctp:34
+#: Template/TypeInstallations/view.ctp:36 Template/TypeLicences/view.ctp:32
+#: Template/TypeProfils/view.ctp:34
+msgid "Modified"
+msgstr ""
+
+#: Template/ActuBornes/view.ctp:49 Template/Bornes/view.ctp:133
+#: Template/Emails/view.ctp:43
+msgid "Contenu"
+msgstr ""
+
+#: Template/ActuBornes/view.ctp:53 Template/Medias/view.ctp:51
+msgid "Related Actu Bornes Has Medias"
+msgstr ""
+
+#: Template/ActuBornes/view.ctp:57 Template/Medias/view.ctp:55
+msgid "Actu Borne Id"
+msgstr ""
+
+#: Template/ActuBornes/view.ctp:58 Template/Bornes/view.ctp:186
+#: Template/Medias/view.ctp:56;79;102 Template/ModelBornes/view.ctp:117
+msgid "Media Id"
+msgstr ""
+
+#: Template/ActuBornes/view.ctp:66 Template/Bornes/view.ctp:148;171;194
+#: Template/Categories/view.ctp:76 Template/ClientContacts/index.ctp:49
+#: Template/Clients/index.ctp:62 Template/Clients/view.ctp:330;367;404;439
+#: Template/Contacts/index.ctp:146 Template/CouleurPossibles/index.ctp:33
+#: Template/DebitInternets/index.ctp:105
+#: Template/DimensionParties/index.ctp:41 Template/Dimensions/index.ctp:43
+#: Template/Element/DocumentsModelBornes/index.ctp:39
+#: Template/Emails/index.ctp:37 Template/Emails/view.ctp:66
+#: Template/EmailsHasUsers/index.ctp:39 Template/EtatBornes/index.ctp:101
+#: Template/EtatBornes/view.ctp:94 Template/Etats/index.ctp:103
+#: Template/Etats/view.ctp:74 Template/EvenementPipeEtapes/index.ctp:35
+#: Template/Evenements/view.ctp:82 Template/Fichiers/index.ctp:49
+#: Template/Fournisseurs/view.ctp:96 Template/Licences/index.ctp:173
+#: Template/LieuTypes/index.ctp:102 Template/LieuTypes/view.ctp:74
+#: Template/Logiciels/index.ctp:35 Template/Logiciels/view.ctp:52
+#: Template/Materiels/index.ctp:118 Template/Medias/index.ctp:43
+#: Template/Medias/view.ctp:64;87;110
+#: Template/MessageTypeFactures/view.ctp:72
+#: Template/ModelBornes/view.ctp:102;125
+#: Template/NatureEvenements/index.ctp:31 Template/NumeroSeries/index.ctp:37
+#: Template/OptionEvenements/index.ctp:100 Template/Parcs/index.ctp:35
+#: Template/Parcs/view.ctp:80 Template/Parties/index.ctp:33
+#: Template/PipeEtapes/view.ctp:64 Template/Pipes/index.ctp:102
+#: Template/Pipes/view.ctp:60 Template/Situations/index.ctp:102
+#: Template/Situations/view.ctp:82 Template/Statuts/index.ctp:100
+#: Template/Statuts/view.ctp:76 Template/StripeCsvFiles/view.ctp:100
+#: Template/StripeCsvs/view.ctp:142 Template/StripeExcels/index.ctp:45
+#: Template/TypeAnimations/index.ctp:31 Template/TypeAnimations/view.ctp:66
+#: Template/TypeEquipements/view.ctp:56 Template/TypeEvenements/view.ctp:62
+#: Template/TypeLicences/index.ctp:98 Template/TypeProfils/index.ctp:35
+#: Template/TypeProfils/view.ctp:54
+msgid "View"
+msgstr ""
+
+#: Template/ActuBornes/view.ctp:67 Template/Bornes/edit.ctp:307
+#: Template/Bornes/view.ctp:149;172;195 Template/Categories/view.ctp:77
+#: Template/ClientContacts/index.ctp:50
+#: Template/Clients/view.ctp:331;368;405;440
+#: Template/Contacts/index.ctp:73;147 Template/CouleurPossibles/index.ctp:34
+#: Template/DebitInternets/index.ctp:106
+#: Template/DimensionParties/index.ctp:42 Template/Dimensions/index.ctp:44
+#: Template/Element/DocumentsModelBornes/index.ctp:40
+#: Template/Emails/index.ctp:38 Template/Emails/view.ctp:67
+#: Template/EmailsHasUsers/index.ctp:40 Template/EtatBornes/index.ctp:102
+#: Template/EtatBornes/view.ctp:95 Template/Etats/index.ctp:104
+#: Template/Etats/view.ctp:75 Template/EvenementPipeEtapes/index.ctp:36
+#: Template/Evenements/view.ctp:83 Template/Fichiers/index.ctp:50
+#: Template/Fournisseurs/view.ctp:97 Template/Licences/index.ctp:174
+#: Template/LieuTypes/index.ctp:103 Template/LieuTypes/view.ctp:75
+#: Template/Logiciels/index.ctp:36 Template/Logiciels/view.ctp:53
+#: Template/Materiels/index.ctp:119 Template/Medias/index.ctp:44
+#: Template/Medias/view.ctp:65;88;111
+#: Template/MessageTypeFactures/view.ctp:73
+#: Template/ModelBornes/view.ctp:103;126
+#: Template/NatureEvenements/index.ctp:32 Template/NumeroSeries/index.ctp:38
+#: Template/OptionEvenements/index.ctp:101 Template/Parcs/index.ctp:36
+#: Template/Parcs/view.ctp:81 Template/Parties/index.ctp:34
+#: Template/PipeEtapes/view.ctp:65 Template/Pipes/index.ctp:103
+#: Template/Pipes/view.ctp:61 Template/Situations/index.ctp:103
+#: Template/Situations/view.ctp:83 Template/Statuts/index.ctp:101
+#: Template/Statuts/view.ctp:77 Template/StripeCsvFiles/view.ctp:101
+#: Template/StripeCsvs/view.ctp:143 Template/StripeExcels/index.ctp:46
+#: Template/TypeAnimations/index.ctp:32 Template/TypeAnimations/view.ctp:67
+#: Template/TypeEquipements/view.ctp:57 Template/TypeEvenements/index.ctp:48
+#: Template/TypeEvenements/view.ctp:63 Template/TypeLicences/index.ctp:99
+#: Template/TypeProfils/index.ctp:36 Template/TypeProfils/view.ctp:55
+#: Template/Users/index0.ctp:90
+msgid "Edit"
+msgstr ""
+
+#: Template/ActuBornes/view.ctp:68 Template/Antennes/map.ctp:185
+#: Template/Bornes/edit.ctp:308 Template/Bornes/view.ctp:150;173;196
+#: Template/Categories/view.ctp:78 Template/ClientContacts/edit.ctp:11
+#: Template/ClientContacts/index.ctp:51 Template/Clients/edit.ctp:11
+#: Template/Clients/view.ctp:332;369;406;441
+#: Template/Contacts/index.ctp:74;148 Template/CouleurPossibles/edit.ctp:11
+#: Template/CouleurPossibles/index.ctp:35 Template/DebitInternets/edit.ctp:57
+#: Template/DebitInternets/index.ctp:107
+#: Template/DimensionParties/edit.ctp:11
+#: Template/DimensionParties/index.ctp:43 Template/Dimensions/edit.ctp:11
+#: Template/Dimensions/index.ctp:45 Template/Documents/edit.ctp:11
+#: Template/Element/DocumentsModelBornes/edit.ctp:11
+#: Template/Element/DocumentsModelBornes/index.ctp:41
+#: Template/Emails/edit.ctp:11 Template/Emails/index.ctp:39
+#: Template/Emails/view.ctp:68 Template/EmailsHasUsers/edit.ctp:11
+#: Template/EmailsHasUsers/index.ctp:41 Template/EtatBornes/edit.ctp:53
+#: Template/EtatBornes/index.ctp:103 Template/EtatBornes/view.ctp:96
+#: Template/Etats/edit.ctp:54 Template/Etats/index.ctp:105
+#: Template/Etats/view.ctp:76 Template/EvenementPipeEtapes/edit.ctp:11
+#: Template/EvenementPipeEtapes/index.ctp:37 Template/Evenements/map.ctp:96
+#: Template/Evenements/view.ctp:84 Template/Fichiers/edit.ctp:11
+#: Template/Fichiers/index.ctp:51 Template/Fournisseurs/view.ctp:98
+#: Template/Licences/edit.ctp:107 Template/Licences/index.ctp:175
+#: Template/LieuTypes/edit.ctp:53 Template/LieuTypes/index.ctp:104
+#: Template/LieuTypes/view.ctp:76 Template/Logiciels/edit.ctp:11
+#: Template/Logiciels/index.ctp:37 Template/Logiciels/view.ctp:54
+#: Template/Materiels/index.ctp:120 Template/Medias/edit.ctp:11
+#: Template/Medias/index.ctp:45 Template/Medias/view.ctp:66;89;112
+#: Template/MessageTypeFactures/view.ctp:74 Template/Messageries/edit.ctp:11
+#: Template/ModelBornes/view.ctp:104;127
+#: Template/NatureEvenements/edit.ctp:11
+#: Template/NatureEvenements/index.ctp:33 Template/NumeroSeries/edit.ctp:11
+#: Template/NumeroSeries/index.ctp:39 Template/OptionEvenements/edit.ctp:59
+#: Template/OptionEvenements/index.ctp:102 Template/Parcs/edit.ctp:11
+#: Template/Parcs/index.ctp:37 Template/Parcs/view.ctp:82
+#: Template/Parties/edit.ctp:11 Template/Parties/index.ctp:35
+#: Template/PipeEtapes/get_ordre.ctp:17 Template/PipeEtapes/index.ctp:65
+#: Template/PipeEtapes/view.ctp:66 Template/Pipes/edit.ctp:53
+#: Template/Pipes/index.ctp:104 Template/Pipes/view.ctp:62
+#: Template/Situations/edit.ctp:56 Template/Situations/index.ctp:104
+#: Template/Situations/view.ctp:84 Template/Statuts/edit.ctp:55
+#: Template/Statuts/index.ctp:102 Template/Statuts/view.ctp:78
+#: Template/StripeCsvFiles/edit.ctp:11 Template/StripeCsvFiles/view.ctp:102
+#: Template/StripeCsvs/edit.ctp:11 Template/StripeCsvs/view.ctp:144
+#: Template/StripeExcels/edit.ctp:11 Template/StripeExcels/index.ctp:47
+#: Template/TypeAnimations/edit.ctp:11 Template/TypeAnimations/index.ctp:33
+#: Template/TypeAnimations/view.ctp:68 Template/TypeEquipements/view.ctp:58
+#: Template/TypeEvenements/index.ctp:49 Template/TypeEvenements/view.ctp:64
+#: Template/TypeLicences/edit.ctp:53 Template/TypeLicences/index.ctp:100
+#: Template/TypeProfils/edit.ctp:11 Template/TypeProfils/index.ctp:37
+#: Template/TypeProfils/view.ctp:56 Template/Users/index0.ctp:91
+#: Template/Users/map.ctp:150
+msgid "Delete"
+msgstr ""
+
+#: Template/Bornes/add.ctp:78 Template/Bornes/edit.ctp:67
+msgid "Couleur *"
+msgstr ""
+
+#: Template/Bornes/index.ctp:135 Template/Bornes/map.ctp:130
+msgid " Détail "
+msgstr ""
+
+#: Template/Bornes/index.ctp:136 Template/Bornes/map.ctp:131
+#: Template/Bornes/refresh_list.ctp:51
+msgid " Edit "
+msgstr ""
+
+#: Template/Bornes/index.ctp:137 Template/Bornes/refresh_list.ctp:53
+msgid " Ticket"
+msgstr ""
+
+#: Template/Bornes/map.ctp:132 Template/Bornes/refresh_list.ctp:52
+msgid " Delete "
+msgstr ""
+
+#: Template/Bornes/map.ctp:133
+msgid " Actuborne"
+msgstr ""
+
+#: Template/Bornes/refresh_list.ctp:50
+msgid " View "
+msgstr ""
+
+#: Template/Bornes/view.ctp:38
+msgid "Edit Borne"
+msgstr ""
+
+#: Template/Bornes/view.ctp:39
+msgid "Delete Borne"
+msgstr ""
+
+#: Template/Bornes/view.ctp:42 Template/Parcs/add.ctp:10
+#: Template/Parcs/edit.ctp:16 Template/Parcs/view.ctp:12
+msgid "List Parcs"
+msgstr ""
+
+#: Template/Bornes/view.ctp:43 Template/Parcs/index.ctp:10
+#: Template/Parcs/view.ctp:13
+msgid "New Parc"
+msgstr ""
+
+#: Template/Bornes/view.ctp:44 Template/CouleurPossibles/add.ctp:11
+#: Template/CouleurPossibles/edit.ctp:17
+#: Template/CouleurPossibles/index.ctp:11
+#: Template/CouleurPossibles/view.ctp:14 Template/DimensionParties/add.ctp:11
+#: Template/DimensionParties/edit.ctp:17
+#: Template/DimensionParties/index.ctp:11
+#: Template/DimensionParties/view.ctp:14 Template/Dimensions/add.ctp:11
+#: Template/Dimensions/edit.ctp:17 Template/Dimensions/index.ctp:11
+#: Template/Dimensions/view.ctp:14
+#: Template/Element/DocumentsModelBornes/add.ctp:11
+#: Template/Element/DocumentsModelBornes/edit.ctp:17
+#: Template/Element/DocumentsModelBornes/index.ctp:11
+#: Template/Element/DocumentsModelBornes/view.ctp:14
+#: Template/Fichiers/add.ctp:17 Template/Fichiers/edit.ctp:23
+#: Template/Fichiers/index.ctp:17 Template/Fichiers/view.ctp:20
+#: Template/ModelBornes/view.ctp:12
+msgid "List Model Bornes"
+msgstr ""
+
+#: Template/Bornes/view.ctp:45 Template/CouleurPossibles/add.ctp:12
+#: Template/CouleurPossibles/edit.ctp:18
+#: Template/CouleurPossibles/index.ctp:12
+#: Template/CouleurPossibles/view.ctp:15 Template/DimensionParties/add.ctp:12
+#: Template/DimensionParties/edit.ctp:18
+#: Template/DimensionParties/index.ctp:12
+#: Template/DimensionParties/view.ctp:15 Template/Dimensions/add.ctp:12
+#: Template/Dimensions/edit.ctp:18 Template/Dimensions/index.ctp:12
+#: Template/Dimensions/view.ctp:15
+#: Template/Element/DocumentsModelBornes/add.ctp:12
+#: Template/Element/DocumentsModelBornes/edit.ctp:18
+#: Template/Element/DocumentsModelBornes/index.ctp:12
+#: Template/Element/DocumentsModelBornes/view.ctp:15
+#: Template/Fichiers/add.ctp:18 Template/Fichiers/edit.ctp:24
+#: Template/Fichiers/index.ctp:18 Template/Fichiers/view.ctp:21
+#: Template/ModelBornes/view.ctp:13
+msgid "New Model Borne"
+msgstr ""
+
+#: Template/Bornes/view.ctp:46 Template/Contacts/view.ctp:16
+#: Template/Etats/add.ctp:54 Template/Etats/edit.ctp:60
+#: Template/Etats/index.ctp:79 Template/Etats/view.ctp:14
+#: Template/Evenements/view.ctp:18 Template/Fichiers/add.ctp:11
+#: Template/Fichiers/edit.ctp:17 Template/Fichiers/index.ctp:11
+#: Template/Fichiers/view.ctp:14 Template/Fournisseurs/view.ctp:14
+#: Template/LieuTypes/add.ctp:54 Template/LieuTypes/edit.ctp:59
+#: Template/LieuTypes/index.ctp:78 Template/LieuTypes/view.ctp:14
+msgid "List Antennes"
+msgstr ""
+
+#: Template/Bornes/view.ctp:47 Template/Contacts/view.ctp:17
+#: Template/Etats/add.ctp:55 Template/Etats/edit.ctp:61
+#: Template/Etats/index.ctp:80 Template/Etats/view.ctp:15
+#: Template/Evenements/view.ctp:19 Template/Fichiers/add.ctp:12
+#: Template/Fichiers/edit.ctp:18 Template/Fichiers/index.ctp:12
+#: Template/Fichiers/view.ctp:15 Template/Fournisseurs/view.ctp:15
+#: Template/LieuTypes/add.ctp:55 Template/LieuTypes/edit.ctp:60
+#: Template/LieuTypes/index.ctp:79 Template/LieuTypes/view.ctp:15
+msgid "New Antenne"
+msgstr ""
+
+#: Template/Bornes/view.ctp:48 Template/ClientContacts/add.ctp:11
+#: Template/ClientContacts/edit.ctp:17 Template/ClientContacts/index.ctp:11
+#: Template/ClientContacts/view.ctp:14 Template/Clients/add.ctp:10
+#: Template/Clients/edit.ctp:16 Template/Clients/view.ctp:12
+#: Template/Documents/add.ctp:11 Template/Documents/edit.ctp:17
+#: Template/Documents/view.ctp:14 Template/Evenements/view.ctp:14
+msgid "List Clients"
+msgstr ""
+
+#: Template/Bornes/view.ctp:49 Template/ClientContacts/add.ctp:12
+#: Template/ClientContacts/edit.ctp:18 Template/ClientContacts/index.ctp:12
+#: Template/ClientContacts/view.ctp:15 Template/Clients/view.ctp:13
+#: Template/Documents/add.ctp:12 Template/Documents/edit.ctp:18
+#: Template/Documents/view.ctp:15 Template/Evenements/view.ctp:15
+msgid "New Client"
+msgstr ""
+
+#: Template/Bornes/view.ctp:52 Template/Logiciels/add.ctp:11
+#: Template/Logiciels/edit.ctp:17 Template/Logiciels/index.ctp:11
+#: Template/Logiciels/view.ctp:14
+msgid "List Borne Logiciels"
+msgstr ""
+
+#: Template/Bornes/view.ctp:53 Template/Logiciels/add.ctp:12
+#: Template/Logiciels/edit.ctp:18 Template/Logiciels/index.ctp:12
+#: Template/Logiciels/view.ctp:15
+msgid "New Borne Logiciel"
+msgstr ""
+
+#: Template/Bornes/view.ctp:54 Template/Medias/add.ctp:13
+#: Template/Medias/edit.ctp:19 Template/Medias/index.ctp:13
+#: Template/Medias/view.ctp:16
+msgid "List Bornes Has Medias"
+msgstr ""
+
+#: Template/Bornes/view.ctp:55 Template/Medias/add.ctp:14
+#: Template/Medias/edit.ctp:20 Template/Medias/index.ctp:14
+#: Template/Medias/view.ctp:17
+msgid "New Bornes Has Media"
+msgstr ""
+
+#: Template/Bornes/view.ctp:62 Template/CouleurPossibles/view.ctp:22
+#: Template/Couleurs/view.ctp:20 Template/ModelBornes/view.ctp:67
+#: Template/Parcs/view.ctp:45
+msgid "Couleur"
+msgstr ""
+
+#: Template/Bornes/view.ctp:66 Template/Clients/view.ctp:297
+#: Template/Equipements/view.ctp:47 Template/EtatBornes/view.ctp:47
+#: Template/Etats/view.ctp:52 Template/Fournisseurs/view.ctp:67
+#: Template/LieuTypes/view.ctp:52 Template/MessageTypeFactures/view.ctp:47
+#: Template/ModelBornes/view.ctp:69 Template/Parcs/view.ctp:47
+#: Template/TypeEquipements/view.ctp:46
+#: Template/TypeInstallations/view.ctp:41
+msgid "Commentaire"
+msgstr ""
+
+#: Template/Bornes/view.ctp:70
+msgid "Parc"
+msgstr ""
+
+#: Template/Bornes/view.ctp:74 Template/Dimensions/view.ctp:32
+#: Template/Element/DocumentsModelBornes/view.ctp:38
+#: Template/Fichiers/view.ctp:52
+msgid "Model Borne"
+msgstr ""
+
+#: Template/Bornes/view.ctp:78 Template/Contacts/view.ctp:50
+#: Template/Evenements/view.ctp:48 Template/Fichiers/view.ctp:40
+#: Template/Fournisseurs/view.ctp:38
+msgid "Antenne"
+msgstr ""
+
+#: Template/Bornes/view.ctp:82 Template/ClientContacts/view.ctp:42
+#: Template/Documents/view.ctp:26 Template/Evenements/view.ctp:40
+msgid "Client"
+msgstr ""
+
+#: Template/Bornes/view.ctp:86 Template/Clients/view.ctp:236;304
+#: Template/EtatBornes/view.ctp:55 Template/Fournisseurs/view.ctp:34
+#: Template/ModelBornes/view.ctp:76 Template/Parcs/view.ctp:54
+msgid "Ville"
+msgstr ""
+
+#: Template/Bornes/view.ctp:90 Template/Clients/view.ctp:305
+#: Template/EtatBornes/view.ctp:56 Template/Etats/view.ctp:49
+#: Template/LieuTypes/view.ctp:49 Template/ModelBornes/view.ctp:77
+#: Template/Parcs/view.ctp:55
+msgid "Long"
+msgstr ""
+
+#: Template/Bornes/view.ctp:94 Template/Clients/view.ctp:306
+#: Template/EtatBornes/view.ctp:57 Template/Etats/view.ctp:50
+#: Template/LieuTypes/view.ctp:50 Template/ModelBornes/view.ctp:78
+#: Template/Parcs/view.ctp:56
+msgid "Lat"
+msgstr ""
+
+#: Template/Bornes/view.ctp:102 Template/Clients/view.ctp:160;294
+#: Template/EtatBornes/view.ctp:44 Template/ModelBornes/view.ctp:66
+#: Template/Parcs/view.ctp:44
+msgid "Numero"
+msgstr ""
+
+#: Template/Bornes/view.ctp:106 Template/Clients/view.ctp:296
+#: Template/EtatBornes/view.ctp:46 Template/ModelBornes/view.ctp:68
+#: Template/Parcs/view.ctp:46
+msgid "Expiration Sb"
+msgstr ""
+
+#: Template/Bornes/view.ctp:110 Template/Clients/view.ctp:301
+#: Template/EtatBornes/view.ctp:51 Template/ModelBornes/view.ctp:73
+#: Template/Parcs/view.ctp:51
+msgid "Date Arrive Estime"
+msgstr ""
+
+#: Template/Bornes/view.ctp:122 Template/Clients/view.ctp:298
+#: Template/EtatBornes/view.ctp:48 Template/ModelBornes/view.ctp:70
+#: Template/Parcs/view.ctp:48
+msgid "Is Prette"
+msgstr ""
+
+#: Template/Bornes/view.ctp:123;275 Template/ClientContacts/view.ctp:63
+#: Template/Contacts/view.ctp:83 Template/Documents/view.ctp:71
+#: Template/Emails/view.ctp:39 Template/EmailsHasUsers/view.ctp:37;41
+#: Template/Equipements/view.ctp:43 Template/Messageries/view.ctp:29
+msgid "Yes"
+msgstr ""
+
+#: Template/Bornes/view.ctp:123;275 Template/ClientContacts/view.ctp:63
+#: Template/Contacts/view.ctp:83 Template/Documents/view.ctp:71
+#: Template/Emails/view.ctp:39 Template/EmailsHasUsers/view.ctp:37;41
+#: Template/Equipements/view.ctp:43 Template/Messageries/view.ctp:29
+msgid "No"
+msgstr ""
+
+#: Template/Bornes/view.ctp:127
+msgid "Related Actu Bornes"
+msgstr ""
+
+#: Template/Bornes/view.ctp:134;162;185 Template/Logiciels/view.ctp:43
+#: Template/Medias/view.ctp:78
+msgid "Borne Id"
+msgstr ""
+
+#: Template/Bornes/view.ctp:158 Template/Logiciels/view.ctp:39
+msgid "Related Borne Logiciels"
+msgstr ""
+
+#: Template/Bornes/view.ctp:163 Template/Logiciels/view.ctp:44
+msgid "Logiciel Id"
+msgstr ""
+
+#: Template/Bornes/view.ctp:181 Template/Medias/view.ctp:74
+msgid "Related Bornes Has Medias"
+msgstr ""
+
+#: Template/CategorieActus/view.ctp:10
+msgid "Edit Categorie Actus"
+msgstr ""
+
+#: Template/CategorieActus/view.ctp:11
+msgid "Delete Categorie Actus"
+msgstr ""
+
+#: Template/CategorieActus/view.ctp:12
+msgid "List Categorie Actus"
+msgstr ""
+
+#: Template/CategorieActus/view.ctp:13
+msgid "New Categorie Actus"
+msgstr ""
+
+#: Template/CategorieActus/view.ctp:37
+#: Template/Element/DocumentsModelBornes/view.ctp:47
+#: Template/Fournisseurs/view.ctp:63 Template/ModelBornes/view.ctp:32
+#: Template/OptionEvenements/view.ctp:37 Template/StripeCsvFiles/view.ctp:49
+#: Template/StripeCsvs/view.ctp:74;124 Template/StripeExcels/view.ctp:34
+#: Template/TypeAnimations/view.ctp:31 Template/TypeEvenements/view.ctp:31
+msgid "Description"
+msgstr ""
+
+#: Template/Categories/view.ctp:10
+msgid "Edit Category"
+msgstr ""
+
+#: Template/Categories/view.ctp:11
+msgid "Delete Category"
+msgstr ""
+
+#: Template/Categories/view.ctp:12
+msgid "List Categories"
+msgstr ""
+
+#: Template/Categories/view.ctp:13
+msgid "New Category"
+msgstr ""
+
+#: Template/Categories/view.ctp:14
+msgid "List Parent Categories"
+msgstr ""
+
+#: Template/Categories/view.ctp:15
+msgid "New Parent Category"
+msgstr ""
+
+#: Template/Categories/view.ctp:16
+msgid "List Child Categories"
+msgstr ""
+
+#: Template/Categories/view.ctp:17
+msgid "New Child Category"
+msgstr ""
+
+#: Template/Categories/view.ctp:24;58 Template/ClientContacts/view.ctp:22
+#: Template/Clients/view.ctp:196;224;345;385 Template/Contacts/view.ctp:30
+#: Template/Documents/view.ctp:38 Template/Fournisseurs/view.ctp:26
+#: Template/LieuTypes/view.ctp:22 Template/Logiciels/view.ctp:22
+#: Template/ModelBornes/view.ctp:24 Template/OptionEvenements/view.ctp:20
+#: Template/Parcs/view.ctp:22 Template/Parties/view.ctp:20
+#: Template/PipeEtapes/view.ctp:24 Template/Pipes/view.ctp:22;44
+#: Template/Situations/view.ctp:44 Template/Statuts/view.ctp:37
+#: Template/TypeAnimations/view.ctp:22 Template/TypeEquipements/view.ctp:22
+#: Template/TypeEvenements/view.ctp:22 Template/TypeInstallations/view.ctp:20
+#: Template/TypeLicences/view.ctp:20 Template/TypeProfils/view.ctp:22
+msgid "Nom"
+msgstr ""
+
+#: Template/Categories/view.ctp:28
+msgid "Parent Category"
+msgstr ""
+
+#: Template/Categories/view.ctp:36;60
+msgid "Lft"
+msgstr ""
+
+#: Template/Categories/view.ctp:40;61
+msgid "Rght"
+msgstr ""
+
+#: Template/Categories/view.ctp:53
+msgid "Related Categories"
+msgstr ""
+
+#: Template/Categories/view.ctp:59
+msgid "Parent Id"
+msgstr ""
+
+#: Template/ClientContacts/add.ctp:10 Template/ClientContacts/edit.ctp:16
+#: Template/ClientContacts/view.ctp:12 Template/Clients/add.ctp:13
+#: Template/Clients/edit.ctp:19 Template/Clients/view.ctp:16
+msgid "List Client Contacts"
+msgstr ""
+
+#: Template/ClientContacts/add.ctp:18
+msgid "Add Client Contact"
+msgstr ""
+
+#: Template/ClientContacts/add.ctp:31 Template/ClientContacts/edit.ctp:37
+#: Template/Clients/add.ctp:41 Template/Clients/edit.ctp:47
+#: Template/CouleurPossibles/add.ctp:24 Template/CouleurPossibles/edit.ctp:30
+#: Template/DebitInternets/add.ctp:70 Template/DebitInternets/edit.ctp:74
+#: Template/DimensionParties/add.ctp:26 Template/DimensionParties/edit.ctp:32
+#: Template/Dimensions/add.ctp:28 Template/Dimensions/edit.ctp:34
+#: Template/Documents/add.ctp:33 Template/Documents/edit.ctp:39
+#: Template/Element/DocumentsModelBornes/add.ctp:28
+#: Template/Element/DocumentsModelBornes/edit.ctp:34
+#: Template/Emails/add.ctp:25 Template/Emails/edit.ctp:31
+#: Template/EmailsHasUsers/add.ctp:28 Template/EmailsHasUsers/edit.ctp:34
+#: Template/EtatBornes/add.ctp:66 Template/EtatBornes/edit.ctp:71
+#: Template/Etats/add.ctp:66 Template/Etats/edit.ctp:72
+#: Template/EvenementPipeEtapes/add.ctp:26
+#: Template/EvenementPipeEtapes/edit.ctp:32 Template/Fichiers/add.ctp:35
+#: Template/Fichiers/edit.ctp:41 Template/Licences/add.ctp:129
+#: Template/Licences/edit.ctp:132 Template/LieuTypes/add.ctp:66
+#: Template/LieuTypes/edit.ctp:71 Template/Logiciels/add.ctp:23
+#: Template/Logiciels/edit.ctp:29 Template/Medias/add.ctp:29
+#: Template/Medias/edit.ctp:35 Template/Messageries/edit.ctp:29
+#: Template/NatureEvenements/add.ctp:22 Template/NatureEvenements/edit.ctp:28
+#: Template/NumeroSeries/add.ctp:27 Template/NumeroSeries/edit.ctp:33
+#: Template/OptionEvenements/add.ctp:72 Template/OptionEvenements/edit.ctp:76
+#: Template/Parcs/add.ctp:23 Template/Parcs/edit.ctp:29
+#: Template/Parties/add.ctp:21 Template/Parties/edit.ctp:27
+#: Template/Pipes/add.ctp:68 Template/Pipes/edit.ctp:71
+#: Template/Situations/add.ctp:66 Template/Situations/edit.ctp:74
+#: Template/Statuts/add.ctp:66 Template/Statuts/edit.ctp:73
+#: Template/StripeCsvFiles/edit.ctp:31 Template/StripeCsvs/edit.ctp:49
+#: Template/StripeExcels/add.ctp:30 Template/StripeExcels/edit.ctp:36
+#: Template/TypeAnimations/add.ctp:24 Template/TypeAnimations/edit.ctp:30
+#: Template/TypeLicences/add.ctp:65 Template/TypeLicences/edit.ctp:69
+#: Template/TypeProfils/add.ctp:23 Template/TypeProfils/edit.ctp:29
+msgid "Submit"
+msgstr ""
+
+#: Template/ClientContacts/edit.ctp:24 Template/ClientContacts/view.ctp:10
+msgid "Edit Client Contact"
+msgstr ""
+
+#: Template/ClientContacts/index.ctp:10 Template/ClientContacts/view.ctp:13
+#: Template/Clients/add.ctp:14 Template/Clients/edit.ctp:20
+#: Template/Clients/view.ctp:17
+msgid "New Client Contact"
+msgstr ""
+
+#: Template/ClientContacts/index.ctp:16
+msgid "Client Contacts"
+msgstr ""
+
+#: Template/ClientContacts/index.ctp:65 Template/Contacts/index.ctp:162
+#: Template/CouleurPossibles/index.ctp:49
+#: Template/DebitInternets/index.ctp:121
+#: Template/DimensionParties/index.ctp:57 Template/Dimensions/index.ctp:59
+#: Template/Element/DocumentsModelBornes/index.ctp:55
+#: Template/Emails/index.ctp:53 Template/EmailsHasUsers/index.ctp:55
+#: Template/EtatBornes/index.ctp:117 Template/Etats/index.ctp:119
+#: Template/EvenementPipeEtapes/index.ctp:51 Template/Fichiers/index.ctp:65
+#: Template/Licences/index.ctp:189 Template/LieuTypes/index.ctp:118
+#: Template/Logiciels/index.ctp:51 Template/Materiels/index.ctp:134
+#: Template/Medias/index.ctp:59 Template/NatureEvenements/index.ctp:47
+#: Template/NumeroSeries/index.ctp:53 Template/OptionEvenements/index.ctp:116
+#: Template/Parcs/index.ctp:51 Template/Parties/index.ctp:49
+#: Template/Pipes/index.ctp:118 Template/Situations/index.ctp:118
+#: Template/Statuts/index.ctp:116 Template/StripeExcels/index.ctp:61
+#: Template/TypeAnimations/index.ctp:47 Template/TypeLicences/index.ctp:114
+#: Template/TypeProfils/index.ctp:51
+msgid ""
+"Page {{page}} of {{pages}}, showing {{current}} record(s) out of {{count}} "
+"total"
+msgstr ""
+
+#: Template/ClientContacts/view.ctp:11
+msgid "Delete Client Contact"
+msgstr ""
+
+#: Template/ClientContacts/view.ctp:26 Template/Clients/view.ctp:228;346
+#: Template/Contacts/view.ctp:34 Template/Situations/view.ctp:45
+#: Template/Statuts/view.ctp:38
+msgid "Prenom"
+msgstr ""
+
+#: Template/ClientContacts/view.ctp:30 Template/Clients/view.ctp:347
+msgid "Position"
+msgstr ""
+
+#: Template/ClientContacts/view.ctp:34 Template/Clients/view.ctp:240;348;419
+#: Template/Contacts/view.ctp:42 Template/EmailsHasUsers/view.ctp:24
+#: Template/Fournisseurs/view.ctp:76 Template/Situations/view.ctp:47
+#: Template/Statuts/view.ctp:40
+msgid "Email"
+msgstr ""
+
+#: Template/ClientContacts/view.ctp:38 Template/Clients/view.ctp:349
+msgid "Tel"
+msgstr ""
+
+#: Template/ClientContacts/view.ctp:50 Template/Clients/view.ctp:272;351
+#: Template/Documents/view.ctp:54
+msgid "Id In Sellsy"
+msgstr ""
+
+#: Template/ClientContacts/view.ctp:62 Template/Clients/view.ctp:352
+#: Template/Documents/view.ctp:70
+msgid "Deleted In Sellsy"
+msgstr ""
+
+#: Template/Clients/add.ctp:15 Template/Clients/edit.ctp:21
+#: Template/Clients/view.ctp:18 Template/Documents/add.ctp:10
+#: Template/Documents/edit.ctp:16 Template/Documents/view.ctp:12
+msgid "List Documents"
+msgstr ""
+
+#: Template/Clients/add.ctp:16 Template/Clients/edit.ctp:22
+#: Template/Clients/view.ctp:19 Template/Documents/view.ctp:13
+msgid "New Document"
+msgstr ""
+
+#: Template/Clients/add.ctp:17 Template/Clients/edit.ctp:23
+#: Template/Clients/view.ctp:20 Template/EmailsHasUsers/add.ctp:13
+#: Template/EmailsHasUsers/edit.ctp:19 Template/EmailsHasUsers/index.ctp:13
+#: Template/EmailsHasUsers/view.ctp:16 Template/Fournisseurs/view.ctp:18
+msgid "List Users"
+msgstr ""
+
+#: Template/Clients/add.ctp:18 Template/Clients/edit.ctp:24
+#: Template/Clients/view.ctp:21 Template/EmailsHasUsers/add.ctp:14
+#: Template/EmailsHasUsers/edit.ctp:20 Template/EmailsHasUsers/index.ctp:14
+#: Template/EmailsHasUsers/view.ctp:17 Template/Fournisseurs/view.ctp:19
+msgid "New User"
+msgstr ""
+
+#: Template/Clients/add.ctp:24
+msgid "Add Client"
+msgstr ""
+
+#: Template/Clients/edit.ctp:30 Template/Clients/view.ctp:10
+msgid "Edit Client"
+msgstr ""
+
+#: Template/Clients/view.ctp:11
+msgid "Delete Client"
+msgstr ""
+
+#: Template/Clients/view.ctp:193;382
+msgid "Types"
+msgstr ""
+
+#: Template/Clients/view.ctp:194;303;350;383;421
+#: Template/EtatBornes/view.ctp:53 Template/Fournisseurs/view.ctp:78
+#: Template/ModelBornes/view.ctp:75 Template/Parcs/view.ctp:53
+#: Template/TypeAnimations/view.ctp:45 Template/TypeEvenements/view.ctp:45
+msgid "Client Id"
+msgstr ""
+
+#: Template/Clients/view.ctp:195;384 Template/Contacts/view.ctp:26
+#: Template/Documents/view.ctp:30
+msgid "Statut"
+msgstr ""
+
+#: Template/Clients/view.ctp:197;386 Template/Documents/view.ctp:42
+msgid "Montant Ht"
+msgstr ""
+
+#: Template/Clients/view.ctp:198;387 Template/Documents/view.ctp:46
+msgid "Montant Ttc"
+msgstr ""
+
+#: Template/Clients/view.ctp:232 Template/Etats/view.ctp:47
+#: Template/Fournisseurs/view.ctp:30 Template/LieuTypes/view.ctp:47
+msgid "Adresse"
+msgstr ""
+
+#: Template/Clients/view.ctp:244
+msgid "Siren"
+msgstr ""
+
+#: Template/Clients/view.ctp:248
+msgid "Siret"
+msgstr ""
+
+#: Template/Clients/view.ctp:252
+msgid "Mobile"
+msgstr ""
+
+#: Template/Clients/view.ctp:256
+msgid "Country"
+msgstr ""
+
+#: Template/Clients/view.ctp:264 Template/Etats/view.ctp:48
+#: Template/Fournisseurs/view.ctp:50 Template/LieuTypes/view.ctp:48
+msgid "Cp"
+msgstr ""
+
+#: Template/Clients/view.ctp:268 Template/Contacts/view.ctp:38
+#: Template/Situations/view.ctp:46 Template/Statuts/view.ctp:39
+msgid "Telephone"
+msgstr ""
+
+#: Template/Clients/view.ctp:285
+msgid "Adresse 2"
+msgstr ""
+
+#: Template/Clients/view.ctp:289 Template/EtatBornes/view.ctp:39
+#: Template/ModelBornes/view.ctp:61 Template/Parcs/view.ctp:39
+msgid "Related Bornes"
+msgstr ""
+
+#: Template/Clients/view.ctp:295 Template/EtatBornes/view.ctp:45
+msgid "Couleur Possible Id"
+msgstr ""
+
+#: Template/Clients/view.ctp:299 Template/EtatBornes/view.ctp:49
+#: Template/ModelBornes/view.ctp:71 Template/Parcs/view.ctp:49
+msgid "Parc Id"
+msgstr ""
+
+#: Template/Clients/view.ctp:300 Template/CouleurPossibles/view.ctp:30
+#: Template/DimensionParties/view.ctp:34 Template/EtatBornes/view.ctp:50
+#: Template/Medias/view.ctp:101 Template/ModelBornes/view.ctp:72;116
+#: Template/Parcs/view.ctp:50
+msgid "Model Borne Id"
+msgstr ""
+
+#: Template/Clients/view.ctp:302;422 Template/EtatBornes/view.ctp:52
+#: Template/Fournisseurs/view.ctp:79 Template/MessageTypeFactures/view.ctp:50
+#: Template/ModelBornes/view.ctp:74 Template/Parcs/view.ctp:52
+#: Template/Situations/view.ctp:55 Template/Statuts/view.ctp:48
+#: Template/TypeAnimations/view.ctp:48 Template/TypeEvenements/view.ctp:47
+msgid "Antenne Id"
+msgstr ""
+
+#: Template/Clients/view.ctp:340
+msgid "Related Client Contacts"
+msgstr ""
+
+#: Template/Clients/view.ctp:344
+msgid "Contaid"
+msgstr ""
+
+#: Template/Clients/view.ctp:377
+msgid "Related Documents"
+msgstr ""
+
+#: Template/Clients/view.ctp:414 Template/Fournisseurs/view.ctp:71
+msgid "Related Users"
+msgstr ""
+
+#: Template/Clients/view.ctp:420 Template/Fournisseurs/view.ctp:77
+#: Template/Users/login.ctp:15
+msgid "Password"
+msgstr ""
+
+#: Template/Clients/view.ctp:423 Template/Fournisseurs/view.ctp:80
+msgid "Fournisseur Id"
+msgstr ""
+
+#: Template/Contacts/index.ctp:105
+msgid "Contacts"
+msgstr ""
+
+#: Template/Contacts/view.ctp:10
+msgid "Edit Contact"
+msgstr ""
+
+#: Template/Contacts/view.ctp:11
+msgid "Delete Contact"
+msgstr ""
+
+#: Template/Contacts/view.ctp:12 Template/Situations/add.ctp:54
+#: Template/Situations/edit.ctp:62 Template/Situations/index.ctp:78
+#: Template/Situations/view.ctp:14 Template/Statuts/add.ctp:54
+#: Template/Statuts/edit.ctp:61 Template/Statuts/index.ctp:80
+#: Template/Statuts/view.ctp:14
+msgid "List Contacts"
+msgstr ""
+
+#: Template/Contacts/view.ctp:13 Template/Situations/add.ctp:55
+#: Template/Situations/edit.ctp:63 Template/Situations/index.ctp:79
+#: Template/Situations/view.ctp:15 Template/Statuts/add.ctp:55
+#: Template/Statuts/edit.ctp:62 Template/Statuts/index.ctp:81
+#: Template/Statuts/view.ctp:15
+msgid "New Contact"
+msgstr ""
+
+#: Template/Contacts/view.ctp:14 Template/Statuts/add.ctp:53
+#: Template/Statuts/edit.ctp:60 Template/Statuts/view.ctp:12
+msgid "List Statuts"
+msgstr ""
+
+#: Template/Contacts/view.ctp:15 Template/Statuts/index.ctp:79
+#: Template/Statuts/view.ctp:13
+msgid "New Statut"
+msgstr ""
+
+#: Template/Contacts/view.ctp:18 Template/Situations/add.ctp:53
+#: Template/Situations/edit.ctp:61 Template/Situations/view.ctp:12
+msgid "List Situations"
+msgstr ""
+
+#: Template/Contacts/view.ctp:19 Template/Situations/index.ctp:77
+#: Template/Situations/view.ctp:13
+msgid "New Situation"
+msgstr ""
+
+#: Template/Contacts/view.ctp:46 Template/Situations/view.ctp:52
+#: Template/Statuts/view.ctp:45
+msgid "Modele Vehicule"
+msgstr ""
+
+#: Template/Contacts/view.ctp:54 Template/Situations/view.ctp:56
+#: Template/Statuts/view.ctp:49
+msgid "Photo Nom"
+msgstr ""
+
+#: Template/Contacts/view.ctp:58
+msgid "Situation"
+msgstr ""
+
+#: Template/Contacts/view.ctp:66 Template/Situations/view.ctp:53
+#: Template/Statuts/view.ctp:46
+msgid "Nbr Borne Transportable Vehicule"
+msgstr ""
+
+#: Template/Contacts/view.ctp:70 Template/Situations/view.ctp:48
+#: Template/Statuts/view.ctp:41
+msgid "Date Naissance"
+msgstr ""
+
+#: Template/Contacts/view.ctp:82 Template/Situations/view.ctp:51
+#: Template/Statuts/view.ctp:44
+msgid "Is Vehicule"
+msgstr ""
+
+#: Template/Contacts/view.ctp:87 Template/Situations/view.ctp:49
+#: Template/Statuts/view.ctp:42
+msgid "Info A Savoir"
+msgstr ""
+
+#: Template/Contacts/view.ctp:91 Template/Situations/view.ctp:50
+#: Template/Statuts/view.ctp:43
+msgid "Mode Renumeration"
+msgstr ""
+
+#: Template/Contacts/view.ctp:95 Template/Situations/view.ctp:54
+#: Template/Statuts/view.ctp:47
+msgid "Commentaire Vehicule"
+msgstr ""
+
+#: Template/CouleurPossibles/add.ctp:10 Template/CouleurPossibles/edit.ctp:16
+#: Template/CouleurPossibles/view.ctp:12
+msgid "List Couleur Possibles"
+msgstr ""
+
+#: Template/CouleurPossibles/add.ctp:18
+msgid "Add Couleur Possible"
+msgstr ""
+
+#: Template/CouleurPossibles/edit.ctp:24
+#: Template/CouleurPossibles/view.ctp:10
+msgid "Edit Couleur Possible"
+msgstr ""
+
+#: Template/CouleurPossibles/index.ctp:10
+#: Template/CouleurPossibles/view.ctp:13
+msgid "New Couleur Possible"
+msgstr ""
+
+#: Template/CouleurPossibles/index.ctp:16
+msgid "Couleur Possibles"
+msgstr ""
+
+#: Template/CouleurPossibles/view.ctp:11
+msgid "Delete Couleur Possible"
+msgstr ""
+
+#: Template/Couleurs/view.ctp:10
+msgid "Edit Couleur"
+msgstr ""
+
+#: Template/Couleurs/view.ctp:11
+msgid "Delete Couleur"
+msgstr ""
+
+#: Template/Couleurs/view.ctp:12
+msgid "List Couleurs"
+msgstr ""
+
+#: Template/Couleurs/view.ctp:13
+msgid "New Couleur"
+msgstr ""
+
+#: Template/DebitInternets/add.ctp:58 Template/DebitInternets/edit.ctp:62
+#: Template/DebitInternets/view.ctp:12
+msgid "List Debit Internets"
+msgstr ""
+
+#: Template/DebitInternets/add.ctp:64
+msgid "Add Debit Internet"
+msgstr ""
+
+#: Template/DebitInternets/edit.ctp:68 Template/DebitInternets/view.ctp:10
+msgid "Edit Debit Internet"
+msgstr ""
+
+#: Template/DebitInternets/index.ctp:80 Template/DebitInternets/view.ctp:13
+msgid "New Debit Internet"
+msgstr ""
+
+#: Template/DebitInternets/index.ctp:84
+msgid "Debit Internets"
+msgstr ""
+
+#: Template/DebitInternets/view.ctp:11
+msgid "Delete Debit Internet"
+msgstr ""
+
+#: Template/DebitInternets/view.ctp:20 Template/Equipements/view.ctp:26
+#: Template/Etats/view.ctp:22 Template/TypeEquipements/view.ctp:45
+msgid "Valeur"
+msgstr ""
+
+#: Template/DebitInternets/view.ctp:24
+msgid "Information"
+msgstr ""
+
+#: Template/DimensionParties/add.ctp:10 Template/DimensionParties/edit.ctp:16
+#: Template/DimensionParties/view.ctp:12
+msgid "List Dimension Parties"
+msgstr ""
+
+#: Template/DimensionParties/add.ctp:18
+msgid "Add Dimension Party"
+msgstr ""
+
+#: Template/DimensionParties/edit.ctp:24
+#: Template/DimensionParties/view.ctp:10
+msgid "Edit Dimension Party"
+msgstr ""
+
+#: Template/DimensionParties/index.ctp:10
+#: Template/DimensionParties/view.ctp:13
+msgid "New Dimension Party"
+msgstr ""
+
+#: Template/DimensionParties/index.ctp:16
+msgid "Dimension Parties"
+msgstr ""
+
+#: Template/DimensionParties/view.ctp:11
+msgid "Delete Dimension Party"
+msgstr ""
+
+#: Template/DimensionParties/view.ctp:22 Template/Dimensions/view.ctp:24
+#: Template/Materiels/view.ctp:44
+msgid "Dimension"
+msgstr ""
+
+#: Template/DimensionParties/view.ctp:26 Template/Dimensions/view.ctp:28
+#: Template/Materiels/view.ctp:48
+msgid "Poids"
+msgstr ""
+
+#: Template/DimensionParties/view.ctp:38
+msgid "Partie Id"
+msgstr ""
+
+#: Template/Dimensions/add.ctp:10 Template/Dimensions/edit.ctp:16
+#: Template/Dimensions/view.ctp:12
+msgid "List Dimensions"
+msgstr ""
+
+#: Template/Dimensions/add.ctp:13 Template/Dimensions/edit.ctp:19
+#: Template/Dimensions/index.ctp:13 Template/Dimensions/view.ctp:16
+#: Template/Parties/add.ctp:10 Template/Parties/edit.ctp:16
+#: Template/Parties/view.ctp:12
+msgid "List Parties"
+msgstr ""
+
+#: Template/Dimensions/add.ctp:14 Template/Dimensions/edit.ctp:20
+#: Template/Dimensions/index.ctp:14 Template/Dimensions/view.ctp:17
+#: Template/Parties/index.ctp:10 Template/Parties/view.ctp:13
+msgid "New Party"
+msgstr ""
+
+#: Template/Dimensions/add.ctp:20
+msgid "Add Dimension"
+msgstr ""
+
+#: Template/Dimensions/edit.ctp:26 Template/Dimensions/view.ctp:10
+msgid "Edit Dimension"
+msgstr ""
+
+#: Template/Dimensions/index.ctp:10 Template/Dimensions/view.ctp:13
+msgid "New Dimension"
+msgstr ""
+
+#: Template/Dimensions/index.ctp:18
+msgid "Dimensions"
+msgstr ""
+
+#: Template/Dimensions/view.ctp:11
+msgid "Delete Dimension"
+msgstr ""
+
+#: Template/Dimensions/view.ctp:36
+msgid "Party"
+msgstr ""
+
+#: Template/Documents/add.ctp:18
+msgid "Add Document"
+msgstr ""
+
+#: Template/Documents/edit.ctp:24 Template/Documents/view.ctp:10
+msgid "Edit Document"
+msgstr ""
+
+#: Template/Documents/view.ctp:11
+msgid "Delete Document"
+msgstr ""
+
+#: Template/Documents/view.ctp:22
+msgid "Type Document"
+msgstr ""
+
+#: Template/Documents/view.ctp:34 Template/Emails/view.ctp:22
+msgid "Objet"
+msgstr ""
+
+#: Template/Documents/view.ctp:58 Template/StripeCsvs/view.ctp:120
+#: Template/StripeExcels/view.ctp:54
+msgid "Date"
+msgstr ""
+
+#: Template/Documents/view.ctp:75
+msgid "Url Sellsy"
+msgstr ""
+
+#: Template/Element/DocumentsModelBornes/add.ctp:10
+#: Template/Element/DocumentsModelBornes/edit.ctp:16
+#: Template/Element/DocumentsModelBornes/view.ctp:12
+msgid "List Documents Model Bornes"
+msgstr ""
+
+#: Template/Element/DocumentsModelBornes/add.ctp:18
+msgid "Add Documents Model Borne"
+msgstr ""
+
+#: Template/Element/DocumentsModelBornes/edit.ctp:24
+#: Template/Element/DocumentsModelBornes/view.ctp:10
+msgid "Edit Documents Model Borne"
+msgstr ""
+
+#: Template/Element/DocumentsModelBornes/index.ctp:10
+#: Template/Element/DocumentsModelBornes/view.ctp:13
+msgid "New Documents Model Borne"
+msgstr ""
+
+#: Template/Element/DocumentsModelBornes/index.ctp:16
+msgid "Documents Model Bornes"
+msgstr ""
+
+#: Template/Element/DocumentsModelBornes/view.ctp:11
+msgid "Delete Documents Model Borne"
+msgstr ""
+
+#: Template/Element/DocumentsModelBornes/view.ctp:22
+#: Template/Fichiers/view.ctp:28 Template/MessageTypeFactures/view.ctp:44
+msgid "Nom Fichier"
+msgstr ""
+
+#: Template/Element/DocumentsModelBornes/view.ctp:30
+#: Template/Fichiers/view.ctp:32
+msgid "Chemin"
+msgstr ""
+
+#: Template/Element/DocumentsModelBornes/view.ctp:34
+#: Template/Fichiers/view.ctp:36 Template/MessageTypeFactures/view.ctp:45
+msgid "Nom Origine"
+msgstr ""
+
+#: Template/Emails/add.ctp:10 Template/Emails/edit.ctp:16
+#: Template/Emails/view.ctp:12 Template/EmailsHasUsers/add.ctp:11
+#: Template/EmailsHasUsers/edit.ctp:17 Template/EmailsHasUsers/index.ctp:11
+#: Template/EmailsHasUsers/view.ctp:14
+msgid "List Emails"
+msgstr ""
+
+#: Template/Emails/add.ctp:11 Template/Emails/edit.ctp:17
+#: Template/Emails/index.ctp:11 Template/Emails/view.ctp:14
+#: Template/EmailsHasUsers/add.ctp:10 Template/EmailsHasUsers/edit.ctp:16
+#: Template/EmailsHasUsers/view.ctp:12
+msgid "List Emails Has Users"
+msgstr ""
+
+#: Template/Emails/add.ctp:12 Template/Emails/edit.ctp:18
+#: Template/Emails/index.ctp:12 Template/Emails/view.ctp:15
+#: Template/EmailsHasUsers/index.ctp:10 Template/EmailsHasUsers/view.ctp:13
+msgid "New Emails Has User"
+msgstr ""
+
+#: Template/Emails/add.ctp:18
+msgid "Add Email"
+msgstr ""
+
+#: Template/Emails/edit.ctp:24 Template/Emails/view.ctp:10
+msgid "Edit Email"
+msgstr ""
+
+#: Template/Emails/index.ctp:10 Template/Emails/view.ctp:13
+#: Template/EmailsHasUsers/add.ctp:12 Template/EmailsHasUsers/edit.ctp:18
+#: Template/EmailsHasUsers/index.ctp:12 Template/EmailsHasUsers/view.ctp:15
+msgid "New Email"
+msgstr ""
+
+#: Template/Emails/index.ctp:16
+msgid "Emails"
+msgstr ""
+
+#: Template/Emails/view.ctp:11
+msgid "Delete Email"
+msgstr ""
+
+#: Template/Emails/view.ctp:38
+msgid "Is Sent"
+msgstr ""
+
+#: Template/Emails/view.ctp:47
+msgid "Related Emails Has Users"
+msgstr ""
+
+#: Template/Emails/view.ctp:52
+msgid "Email Id"
+msgstr ""
+
+#: Template/Emails/view.ctp:53 Template/MessageTypeFactures/view.ctp:51
+#: Template/TypeAnimations/view.ctp:49 Template/TypeProfils/view.ctp:44
+msgid "User Id"
+msgstr ""
+
+#: Template/Emails/view.ctp:54 Template/EmailsHasUsers/view.ctp:36
+msgid "Is Expediteur"
+msgstr ""
+
+#: Template/Emails/view.ctp:55 Template/EmailsHasUsers/view.ctp:40
+msgid "Is Destinateur"
+msgstr ""
+
+#: Template/EmailsHasUsers/add.ctp:20
+msgid "Add Emails Has User"
+msgstr ""
+
+#: Template/EmailsHasUsers/edit.ctp:26 Template/EmailsHasUsers/view.ctp:10
+msgid "Edit Emails Has User"
+msgstr ""
+
+#: Template/EmailsHasUsers/index.ctp:18
+msgid "Emails Has Users"
+msgstr ""
+
+#: Template/EmailsHasUsers/view.ctp:11
+msgid "Delete Emails Has User"
+msgstr ""
+
+#: Template/EmailsHasUsers/view.ctp:28
+msgid "User"
+msgstr ""
+
+#: Template/Equipements/view.ctp:10
+msgid "Edit Equipement"
+msgstr ""
+
+#: Template/Equipements/view.ctp:11
+msgid "Delete Equipement"
+msgstr ""
+
+#: Template/Equipements/view.ctp:12 Template/TypeEquipements/view.ctp:14
+msgid "List Equipements"
+msgstr ""
+
+#: Template/Equipements/view.ctp:13 Template/TypeEquipements/view.ctp:15
+msgid "New Equipement"
+msgstr ""
+
+#: Template/Equipements/view.ctp:14 Template/TypeEquipements/view.ctp:12
+msgid "List Type Equipements"
+msgstr ""
+
+#: Template/Equipements/view.ctp:15 Template/TypeEquipements/view.ctp:13
+msgid "New Type Equipement"
+msgstr ""
+
+#: Template/Equipements/view.ctp:22
+msgid "Type Equipement"
+msgstr ""
+
+#: Template/Equipements/view.ctp:42
+msgid "Is Filtrable"
+msgstr ""
+
+#: Template/EtatBornes/add.ctp:53 Template/EtatBornes/edit.ctp:58
+#: Template/EtatBornes/view.ctp:12
+msgid "List Etat Bornes"
+msgstr ""
+
+#: Template/EtatBornes/add.ctp:61
+msgid "Add Etat Borne"
+msgstr ""
+
+#: Template/EtatBornes/edit.ctp:66 Template/EtatBornes/view.ctp:10
+msgid "Edit Etat Borne"
+msgstr ""
+
+#: Template/EtatBornes/index.ctp:76 Template/EtatBornes/view.ctp:13
+msgid "New Etat Borne"
+msgstr ""
+
+#: Template/EtatBornes/index.ctp:82
+msgid "Etat Bornes"
+msgstr ""
+
+#: Template/EtatBornes/view.ctp:11
+msgid "Delete Etat Borne"
+msgstr ""
+
+#: Template/EtatBornes/view.ctp:22
+msgid "Etat General"
+msgstr ""
+
+#: Template/EtatBornes/view.ctp:54
+msgid "Etat Borne Id"
+msgstr ""
+
+#: Template/EtatBornes/view.ctp:60
+msgid "Teamviewer Remotecontrol Id"
+msgstr ""
+
+#: Template/EtatBornes/view.ctp:61
+msgid "Teamviewer Password"
+msgstr ""
+
+#: Template/EtatBornes/view.ctp:62
+msgid "Teamviewer Device Id"
+msgstr ""
+
+#: Template/EtatBornes/view.ctp:63
+msgid "Teamviewer Group Id"
+msgstr ""
+
+#: Template/EtatBornes/view.ctp:64
+msgid "Teamviewer Alias"
+msgstr ""
+
+#: Template/EtatBornes/view.ctp:65
+msgid "Teamviewer Online State"
+msgstr ""
+
+#: Template/Etats/add.ctp:53 Template/Etats/edit.ctp:59
+#: Template/Etats/view.ctp:12
+msgid "List Etats"
+msgstr ""
+
+#: Template/Etats/add.ctp:61
+msgid "Add Etat"
+msgstr ""
+
+#: Template/Etats/edit.ctp:67 Template/Etats/view.ctp:10
+msgid "Edit Etat"
+msgstr ""
+
+#: Template/Etats/index.ctp:78 Template/Etats/view.ctp:13
+msgid "New Etat"
+msgstr ""
+
+#: Template/Etats/index.ctp:84
+msgid "Etats"
+msgstr ""
+
+#: Template/Etats/view.ctp:11
+msgid "Delete Etat"
+msgstr ""
+
+#: Template/Etats/view.ctp:39 Template/LieuTypes/view.ctp:39
+msgid "Related Antennes"
+msgstr ""
+
+#: Template/Etats/view.ctp:44 Template/LieuTypes/view.ctp:44
+msgid "Lieu Type Id"
+msgstr ""
+
+#: Template/Etats/view.ctp:45 Template/LieuTypes/view.ctp:45
+msgid "Ville Principale"
+msgstr ""
+
+#: Template/Etats/view.ctp:46 Template/LieuTypes/view.ctp:46
+msgid "Ville Excate"
+msgstr ""
+
+#: Template/Etats/view.ctp:51 Template/LieuTypes/view.ctp:51
+msgid "Precision Lieu"
+msgstr ""
+
+#: Template/Etats/view.ctp:53 Template/LieuTypes/view.ctp:53
+msgid "Etat Id"
+msgstr ""
+
+#: Template/EvenementPipeEtapes/add.ctp:10
+#: Template/EvenementPipeEtapes/edit.ctp:16
+#: Template/EvenementPipeEtapes/view.ctp:12 Template/PipeEtapes/view.ctp:16
+msgid "List Evenement Pipe Etapes"
+msgstr ""
+
+#: Template/EvenementPipeEtapes/add.ctp:11
+#: Template/EvenementPipeEtapes/edit.ctp:17
+#: Template/EvenementPipeEtapes/index.ctp:11
+#: Template/EvenementPipeEtapes/view.ctp:14 Template/PipeEtapes/view.ctp:12
+#: Template/Pipes/add.ctp:56 Template/Pipes/edit.ctp:59
+#: Template/Pipes/index.ctp:78 Template/Pipes/view.ctp:14
+msgid "List Pipe Etapes"
+msgstr ""
+
+#: Template/EvenementPipeEtapes/add.ctp:12
+#: Template/EvenementPipeEtapes/edit.ctp:18
+#: Template/EvenementPipeEtapes/index.ctp:12
+#: Template/EvenementPipeEtapes/view.ctp:15 Template/PipeEtapes/view.ctp:13
+#: Template/Pipes/add.ctp:57 Template/Pipes/edit.ctp:60
+#: Template/Pipes/index.ctp:79 Template/Pipes/view.ctp:15
+msgid "New Pipe Etape"
+msgstr ""
+
+#: Template/EvenementPipeEtapes/add.ctp:13
+#: Template/EvenementPipeEtapes/edit.ctp:19
+#: Template/EvenementPipeEtapes/index.ctp:13
+#: Template/EvenementPipeEtapes/view.ctp:16 Template/Evenements/view.ctp:12
+#: Template/TypeAnimations/add.ctp:11 Template/TypeAnimations/edit.ctp:17
+#: Template/TypeAnimations/index.ctp:11 Template/TypeAnimations/view.ctp:14
+#: Template/TypeEvenements/view.ctp:14
+msgid "List Evenements"
+msgstr ""
+
+#: Template/EvenementPipeEtapes/add.ctp:14
+#: Template/EvenementPipeEtapes/edit.ctp:20
+#: Template/EvenementPipeEtapes/index.ctp:14
+#: Template/EvenementPipeEtapes/view.ctp:17 Template/Evenements/view.ctp:13
+#: Template/TypeAnimations/add.ctp:12 Template/TypeAnimations/edit.ctp:18
+#: Template/TypeAnimations/index.ctp:12 Template/TypeAnimations/view.ctp:15
+#: Template/TypeEvenements/view.ctp:15
+msgid "New Evenement"
+msgstr ""
+
+#: Template/EvenementPipeEtapes/add.ctp:20
+msgid "Add Evenement Pipe Etape"
+msgstr ""
+
+#: Template/EvenementPipeEtapes/edit.ctp:26
+#: Template/EvenementPipeEtapes/view.ctp:10
+msgid "Edit Evenement Pipe Etape"
+msgstr ""
+
+#: Template/EvenementPipeEtapes/index.ctp:10
+#: Template/EvenementPipeEtapes/view.ctp:13 Template/PipeEtapes/view.ctp:17
+msgid "New Evenement Pipe Etape"
+msgstr ""
+
+#: Template/EvenementPipeEtapes/index.ctp:18
+msgid "Evenement Pipe Etapes"
+msgstr ""
+
+#: Template/EvenementPipeEtapes/view.ctp:11
+msgid "Delete Evenement Pipe Etape"
+msgstr ""
+
+#: Template/EvenementPipeEtapes/view.ctp:24
+msgid "Pipe Etape"
+msgstr ""
+
+#: Template/EvenementPipeEtapes/view.ctp:28
+msgid "Evenement"
+msgstr ""
+
+#: Template/Evenements/pipeline.ctp:104
+msgid "Ajouter un événement"
+msgstr ""
+
+#: Template/Evenements/view.ctp:10
+msgid "Edit Evenement"
+msgstr ""
+
+#: Template/Evenements/view.ctp:11
+msgid "Delete Evenement"
+msgstr ""
+
+#: Template/Evenements/view.ctp:16 Template/TypeEvenements/view.ctp:12
+msgid "List Type Evenements"
+msgstr ""
+
+#: Template/Evenements/view.ctp:17 Template/TypeEvenements/view.ctp:13
+msgid "New Type Evenement"
+msgstr ""
+
+#: Template/Evenements/view.ctp:20
+msgid "List Date Evenements"
+msgstr ""
+
+#: Template/Evenements/view.ctp:21
+msgid "New Date Evenement"
+msgstr ""
+
+#: Template/Evenements/view.ctp:28 Template/TypeAnimations/view.ctp:40
+#: Template/TypeEvenements/view.ctp:40
+msgid "Nom Event"
+msgstr ""
+
+#: Template/Evenements/view.ctp:32 Template/TypeAnimations/view.ctp:41
+#: Template/TypeEvenements/view.ctp:41
+msgid "Lieu Exact"
+msgstr ""
+
+#: Template/Evenements/view.ctp:36 Template/TypeAnimations/view.ctp:44
+#: Template/TypeEvenements/view.ctp:44
+msgid "Type Installation"
+msgstr ""
+
+#: Template/Evenements/view.ctp:44
+msgid "Type Evenement"
+msgstr ""
+
+#: Template/Evenements/view.ctp:56 Template/TypeAnimations/view.ctp:42
+#: Template/TypeEvenements/view.ctp:42
+msgid "Date Debut Immobilisation"
+msgstr ""
+
+#: Template/Evenements/view.ctp:60 Template/TypeAnimations/view.ctp:43
+#: Template/TypeEvenements/view.ctp:43
+msgid "Date Fin Immobilisation"
+msgstr ""
+
+#: Template/Evenements/view.ctp:65
+msgid "Related Date Evenements"
+msgstr ""
+
+#: Template/Evenements/view.ctp:70
+msgid "Date Debut"
+msgstr ""
+
+#: Template/Evenements/view.ctp:71
+msgid "Ddate Fin"
+msgstr ""
+
+#: Template/Evenements/view.ctp:72 Template/PipeEtapes/view.ctp:55
+msgid "Evenement Id"
+msgstr ""
+
+#: Template/Fichiers/add.ctp:10 Template/Fichiers/edit.ctp:16
+#: Template/Fichiers/view.ctp:12
+msgid "List Fichiers"
+msgstr ""
+
+#: Template/Fichiers/add.ctp:13 Template/Fichiers/edit.ctp:19
+#: Template/Fichiers/index.ctp:13 Template/Fichiers/view.ctp:16
+msgid "List Posts"
+msgstr ""
+
+#: Template/Fichiers/add.ctp:14 Template/Fichiers/edit.ctp:20
+#: Template/Fichiers/index.ctp:14 Template/Fichiers/view.ctp:17
+msgid "New Post"
+msgstr ""
+
+#: Template/Fichiers/add.ctp:24
+msgid "Add Fichier"
+msgstr ""
+
+#: Template/Fichiers/edit.ctp:30 Template/Fichiers/view.ctp:10
+msgid "Edit Fichier"
+msgstr ""
+
+#: Template/Fichiers/index.ctp:10 Template/Fichiers/view.ctp:13
+msgid "New Fichier"
+msgstr ""
+
+#: Template/Fichiers/index.ctp:22
+msgid "Fichiers"
+msgstr ""
+
+#: Template/Fichiers/view.ctp:11
+msgid "Delete Fichier"
+msgstr ""
+
+#: Template/Fichiers/view.ctp:44
+msgid "Post"
+msgstr ""
+
+#: Template/Fichiers/view.ctp:48
+msgid "Actu Borne"
+msgstr ""
+
+#: Template/Fournisseurs/view.ctp:10
+msgid "Edit Fournisseur"
+msgstr ""
+
+#: Template/Fournisseurs/view.ctp:11
+msgid "Delete Fournisseur"
+msgstr ""
+
+#: Template/Fournisseurs/view.ctp:12
+msgid "List Fournisseurs"
+msgstr ""
+
+#: Template/Fournisseurs/view.ctp:13
+msgid "New Fournisseur"
+msgstr ""
+
+#: Template/Fournisseurs/view.ctp:16
+msgid "List Type Fournisseurs"
+msgstr ""
+
+#: Template/Fournisseurs/view.ctp:17
+msgid "New Type Fournisseur"
+msgstr ""
+
+#: Template/Fournisseurs/view.ctp:42
+msgid "Type Fournisseur"
+msgstr ""
+
+#: Template/GammesBornes/add.ctp:32 Template/Payss/view.ctp:24
+msgid "Name"
+msgstr ""
+
+#: Template/GammesBornes/add.ctp:36
+msgid "Save"
+msgstr "Enregistrer"
+
+#: Template/GammesBornes/add.ctp:37
+msgid "Cancel"
+msgstr "Annuler"
+
+#: Template/GammesBornes/index.ctp:14
+msgid "Create"
+msgstr "Créer"
+
+#: Template/Layout/error.ctp:35
+msgid "Error"
+msgstr ""
+
+#: Template/Layout/error.ctp:43
+msgid "Back"
+msgstr ""
+
+#: Template/Licences/add.ctp:109 Template/Licences/edit.ctp:112
+msgid "List Licences"
+msgstr ""
+
+#: Template/Licences/add.ctp:110 Template/Licences/edit.ctp:113
+#: Template/Licences/index.ctp:137 Template/TypeLicences/add.ctp:54
+#: Template/TypeLicences/edit.ctp:58 Template/TypeLicences/view.ctp:12
+msgid "List Type Licences"
+msgstr "Liste des types de licence"
+
+#: Template/Licences/add.ctp:111 Template/Licences/edit.ctp:114
+#: Template/Licences/index.ctp:138 Template/TypeLicences/index.ctp:75
+#: Template/TypeLicences/view.ctp:13
+msgid "New Type Licence"
+msgstr ""
+
+#: Template/Licences/add.ctp:112 Template/Licences/edit.ctp:115
+#: Template/Licences/index.ctp:139
+msgid "List Licence Bornes"
+msgstr ""
+
+#: Template/Licences/add.ctp:113 Template/Licences/edit.ctp:116
+#: Template/Licences/index.ctp:140
+msgid "New Licence Borne"
+msgstr ""
+
+#: Template/Licences/add.ctp:119
+msgid "Add Licence"
+msgstr ""
+
+#: Template/Licences/edit.ctp:122
+msgid "Edit Licence"
+msgstr ""
+
+#: Template/Licences/index.ctp:136
+msgid "New Licence"
+msgstr ""
+
+#: Template/Licences/index.ctp:144
+msgid "Licences"
+msgstr ""
+
+#: Template/LieuTypes/add.ctp:53 Template/LieuTypes/edit.ctp:58
+#: Template/LieuTypes/view.ctp:12
+msgid "List Lieu Types"
+msgstr ""
+
+#: Template/LieuTypes/add.ctp:61
+msgid "Add Lieu Type"
+msgstr ""
+
+#: Template/LieuTypes/edit.ctp:66 Template/LieuTypes/view.ctp:10
+msgid "Edit Lieu Type"
+msgstr ""
+
+#: Template/LieuTypes/index.ctp:77 Template/LieuTypes/view.ctp:13
+msgid "New Lieu Type"
+msgstr ""
+
+#: Template/LieuTypes/index.ctp:83
+msgid "Lieu Types"
+msgstr ""
+
+#: Template/LieuTypes/view.ctp:11
+msgid "Delete Lieu Type"
+msgstr ""
+
+#: Template/Logiciels/add.ctp:10 Template/Logiciels/edit.ctp:16
+#: Template/Logiciels/view.ctp:12
+msgid "List Logiciels"
+msgstr ""
+
+#: Template/Logiciels/add.ctp:18
+msgid "Add Logiciel"
+msgstr ""
+
+#: Template/Logiciels/edit.ctp:24 Template/Logiciels/view.ctp:10
+msgid "Edit Logiciel"
+msgstr ""
+
+#: Template/Logiciels/index.ctp:10 Template/Logiciels/view.ctp:13
+msgid "New Logiciel"
+msgstr ""
+
+#: Template/Logiciels/index.ctp:16
+msgid "Logiciels"
+msgstr ""
+
+#: Template/Logiciels/view.ctp:11
+msgid "Delete Logiciel"
+msgstr ""
+
+#: Template/LotProduits/detail.ctp:81 Template/LotProduits/index.ctp:145
+msgid " "
+msgstr ""
+
+#: Template/Materiels/index.ctp:81 Template/Materiels/view.ctp:13
+msgid "New Materiel"
+msgstr ""
+
+#: Template/Materiels/index.ctp:85
+msgid "Materiels"
+msgstr ""
+
+#: Template/Materiels/view.ctp:10
+msgid "Edit Materiel"
+msgstr ""
+
+#: Template/Materiels/view.ctp:11
+msgid "Delete Materiel"
+msgstr ""
+
+#: Template/Materiels/view.ctp:12
+msgid "List Materiels"
+msgstr ""
+
+#: Template/Materiels/view.ctp:20
+msgid "Materiel"
+msgstr ""
+
+#: Template/Materiels/view.ctp:24
+msgid "Descriptif"
+msgstr ""
+
+#: Template/Materiels/view.ctp:32
+msgid "Notice Tuto"
+msgstr ""
+
+#: Template/Materiels/view.ctp:36
+msgid "Consignes"
+msgstr ""
+
+#: Template/Materiels/view.ctp:52
+msgid "Variation Stok"
+msgstr ""
+
+#: Template/Medias/add.ctp:10 Template/Medias/edit.ctp:16
+#: Template/Medias/view.ctp:12
+msgid "List Medias"
+msgstr ""
+
+#: Template/Medias/add.ctp:15 Template/Medias/edit.ctp:21
+#: Template/Medias/index.ctp:15 Template/Medias/view.ctp:18
+#: Template/ModelBornes/view.ctp:16
+msgid "List Model Bornes Has Medias"
+msgstr ""
+
+#: Template/Medias/add.ctp:16 Template/Medias/edit.ctp:22
+#: Template/Medias/index.ctp:16 Template/Medias/view.ctp:19
+#: Template/ModelBornes/view.ctp:17
+msgid "New Model Bornes Has Media"
+msgstr ""
+
+#: Template/Medias/add.ctp:22
+msgid "Add Media"
+msgstr ""
+
+#: Template/Medias/edit.ctp:28 Template/Medias/view.ctp:10
+msgid "Edit Media"
+msgstr ""
+
+#: Template/Medias/index.ctp:10 Template/Medias/view.ctp:13
+msgid "New Media"
+msgstr ""
+
+#: Template/Medias/index.ctp:20
+msgid "Medias"
+msgstr ""
+
+#: Template/Medias/view.ctp:11
+msgid "Delete Media"
+msgstr ""
+
+#: Template/Medias/view.ctp:26 Template/NatureEvenements/view.ctp:20
+#: Template/TypeInstallations/view.ctp:28
+msgid "Type"
+msgstr ""
+
+#: Template/Medias/view.ctp:30
+msgid "File Name"
+msgstr ""
+
+#: Template/Medias/view.ctp:34
+msgid "Extension"
+msgstr ""
+
+#: Template/Medias/view.ctp:97 Template/ModelBornes/view.ctp:112
+msgid "Related Model Bornes Has Medias"
+msgstr ""
+
+#: Template/MessageTypeFactures/view.ctp:10
+msgid "Edit Message Type Facture"
+msgstr ""
+
+#: Template/MessageTypeFactures/view.ctp:11
+msgid "Delete Message Type Facture"
+msgstr ""
+
+#: Template/MessageTypeFactures/view.ctp:12
+msgid "List Message Type Factures"
+msgstr ""
+
+#: Template/MessageTypeFactures/view.ctp:13
+msgid "New Message Type Facture"
+msgstr ""
+
+#: Template/MessageTypeFactures/view.ctp:14
+msgid "List Etat Factures"
+msgstr ""
+
+#: Template/MessageTypeFactures/view.ctp:15
+msgid "New Etat Facture"
+msgstr ""
+
+#: Template/MessageTypeFactures/view.ctp:16
+msgid "List Factures"
+msgstr ""
+
+#: Template/MessageTypeFactures/view.ctp:17
+msgid "New Facture"
+msgstr ""
+
+#: Template/MessageTypeFactures/view.ctp:24
+msgid "Etat Facture"
+msgstr ""
+
+#: Template/MessageTypeFactures/view.ctp:33 Template/Messageries/view.ctp:33
+msgid "Message"
+msgstr ""
+
+#: Template/MessageTypeFactures/view.ctp:37
+msgid "Related Factures"
+msgstr ""
+
+#: Template/MessageTypeFactures/view.ctp:43
+msgid "Montant"
+msgstr ""
+
+#: Template/MessageTypeFactures/view.ctp:46
+msgid "Etat"
+msgstr ""
+
+#: Template/MessageTypeFactures/view.ctp:52
+msgid "Etat Fatcure Id"
+msgstr ""
+
+#: Template/MessageTypeFactures/view.ctp:53
+msgid "Message Type Facture Id"
+msgstr ""
+
+#: Template/Messageries/edit.ctp:16 Template/Messageries/view.ctp:12
+msgid "List Messageries"
+msgstr ""
+
+#: Template/Messageries/edit.ctp:22 Template/Messageries/view.ctp:10
+msgid "Edit Messagery"
+msgstr ""
+
+#: Template/Messageries/view.ctp:11
+msgid "Delete Messagery"
+msgstr ""
+
+#: Template/Messageries/view.ctp:13
+msgid "New Messagery"
+msgstr ""
+
+#: Template/Messageries/view.ctp:20
+msgid "Expediteur"
+msgstr ""
+
+#: Template/Messageries/view.ctp:28
+msgid "Is Test"
+msgstr ""
+
+#: Template/ModelBornes/add.ctp:53 Template/ModelBornes/edit.ctp:57
+msgid "Model information"
+msgstr ""
+
+#: Template/ModelBornes/view.ctp:10
+msgid "Edit Model Borne"
+msgstr ""
+
+#: Template/ModelBornes/view.ctp:11
+msgid "Delete Model Borne"
+msgstr ""
+
+#: Template/ModelBornes/view.ctp:28
+msgid "Version"
+msgstr ""
+
+#: Template/ModelBornes/view.ctp:36
+msgid "Type Ecran"
+msgstr ""
+
+#: Template/ModelBornes/view.ctp:40
+msgid "Modele Imprimante"
+msgstr ""
+
+#: Template/ModelBornes/view.ctp:44
+msgid "Model Appareil Photo"
+msgstr ""
+
+#: Template/ModelBornes/view.ctp:48
+msgid "Note Complementaire"
+msgstr ""
+
+#: Template/ModelBornes/view.ctp:56
+msgid "Date Sortie"
+msgstr ""
+
+#: Template/NatureEvenements/add.ctp:10 Template/NatureEvenements/edit.ctp:16
+#: Template/NatureEvenements/view.ctp:12
+msgid "List Nature Evenements"
+msgstr ""
+
+#: Template/NatureEvenements/add.ctp:16
+msgid "Add Nature Evenement"
+msgstr ""
+
+#: Template/NatureEvenements/edit.ctp:22
+#: Template/NatureEvenements/view.ctp:10
+msgid "Edit Nature Evenement"
+msgstr ""
+
+#: Template/NatureEvenements/index.ctp:10
+#: Template/NatureEvenements/view.ctp:13
+msgid "New Nature Evenement"
+msgstr ""
+
+#: Template/NatureEvenements/index.ctp:14
+msgid "Nature Evenements"
+msgstr ""
+
+#: Template/NatureEvenements/view.ctp:11
+msgid "Delete Nature Evenement"
+msgstr ""
+
+#: Template/NatureEvenements/view.ctp:24
+msgid "Options"
+msgstr ""
+
+#: Template/NumeroSeries/add.ctp:10 Template/NumeroSeries/edit.ctp:16
+#: Template/NumeroSeries/view.ctp:12
+msgid "List Numero Series"
+msgstr ""
+
+#: Template/NumeroSeries/add.ctp:11 Template/NumeroSeries/edit.ctp:17
+#: Template/NumeroSeries/index.ctp:11 Template/NumeroSeries/view.ctp:14
+msgid "List Lot Produits"
+msgstr ""
+
+#: Template/NumeroSeries/add.ctp:12 Template/NumeroSeries/edit.ctp:18
+#: Template/NumeroSeries/index.ctp:12 Template/NumeroSeries/view.ctp:15
+msgid "New Lot Produit"
+msgstr ""
+
+#: Template/NumeroSeries/add.ctp:20
+msgid "Add Numero Series"
+msgstr ""
+
+#: Template/NumeroSeries/edit.ctp:26 Template/NumeroSeries/view.ctp:10
+msgid "Edit Numero Series"
+msgstr ""
+
+#: Template/NumeroSeries/index.ctp:10 Template/NumeroSeries/view.ctp:13
+msgid "New Numero Series"
+msgstr ""
+
+#: Template/NumeroSeries/index.ctp:18
+msgid "Numero Series"
+msgstr ""
+
+#: Template/NumeroSeries/view.ctp:11
+msgid "Delete Numero Series"
+msgstr ""
+
+#: Template/NumeroSeries/view.ctp:24
+msgid "Serial Nb"
+msgstr ""
+
+#: Template/NumeroSeries/view.ctp:28
+msgid "Lot Produit"
+msgstr ""
+
+#: Template/OptionEvenements/add.ctp:60 Template/OptionEvenements/edit.ctp:64
+#: Template/OptionEvenements/view.ctp:12
+msgid "List Option Evenements"
+msgstr ""
+
+#: Template/OptionEvenements/add.ctp:66
+msgid "Add Option Evenement"
+msgstr ""
+
+#: Template/OptionEvenements/edit.ctp:70
+#: Template/OptionEvenements/view.ctp:10
+msgid "Edit Option Evenement"
+msgstr ""
+
+#: Template/OptionEvenements/index.ctp:77
+#: Template/OptionEvenements/view.ctp:13
+msgid "New Option Evenement"
+msgstr ""
+
+#: Template/OptionEvenements/index.ctp:81
+msgid "Option Evenements"
+msgstr ""
+
+#: Template/OptionEvenements/view.ctp:11
+msgid "Delete Option Evenement"
+msgstr ""
+
+#: Template/Parcs/add.ctp:18
+msgid "Add Parc"
+msgstr ""
+
+#: Template/Parcs/edit.ctp:24 Template/Parcs/view.ctp:10
+msgid "Edit Parc"
+msgstr ""
+
+#: Template/Parcs/index.ctp:16
+msgid "Parcs"
+msgstr ""
+
+#: Template/Parcs/view.ctp:11
+msgid "Delete Parc"
+msgstr ""
+
+#: Template/Parties/add.ctp:16
+msgid "Add Party"
+msgstr ""
+
+#: Template/Parties/edit.ctp:22 Template/Parties/view.ctp:10
+msgid "Edit Party"
+msgstr ""
+
+#: Template/Parties/index.ctp:14
+msgid "Parties"
+msgstr ""
+
+#: Template/Parties/view.ctp:11
+msgid "Delete Party"
+msgstr ""
+
+#: Template/Payss/view.ctp:10
+msgid "Edit Pays"
+msgstr ""
+
+#: Template/Payss/view.ctp:11
+msgid "Delete Pays"
+msgstr ""
+
+#: Template/Payss/view.ctp:12
+msgid "List Payss"
+msgstr ""
+
+#: Template/Payss/view.ctp:13
+msgid "New Pays"
+msgstr ""
+
+#: Template/Payss/view.ctp:20
+msgid "Iso"
+msgstr ""
+
+#: Template/Payss/view.ctp:28
+msgid "Nicename"
+msgstr ""
+
+#: Template/Payss/view.ctp:32
+msgid "Iso3"
+msgstr ""
+
+#: Template/Payss/view.ctp:36
+msgid "Name Fr"
+msgstr ""
+
+#: Template/Payss/view.ctp:44
+msgid "Numcode"
+msgstr ""
+
+#: Template/Payss/view.ctp:48
+msgid "Phonecode"
+msgstr ""
+
+#: Template/PipeEtapes/view.ctp:10
+msgid "Edit Pipe Etape"
+msgstr ""
+
+#: Template/PipeEtapes/view.ctp:11
+msgid "Delete Pipe Etape"
+msgstr ""
+
+#: Template/PipeEtapes/view.ctp:14 Template/Pipes/add.ctp:55
+#: Template/Pipes/edit.ctp:58 Template/Pipes/view.ctp:12
+msgid "List Pipes"
+msgstr ""
+
+#: Template/PipeEtapes/view.ctp:15 Template/Pipes/index.ctp:77
+#: Template/Pipes/view.ctp:13
+msgid "New Pipe"
+msgstr ""
+
+#: Template/PipeEtapes/view.ctp:28
+msgid "Pipe"
+msgstr ""
+
+#: Template/PipeEtapes/view.ctp:36 Template/Pipes/view.ctp:45
+msgid "Ordre"
+msgstr ""
+
+#: Template/PipeEtapes/view.ctp:49
+msgid "Related Evenement Pipe Etapes"
+msgstr ""
+
+#: Template/PipeEtapes/view.ctp:54
+msgid "Pipe Etape Id"
+msgstr ""
+
+#: Template/Pipes/add.ctp:63
+msgid "Add Pipe"
+msgstr ""
+
+#: Template/Pipes/edit.ctp:66 Template/Pipes/view.ctp:10
+msgid "Edit Pipe"
+msgstr ""
+
+#: Template/Pipes/index.ctp:83
+msgid "Pipes"
+msgstr ""
+
+#: Template/Pipes/view.ctp:11
+msgid "Delete Pipe"
+msgstr ""
+
+#: Template/Pipes/view.ctp:39
+msgid "Related Pipe Etapes"
+msgstr ""
+
+#: Template/Pipes/view.ctp:46
+msgid "Pipe Id"
+msgstr ""
+
+#: Template/Situations/add.ctp:61
+msgid "Add Situation"
+msgstr ""
+
+#: Template/Situations/edit.ctp:69 Template/Situations/view.ctp:10
+msgid "Edit Situation"
+msgstr ""
+
+#: Template/Situations/index.ctp:83
+msgid "Situations"
+msgstr ""
+
+#: Template/Situations/view.ctp:11
+msgid "Delete Situation"
+msgstr ""
+
+#: Template/Situations/view.ctp:39 Template/Statuts/view.ctp:31
+msgid "Related Contacts"
+msgstr ""
+
+#: Template/Situations/view.ctp:57 Template/Statuts/view.ctp:50
+msgid "Situation Id"
+msgstr ""
+
+#: Template/Statuts/add.ctp:61
+msgid "Add Statut"
+msgstr ""
+
+#: Template/Statuts/edit.ctp:68 Template/Statuts/view.ctp:10
+msgid "Edit Statut"
+msgstr ""
+
+#: Template/Statuts/index.ctp:85
+msgid "Statuts"
+msgstr ""
+
+#: Template/Statuts/view.ctp:11
+msgid "Delete Statut"
+msgstr ""
+
+#: Template/Statuts/view.ctp:36
+msgid "Statut Id"
+msgstr ""
+
+#: Template/StripeCsvFiles/edit.ctp:16 Template/StripeCsvFiles/view.ctp:12
+msgid "List Stripe Csv Files"
+msgstr ""
+
+#: Template/StripeCsvFiles/edit.ctp:17 Template/StripeCsvFiles/view.ctp:14
+#: Template/StripeCsvs/edit.ctp:16 Template/StripeCsvs/view.ctp:12
+#: Template/StripeExcels/add.ctp:11 Template/StripeExcels/edit.ctp:17
+#: Template/StripeExcels/index.ctp:11 Template/StripeExcels/view.ctp:14
+msgid "List Stripe Csvs"
+msgstr ""
+
+#: Template/StripeCsvFiles/edit.ctp:18 Template/StripeCsvFiles/view.ctp:15
+#: Template/StripeCsvs/view.ctp:13 Template/StripeExcels/add.ctp:12
+#: Template/StripeExcels/edit.ctp:18 Template/StripeExcels/index.ctp:12
+#: Template/StripeExcels/view.ctp:15
+msgid "New Stripe Csv"
+msgstr ""
+
+#: Template/StripeCsvFiles/edit.ctp:24 Template/StripeCsvFiles/view.ctp:10
+msgid "Edit Stripe Csv File"
+msgstr ""
+
+#: Template/StripeCsvFiles/view.ctp:11
+msgid "Delete Stripe Csv File"
+msgstr ""
+
+#: Template/StripeCsvFiles/view.ctp:13
+msgid "New Stripe Csv File"
+msgstr ""
+
+#: Template/StripeCsvFiles/view.ctp:22;48
+msgid "Filename"
+msgstr ""
+
+#: Template/StripeCsvFiles/view.ctp:26;47
+msgid "Filename Origin"
+msgstr ""
+
+#: Template/StripeCsvFiles/view.ctp:34;46 Template/StripeCsvs/view.ctp:106
+msgid "Date Import"
+msgstr ""
+
+#: Template/StripeCsvFiles/view.ctp:39
+msgid "Related Stripe Csvs"
+msgstr ""
+
+#: Template/StripeCsvFiles/view.ctp:44 Template/StripeCsvs/view.ctp:22
+msgid "Id Stripe"
+msgstr ""
+
+#: Template/StripeCsvFiles/view.ctp:45
+msgid "Stripe Csv File Id"
+msgstr ""
+
+#: Template/StripeCsvFiles/view.ctp:50 Template/StripeCsvs/view.ctp:26
+msgid "Seller Message"
+msgstr ""
+
+#: Template/StripeCsvFiles/view.ctp:52 Template/StripeCsvs/view.ctp:78
+msgid "Amount"
+msgstr ""
+
+#: Template/StripeCsvFiles/view.ctp:53 Template/StripeCsvs/view.ctp:82
+msgid "Amount Refunded"
+msgstr ""
+
+#: Template/StripeCsvFiles/view.ctp:54 Template/StripeCsvs/view.ctp:30
+msgid "Currency"
+msgstr ""
+
+#: Template/StripeCsvFiles/view.ctp:55 Template/StripeCsvs/view.ctp:86
+msgid "Converted Amount"
+msgstr ""
+
+#: Template/StripeCsvFiles/view.ctp:56 Template/StripeCsvs/view.ctp:90
+msgid "Converted Amount Refunded"
+msgstr ""
+
+#: Template/StripeCsvFiles/view.ctp:57 Template/StripeCsvs/view.ctp:94
+msgid "Fee"
+msgstr ""
+
+#: Template/StripeCsvFiles/view.ctp:58 Template/StripeCsvs/view.ctp:98
+msgid "Tax"
+msgstr ""
+
+#: Template/StripeCsvFiles/view.ctp:59 Template/StripeCsvs/view.ctp:34
+msgid "Converted Currency"
+msgstr ""
+
+#: Template/StripeCsvFiles/view.ctp:60 Template/StripeCsvs/view.ctp:38
+msgid "Status"
+msgstr ""
+
+#: Template/StripeCsvFiles/view.ctp:61 Template/StripeCsvs/view.ctp:42
+msgid "Statement Descriptor"
+msgstr ""
+
+#: Template/StripeCsvFiles/view.ctp:62 Template/StripeCsvs/view.ctp:102
+msgid "CustomerId"
+msgstr ""
+
+#: Template/StripeCsvFiles/view.ctp:63 Template/StripeCsvs/view.ctp:46
+msgid "Customer Description"
+msgstr ""
+
+#: Template/StripeCsvFiles/view.ctp:64 Template/StripeCsvs/view.ctp:50
+msgid "Customer Email"
+msgstr ""
+
+#: Template/StripeCsvFiles/view.ctp:65 Template/StripeCsvs/view.ctp:54
+msgid "Captured"
+msgstr ""
+
+#: Template/StripeCsvFiles/view.ctp:66 Template/StripeCsvs/view.ctp:58
+msgid "CardId"
+msgstr ""
+
+#: Template/StripeCsvFiles/view.ctp:67 Template/StripeCsvs/view.ctp:62
+msgid "InvoiceId"
+msgstr ""
+
+#: Template/StripeCsvFiles/view.ctp:68 Template/StripeCsvs/view.ctp:66
+msgid "Transfert"
+msgstr ""
+
+#: Template/StripeCsvs/edit.ctp:17 Template/StripeCsvs/view.ctp:14
+#: Template/StripeExcels/add.ctp:10 Template/StripeExcels/edit.ctp:16
+#: Template/StripeExcels/view.ctp:12
+msgid "List Stripe Excels"
+msgstr ""
+
+#: Template/StripeCsvs/edit.ctp:18 Template/StripeCsvs/view.ctp:15
+#: Template/StripeExcels/index.ctp:10 Template/StripeExcels/view.ctp:13
+msgid "New Stripe Excel"
+msgstr ""
+
+#: Template/StripeCsvs/edit.ctp:24 Template/StripeCsvs/view.ctp:10
+msgid "Edit Stripe Csv"
+msgstr ""
+
+#: Template/StripeCsvs/view.ctp:11
+msgid "Delete Stripe Csv"
+msgstr ""
+
+#: Template/StripeCsvs/view.ctp:115
+msgid "Related Stripe Excels"
+msgstr ""
+
+#: Template/StripeCsvs/view.ctp:121 Template/StripeExcels/view.ctp:22
+msgid "Piece"
+msgstr ""
+
+#: Template/StripeCsvs/view.ctp:122 Template/StripeExcels/view.ctp:26
+msgid "Compte"
+msgstr ""
+
+#: Template/StripeCsvs/view.ctp:123 Template/StripeExcels/view.ctp:30
+msgid "Libelle"
+msgstr ""
+
+#: Template/StripeCsvs/view.ctp:125 Template/StripeExcels/view.ctp:46
+msgid "Debit"
+msgstr ""
+
+#: Template/StripeCsvs/view.ctp:126 Template/StripeExcels/view.ctp:50
+msgid "Credit"
+msgstr ""
+
+#: Template/StripeCsvs/view.ctp:127
+msgid "Stripe Csv Id"
+msgstr ""
+
+#: Template/StripeExcels/add.ctp:18
+msgid "Add Stripe Excel"
+msgstr ""
+
+#: Template/StripeExcels/edit.ctp:24 Template/StripeExcels/view.ctp:10
+msgid "Edit Stripe Excel"
+msgstr ""
+
+#: Template/StripeExcels/index.ctp:16
+msgid "Stripe Excels"
+msgstr ""
+
+#: Template/StripeExcels/view.ctp:11
+msgid "Delete Stripe Excel"
+msgstr ""
+
+#: Template/StripeExcels/view.ctp:38
+msgid "Stripe Csv"
+msgstr ""
+
+#: Template/TypeAnimations/add.ctp:10 Template/TypeAnimations/edit.ctp:16
+#: Template/TypeAnimations/view.ctp:12
+msgid "List Type Animations"
+msgstr ""
+
+#: Template/TypeAnimations/add.ctp:18
+msgid "Add Type Animation"
+msgstr ""
+
+#: Template/TypeAnimations/edit.ctp:24 Template/TypeAnimations/view.ctp:10
+msgid "Edit Type Animation"
+msgstr ""
+
+#: Template/TypeAnimations/index.ctp:10 Template/TypeAnimations/view.ctp:13
+msgid "New Type Animation"
+msgstr ""
+
+#: Template/TypeAnimations/index.ctp:16
+msgid "Type Animations"
+msgstr ""
+
+#: Template/TypeAnimations/view.ctp:11
+msgid "Delete Type Animation"
+msgstr ""
+
+#: Template/TypeAnimations/view.ctp:35 Template/TypeEvenements/view.ctp:35
+msgid "Related Evenements"
+msgstr ""
+
+#: Template/TypeAnimations/view.ctp:46 Template/TypeEvenements/view.ctp:46
+msgid "Type Evenement Id"
+msgstr ""
+
+#: Template/TypeAnimations/view.ctp:47
+msgid "Type Animation Id"
+msgstr ""
+
+#: Template/TypeEquipements/view.ctp:10
+msgid "Edit Type Equipement"
+msgstr ""
+
+#: Template/TypeEquipements/view.ctp:11
+msgid "Delete Type Equipement"
+msgstr ""
+
+#: Template/TypeEquipements/view.ctp:39
+msgid "Related Equipements"
+msgstr ""
+
+#: Template/TypeEquipements/view.ctp:44
+msgid "Type Equipement Id"
+msgstr ""
+
+#: Template/TypeEvenements/view.ctp:10
+msgid "Edit Type Evenement"
+msgstr ""
+
+#: Template/TypeEvenements/view.ctp:11
+msgid "Delete Type Evenement"
+msgstr ""
+
+#: Template/TypeInstallations/index.ctp:112
+msgid "No records."
+msgstr ""
+
+#: Template/TypeInstallations/view.ctp:10
+msgid "Edit Type Installation"
+msgstr ""
+
+#: Template/TypeInstallations/view.ctp:11
+msgid "Delete Type Installation"
+msgstr ""
+
+#: Template/TypeInstallations/view.ctp:12
+msgid "List Type Installations"
+msgstr ""
+
+#: Template/TypeInstallations/view.ctp:13
+msgid "New Type Installation"
+msgstr ""
+
+#: Template/TypeLicences/add.ctp:60
+msgid "Add Type Licence"
+msgstr ""
+
+#: Template/TypeLicences/edit.ctp:64 Template/TypeLicences/view.ctp:10
+msgid "Edit Type Licence"
+msgstr ""
+
+#: Template/TypeLicences/index.ctp:79
+msgid "Type Licences"
+msgstr ""
+
+#: Template/TypeLicences/view.ctp:11
+msgid "Delete Type Licence"
+msgstr ""
+
+#: Template/TypeProfils/add.ctp:10 Template/TypeProfils/edit.ctp:16
+#: Template/TypeProfils/view.ctp:12
+msgid "List Type Profils"
+msgstr ""
+
+#: Template/TypeProfils/add.ctp:11 Template/TypeProfils/edit.ctp:17
+#: Template/TypeProfils/index.ctp:11 Template/TypeProfils/view.ctp:14
+msgid "List User Type Profils"
+msgstr ""
+
+#: Template/TypeProfils/add.ctp:12 Template/TypeProfils/edit.ctp:18
+#: Template/TypeProfils/index.ctp:12 Template/TypeProfils/view.ctp:15
+msgid "New User Type Profil"
+msgstr ""
+
+#: Template/TypeProfils/add.ctp:18
+msgid "Add Type Profil"
+msgstr ""
+
+#: Template/TypeProfils/edit.ctp:24 Template/TypeProfils/view.ctp:10
+msgid "Edit Type Profil"
+msgstr ""
+
+#: Template/TypeProfils/index.ctp:10 Template/TypeProfils/view.ctp:13
+msgid "New Type Profil"
+msgstr ""
+
+#: Template/TypeProfils/index.ctp:16
+msgid "Type Profils"
+msgstr ""
+
+#: Template/TypeProfils/view.ctp:11
+msgid "Delete Type Profil"
+msgstr ""
+
+#: Template/TypeProfils/view.ctp:39
+msgid "Related User Type Profils"
+msgstr ""
+
+#: Template/TypeProfils/view.ctp:45
+msgid "Type Profil Id"
+msgstr ""
+
+#: Template/Users/login.ctp:7
+msgid "Sign In"
+msgstr ""
+
+#: Template/Users/login.ctp:10
+msgid "E-mail"
+msgstr ""
+
+#: Template/Devis/pdfversion2.ctp:10
+msgid "RENTAL AND SALE OF PHOTO TERMINALS IN FRANCE AND INTERNATIONAL."
+msgstr "LOCATION ET VENTE DE BORNE PHOTO EN FRANCE ET INTERNATIONAL. "
+
+#: Template/Devis/pdfversion2.ctp:10
+msgid "Selfizee is a brand of SAS Konitys with a capital of 100,000 € - SIRET 812 138 931 00033 - APE: 4531Z - VAT number: FR 02812138931"
+msgstr "Selfizee est une marque de la SAS Konitys au capital de 100 000 € - SIRET 812 138 931 00033 - APE : 4531Z - Num TVA : FR 02812138931"
+
+#: Template/Devis/pdfversion2.ctp:10
+msgid "Your contact"
+msgstr "Votre contact"
+
+#: Template/Devis/pdfversion2.ctp:10
+msgid "En date du"
+msgstr ""
+
+#: Template/Devis/pdfversion2.ctp:10
+msgid "Email"
+msgstr "Email"
+
+#: Template/Devis/pdfversion2.ctp:10
+msgid "Object"
+msgstr "Objet"
+
+#: Template/Devis/pdfversion2.ctp:10
+msgid "Description"
+msgstr "Description"
+
+#: Template/Devis/pdfversion2.ctp:10
+msgid "Quantity"
+msgstr "Qté"
+
+#: Template/Devis/pdfversion2.ctp:10
+msgid "Discount"
+msgstr "Remise"
+
+#: Template/Devis/pdfversion2.ctp:10
+msgid "VAT"
+msgstr "TVA"
+
+#: Template/Devis/pdfversion2.ctp:10
+msgid "Total TTC"
+msgstr "Total TTC"
+
+#: Template/Devis/pdfversion2.ctp:10
+msgid "Selfizee quote"
+msgstr "Devis selfizee"
+
+#: Template/Devis/pdfversion2.ctp:10
+msgid "Signature of the client preceded by the mention"
+msgstr "Signature du client précédée de la mention"
+
+#: Template/Devis/pdfversion2.ctp:10
+msgid "Read and approved, good for agreement"
+msgstr "Lu et approuvé, bon pour accord"
+
+#: Template/Devis/pdfversion2.ctp:10
+msgid "Validity date"
+msgstr "Date de validité"
+
+#: Template/Devis/pdfversion2.ctp:10
+msgid "Payment method"
+msgstr "Moyen de réglement"
+
+#: Template/Devis/pdfversion2.ctp:10
+msgid "Advance payment"
+msgstr "Acompte"
+
+#: Template/Devis/pdfversion2.ctp:10
+msgid "Settlement period"
+msgstr "Délai de règlement"
+
+#: Template/Devis/pdfversion2.ctp:10
+msgid "Total amount HT"
+msgstr "Montant total HT"
+
+#: Template/Devis/pdfversion2.ctp:10
+msgid "Total amount TTC"
+msgstr "Montant total TTC"
+
+#: Template/Devis/pdfversion2.ctp:10
+msgid "Page"
+msgstr "Page"
+

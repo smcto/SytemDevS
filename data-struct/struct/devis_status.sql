@@ -1,0 +1,1 @@
+ALTER TABLE `devis` CHANGE `status` `status` ENUM('draft', 'expedie', 'lu', 'done', 'refused', 'paid') CHARACTER SET latin1 COLLATE latin1_swedish_ci NOT NULL DEFAULT 'draft';

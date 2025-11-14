@@ -1,0 +1,1 @@
+ALTER TABLE `model_bornes` ADD `gamme_borne_id` INT NOT NULL AFTER `id`;

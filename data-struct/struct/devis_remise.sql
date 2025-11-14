@@ -1,0 +1,2 @@
+ALTER TABLE `devis_produits` ADD `remise_value` DECIMAL(10,2) NOT NULL AFTER `prix_reference_ht`, ADD `remise_unity` ENUM('%','€') NOT NULL AFTER `remise_value`;
+ALTER TABLE `devis` ADD `remise_hide_line` TINYINT NOT NULL AFTER `text_loi`, ADD `remise_line` TINYINT NOT NULL AFTER `remise_hide_line`, ADD `remise_global_value` DECIMAL(10,2) NOT NULL AFTER `remise_line`, ADD `remise_global_unity` ENUM('%','€') NOT NULL AFTER `remise_global_value`;

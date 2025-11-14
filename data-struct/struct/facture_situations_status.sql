@@ -1,0 +1,1 @@
+ALTER TABLE `facture_situations` ADD `status` ENUM('draft','fix','partial-payment','paid','delay','canceled','') NOT NULL DEFAULT 'draft' AFTER `pourcentage_global`, ADD `created` DATE NOT NULL DEFAULT CURRENT_TIMESTAMP AFTER `status`, ADD `modified` DATE NOT NULL DEFAULT CURRENT_TIMESTAMP AFTER `created`; 

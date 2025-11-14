@@ -1,0 +1,2 @@
+ALTER TABLE `antennes` ADD `stock_bobine_dnp` VARCHAR(255) NULL AFTER `modified`, ADD `stock_bobine_mitsu` VARCHAR(255) NULL AFTER `stock_bobine_dnp`, ADD `imprimante_dnp` VARCHAR(255) NULL AFTER `stock_bobine_mitsu`, ADD `imprimante_mitsu` VARCHAR(255) NULL AFTER `imprimante_dnp`, ADD `fond_vert` VARCHAR(255) NULL AFTER `imprimante_mitsu`;
+ALTER TABLE `antennes` CHANGE `fond_vert` `fond_vert` TINYINT(1) NULL DEFAULT NULL;

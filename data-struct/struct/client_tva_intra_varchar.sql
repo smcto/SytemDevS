@@ -1,0 +1,1 @@
+ALTER TABLE `clients` CHANGE `tva_intra_community` `tva_intra_community` VARCHAR(255) NULL DEFAULT NULL;

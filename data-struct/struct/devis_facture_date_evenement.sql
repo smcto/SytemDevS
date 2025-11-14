@@ -1,0 +1,1 @@
+ALTER TABLE `devis_factures` ADD `date_evenement` DATE NULL DEFAULT NULL AFTER `date_sign_before`, ADD `date_evenement_fin` DATE NULL DEFAULT NULL AFTER `date_evenement`;

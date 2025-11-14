@@ -1,0 +1,1 @@
+ALTER TABLE `ventes` ADD `livraison_type_date` ENUM('aussitot', 'client', 'precis', '') NULL DEFAULT NULL AFTER `livraison_crea_lastname`;

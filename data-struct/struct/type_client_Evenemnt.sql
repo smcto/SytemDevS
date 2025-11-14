@@ -1,0 +1,1 @@
+ALTER TABLE `evenements` ADD `type_client` INT NULL AFTER `user_id`;

@@ -1,0 +1,3 @@
+ALTER TABLE `devis_preferences` ADD `display_virement` TINYINT(1) NOT NULL DEFAULT '0' AFTER `adress_id`, ADD `display_cheque` TINYINT NOT NULL DEFAULT '0' AFTER `display_virement`;
+ALTER TABLE `devis_preferences` CHANGE `display_cheque` `display_cheque` TINYINT(1) NOT NULL DEFAULT '0';
+ALTER TABLE `devis` ADD `display_virement` TINYINT(1) NOT NULL DEFAULT '0' AFTER `info_bancaire_id`, ADD `display_cheque` TINYINT(1) NOT NULL DEFAULT '0' AFTER `display_virement`;

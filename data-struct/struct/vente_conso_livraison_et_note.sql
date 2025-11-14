@@ -1,0 +1,1 @@
+ALTER TABLE `ventes_consommables` ADD `commentaire` TEXT NULL DEFAULT NULL AFTER `created`, ADD `lieu_livraison` TEXT NULL DEFAULT NULL AFTER `commentaire`;

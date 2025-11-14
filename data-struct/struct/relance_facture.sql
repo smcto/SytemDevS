@@ -1,0 +1,2 @@
+ALTER TABLE `devis_factures` CHANGE `status` `status` ENUM('draft','fix','partial-payment','paid','delay','canceled','relance','') CHARACTER SET utf8mb4 COLLATE utf8mb4_general_ci NOT NULL DEFAULT 'draft';
+ALTER TABLE `avoirs` CHANGE `status` `status` ENUM('draft','fix','partial-payment','paid','delay','canceled','relance','') CHARACTER SET latin1 COLLATE latin1_swedish_ci NOT NULL DEFAULT 'draft';

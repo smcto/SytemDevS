@@ -1,0 +1,3 @@
+CREATE TABLE `crm_app`.`catalog_categories` ( `id` INT NOT NULL AUTO_INCREMENT , `nom` VARCHAR(255) CHARACTER SET utf8 COLLATE utf8_general_ci NOT NULL , PRIMARY KEY (`id`)) ENGINE = InnoDB;
+CREATE TABLE `crm_app`.`catalog_sous_categories` ( `id` INT NOT NULL AUTO_INCREMENT , `catalog_sous_categories_id` INT NOT NULL , `nom` VARCHAR(255) CHARACTER SET utf8 COLLATE utf8_general_ci NOT NULL , PRIMARY KEY (`id`), INDEX (`catalog_sous_categories_id`)) ENGINE = InnoDB;
+ALTER TABLE `catalog_sous_categories` CHANGE `catalog_sous_categories_id` `catalog_categories_id` INT(11) NOT NULL;

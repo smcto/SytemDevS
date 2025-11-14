@@ -1,0 +1,1 @@
+ALTER TABLE `devis` CHANGE `delai_reglements` `delai_reglements` ENUM('commande', '30j', '15j', 'reception', '') CHARACTER SET latin1 COLLATE latin1_swedish_ci NULL;
